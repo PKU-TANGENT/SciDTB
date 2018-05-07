@@ -1,0 +1,9 @@
+The introduction of dynamic oracles has considerably improved the accuracy of greedy transition-based dependency parsers , 
+without sacrificing parsing efficiency . <S>
+However , this enhancement is limited to projective parsing , 
+and dynamic oracles have not yet been implemented for parsers 
+supporting non-projectivity . <S>
+In this paper we introduce the first such oracle , for a non-projective parser 
+based on Attardi's parser . <S>
+We show 
+that training with this oracle improves parsing accuracy over a conventional ( static ) oracle on a wide range of datasets . <S>

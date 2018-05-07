@@ -1,0 +1,76 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "Many machine learning datasets are noisy with a substantial number of mislabeled instances . <S>\r",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "This noise yields sub-optimal classification performance . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 0,
+			"text": "In this paper we study a large , low quality annotated dataset ,\r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "created quickly and cheaply \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "using Amazon Mechanical Turk to crowdsource annotations . <S>\r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 6,
+			"parent": 3,
+			"text": "We describe computationally cheap feature weighting techniques and a novel non-linear distribution spreading algorithm \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "that can be used to iteratively and interactively correcting mislabeled instances \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "to significantly improve annotation quality at low cost . <S>\r",
+			"relation": "enablement"
+		},
+		{
+			"id": 9,
+			"parent": 10,
+			"text": "Eight different emotion extraction experiments on Twitter data demonstrate \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 10,
+			"parent": 3,
+			"text": "that our approach is just as effective as more computationally expensive techniques . <S>\r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 11,
+			"parent": 3,
+			"text": "Our techniques save a considerable amount of time . <S>\r",
+			"relation": "evaluation"
+		}
+	]
+}

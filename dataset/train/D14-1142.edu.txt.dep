@@ -1,0 +1,130 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 2,
+			"text": "A common approach in text mining tasks such as text categorization , authorship identification or plagiarism detection is to rely on features like words , part-of-speech tags , stems , or some other high-level linguistic features . <S>",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 2,
+			"parent": 0,
+			"text": "In this work , an approach ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "that uses character n-grams as features ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 2,
+			"text": "is proposed for the task of native language identification . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 5,
+			"parent": 6,
+			"text": "Instead of doing standard feature selection , ",
+			"relation": "contrast"
+		},
+		{
+			"id": 6,
+			"parent": 2,
+			"text": "the proposed approach combines several string kernels ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "using multiple kernel learning . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "Kernel Ridge Regression and Kernel Discriminant Analysis are independently used in the learning stage . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 2,
+			"text": "The empirical results ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "obtained in all the experiments ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "conducted in this work ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 9,
+			"text": "indicate ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "that the proposed approach achieves state of the art performance in native language identification , ",
+			"relation": "attribution"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "reaching an accuracy ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "that is 1.7 % above the top scoring system of the 2013 NLI Shared Task . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 16,
+			"parent": 9,
+			"text": "Furthermore , the proposed approach has an important advantage ",
+			"relation": "progression"
+		},
+		{
+			"id": 17,
+			"parent": 16,
+			"text": "in that it is language independent and linguistic theory neutral. <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 18,
+			"parent": 16,
+			"text": "In the cross-corpus experiment , the proposed approach shows ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 19,
+			"parent": 18,
+			"text": "that it can also be topic independent , ",
+			"relation": "attribution"
+		},
+		{
+			"id": 20,
+			"parent": 19,
+			"text": "improving the state of the art system by 32.3 % . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

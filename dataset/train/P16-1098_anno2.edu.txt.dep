@@ -1,0 +1,88 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "Recently , there is rising interest ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "in modelling the interactions of text pair with deep neural networks . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 0,
+			"text": "In this paper , we propose a model of deep fusion LSTMs ( DF-LSTMs ) ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "to model the strong interaction of text pair in a recursive matching way . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "Specifically , DF-LSTMs consist of two interdependent LSTMs , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "each of which models a sequence under the influence of another . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 3,
+			"text": "We also use external memory ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "to increase the capacity of LSTMs , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "thereby possibly capturing more complicated matching patterns . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 10,
+			"parent": 3,
+			"text": "Experiments on two very large datasets demonstrate the efficacy of our proposed architecture . <S>",
+			"relation": "evaluation"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "Furthermore , we present an elaborate qualitative analysis of our models , ",
+			"relation": "progression"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "giving an intuitive understanding ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "how our model worked . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

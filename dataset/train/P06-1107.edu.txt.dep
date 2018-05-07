@@ -1,0 +1,94 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "In this paper we investigate a novel method ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "to detect asymmetric entailment relations between verbs . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "Our starting point is the idea ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "that some point-wise verb selectional preferences carry relevant semantic information . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 9,
+			"text": "Experiments ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "using WordNet as a gold standard ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 5,
+			"text": "show promising results . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 8,
+			"parent": 9,
+			"text": "Where applicable , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 1,
+			"text": "our method , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "used in combination with other approaches , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 9,
+			"text": "significantly increases the performance of entailment detection . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 12,
+			"parent": 9,
+			"text": "A combined approach ",
+			"relation": "exp-evidence"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "including our model ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 12,
+			"text": "improves the AROC of 5 % absolute points with respect to standard models . <S>",
+			"relation": "same-unit"
+		}
+	]
+}

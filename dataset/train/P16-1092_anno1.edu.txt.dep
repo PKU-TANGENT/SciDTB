@@ -1,0 +1,82 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 2,
+			"text": "Lexico-semantic knowledge of our native language provides an initial foundation for second language learning . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 0,
+			"text": "In this paper , we investigate whether and to what extent the lexico-semantic models of the native language ( L1 ) are transferred to the second language ( L2 ) . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "Specifically , we focus on the problem of lexical choice ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "and investigate it in the context of three typologically diverse languages : ",
+			"relation": "joint"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "Russian , Spanish and English . <S>",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 6,
+			"parent": 7,
+			"text": "We show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 7,
+			"parent": 3,
+			"text": "that a statistical semantic model ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "learned from L1 data ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 7,
+			"text": "improves automatic error detection in L2 for the speakers of the respective L1 . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 10,
+			"parent": 2,
+			"text": "Finally , we investigate whether the semantic model ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "learned from a particular L1 ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 10,
+			"text": "is portable to other , typologically related languages . <S>",
+			"relation": "same-unit"
+		}
+	]
+}

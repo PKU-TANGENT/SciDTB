@@ -1,0 +1,118 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "Ambiguities ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "related to intension and their consequent inference failures ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 4,
+			"text": "are a diverse group , both syntactically and semantically . <S>",
+			"relation": "bg-general"
+		},
+		{
+			"id": 4,
+			"parent": 11,
+			"text": "One particular kind of ambiguity ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "that has received little attention so far ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "is whether it is the speaker or the third party ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "to whom a description in an opaque third-party attitude report should be attributed . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 11,
+			"text": "The different readings lead to different inferences in a system ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "modeling the beliefs of external agents . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 11,
+			"text": "We propose ",
+			"relation": "attribution"
+		},
+		{
+			"id": 11,
+			"parent": 14,
+			"text": "that a unified approach to the representation of the alternative readings of intension-related ambiguities can be based on the notion of a descriptor ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "that is evaluated with respect to intensionality , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "the beliefs of agents , and a time of application . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 14,
+			"parent": 0,
+			"text": "We describe such a representation , ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "built on a standard modal logic , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 16,
+			"parent": 17,
+			"text": "and show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 17,
+			"parent": 14,
+			"text": "how it may be used in conjunction with a knowledge base of background assumptions ",
+			"relation": "joint"
+		},
+		{
+			"id": 18,
+			"parent": 17,
+			"text": "to license restricted substitution of equals in opaque contexts . <S> ",
+			"relation": "enablement"
+		}
+	]
+}

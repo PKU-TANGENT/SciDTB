@@ -1,0 +1,100 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 7,
+			"text": "Question answering requires access to a knowledge base ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "to check facts and reason about information . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "Knowledge in the form of natural language text is easy to acquire , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "but difficult for automated reasoning . <S>",
+			"relation": "contrast"
+		},
+		{
+			"id": 5,
+			"parent": 1,
+			"text": "Highly-structured knowledge bases can facilitate reasoning , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "but are difficult to acquire . <S>",
+			"relation": "contrast"
+		},
+		{
+			"id": 7,
+			"parent": 0,
+			"text": "In this paper we explore tables as a semi-structured formalism ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "that provides a balanced compromise to this tradeoff . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 7,
+			"text": "We first use the structure of tables ",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "to guide the construction of a dataset of over 9000 multiple-choice questions with rich alignment annotations , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "easily and efficiently via crowd-sourcing . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 7,
+			"text": "We then use this annotated data ",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "to train a semistructured feature-driven model for question answering ",
+			"relation": "enablement"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "that uses tables as a knowledge base . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 7,
+			"text": "In benchmark evaluations , we significantly outperform both a strong unstructured retrieval baseline and a highlystructured Markov Logic Network model . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

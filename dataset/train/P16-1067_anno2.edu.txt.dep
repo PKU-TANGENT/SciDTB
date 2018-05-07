@@ -1,0 +1,100 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This paper proposes an unsupervised approach ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "for segmenting a multiauthor document into authorial components . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "The key novelty is that we utilize the sequential patterns ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "hidden among document elements ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "when determining their authorships . <S>",
+			"relation": "temporal"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "For this purpose , we adopt Hidden Markov Model ( HMM ) ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "and construct a sequential probabilistic model ",
+			"relation": "joint"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "to capture the dependencies of sequential sentences and their authorships . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 9,
+			"parent": 6,
+			"text": "An unsupervised learning method is developed ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "to initialize the HMM parameters . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 11,
+			"parent": 1,
+			"text": "Experimental results on benchmark datasets have demonstrated the significant benefit of our idea ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "and our approach has outperformed the state-of-the-arts on all tests . <S>",
+			"relation": "progression"
+		},
+		{
+			"id": 13,
+			"parent": 11,
+			"text": "As an example of its applications , the proposed approach is applied ",
+			"relation": "exp-evidence"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "for attributing authorship of a document ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 13,
+			"text": "and has also shown promising results . <S>",
+			"relation": "progression"
+		}
+	]
+}

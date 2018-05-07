@@ -1,0 +1,15 @@
+We propose a novel abstractive querybased summarization system for conversations , 
+where queries are defined as phrases 
+reflecting a user information needs . <S>
+We rank and extract the utterances in a conversation 
+based on the overall content and the phrasal query information . <S>
+We cluster the selected sentences 
+based on their lexical similarity 
+and aggregate the sentences in each cluster 
+by means of a word graph model . <S>
+We propose a ranking strategy 
+to select the best path in the constructed graph as a query-based abstract sentence for each cluster . <S>
+A resulting summary consists of abstractive sentences 
+representing the phrasal query information and the overall content of the conversation . <S>
+Automatic and manual evaluation results over meeting , chat and email conversations show 
+that our approach significantly outperforms baselines and previous extractive models . <S>

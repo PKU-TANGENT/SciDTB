@@ -1,0 +1,88 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "Abstract Meaning Representation ( AMR ) is a semantic formalism \r",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "for which a grow-ing set of annotated examples is available . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 0,
+			"text": "We introduce the first approach \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "to parse sentences into this representation , \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "providing a strong baseline for future improvement . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 3,
+			"text": "The method is based on a novel algorithm \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "for finding a maximum spanning , connected subgraph , \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "embedded within a Lagrangian relaxation of an optimization problem \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "that imposes linguistically inspired constraints . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 3,
+			"text": "Our approach is described in the general frame-work of structured prediction , \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "allowing future incorporation of additional features and constraints , \r",
+			"relation": "cause"
+		},
+		{
+			"id": 12,
+			"parent": 10,
+			"text": "and may extend to other formalisms as well . <S>\r",
+			"relation": "joint"
+		},
+		{
+			"id": 13,
+			"parent": 3,
+			"text": "Our open-source system , JAMR , is available at : http : //github.com/jflanigan/jamr <S>\r",
+			"relation": "elab-aspect"
+		}
+	]
+}

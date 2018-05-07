@@ -1,0 +1,76 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "Continuous space word embeddings have received a great deal of attention in the natural language processing and machine learning communities for their ability",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "to model term similarity and other relationships . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 0,
+			"text": "We study the use of term relatedness in the context of query expansion for ad hoc information retrieval . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 4,
+			"parent": 5,
+			"text": "We demonstrate ",
+			"relation": "attribution"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "that word embeddings such as word2vec and GloVe , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "when trained globally , ",
+			"relation": "condition"
+		},
+		{
+			"id": 7,
+			"parent": 5,
+			"text": "underperform corpus and query specific embeddings for retrieval tasks . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 8,
+			"parent": 9,
+			"text": "These results suggest ",
+			"relation": "attribution"
+		},
+		{
+			"id": 9,
+			"parent": 3,
+			"text": "that other tasks ",
+			"relation": "summary"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "benefiting from global embeddings ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 9,
+			"text": "may also benefit from local embeddings . <S> ",
+			"relation": "same-unit"
+		}
+	]
+}

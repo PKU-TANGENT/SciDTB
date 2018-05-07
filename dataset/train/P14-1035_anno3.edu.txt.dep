@@ -1,0 +1,88 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 7,
+			"text": "We consider the problem \r",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "of automatically inferring latent character types in a collection of 15,099 English novels \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "published between 1700 and 1899 . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 7,
+			"text": "Unlike prior work \r",
+			"relation": "contrast"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "in which character types are assumed responsible for probabilistically generating all text \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "associated with a character , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 0,
+			"text": "we introduce a model \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "that employs multiple effects \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "to account for the influence of extra-linguistic information \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "( such as author ) . <S>\r",
+			"relation": "elab-example"
+		},
+		{
+			"id": 11,
+			"parent": 12,
+			"text": "In an empirical evaluation , we find \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 12,
+			"parent": 7,
+			"text": "that this method leads to improved agreement with the preregistered judgments of a literary scholar , \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "complementing the results of alternative models . <S>\r",
+			"relation": "elab-addition"
+		}
+	]
+}

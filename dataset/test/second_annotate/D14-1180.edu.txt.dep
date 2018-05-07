@@ -1,0 +1,64 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This paper applies type-based Markov Chain Monte Carlo ( MCMC ) algorithms to the problem of learning Synchronous Context-Free Grammar ( SCFG ) rules from a forest ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "that represents all possible rules consistent with a fixed word alignment . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 6,
+			"text": "While type-based MCMC has been shown to be effective in a number of NLP applications , ",
+			"relation": "temporal"
+		},
+		{
+			"id": 4,
+			"parent": 6,
+			"text": "our setting , ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "where the tree structure of the sentence is itself a hidden variable , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 7,
+			"text": "presents a number of challenges to type-based inference . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 7,
+			"parent": 1,
+			"text": "We describe methods for defining variable types and efficiently indexing variables ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "in order to overcome these challenges . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 9,
+			"parent": 1,
+			"text": "These methods lead to improvements in both log likelihood and BLEU score in our experiments . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

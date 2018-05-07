@@ -1,0 +1,106 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 2,
+			"text": "As natural language understanding research advances towards deeper knowledge modeling , ",
+			"relation": "temporal"
+		},
+		{
+			"id": 2,
+			"parent": 10,
+			"text": "the tasks become more and more complex : ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "we are interested in more nuanced word characteristics , more linguistic properties , deeper semantic and syntactic features . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 2,
+			"text": "One such example , ",
+			"relation": "elab-example"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "explored in this article , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "is the mention detection and recognition task in the Automatic Content Extraction project , ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "with the goal of identifying named , nominal or pronominal references to real-world entities—mentions— ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "and labeling them with three types of information : ",
+			"relation": "joint"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "entity type , entity subtype and mention type . <S>",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 10,
+			"parent": 0,
+			"text": "In this article , we investigate three methods ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "of assigning these related tags ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 10,
+			"text": "and compare them on several data sets . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 13,
+			"parent": 10,
+			"text": "A system ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "based on the methods ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "presented in this article ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 16,
+			"parent": 13,
+			"text": "participated and ranked very competitively in the ACE'04 evaluation . <S>",
+			"relation": "same-unit"
+		}
+	]
+}

@@ -1,0 +1,106 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "Automated Text Scoring ( ATS ) provides a cost-effective and consistent alternative to human marking . <S>",
+			"relation": "contrast"
+		},
+		{
+			"id": 2,
+			"parent": 3,
+			"text": "However , in order to achieve good performance , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 4,
+			"text": "the predictive features of the system need to be manually engineered by human experts . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 4,
+			"parent": 0,
+			"text": "We introduce a model ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "that forms word representations ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "by learning the extent ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "to which specific words contribute to the text 's score . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 11,
+			"text": "Using Long-Short Term Memory networks ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "to represent the meaning of texts , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 10,
+			"parent": 11,
+			"text": "we demonstrate ",
+			"relation": "attribution"
+		},
+		{
+			"id": 11,
+			"parent": 4,
+			"text": "that a fully automated framework is able to achieve excellent results over similar approaches . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 14,
+			"text": "In an attempt to make our results more interpretable , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "and inspired by recent advances in visualizing neural networks , ",
+			"relation": "joint"
+		},
+		{
+			"id": 14,
+			"parent": 4,
+			"text": "we introduce a novel method ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "for identifying the regions of the text ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "that the model has found more discriminative . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

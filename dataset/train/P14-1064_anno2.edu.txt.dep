@@ -1,0 +1,106 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 5,
+			"text": "Statistical phrase-based translation learns translation rules from bilingual corpora , \r",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "and has traditionally only used monolingual evidence \r",
+			"relation": "joint"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "to construct features \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "that rescore existing translation candidates . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 0,
+			"text": "In this work , we present a semi-supervised graph-based approach \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "for generating new translation rules \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "that leverages bilingual and monolingual data . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 5,
+			"text": "The proposed technique first constructs phrase graphs \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "using both source and target language monolingual corpora . <S>\r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 10,
+			"parent": 5,
+			"text": "Next , graph propagation identifies translations of phrases \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "that were not observed in the bilingual corpus , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "assuming \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "that similar phrases have similar translations . <S>\r",
+			"relation": "attribution"
+		},
+		{
+			"id": 14,
+			"parent": 5,
+			"text": "We report results on a large Arabic-English system and a medium-sized Urdu-English system . <S>\r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 15,
+			"parent": 5,
+			"text": "Our proposed approach significantly improves the performance of competitive phrase-based systems , \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "leading to consistent improvements between 1 and 4 BLEU points on standard evaluation sets . <S>\r",
+			"relation": "result"
+		}
+	]
+}

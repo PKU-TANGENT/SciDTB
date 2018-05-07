@@ -1,0 +1,124 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 6,
+			"text": "Fill-in-the-blank items are commonly featured in computer-assisted language learning ( CALL ) systems . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "An item displays a sentence with a blank , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "and often proposes a number of choices ",
+			"relation": "joint"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "for filling it . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "These choices should include one correct answer and several plausible distractors . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 0,
+			"text": "We describe a system ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "that , given an English corpus , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 6,
+			"text": "automatically generates distractors ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "to produce items for preposition usage . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 10,
+			"parent": 6,
+			"text": "We report a comprehensive evaluation on this system , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "involving both experts and learners . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 10,
+			"text": "First , we analyze the difficulty levels of machine-generated carrier sentences and distractors , ",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "comparing several methods ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "that exploit learner error and learner revision patterns . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 16,
+			"text": "We show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 16,
+			"parent": 12,
+			"text": "that the quality of machine-generated items approaches that of human-crafted ones . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 17,
+			"parent": 10,
+			"text": "Further , we investigate the extent ",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 18,
+			"parent": 17,
+			"text": "to which mismatched L1 between the user and the learner corpora affects the quality of distractors . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 19,
+			"parent": 10,
+			"text": "Finally , we measure the system 's impact on the user 's language proficiency in both the short and the long term . <S>",
+			"relation": "elab-process_step"
+		}
+	]
+}

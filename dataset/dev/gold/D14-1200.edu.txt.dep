@@ -1,0 +1,58 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This paper proposes a history-based structured learning approach ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "that jointly extracts entities and relations in a sentence . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "We introduce a novel simple and flexible table representation of entities and relations . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "We investigate several feature settings , search orders , and learning methods with inexact search on the table . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 6,
+			"text": "The experimental results demonstrate ",
+			"relation": "attribution"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "that a joint learning approach significantly outperforms a pipeline approach ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "by incorporating global features ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "and by selecting appropriate learning methods and search orders . <S>",
+			"relation": "joint"
+		}
+	]
+}

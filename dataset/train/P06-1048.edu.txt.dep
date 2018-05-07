@@ -1,0 +1,100 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "Sentence compression is the task ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "of producing a summary at the sentence level . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 0,
+			"text": "This paper focuses on three aspects of this task ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "which have not received detailed treatment in the literature : ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "training requirements , scalability , and automatic evaluation . <S>",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 6,
+			"parent": 3,
+			"text": "We provide a novel comparison between a supervised constituentbased and an weakly supervised wordbased compression algorithm ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 8,
+			"text": "and examine ",
+			"relation": "attribution"
+		},
+		{
+			"id": 8,
+			"parent": 6,
+			"text": "how these models port to different domains ( written vs. spoken text ) . <S>",
+			"relation": "progression"
+		},
+		{
+			"id": 9,
+			"parent": 10,
+			"text": "To achieve this , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 10,
+			"parent": 6,
+			"text": "a human-authored compression corpus has been created ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "and our study highlights potential problems with the automatically gathered compression corpora ",
+			"relation": "joint"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "currently used . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 14,
+			"text": "Finally , we assess ",
+			"relation": "attribution"
+		},
+		{
+			"id": 14,
+			"parent": 3,
+			"text": "whether automatic evaluation measures can be used ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "to determine compression quality . <S>",
+			"relation": "enablement"
+		}
+	]
+}

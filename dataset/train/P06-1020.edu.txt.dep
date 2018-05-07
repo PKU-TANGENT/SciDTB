@@ -1,0 +1,100 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This paper investigates the use of sublexical units as a solution ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "to handling the complex morphology with productive derivational processes , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "in the development of a lexical functional grammar for Turkish . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "Such sublexical units make it possible to expose the internal structure of words with multiple derivations to the grammar rules in a uniform manner . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "This in turn leads to more succinct and manageable rules . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "Further , the semantics of the derivations can also be systematically reflected in a compositional way ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "by constructing PRED values on the fly . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 8,
+			"parent": 9,
+			"text": "We illustrate ",
+			"relation": "attribution"
+		},
+		{
+			"id": 9,
+			"parent": 1,
+			"text": "how we use sublexical units ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "for handling simple productive derivational morphology and more interesting cases ",
+			"relation": "enablement"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "such as causativization , etc. , ",
+			"relation": "elab-example"
+		},
+		{
+			"id": 12,
+			"parent": 10,
+			"text": "which change verb valency . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 1,
+			"text": "Our priority is to handle several linguistic phenomena ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "in order to observe the effects of our approach on both the c-structure and the f-structure representation , and grammar writing , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "leaving the coverage and evaluation issues aside for the moment . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

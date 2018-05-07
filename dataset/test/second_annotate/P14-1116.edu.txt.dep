@@ -1,0 +1,118 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We present a novel approach for automatic report generation from time-series data , in the context of student feedback generation . <S>\r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "Our proposed methodology treats content selection as a multi-label ( ML ) classification problem , \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "which takes as input time-series data \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "and outputs a set of templates , \r",
+			"relation": "joint"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "while capturing the dependencies between selected templates . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 7,
+			"text": "We show \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 7,
+			"parent": 1,
+			"text": "that this method generates output closer to the feedback \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "that lecturers actually generated , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 7,
+			"text": "achieving 3.5 % higher accuracy and 15 % higher F-score than multiple simple classifiers \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "that keep a history of selected templates . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 1,
+			"text": "Furthermore , we compare a ML classifier with a Reinforcement Learning ( RL ) approach in simulation \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "and using ratings from real student users . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 14,
+			"text": "We show \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 14,
+			"parent": 11,
+			"text": "that the different methods have different benefits , \r",
+			"relation": "cause"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "with ML being more accurate \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "for predicting what was seen in the training data , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 17,
+			"parent": 15,
+			"text": "whereas RL is more exploratory \r",
+			"relation": "contrast"
+		},
+		{
+			"id": 18,
+			"parent": 17,
+			"text": "and slightly preferred by the students . <S>\r",
+			"relation": "joint"
+		}
+	]
+}

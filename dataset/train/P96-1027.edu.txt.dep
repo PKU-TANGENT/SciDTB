@@ -1,0 +1,34 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "Charts constitute a natural uniform architecture for parsing and generation ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "provided string position is replaced by a notion more appropriate to logical forms ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "and that measures are taken to curtail generation paths ",
+			"relation": "joint"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "containing semantically incomplete phrases . <S>    ",
+			"relation": "elab-addition"
+		}
+	]
+}

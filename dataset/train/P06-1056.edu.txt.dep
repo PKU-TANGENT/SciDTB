@@ -1,0 +1,76 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "Partial cognates are pairs of words in two languages ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "that have the same meaning in some , but not all contexts . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 4,
+			"text": "Detecting the actual meaning of a partial cognate in context can be useful for Machine Translation tools and for Computer-Assisted Language Learning tools . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 4,
+			"parent": 0,
+			"text": "In this paper we propose a supervised and a semisupervised method ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "to disambiguate partial cognates between two languages : ",
+			"relation": "enablement"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "French and English . <S>",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 7,
+			"parent": 4,
+			"text": "The methods use only automatically-labeled data ; ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "therefore they can be applied for other pairs of languages as well . <S>",
+			"relation": "cause"
+		},
+		{
+			"id": 9,
+			"parent": 10,
+			"text": "We also show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 10,
+			"parent": 4,
+			"text": "that our methods perform well ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "when using corpora from different domains . <S>",
+			"relation": "condition"
+		}
+	]
+}

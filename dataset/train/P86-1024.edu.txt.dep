@@ -1,0 +1,142 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "The following proposal is for a Japanese sentence analysis method ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "to be used in a Japanese book reading machine . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "This method is designed to allow for several candidates in case of ambiguous characters . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "Each sentence is analyzed ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "to compose a data structure ",
+			"relation": "enablement"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "by defining the relationship between words and phrases . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 7,
+			"parent": 1,
+			"text": "This structure ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "( named network structure ) ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 7,
+			"text": "involves all possible combinations of syntactically collect phrases . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 10,
+			"parent": 11,
+			"text": "After network structure has been completed , ",
+			"relation": "temporal"
+		},
+		{
+			"id": 11,
+			"parent": 1,
+			"text": "heuristic rules are applied ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "in order to determine the most probable way ",
+			"relation": "enablement"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "to arrange the phrases ",
+			"relation": "enablement"
+		},
+		{
+			"id": 14,
+			"parent": 12,
+			"text": "and thus organize the best sentence . <S>",
+			"relation": "progression"
+		},
+		{
+			"id": 15,
+			"parent": 1,
+			"text": "All information about each sentence ---- the pronunciation of each word with its accent and the structure of phrases ---- will be used during speech synthesis . <S>",
+			"relation": "bg-general"
+		},
+		{
+			"id": 16,
+			"parent": 17,
+			"text": "Experiment results reveal : ",
+			"relation": "attribution"
+		},
+		{
+			"id": 17,
+			"parent": 1,
+			"text": "99.1 % of all characters were given their correct pronunciation . <S>",
+			"relation": "evaluation"
+		},
+		{
+			"id": 18,
+			"parent": 17,
+			"text": "Using several recognized character candidates is more efficient ",
+			"relation": "progression"
+		},
+		{
+			"id": 19,
+			"parent": 18,
+			"text": "than only using first ranked characters as the input for sentence analysis . <S>",
+			"relation": "comparison"
+		},
+		{
+			"id": 20,
+			"parent": 18,
+			"text": "Also this facility increases the efficiency of the book reading machine ",
+			"relation": "joint"
+		},
+		{
+			"id": 21,
+			"parent": 20,
+			"text": "in that it enables the user to select other ways ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 22,
+			"parent": 21,
+			"text": "to organize sentences . <S>                        ",
+			"relation": "enablement"
+		}
+	]
+}

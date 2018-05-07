@@ -1,0 +1,82 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "Domain adaptation is an important research topic in sentiment analysis area . <S>",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "Existing domain adaptation methods usually transfer sentiment knowledge from only one source domain to target domain . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 0,
+			"text": "In this paper , we propose a new domain adaptation approach ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "which can exploit sentiment knowledge from multiple source domains . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "We first extract both global and domain-specific sentiment knowledge from the data of multiple source domains ",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "using multi-task learning . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 7,
+			"parent": 3,
+			"text": "Then we transfer them to target domain ",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "with the help of words ' sentiment polarity relations ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "extracted from the unlabeled target domain data . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 3,
+			"text": "The similarities between target domain and different source domains are also incorporated into the adaptation process . <S>",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 11,
+			"parent": 3,
+			"text": "Experimental results on benchmark dataset show the effectiveness of our approach ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "in improving cross-domain sentiment classification performance . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

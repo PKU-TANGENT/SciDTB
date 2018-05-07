@@ -1,0 +1,106 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "In this paper we investigate ChineseEnglish name transliteration ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "using comparable corpora , corpora ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "where texts in the two languages deal in some of the same topics — ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "and therefore share references to named entities — ",
+			"relation": "progression"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "but are not translations of each other . <S>",
+			"relation": "contrast"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "We present two distinct methods for transliteration , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "one approach ",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "using phonetic transliteration , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 9,
+			"parent": 6,
+			"text": "and the second ",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "using the temporal distribution of candidate pairs . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 11,
+			"parent": 13,
+			"text": "Each of these approaches works quite well , ",
+			"relation": "contrast"
+		},
+		{
+			"id": 12,
+			"parent": 13,
+			"text": "but by combining the approaches ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 13,
+			"parent": 6,
+			"text": "one can achieve even better results . <S>",
+			"relation": "summary"
+		},
+		{
+			"id": 14,
+			"parent": 16,
+			"text": "We then propose a novel score propagation method ",
+			"relation": "result"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "that utilizes the co-occurrence of transliteration pairs within document pairs . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 16,
+			"parent": 1,
+			"text": "This propagation method achieves further improvement over the best results from the previous step . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

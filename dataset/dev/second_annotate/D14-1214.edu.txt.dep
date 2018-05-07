@@ -1,0 +1,94 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 8,
+			"text": "Social media websites provide a platform for anyone ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "to describe significant events ",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "taking place in their lives in realtime . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 8,
+			"text": "Currently , the majority of personal news and life events are published in a textual format , ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "motivating information extraction systems ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "that can provide a structured representations of major life events ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "( weddings , graduation , etc. ) . <S>",
+			"relation": "elab-example"
+		},
+		{
+			"id": 8,
+			"parent": 0,
+			"text": "This paper demonstrates the feasibility of accurately extracting major life events . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "Our system extracts a fine-grained description of users' life events ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "based on their published tweets . <S>",
+			"relation": "bg-general"
+		},
+		{
+			"id": 11,
+			"parent": 12,
+			"text": "We are optimistic ",
+			"relation": "attribution"
+		},
+		{
+			"id": 12,
+			"parent": 8,
+			"text": "that our system can help Twitter users more easily grasp information from users ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "they take interest in following ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 12,
+			"text": "and also facilitate many downstream applications , for example realtime friend recommendation . <S>",
+			"relation": "joint"
+		}
+	]
+}

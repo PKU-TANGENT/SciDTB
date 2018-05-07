@@ -1,0 +1,21 @@
+Correctly predicting abbreviations given the full forms 
+is important in many natural language processing systems . <S>
+In this paper we propose a two-stage method 
+to find the corresponding abbreviation 
+given its full form . <S>
+We first use the contextual information 
+given a large corpus 
+to get abbreviation candidates for each full form 
+and get a coarse-grained ranking through graph random walk . <S>
+This coarse-grained rank list fixes the search space inside the top-ranked candidates . <S>
+Then we use a similarity sensitive re-ranking strategy 
+which can utilize the features of the candidates 
+to give a fine-grained re-ranking 
+and select the final result . <S>
+Our method achieves good results 
+and outperforms the state-of-the-art systems . <S>
+One advantage of our method is that it only needs weak supervision 
+and can get competitive results with fewer training data . <S>
+The candidate generation and coarse-grained ranking is totally unsupervised . <S>
+The re-ranking phase can use a very small amount of training data 
+to get a reasonably good result . <S>

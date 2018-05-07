@@ -1,0 +1,82 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "In this paper , instead of designing new features \r",
+			"relation": "same-unit"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "based on intuition , linguistic knowledge and domain , \r",
+			"relation": "bg-general"
+		},
+		{
+			"id": 3,
+			"parent": 0,
+			"text": "we learn some new and effective features \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "using the deep autoencoder ( DAE ) paradigm for phrase-based translation model . <S>\r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 5,
+			"parent": 8,
+			"text": "Using the unsupervised pre-trained deep belief net ( DBN ) \r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "to initialize DAE's parameters \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 7,
+			"parent": 5,
+			"text": "and using the input original phrase features as a teacher for semi-supervised fine-tuning , \r",
+			"relation": "joint"
+		},
+		{
+			"id": 8,
+			"parent": 3,
+			"text": "we learn new semi-supervised DAE features , \r",
+			"relation": "elab-example"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "which are more effective and stable than the unsupervised DBN features . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 11,
+			"text": "Moreover , to learn high dimensional feature representation , \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 11,
+			"parent": 3,
+			"text": "we introduce a natural horizontal composition of more DAEs for large hidden layers feature learning . <S>\r",
+			"relation": "progression"
+		},
+		{
+			"id": 12,
+			"parent": 3,
+			"text": "On two Chinese-English tasks , our semi-supervised DAE features obtain statistically significant improvements of 1.34/2.45 ( IWSLT ) and 0.82/1.52 ( NIST ) BLEU points over the unsupervised DBN features and the baseline features , respectively . <S>\r",
+			"relation": "evaluation"
+		}
+	]
+}

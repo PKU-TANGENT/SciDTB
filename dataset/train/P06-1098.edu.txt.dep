@@ -1,0 +1,76 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We present a hierarchical phrase-based statistical machine translation ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "in which a target sentence is efficiently generated in left-to-right order . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "The model is a class of synchronous-CFG with a Greibach Normal Form-like structure for the projected production rule : ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "The paired target-side of a production rule takes a phrase prefixed form . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 1,
+			"text": "The decoder for the targetnormalized form is based on an Earlystyle top down parser on the source side . <S>",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "The target-normalized form ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "coupled with our top down parser ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 6,
+			"text": "implies a left-toright generation of translations ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "which enables us a straightforward integration with ngram language models . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 11,
+			"text": "Our model was experimented on a Japanese-to-English newswire translation task , ",
+			"relation": "result"
+		},
+		{
+			"id": 11,
+			"parent": 1,
+			"text": "and showed statistically significant performance improvements against a phrase-based translation system . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

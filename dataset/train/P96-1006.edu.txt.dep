@@ -1,0 +1,94 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "In this paper , we present a new approach for word sense disambiguation ( WSD ) ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "using an exemplar-based learning algorithm . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "This approach integrates a diverse set of knowledge sources ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "to disambiguate word sense , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "including part of speech of neighboring words , morphological form , the unordered set of surrounding words , local collocations , and verb-object syntactic relation . <S>",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "We tested our WSD program , ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "named LEXAS , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 6,
+			"text": "on both a common data set ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "used in previous work , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 8,
+			"text": "as well as on a large sense-tagged corpus ",
+			"relation": "joint"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "that we separately constructed . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 1,
+			"text": "LEXAS achieves a higher accuracy on the common data set , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "and performs better than the most frequent heuristic on the highly ambiguous words in the large corpus ",
+			"relation": "joint"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "tagged with the refined senses of WoRDNET . <S>                                              ",
+			"relation": "elab-addition"
+		}
+	]
+}

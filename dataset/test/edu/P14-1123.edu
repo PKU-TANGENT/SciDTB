@@ -1,0 +1,11 @@
+Designing measures 
+that capture various aspects of language ability 
+is a central task in the design of systems for automatic scoring of spontaneous speech . <S>
+In this study , we address a key aspect of language proficiency assessment - syntactic complexity . <S>
+We propose a novel measure of syntactic complexity for spontaneous speech 
+that shows optimum empirical performance on real world data in multiple ways . <S>
+First , it is both robust and reliable , 
+producing automatic scores 
+that agree well with human rating 
+compared to the state-of-the-art . <S>
+Second , the measure makes sense theoretically , both from algorithmic and native language acquisition points of view . <S>

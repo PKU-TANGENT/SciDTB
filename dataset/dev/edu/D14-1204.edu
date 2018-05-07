@@ -1,0 +1,14 @@
+We address the problem of automatically inferring the tense of events in Chinese text . <S>
+We use a new corpus 
+annotated with Chinese semantic tense information and other implicit Chinese linguistic information 
+using a "distant annotation" method . <S>
+We propose three improvements over a relatively strong baseline method 
+- a statistical learning method with extensive feature engineering . <S>
+First , we add two sources of implicit linguistic information as features - eventuality type and modality of an event , 
+which are also inferred automatically . <S>
+Second , we perform joint learning on semantic tense , eventuality type , and modality of an event . <S>
+Third , we train artificial neural network models for this problem 
+and compare its performance with feature-based approaches . <S>
+Experimental results show considerable improvements on Chinese tense inference . <S>
+Our best performance reaches 68.6 % in accuracy , 
+outperforming a strong baseline method . <S>

@@ -1,0 +1,76 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "In this paper , we explore correlation of dependency relation paths ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "to rank candidate answers in answer extraction . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 4,
+			"text": "Using the correlation measure , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "we compare dependency relations of a candidate answer and mapped question phrases in sentence with the corresponding relations in question . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 5,
+			"parent": 6,
+			"text": "Different from previous studies , ",
+			"relation": "contrast"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "we propose an approximate phrase mapping algorithm ",
+			"relation": "progression"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "and incorporate the mapping score into the correlation measure . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 8,
+			"parent": 6,
+			"text": "The correlations are further incorporated into a Maximum Entropy-based ranking model ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "which estimates path weights from training . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 11,
+			"text": "Experimental results show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 11,
+			"parent": 1,
+			"text": "that our method significantly outperforms state-of-the-art syntactic relation-based methods by up to 20 % in MRR . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

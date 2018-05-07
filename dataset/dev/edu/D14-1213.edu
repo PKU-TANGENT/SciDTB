@@ -1,0 +1,19 @@
+Self-disclosure , the act of revealing one-self to others , is an important social behavior 
+that strengthens interpersonal relationships 
+and increases social support . <S>
+Although there are many social science studies of self-disclosure , 
+they are based on manual coding of small datasets and questionnaires . <S>
+We conduct a computational analysis of self-disclosure with a large dataset of naturally-occurring conversations , a semi-supervised machine learning algorithm , and a computational analysis of the effects of self-disclosure on subsequent conversations . <S>
+We use a longitudinal dataset of 17 million tweets , 
+all of which occurred in conversations 
+that consist of five or more tweets 
+directly replying to the previous tweet , 
+and from dyads with twenty of more conversations each . <S>
+We develop self-disclosure topic model ( SDTM ) , a variant of latent Dirichlet allocation ( LDA ) 
+for automatically classifying the level of self-disclosure for each tweet . <S>
+We take the results of SDTM 
+and analyze the effects of self-disclosure on subsequent conversations . <S>
+Our model significantly outperforms several comparable methods on classifying the level of self-disclosure , 
+and the analysis of the longitudinal data 
+using SDTM 
+uncovers significant and positive correlation between self-disclosure and conversation frequency and length . <S>

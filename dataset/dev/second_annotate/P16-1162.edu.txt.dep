@@ -1,0 +1,136 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "Neural machine translation ( NMT ) models typically operate with a fixed vocabulary , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "but translation is an open-vocabulary problem . <S>",
+			"relation": "contrast"
+		},
+		{
+			"id": 3,
+			"parent": 5,
+			"text": "Previous work addresses the translation of out-of-vocabulary words ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "by backing off to a dictionary . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 5,
+			"parent": 0,
+			"text": "In this paper , we introduce a simpler and more effective approach , ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "making the NMT model capable of open-vocabulary translation ",
+			"relation": "result"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "by encoding rare and unknown words as sequences of subword units . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 8,
+			"parent": 5,
+			"text": "This is based on the intuition ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "that various word classes are translatable ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "via smaller units than words , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 8,
+			"text": "for instance names ",
+			"relation": "elab-example"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "( via character copying or transliteration ) , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 11,
+			"text": "compounds ",
+			"relation": "joint"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "( via compositional translation ) , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 11,
+			"text": "and cognates and loanwords ",
+			"relation": "joint"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "( via phonological and morphological transformations ) . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 17,
+			"parent": 21,
+			"text": "We discuss the suitability of different word segmentation techniques , ",
+			"relation": "progression"
+		},
+		{
+			"id": 18,
+			"parent": 17,
+			"text": "including simple character ngram models and a segmentation ",
+			"relation": "elab-example"
+		},
+		{
+			"id": 19,
+			"parent": 18,
+			"text": "based on the byte pair encoding compression algorithm , ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 20,
+			"parent": 21,
+			"text": "and empirically show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 21,
+			"parent": 5,
+			"text": "that subword models improve over a back-off dictionary baseline for the WMT 15 translation tasks English-German and English-Russian by up to 1.1 and 1.3 BLEU , respectively . <S> ",
+			"relation": "evaluation"
+		}
+	]
+}

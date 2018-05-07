@@ -1,0 +1,88 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 6,
+			"text": "Clustering aspect-related phrases in terms of product's property is a precursor process to aspect-level sentiment analysis ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "which is a central task in sentiment analysis . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 6,
+			"text": "Most of existing methods for addressing this problem are context-based models ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 4,
+			"parent": 5,
+			"text": "which assume ",
+			"relation": "attribution"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "that domain synonymous phrases share similar co-occurrence contexts . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 0,
+			"text": "In this paper , we explore a novel idea , sentiment distribution consistency , ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 7,
+			"parent": 8,
+			"text": "which states ",
+			"relation": "attribution"
+		},
+		{
+			"id": 8,
+			"parent": 6,
+			"text": "that different phrases ( e.g. \"price\" , \"money\" , \"worth\" , and \"cost\" ) of the same aspect tend to have consistent sentiment distribution . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 10,
+			"text": "Through formalizing sentiment distribution consistency as soft constraint , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 10,
+			"parent": 6,
+			"text": "we propose a novel unsupervised model in the framework of Posterior Regularization ( PR ) ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "to cluster aspect-related phrases . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 12,
+			"parent": 13,
+			"text": "Experiments demonstrate ",
+			"relation": "attribution"
+		},
+		{
+			"id": 13,
+			"parent": 10,
+			"text": "that our approach outperforms baselines remarkably . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

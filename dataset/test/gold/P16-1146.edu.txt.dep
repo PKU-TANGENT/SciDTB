@@ -1,0 +1,88 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We describe a search algorithm ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "for optimizing the number of latent states ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "when estimating latent-variable PCFGs with spectral methods . <S>",
+			"relation": "temporal"
+		},
+		{
+			"id": 4,
+			"parent": 7,
+			"text": "Our results show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 5,
+			"parent": 7,
+			"text": "that contrary to the common belief ",
+			"relation": "comparison"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "that the number of latent states for each nonterminal in an L-PCFG can be decided in isolation with spectral methods , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 1,
+			"text": "parsing results significantly improve ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "if the number of latent states for each nonterminal is globally optimized , ",
+			"relation": "condition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "while taking into account interactions between the different nonterminals . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 10,
+			"parent": 13,
+			"text": "In addition , we contribute an empirical analysis of spectral algorithms on eight morphologically rich languages : ",
+			"relation": "result"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "Basque , French , German , Hebrew , Hungarian , Korean , Polish and Swedish . <S>",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 12,
+			"parent": 13,
+			"text": "Our results show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 13,
+			"parent": 1,
+			"text": "that our estimation consistently performs better or close to coarse-to-fine expectation-maximization techniques for these languages . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

@@ -1,0 +1,46 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 4,
+			"text": "Dictionary lookup is a computational activity ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "that can be greatly accelerated ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "when performed on large amounts of text by a parallel computer such as the Connection Machine TM Computer ( CM ) . <S>",
+			"relation": "temporal"
+		},
+		{
+			"id": 4,
+			"parent": 0,
+			"text": "Several algorithms for parallel dictionary lookup are discussed , ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "including one ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "that allows the CM to lookup words at a rate 450 times that of lookup on a Symbolics 3600 Lisp Machine . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

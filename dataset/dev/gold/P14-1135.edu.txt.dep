@@ -1,0 +1,64 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We present an approach \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "for learning context-dependent semantic parsers \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "to identify and interpret time expressions . <S>\r",
+			"relation": "enablement"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "We use a Combinatory Categorial Grammar \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "to construct compositional meaning representations , \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "while considering contextual cues , such as the document creation time and the tense of the governing verb , \r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "to compute the final time values . <S>\r",
+			"relation": "enablement"
+		},
+		{
+			"id": 8,
+			"parent": 9,
+			"text": "Experiments on benchmark datasets show \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 9,
+			"parent": 1,
+			"text": "that our approach outperforms previous state-of-the-art systems , with error reductions of 13 % to 21 % in end-to-end performance . <S>\r",
+			"relation": "evaluation"
+		}
+	]
+}

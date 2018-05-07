@@ -1,0 +1,124 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 7,
+			"text": "Most existing systems for subcategorization frame ( SCF ) acquisition rely on supervised parsing ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "and infer SCF distributions at type , rather than instance level . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 3,
+			"parent": 7,
+			"text": "These systems suffer from poor portability across domains ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "and their benefit for NLP tasks ",
+			"relation": "joint"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "that involve sentence-level processing ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "is limited . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 7,
+			"parent": 0,
+			"text": "We propose a new unsupervised , Markov Random Field-based model for SCF acquisition ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "which is designed to address these problems . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 7,
+			"text": "The system relies on supervised POS tagging rather than parsing , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "and is capable of learning SCFs at instance level . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 11,
+			"parent": 7,
+			"text": "We perform evaluation against gold standard data ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 12,
+			"parent": 13,
+			"text": "which shows ",
+			"relation": "attribution"
+		},
+		{
+			"id": 13,
+			"parent": 11,
+			"text": "that our system outperforms several supervised and type-level SCF baselines . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 11,
+			"text": "We also conduct task-based evaluation in the context of verb similarity prediction , ",
+			"relation": "joint"
+		},
+		{
+			"id": 15,
+			"parent": 16,
+			"text": "demonstrating ",
+			"relation": "attribution"
+		},
+		{
+			"id": 16,
+			"parent": 14,
+			"text": "that a vector space model ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 17,
+			"parent": 16,
+			"text": "based on our SCFs ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 18,
+			"parent": 16,
+			"text": "substantially outperforms a lexical model and a model ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 19,
+			"parent": 18,
+			"text": "based on a supervised parser . <S>",
+			"relation": "bg-general"
+		}
+	]
+}

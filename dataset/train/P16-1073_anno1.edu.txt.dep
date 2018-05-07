@@ -1,0 +1,82 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 2,
+			"text": "A major challenge of semantic parsing is the vocabulary mismatch problem between natural language and target ontology . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 0,
+			"text": "In this paper , we propose a sentence rewriting based semantic parsing method , ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "which can effectively resolve the mismatch problem ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "by rewriting a sentence into a new form ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "which has the same structure with its target logical form . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 2,
+			"text": "Specifically , we propose two sentence-rewriting methods for two common types of mismatch : ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "a dictionary-based method for 1-N mismatch and a template-based method for N-1 mismatch . <S>",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 8,
+			"parent": 10,
+			"text": "We evaluate our sentence rewriting based semantic parser on the benchmark semantic parsing dataset - WEBQUESTIONS . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 10,
+			"text": "Experimental results show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 10,
+			"parent": 2,
+			"text": "that our system outperforms the base system with a 3.4 % gain in F1 , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "and generates logical forms more accurately ",
+			"relation": "joint"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "and parses sentences more robustly . <S>    ",
+			"relation": "joint"
+		}
+	]
+}

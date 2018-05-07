@@ -1,0 +1,106 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We present a novel technique \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "for learning semantic representations , \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "which extends the distributional hypothesis to multilingual data and joint-space embeddings . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "Our models leverage parallel data \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "and learn to strongly align the embeddings of semantically equivalent sentences , \r",
+			"relation": "joint"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "while maintaining sufficient distance between those of dissimilar sentences . <S>\r",
+			"relation": "temporal"
+		},
+		{
+			"id": 7,
+			"parent": 1,
+			"text": "The models do not rely on word alignments or any syntactic information \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "and are successfully applied to a number of diverse languages . <S>\r",
+			"relation": "progression"
+		},
+		{
+			"id": 9,
+			"parent": 1,
+			"text": "We extend our approach to learn semantic representations at the document level , too . <S>\r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 10,
+			"parent": 14,
+			"text": "We evaluate these models on two cross-lingual document classification tasks , \r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "outperforming the prior state of the art . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 13,
+			"text": "Through qualitative analysis and the study of pivoting effects \r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 13,
+			"parent": 14,
+			"text": "we demonstrate \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 14,
+			"parent": 1,
+			"text": "that our representations are semantically plausible \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "and can capture semantic relationships across languages \r",
+			"relation": "joint"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "without parallel data . <S>\r",
+			"relation": "condition"
+		}
+	]
+}

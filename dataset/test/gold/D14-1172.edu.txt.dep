@@ -1,0 +1,82 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "Learning from errors is a crucial aspect of improving expertise . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 3,
+			"text": "Based on this notion , ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 3,
+			"parent": 0,
+			"text": "we discuss a robust statistical framework ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "for analysing the impact of different error types on machine translation ( MT ) output quality . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "Our approach is based on linear mixed-effects models , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "which allow the analysis of error-annotated MT output taking into account the variability inherent to the specific experimental setting ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "from which the empirical observations are drawn . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 3,
+			"text": "Our experiments are carried out on different language pairs ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "involving Chinese , Arabic and Russian as target languages . <S>",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 10,
+			"parent": 3,
+			"text": "Interesting findings are reported , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "concerning the impact of different error types both at the level of human perception of quality and with respect to performance results ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "measured with automatic metrics . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

@@ -1,0 +1,70 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We present a pairwise context-sensitive Autoencoder ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "for computing text pair similarity . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 4,
+			"text": "Our model encodes input text into context-sensitive representations ",
+			"relation": "progression"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "and uses them ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "to compute similarity between text pairs . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "Our model outperforms the state-of-the-art models in two semantic retrieval tasks and a contextual word similarity task . <S>",
+			"relation": "evaluation"
+		},
+		{
+			"id": 7,
+			"parent": 1,
+			"text": "For retrieval , our unsupervised approach ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "that merely ranks inputs with respect to the cosine similarity between their hidden representations ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 7,
+			"text": "shows comparable performance with the state-of-the-art supervised models ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "and in some cases outperforms them . <S>   ",
+			"relation": "progression"
+		}
+	]
+}

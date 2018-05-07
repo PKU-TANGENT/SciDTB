@@ -1,0 +1,94 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We study the problem of generating an English sentence \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "given an underlying probabilistic grammar , a world and a communicative goal. <S>\r",
+			"relation": "condition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "We model the generation problem as a Markov decision process with a suitably defined reward function \r",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "that reflects the communicative goal. <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 1,
+			"text": "We then use probabilistic planning to solve the MDP \r",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "and generate a sentence \r",
+			"relation": "joint"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "that , with high probability , accomplishes the communicative goal. <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 9,
+			"text": "We show empirically \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 9,
+			"parent": 1,
+			"text": "that our approach can generate complex sentences with a speed \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "that generally matches or surpasses the state of the art . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 12,
+			"text": "Further , we show \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 12,
+			"parent": 1,
+			"text": "that our approach is anytime \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "and can handle complex communicative goals , \r",
+			"relation": "joint"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "including negated goals . <S>\r",
+			"relation": "elab-example"
+		}
+	]
+}

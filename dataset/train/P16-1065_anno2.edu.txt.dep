@@ -1,0 +1,70 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 4,
+			"text": "Document collections often have links between documents - citations , hyperlinks , or revisions - ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "and which links are added is often based on topical similarity . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 3,
+			"parent": 4,
+			"text": "To model these intuitions , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 4,
+			"parent": 0,
+			"text": "we introduce a new topic model for documents ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "situated within a network structure , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "integrating latent blocks of documents with a max-margin learning criterion for link prediction ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "using topicand word-level features . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 8,
+			"parent": 10,
+			"text": "Experiments on a scientific paper dataset and collection of webpages show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 9,
+			"parent": 10,
+			"text": "that , by more robustly exploiting the rich link structure within a document network , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 10,
+			"parent": 4,
+			"text": "our model improves link prediction , topic quality , and block distributions . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

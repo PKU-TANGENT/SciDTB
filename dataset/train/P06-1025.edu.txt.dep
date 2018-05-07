@@ -1,0 +1,94 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "Speech recognition problems are a reality in current spoken dialogue systems . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 3,
+			"text": "In order to better understand these phenomena , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 0,
+			"text": "we study dependencies between speech recognition problems and several higher level dialogue factors ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "that define our notion of student state : ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "frustration/anger , certainty and correctness . <S>",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 6,
+			"parent": 3,
+			"text": "We apply Chi Square ( χ2 ) analysis to a corpus of speech-based computer tutoring dialogues ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "to discover these dependencies both within and across turns . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 8,
+			"parent": 3,
+			"text": "Significant dependencies are combined ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "to produce interesting insights regarding speech recognition problems ",
+			"relation": "enablement"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "and to propose new strategies ",
+			"relation": "joint"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "for handling these problems . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 12,
+			"parent": 13,
+			"text": "We also find ",
+			"relation": "attribution"
+		},
+		{
+			"id": 13,
+			"parent": 3,
+			"text": "that tutoring , as a new domain for speech applications , exhibits interesting tradeoffs and new factors ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "to consider for spoken dialogue design . <S>",
+			"relation": "enablement"
+		}
+	]
+}

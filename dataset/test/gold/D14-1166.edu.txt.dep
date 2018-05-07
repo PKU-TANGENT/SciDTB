@@ -1,0 +1,100 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 7,
+			"text": "A promising approach to relation extraction , ",
+			"relation": "contrast"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "called weak or distant supervision , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "exploits an existing database of facts as training data , ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "by aligning it to an unlabeled collection of text documents . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 5,
+			"parent": 6,
+			"text": "Using this approach , ",
+			"relation": "condition"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "the task of relation extraction can easily be scaled to hundreds of different relationships . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 10,
+			"text": "However , distant supervision leads to a challenging multiple instance , multiple label learning problem . <S>",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "Most of the proposed solutions to this problem are based on non-convex formulations , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "and are thus prone to local min-ima . <S>",
+			"relation": "progression"
+		},
+		{
+			"id": 10,
+			"parent": 0,
+			"text": "In this article , we propose a new approach to the problem of weakly supervised relation extraction , ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "based on discriminative clustering ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 12,
+			"parent": 10,
+			"text": "and leading to a convex formulation . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 14,
+			"text": "We demonstrate ",
+			"relation": "attribution"
+		},
+		{
+			"id": 14,
+			"parent": 10,
+			"text": "that our approach outperforms state-of-the-art methods on the challenging dataset ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "introduced by Riedel et al. ( 2010 ) . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

@@ -1,0 +1,16 @@
+We introduce a novel compositional language model 
+that works on Predicate-Argument Structures ( PASs ) . <S>
+Our model jointly learns word representations and their composition functions 
+using bag-of-words and dependency-based contexts . <S>
+Unlike previous word-sequence-based models , 
+our PAS-based model composes arguments into predicates 
+by using the category information from the PAS . <S>
+This enables our model to capture longrange dependencies between words 
+and to better handle constructs such as verb-object and subject-verb-object relations . <S>
+We verify this experimentally 
+using two phrase similarity datasets 
+and achieve results comparable to or higher than the previous best results . <S>
+Our system achieves these results 
+without the need for pre-trained word vectors 
+and using a much smaller training corpus ; 
+despite this , for the subject-verb-object dataset our model improves upon the state of the art by as much as ∼10 % in relative performance . <S>

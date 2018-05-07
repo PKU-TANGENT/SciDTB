@@ -1,0 +1,58 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We present MAGEAD , a morphological analyzer and generator for the Arabic language family . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "Our work is novel ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "in that it explicitly addresses the need ",
+			"relation": "exp-reason"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "for processing the morphology of the dialects . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 1,
+			"text": "MAGEAD performs an on-line analysis to or generation from a root+pattern+features representation , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "it has separate phonological and orthographic representations , ",
+			"relation": "joint"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "and it allows for combining morphemes from different dialects . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 8,
+			"parent": 1,
+			"text": "We present a detailed evaluation of MAGEAD . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

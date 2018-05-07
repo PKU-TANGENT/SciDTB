@@ -1,0 +1,9 @@
+This paper complements semantic role representations with spatial knowledge 
+beyond indicating plain locations . <S>
+Namely , we extract where entities are ( and are not ) located , 
+and for how long ( seconds , hours , days , etc. ) . <S>
+Crowdsourced annotations show 
+that this additional knowledge is intuitive to humans 
+and can be annotated by non-experts . <S>
+Experimental results show 
+that the task can be automated . <S>

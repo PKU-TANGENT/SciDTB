@@ -1,0 +1,82 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 4,
+			"text": "Semantic parsing aims at mapping natural language to machine interpretable meaning representations . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 4,
+			"text": "Traditional approaches rely on high-quality lexicons , manually-built templates , and linguistic features ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "which are either domainor representation-specific . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 0,
+			"text": "In this paper we present a general method ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "based on an attention-enhanced encoder-decoder model . <S>",
+			"relation": "bg-general"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "We encode input utterances into vector representations , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "and generate their logical forms ",
+			"relation": "progression"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "by conditioning the output sequences or trees on the encoding vectors . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 9,
+			"parent": 10,
+			"text": "Experimental results on four atasets show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 10,
+			"parent": 4,
+			"text": "that our approach performs competitively ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "without using hand-engineered features ",
+			"relation": "condition"
+		},
+		{
+			"id": 12,
+			"parent": 10,
+			"text": "and is easy to adapt across domains and meaning representations . <S>  ",
+			"relation": "joint"
+		}
+	]
+}

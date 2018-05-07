@@ -1,0 +1,64 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We construct multi-modal concept representations ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "by concatenating a skip-gram linguistic representation vector with a visual concept representation vector computed ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "using the feature extraction layers of a deep convolutional neural network ( CNN ) ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "trained on a large labeled object recognition dataset . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 1,
+			"text": "This transfer learning approach brings a clear performance gain over features ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "based on the traditional bag-of-visual-word approach . <S>",
+			"relation": "bg-general"
+		},
+		{
+			"id": 7,
+			"parent": 5,
+			"text": "Experimental results are reported on the WordSim353 and MEN semantic relatedness evaluation tasks . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 8,
+			"parent": 5,
+			"text": "We use visual features ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "computed using either ImageNet or ESP Game images . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

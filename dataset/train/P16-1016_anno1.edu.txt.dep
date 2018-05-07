@@ -1,0 +1,88 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We present a transition-based system ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "that jointly predicts the syntactic structure and lexical units of a sentence ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "by building two structures over the input words : ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "a syntactic dependency tree and a forest of lexical units ",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "including multiword expressions ( MWEs ) . <S>",
+			"relation": "elab-example"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "This combined representation allows us to capture both the syntactic and semantic structure of MWEs , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "which in turn enables deeper downstream semantic analysis , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "especially for semicompositional MWEs . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 1,
+			"text": "The proposed system extends the arc-standard transition system for dependency parsing with transitions ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "for building complex lexical units . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 12,
+			"text": "Experiments on two different data sets show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 12,
+			"parent": 1,
+			"text": "that the approach significantly improves MWE identification accuracy ( and sometimes syntactic accuracy ) ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "compared to existing joint approaches . <S>",
+			"relation": "comparison"
+		}
+	]
+}

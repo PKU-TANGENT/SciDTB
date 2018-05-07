@@ -1,0 +1,130 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 6,
+			"text": "Understanding how words change their meanings over time is key to models of language and cultural evolution , ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "but historical data on meaning is scarce , ",
+			"relation": "contrast"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "making theories hard to develop and test . <S>",
+			"relation": "result"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "Word embeddings show promise as a diachronic tool , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "but have not been carefully evaluated . <S>",
+			"relation": "contrast"
+		},
+		{
+			"id": 6,
+			"parent": 0,
+			"text": "We develop a robust methodology ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "for quantifying semantic change ",
+			"relation": "enablement"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "by evaluating word embeddings ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "( PPMI , SVD , word2vec ) ",
+			"relation": "elab-example"
+		},
+		{
+			"id": 10,
+			"parent": 8,
+			"text": "against known historical changes . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 11,
+			"parent": 6,
+			"text": "We then use this methodology ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "to reveal statistical laws of semantic evolution . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 13,
+			"parent": 15,
+			"text": "Using six historical corpora ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "spanning four languages and two centuries , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 11,
+			"text": "we propose two quantitative laws of semantic change ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": ": ( i ) the law of conformity - the rate of semantic change scales with an inverse power-law of word frequency ",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 17,
+			"parent": 15,
+			"text": "; ( ii ) the law of innovation - independent of frequency , ",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 18,
+			"parent": 17,
+			"text": "words ",
+			"relation": "joint"
+		},
+		{
+			"id": 19,
+			"parent": 18,
+			"text": "that are more polysemous ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 20,
+			"parent": 18,
+			"text": "have higher rates of semantic change . <S>",
+			"relation": "same-unit"
+		}
+	]
+}

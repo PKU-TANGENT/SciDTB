@@ -1,0 +1,94 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "Following up on recent work \r",
+			"relation": "bg-general"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "on establishing a mapping between vector-based semantic embeddings of words and the visual representations of the corresponding objects from natural images , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 0,
+			"text": "we first present a simple approach to cross-modal vector-based semantics for the task of zero-shot learning , \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "in which an image of a previously unseen object is mapped to a linguistic representation \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "denoting its word . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 3,
+			"text": "We then introduce fast mapping , a challenging and more cognitively plausible variant of the zero-shot task , \r",
+			"relation": "progression"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "in which the learner is exposed to new objects and the corresponding words in very limited linguistic contexts . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 11,
+			"text": "By combining prior linguistic and visual knowledge \r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "acquired about words and their objects , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 8,
+			"text": "as well as exploiting the limited new evidence available , \r",
+			"relation": "joint"
+		},
+		{
+			"id": 11,
+			"parent": 6,
+			"text": "the learner must learn to associate new objects with words . <S>\r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 12,
+			"parent": 6,
+			"text": "Our results on this task pave the way to realistic simulations \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "of how children or robots could use existing knowledge \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "to bootstrap grounded semantic knowledge about new concepts . <S>\r",
+			"relation": "enablement"
+		}
+	]
+}

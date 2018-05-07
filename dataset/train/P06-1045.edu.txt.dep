@@ -1,0 +1,88 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 4,
+			"text": "Various methods have been proposed for automatic synonym acquisition , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "as synonyms are one of the most fundamental lexical knowledge . <S>",
+			"relation": "exp-reason"
+		},
+		{
+			"id": 3,
+			"parent": 4,
+			"text": "Whereas many methods are based on contextual clues of words , ",
+			"relation": "contrast"
+		},
+		{
+			"id": 4,
+			"parent": 5,
+			"text": "little attention has been paid to what kind of categories of contextual information are useful for the purpose . <S>",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 5,
+			"parent": 0,
+			"text": "This study has experimentally investigated the impact of contextual information selection , ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "by extracting three kinds of word relationships from corpora : ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "dependency , sentence co-occurrence , and proximity . <S>",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 8,
+			"parent": 10,
+			"text": "The evaluation result shows ",
+			"relation": "attribution"
+		},
+		{
+			"id": 9,
+			"parent": 10,
+			"text": "that while dependency and proximity perform relatively well by themselves , ",
+			"relation": "progression"
+		},
+		{
+			"id": 10,
+			"parent": 5,
+			"text": "combination of two or more kinds of contextual information gives more stable performance . <S>",
+			"relation": "evaluation"
+		},
+		{
+			"id": 11,
+			"parent": 13,
+			"text": "We've further investigated useful selection of dependency relations and modification categories , ",
+			"relation": "result"
+		},
+		{
+			"id": 12,
+			"parent": 13,
+			"text": "and it is found ",
+			"relation": "attribution"
+		},
+		{
+			"id": 13,
+			"parent": 5,
+			"text": "that modification has the greatest contribution , even greater than the widely adopted subjectobject combination . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

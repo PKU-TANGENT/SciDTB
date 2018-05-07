@@ -1,0 +1,88 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 6,
+			"text": "Attention mechanism has enhanced stateof-the-art Neural Machine Translation ( NMT ) ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "by jointly learning to align and translate . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "It tends to ignore past alignment information , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "however , which often leads to over-translation and under-translation . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 6,
+			"text": "To address this problem , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 6,
+			"parent": 0,
+			"text": "we propose coverage-based NMT in this paper . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "We maintain a coverage vector ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "to keep track of the attention history . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 9,
+			"parent": 7,
+			"text": "The coverage vector is fed to the attention model ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "to help adjust future attention , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 11,
+			"parent": 9,
+			"text": "which lets NMT system to consider more about untranslated source words . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 13,
+			"text": "Experiments show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 13,
+			"parent": 6,
+			"text": "that the proposed approach significantly improves both translation quality and alignment quality over standard attention-based NMT . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

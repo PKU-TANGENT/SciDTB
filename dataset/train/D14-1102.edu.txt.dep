@@ -1,0 +1,58 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 4,
+			"text": "Different approaches to high-quality grammatical error correction have been proposed recently , ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "many of which have their own strengths and weaknesses . <S>",
+			"relation": "elab-example"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "Most of these approaches are based on classification or statistical machine translation ( SMT ) . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 0,
+			"text": "In this paper , we propose to combine the output from a classification-based system and an SMT-based system ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "to improve the correction quality . <S>",
+			"relation": "evaluation"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "We adopt the system combination technique of Heafield and Lavie ( 2010 ) . <S>",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 7,
+			"parent": 4,
+			"text": "We achieve an F0.5 score of 39.39 % on the test set of the CoNLL-2014 shared task , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "outperforming the best system in the shared task . <S>",
+			"relation": "comparison"
+		}
+	]
+}

@@ -1,0 +1,13 @@
+Data-driven refinement of non-terminal categories has been demonstrated to be a reliable technique 
+for improving monolingual parsing with PCFGs . <S>
+In this paper , we extend these techniques 
+to learn latent refinements of single-category synchronous grammars , 
+so as to improve translation performance . <S>
+We compare two estimators for this latent-variable model : 
+one based on EM and the other is a spectral algorithm 
+based on the method of moments . <S>
+We evaluate their performance on a Chinese-English translation task . <S>
+The results indicate 
+that we can achieve significant gains over the baseline with both approaches , 
+but in particular the moments-based estimator is both faster 
+and performs better than EM . <S>

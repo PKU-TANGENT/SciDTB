@@ -1,0 +1,106 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 2,
+			"text": "While user attribute extraction on social media has received considerable attention , \r",
+			"relation": "contrast"
+		},
+		{
+			"id": 2,
+			"parent": 6,
+			"text": "existing approaches , mostly supervised , encounter great difficulty \r",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "in obtaining gold standard data \r",
+			"relation": "condition"
+		},
+		{
+			"id": 4,
+			"parent": 2,
+			"text": "and are therefore limited to predicting unary predicates \r",
+			"relation": "joint"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "( e.g. , gender ) . <S>\r",
+			"relation": "elab-example"
+		},
+		{
+			"id": 6,
+			"parent": 0,
+			"text": "In this paper ,  we present a weaklysupervised approach to user profile extraction from Twitter . <S>\r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "Users' profiles from social media websites such as Facebook or Google Plus are used as a distant source of supervision for extraction of their attributes from user-generated text . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 10,
+			"text": "In addition to traditional linguistic features \r",
+			"relation": "contrast"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "used in distant supervision for information extraction , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 7,
+			"text": "our approach also takes into account network information , a unique opportunity \r",
+			"relation": "progression"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "offered by social media . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 15,
+			"text": "We test our algorithm on three attribute domains : \r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "spouse , education and job ; \r",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 14,
+			"parent": 15,
+			"text": "experimental results demonstrate \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 15,
+			"parent": 6,
+			"text": "our approach is able to make accurate predictions for users' attributes\r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "based on their tweets. <S>",
+			"relation": "bg-general"
+		}
+	]
+}

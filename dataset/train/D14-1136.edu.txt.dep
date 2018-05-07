@@ -1,0 +1,58 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We present a model for the automatic semantic analysis of requirements elicitation documents . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "Our target semantic representation employs live sequence charts , a multi-modal visual language for scenario-based programming , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "which can be directly translated into executable code . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "The architecture we propose integrates sentence-level and discourse-level processing in a generative probabilistic framework for the analysis and disambiguation of individual sentences in context . <S>",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 5,
+			"parent": 1,
+			"text": "We show empirically ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "that the discourse-based model consistently outperforms the sentence-based model ",
+			"relation": "attribution"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "when constructing a system ",
+			"relation": "temporal"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "that reflects all the static ( entities , properties ) and dynamic ( behavioral scenarios ) requirements in the document . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

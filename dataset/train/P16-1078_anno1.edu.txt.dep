@@ -1,0 +1,70 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "Most of the existing Neural Machine Translation ( NMT ) models focus on the conversion of sequential data ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "and do not directly use syntactic information . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 3,
+			"parent": 0,
+			"text": "We propose a novel end-to-end syntactic NMT model , ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "extending a sequenceto-sequence model with the source-side phrase structure . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "Our model has an attention mechanism ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "that enables the decoder to generate a translated word ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "while softly aligning it with phrases as well as words of the source sentence . <S>",
+			"relation": "condition"
+		},
+		{
+			"id": 8,
+			"parent": 9,
+			"text": "Experimental results on the WAT '15 Englishto-Japanese dataset demonstrate ",
+			"relation": "attribution"
+		},
+		{
+			"id": 9,
+			"parent": 3,
+			"text": "that our proposed model considerably outperforms sequence-to-sequence attentional NMT models ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "and compares favorably with the state-of-the-art tree-to-string SMT system . <S>",
+			"relation": "joint"
+		}
+	]
+}

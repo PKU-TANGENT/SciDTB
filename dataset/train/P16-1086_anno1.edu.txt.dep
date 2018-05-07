@@ -1,0 +1,88 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "Several large cloze-style context-questionanswer datasets have been introduced recently : ",
+			"relation": "result"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "the CNN and Daily Mail news data and the Children 's Book Test . <S>",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 3,
+			"parent": 5,
+			"text": "Thanks to the size of these datasets , the associated text comprehension task is well suited for deep-learning techniques ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "that currently seem to outperform all alternative approaches . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 0,
+			"text": "We present a new , simple model ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "that uses attention ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "to directly pick the answer from the context ",
+			"relation": "enablement"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "as opposed to computing the answer ",
+			"relation": "contrast"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "using a blended representation of words in the document ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "as is usual in similar models . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 5,
+			"text": "This makes the model particularly suitable for questionanswering problems ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "where the answer is a single word from the document . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 5,
+			"text": "Ensemble of our models sets new state of the art on all evaluated datasets . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

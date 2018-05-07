@@ -1,0 +1,17 @@
+We propose a novel abstractive summarization system for product reviews
+by taking advantage of their discourse structure . <S>
+First , we apply a discourse parser to each review 
+and obtain a discourse tree representation for every review . <S>
+We then modify the discourse trees 
+such that every leaf node only contains the aspect words . <S>
+Second , we aggregate the aspect discourse trees 
+and generate a graph . <S>
+We then select a subgraph 
+representing the most important aspects and the rhetorical relations between them 
+using a PageRank algorithm , 
+and transform the selected subgraph into an aspect tree . <S>
+Finally , we generate a natural language summary 
+by applying a template-based NLG framework . <S>
+Quantitative and qualitative analysis of the results , based on two user studies , 
+show 
+that our approach significantly outperforms extractive and abstractive baselines . <S>

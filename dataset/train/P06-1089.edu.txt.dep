@@ -1,0 +1,88 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "In this paper , we present a method ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "for guessing POS tags of unknown words ",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "using local and global information . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 6,
+			"text": "Although many existing methods use only local information ",
+			"relation": "contrast"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "( i.e. limited window size or intra-sentential features ) , ",
+			"relation": "elab-example"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "global information ( extra-sentential features ) provides valuable clues ",
+			"relation": "exp-reason"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "for predicting POS tags of unknown words . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 8,
+			"parent": 1,
+			"text": "We propose a probabilistic model for POS guessing of unknown words ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "using global information as well as local information , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 8,
+			"text": "and estimate its parameters ",
+			"relation": "joint"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "using Gibbs sampling . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 1,
+			"text": "We also attempt to apply the model to semisupervised learning , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "and conduct experiments on multiple corpora . <S>",
+			"relation": "joint"
+		}
+	]
+}

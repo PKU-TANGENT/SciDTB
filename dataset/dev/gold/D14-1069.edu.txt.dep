@@ -1,0 +1,34 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "Non-linear mappings of the form P ( ngram ) γ andlog ( 1+τP ( ngram )) log ( 1+τ ) are applied to the n-gram probabilities in five trainable open-source language identifiers . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "The first mapping reduces classification errors by 4.0 % to 83.9 % over a test set of more than one million 65-character strings in 1366 languages , and by 2.6 % to 76.7 % over a subset of 781 languages . <S>",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "The second mapping improves four of the five identifiers by 10.6 % to 83.8 % on the larger corpus and 14.4 % to 76.7 % on the smaller corpus . <S>",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "The subset corpus and the modified programs are made freely available for download at http : //www.cs.cmu.edu/∼ralf/langid.html . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

@@ -1,0 +1,64 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We propose a simple unsupervised approach ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "to detecting non-compositional components in multiword expressions ",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "based on Wiktionary . <S>",
+			"relation": "bg-general"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "The approach makes use of the definitions , synonyms and translations in Wiktionary , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "and is applicable to any type of MWE in any language , ",
+			"relation": "joint"
+		},
+		{
+			"id": 6,
+			"parent": 7,
+			"text": "assuming ",
+			"relation": "attribution"
+		},
+		{
+			"id": 7,
+			"parent": 5,
+			"text": "the MWE is contained in Wiktionary . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 9,
+			"text": "Our experiments show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 9,
+			"parent": 1,
+			"text": "that the proposed approach achieves higher F-score than state-of-the-art methods . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

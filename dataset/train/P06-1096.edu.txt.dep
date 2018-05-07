@@ -1,0 +1,118 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We present a perceptron-style discriminative approach to machine translation ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "in which large feature sets can be exploited . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 4,
+			"text": "Unlike discriminative reranking approaches , ",
+			"relation": "contrast"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "our system can take advantage of learned features in all stages of decoding . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 1,
+			"text": "We first discuss several challenges to error-driven discriminative approaches . <S>",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "In particular , we explore different ways of updating parameters ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "given a training example . <S>",
+			"relation": "condition"
+		},
+		{
+			"id": 8,
+			"parent": 9,
+			"text": "We find ",
+			"relation": "attribution"
+		},
+		{
+			"id": 9,
+			"parent": 6,
+			"text": "that making frequent but smaller updates is preferable to making fewer but larger updates . <S>",
+			"relation": "result"
+		},
+		{
+			"id": 10,
+			"parent": 1,
+			"text": "Then , we discuss an array of features ",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 11,
+			"parent": 12,
+			"text": "and show both ",
+			"relation": "attribution"
+		},
+		{
+			"id": 12,
+			"parent": 10,
+			"text": "how they quantitatively increase BLEU score ",
+			"relation": "result"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "and how they qualitatively interact on specific examples . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 14,
+			"parent": 10,
+			"text": "One particular feature ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "we investigate ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 16,
+			"parent": 14,
+			"text": "is a novel way ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 17,
+			"parent": 16,
+			"text": "to introduce learning into the initial phrase extraction process , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 18,
+			"parent": 17,
+			"text": "which has previously been entirely heuristic . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

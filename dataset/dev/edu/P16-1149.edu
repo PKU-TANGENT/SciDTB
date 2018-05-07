@@ -1,0 +1,19 @@
+State legislatures often rely on existing text 
+when drafting new bills . <S>
+Resource and expertise constraints , 
+which often drive this copying behavior , 
+can be taken advantage of by lobbyists and special interest groups . <S>
+These groups provide model bills , 
+which encode policy agendas , with the intent 
+that the models become actual law . <S>
+Unfortunately , model legislation is often opaque to the public-both in source and content . <S>
+In this paper we present LOBBYBACK , a system 
+that reverse engineers model legislation from observed text . <S>
+LOBBYBACK identifies clusters of bills 
+which have text reuse 
+and generates `` prototypes '' 
+that represent a canonical version of the text 
+shared between the documents . <S>
+We demonstrate 
+that LOBBYBACK accurately reconstructs model legislation 
+and apply it to a dataset of over 550k bills . <S>

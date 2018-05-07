@@ -1,0 +1,112 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We present an unsupervised learning algorithm ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "that mines large text corpora for patterns ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "that express implicit semantic relations . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "For a given input word pair X : Y with some unspecified semantic relations , the corresponding output list of patterns <P1 , ... , Pm> is ranked ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "according to how well each pattern Pi expresses the relations between X and Y . <S>",
+			"relation": "bg-general"
+		},
+		{
+			"id": 6,
+			"parent": 7,
+			"text": "For example , given X = ostrich and Y = bird , ",
+			"relation": "condition"
+		},
+		{
+			"id": 7,
+			"parent": 4,
+			"text": "the two highest ranking output patterns are \"X is the largest Y\" and \"Y such as the X\" . <S>",
+			"relation": "elab-example"
+		},
+		{
+			"id": 8,
+			"parent": 1,
+			"text": "The output patterns are intended to be useful ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "for finding further pairs with the same relations , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "to support the construction of lexicons , ontologies , and semantic networks . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 11,
+			"parent": 8,
+			"text": "The patterns are sorted by pertinence , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "where the pertinence of a pattern Pi for a word pair X : Y is the expected relational similarity between the given pair and typical pairs for Pi . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 15,
+			"text": "The algorithm is empirically evaluated on two tasks , ",
+			"relation": "result"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "solving multiple-choice SAT word analogy questions and classifying semantic relations in noun-modifier pairs . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 1,
+			"text": "On both tasks , the algorithm achieves state-of-the-art results , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "performing significantly better than several alternative pattern ranking algorithms , ",
+			"relation": "comparison"
+		},
+		{
+			"id": 17,
+			"parent": 16,
+			"text": "based on tf-idf . <S>                                                                 ",
+			"relation": "bg-general"
+		}
+	]
+}

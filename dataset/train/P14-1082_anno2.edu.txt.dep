@@ -1,0 +1,106 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "In this paper we present new research in translation assistance . <S>\r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "We describe a system capable of translating native language ( L1 ) fragments to foreign language ( L2 ) fragments in an L2 context . <S>\r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "Practical applications of this research can be framed in the context of second language learning . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "The type of translation assistance system under investigation here encourages language learners to write in their target language \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "while allowing them to fall back to their native language \r",
+			"relation": "temporal"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "in case the correct word or expression is not known . <S>\r",
+			"relation": "condition"
+		},
+		{
+			"id": 7,
+			"parent": 4,
+			"text": "These code switches are subsequently translated to L2 \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "given the L2 context . <S>\r",
+			"relation": "condition"
+		},
+		{
+			"id": 9,
+			"parent": 1,
+			"text": "We study the feasibility of exploiting cross-lingual context \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "to obtain high-quality translation suggestions \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "that improve over statistical language modelling and word-sense disambiguation baselines . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 1,
+			"text": "A classification-based approach is presented \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "that is indeed found \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "to improve significantly over these baselines \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "by making use of a contextual window \r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "spanning a small number of neighbouring words . <S>\r",
+			"relation": "elab-addition"
+		}
+	]
+}

@@ -1,0 +1,106 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "Cross-narrative temporal ordering of medical events is essential to the task \r",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "of generating a comprehensive timeline over a patient's history . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 0,
+			"text": "We address the problem of aligning multiple medical event sequences , \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "corresponding to different clinical narratives , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "comparing the following approaches : \r",
+			"relation": "comparison"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "( 1 ) A novel weighted finite state transducer representation of medical event sequences \r",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "that enables composition and search for decoding , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 6,
+			"text": "and ( 2 ) Dynamic programming with iterative pairwise alignment of multiple sequences \r",
+			"relation": "joint"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "using global and local alignment algorithms . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 3,
+			"text": "The cross-narrative coreference and temporal relation weights \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "used in both these approaches \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 10,
+			"text": "are learned from a corpus of clinical narratives . <S>\r",
+			"relation": "same-unit"
+		},
+		{
+			"id": 13,
+			"parent": 3,
+			"text": "We present results \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "using both approaches \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 13,
+			"text": "and observe \r",
+			"relation": "joint"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "that the finite state transducer approach performs significantly better than the dynamic programming one by 6.8 % for the problem of multiple-sequence alignment . <S>\r",
+			"relation": "elab-addition"
+		}
+	]
+}

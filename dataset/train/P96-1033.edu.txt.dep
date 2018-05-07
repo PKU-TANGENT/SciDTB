@@ -1,0 +1,76 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 8,
+			"text": "Off-line compilation of logic grammars ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "using Magic ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "allows an incorporation of filtering into the logic ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "underlying the grammar . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 8,
+			"text": "The explicit definite clause characterization of filtering ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "resulting from Magic compilation ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 5,
+			"text": "allows processor independent and logically clean optimizations of dynamic bottom-up processing with respect to goal-directedness . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 8,
+			"parent": 0,
+			"text": "Two filter optimizations ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "based on the program transformation technique of Unfolding ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 10,
+			"parent": 8,
+			"text": "are discussed ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "which are of practical and theoretical interest . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

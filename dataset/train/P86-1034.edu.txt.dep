@@ -1,0 +1,130 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "Novice users engaged in task-oriented dialogues with an adviser ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "to learn how to use an unfamiliar statistical package . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "The users ' , task was analyzed ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "and a task structure was derived . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 5,
+			"parent": 1,
+			"text": "The task structure was used ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "to segment the dialogue into subdialogues ",
+			"relation": "enablement"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "associated with the subtasks of the overall task . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 1,
+			"text": "The representation of the dialogue structure into a hierarchy of subdialogues , ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "partly corresponding to the task structure , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 8,
+			"text": "was validated by three converging analyses . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 11,
+			"parent": 8,
+			"text": "First , the distribution of non-pronominal noun phrases and the distribution of pronominal noun phrases exhibited a pattern consistent with the derived dialogue structure . <S>",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "Non-pronominal noun phrases occurred more frequently at the beginning of subdialogues than later , ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "as can be expected ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 12,
+			"text": "since one of their functions is to indicate topic shifts . <S>",
+			"relation": "exp-reason"
+		},
+		{
+			"id": 15,
+			"parent": 12,
+			"text": "On the other hand , pronominal noun phrases occurred less frequently in the first sentence of the subdialogues than in the following sentences of the subdialogues , ",
+			"relation": "joint"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "as can be expected ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 17,
+			"parent": 15,
+			"text": "since they are used ",
+			"relation": "exp-reason"
+		},
+		{
+			"id": 18,
+			"parent": 17,
+			"text": "to indicate topic continuity . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 19,
+			"parent": 8,
+			"text": "Second , the distributions of the antecedents of pronominal noun phrases and of non-pronominal noun phrases showed a pattern consistent with the derived dialogue structure . <S>",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 20,
+			"parent": 8,
+			"text": "FinMly , distinctive clue words and phrases were found reliably at the boundaries of subdialogues with different functions . <S>",
+			"relation": "elab-process_step"
+		}
+	]
+}

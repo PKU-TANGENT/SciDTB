@@ -1,0 +1,100 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We introduce submodular optimization to the problem ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "of training data subset selection for statistical machine translation ( SMT ) . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 4,
+			"text": "By explicitly formulating data selection as a submodular program , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "we obtain fast scalable selection algorithms with mathematical performance guarantees , ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "resulting in a unified framework ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "that clarifies existing approaches ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 4,
+			"text": "and also makes both new and many previous approaches easily accessible . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 8,
+			"parent": 1,
+			"text": "We present a new class of submodular functions ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "designed specifically for SMT ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 8,
+			"text": "and evaluate them on two different translation tasks . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 11,
+			"parent": 12,
+			"text": "Our results show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 12,
+			"parent": 8,
+			"text": "that our best submodular method significantly outperforms several baseline methods , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "including the widely-used cross-entropy based data selection method . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 12,
+			"text": "In addition , our approach easily scales to large data sets ",
+			"relation": "joint"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "and is applicable to other data selection problems in natural language processing . <S>",
+			"relation": "joint"
+		}
+	]
+}

@@ -1,0 +1,100 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We present WIKIREADING , a large-scale natural language understanding task and publicly-available dataset with 18 million instances . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "The task is to predict textual values from the structured knowledge base Wikidata ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "by reading the text of the corresponding Wikipedia articles . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "The task contains a rich variety of challenging classification and extraction sub-tasks , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "making it well-suited for end-to-end models ",
+			"relation": "result"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "such as deep neural networks ( DNNs ) . <S>",
+			"relation": "elab-example"
+		},
+		{
+			"id": 7,
+			"parent": 9,
+			"text": "We compare various state-of-the-art DNN based architectures for document classification , information extraction , and question answering . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 8,
+			"parent": 9,
+			"text": "We find ",
+			"relation": "attribution"
+		},
+		{
+			"id": 9,
+			"parent": 1,
+			"text": "that models ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "supporting a rich answer space , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "such as word or character sequences , ",
+			"relation": "elab-example"
+		},
+		{
+			"id": 12,
+			"parent": 9,
+			"text": "perform best . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 13,
+			"parent": 9,
+			"text": "Our best-performing model , a word-level sequence to sequence model with a mechanism ",
+			"relation": "exp-evidence"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "to copy out-of-vocabulary words , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 13,
+			"text": "obtains an accuracy of 71.8 % . <S>",
+			"relation": "same-unit"
+		}
+	]
+}

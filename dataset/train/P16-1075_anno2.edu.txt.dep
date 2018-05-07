@@ -1,0 +1,88 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 4,
+			"text": "Supervised machine learning models for automated essay scoring ( AES ) usually require substantial task-specific training data ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "in order to make accurate predictions for a particular writing task . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "This limitation hinders their utility , and consequently their deployment in real-world settings . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 0,
+			"text": "In this paper , we overcome this shortcoming ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "using a constrained multi-task pairwisepreference learning approach ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "that enables the data from multiple tasks to be combined effectively . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 9,
+			"text": "Furthermore , contrary to some recent research , ",
+			"relation": "contrast"
+		},
+		{
+			"id": 8,
+			"parent": 9,
+			"text": "we show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 9,
+			"parent": 4,
+			"text": "that high performance AES systems can be built with little or no task-specific training data . <S>",
+			"relation": "progression"
+		},
+		{
+			"id": 10,
+			"parent": 4,
+			"text": "We perform a detailed study of our approach on a publicly available dataset in scenarios ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "where we have varying amounts of task-specific training data ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "and in scenarios ",
+			"relation": "joint"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "where the number of tasks increases . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

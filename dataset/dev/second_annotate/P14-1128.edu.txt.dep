@@ -1,0 +1,82 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This study investigates on building a better Chinese word segmentation model for statistical machine translation . <S>\r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "It aims at leveraging word boundary information , \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "automatically learned by bilingual character-based alignments , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 2,
+			"text": "to induce a preferable segmentation model . <S>\r",
+			"relation": "enablement"
+		},
+		{
+			"id": 5,
+			"parent": 2,
+			"text": "We propose dealing with the induced word boundaries as soft constraints \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "to bias the continuous learning of a supervised CRFs model , \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "trained by the treebank data ( labeled ) ,  on the bilingual data  ( unlabeled ) . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 5,
+			"text": "The induced word boundary information is encoded as a graph propagation constraint . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 5,
+			"text": "The constrained model induction is accomplished \r",
+			"relation": "cause"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "by using posterior regularization algorithm . <S>\r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 11,
+			"parent": 12,
+			"text": "The experiments on a Chinese-to-English machine translation task reveal \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 12,
+			"parent": 2,
+			"text": "that the proposed model can bring positive segmentation effects to translation quality . <S>\r",
+			"relation": "evaluation"
+		}
+	]
+}

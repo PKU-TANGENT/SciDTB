@@ -1,0 +1,64 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We develop a statistical model of saccadic eye movements ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "during reading of isolated sentences . <S>",
+			"relation": "temporal"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "The model is focused on representing individual differences between readers ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "and supports the inference of the most likely reader for a novel set of eye movement patterns . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 5,
+			"parent": 1,
+			"text": "We empirically study the model for biometric reader identification ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "using eye-tracking data ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "collected from 20 individuals ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 9,
+			"text": "and observe ",
+			"relation": "attribution"
+		},
+		{
+			"id": 9,
+			"parent": 5,
+			"text": "that the model distinguishes between 20 readers with an accuracy of up to 98 % . <S>",
+			"relation": "progression"
+		}
+	]
+}

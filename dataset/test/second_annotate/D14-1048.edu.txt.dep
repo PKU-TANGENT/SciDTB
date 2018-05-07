@@ -1,0 +1,34 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We align pairs of English sentences and corresponding Abstract Meaning Representations ( AMR ) , at the token level . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "Such alignments will be useful for downstream extraction of semantic interpretation and generation rules . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "Our method involves linearizing AMR structures and performing symmetrized EM training . <S>",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "We obtain 86.5 % and 83.1 % alignment F score on development and test sets . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

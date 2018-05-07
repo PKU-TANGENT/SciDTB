@@ -1,0 +1,118 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 11,
+			"text": "Accurately segmenting a citation string into fields for authors , titles , etc. is a challenging task \r",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "because the output typically obeys various global constraints . <S>\r",
+			"relation": "exp-reason"
+		},
+		{
+			"id": 3,
+			"parent": 11,
+			"text": "Previous work has shown \r",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "that modeling soft constraints , \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "where the model is encouraged , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "but not require to obey the constraints , \r",
+			"relation": "contrast"
+		},
+		{
+			"id": 7,
+			"parent": 4,
+			"text": "can substantially improve segmentation performance . <S>\r",
+			"relation": "same-unit"
+		},
+		{
+			"id": 8,
+			"parent": 9,
+			"text": "On the other hand , for imposing hard constraints , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 3,
+			"text": "dual decomposition is a popular technique for efficient prediction \r",
+			"relation": "contrast"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "given existing algorithms for unconstrained inference . <S>\r",
+			"relation": "condition"
+		},
+		{
+			"id": 11,
+			"parent": 0,
+			"text": "We extend dual decomposition \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "to perform prediction subject to soft constraints . <S>\r",
+			"relation": "enablement"
+		},
+		{
+			"id": 13,
+			"parent": 15,
+			"text": "Moreover , with a technique for performing inference \r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "given soft constraints , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 11,
+			"text": "it is easy to automatically generate large families of constraints \r",
+			"relation": "progression"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "and learn their costs with a simple convex optimization problem \r",
+			"relation": "joint"
+		},
+		{
+			"id": 17,
+			"parent": 16,
+			"text": "during training . <S>\r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 18,
+			"parent": 11,
+			"text": "This allows us to obtain substantial gains in accuracy on a new , challenging citation extraction dataset . <S>\r",
+			"relation": "evaluation"
+		}
+	]
+}

@@ -1,0 +1,100 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 9,
+			"text": "Modeling relation paths has offered significant gains in embedding models for knowledge base ( KB ) completion . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "However , enumerating paths between two entities is very expensive , ",
+			"relation": "contrast"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "and existing approaches typically resort to approximation with a sampled subset . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "This problem is particularly acute ",
+			"relation": "progression"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "when text is jointly modeled with KB relations ",
+			"relation": "temporal"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "and used ",
+			"relation": "joint"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "to provide direct evidence for facts ",
+			"relation": "enablement"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "mentioned in it . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 0,
+			"text": "In this paper , we propose the first exact dynamic programming algorithm ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "which enables efficient incorporation of all relation paths of bounded length , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "while modeling both relation types and intermediate nodes in the compositional path representations . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 9,
+			"text": "We conduct a theoretical analysis of the efficiency gain from the approach . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 14,
+			"text": "Experiments on two datasets show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 14,
+			"parent": 9,
+			"text": "that it addresses representational limitations in prior approaches ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "and improves accuracy in KB completion . <S>",
+			"relation": "joint"
+		}
+	]
+}

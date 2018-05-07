@@ -1,0 +1,76 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 6,
+			"text": "Transforming syntactic representations ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "in order to improve parsing accuracy ",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "has been exploited successfully in statistical parsing systems ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "using constituency-based representations . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 5,
+			"parent": 6,
+			"text": "In this paper , we show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 6,
+			"parent": 0,
+			"text": "that similar transformations can give substantial improvements also in data-driven dependency parsing . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 7,
+			"parent": 8,
+			"text": "Experiments on the Prague Dependency Treebank show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 8,
+			"parent": 6,
+			"text": "that systematic transformations of coordinate structures and verb groups result in a 10 % error reduction for a deterministic data-driven dependency parser . <S>",
+			"relation": "evaluation"
+		},
+		{
+			"id": 9,
+			"parent": 6,
+			"text": "Combining these transformations with previously proposed techniques ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "for recovering nonprojective dependencies ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 9,
+			"text": "leads to state-of-the-art accuracy for the given data set . <S> ",
+			"relation": "same-unit"
+		}
+	]
+}

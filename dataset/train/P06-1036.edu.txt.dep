@@ -1,0 +1,88 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "A good dictionary contains not only many entries and a lot of information ",
+			"relation": "progression"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "concerning each one of them , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 6,
+			"text": "but also adequate means ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "to reveal the stored information . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "Information access depends crucially on the quality of the index . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 0,
+			"text": "We will present here some ideas ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "of how a dictionary could be enhanced ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "to support a speaker/writer to find the word s/he is looking for . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 9,
+			"parent": 6,
+			"text": "To this end we suggest to add to an existing electronic resource an index ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "based on the notion of association . <S>",
+			"relation": "bg-general"
+		},
+		{
+			"id": 11,
+			"parent": 6,
+			"text": "We will also present preliminary work ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "of how a subset of such associations , for example , topical associations , can be acquired by filtering a network of lexical co-occurrences ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "extracted from a corpus . <S>        ",
+			"relation": "elab-addition"
+		}
+	]
+}

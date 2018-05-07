@@ -1,0 +1,136 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 8,
+			"text": "Estimating questions' difficulty levels is an important task in community question answering ( CQA ) services . <S>",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "Previous studies propose to solve this problem based on the question-user comparisons ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "extracted from the question answering threads . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 2,
+			"text": "However , they suffer from data sparseness problem ",
+			"relation": "contrast"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "as each question only gets a limited number of comparisons . <S>",
+			"relation": "cause"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "Moreover , they cannot handle newly posted questions ",
+			"relation": "progression"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "which get no comparisons . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 0,
+			"text": "In this paper , we propose a novel question difficulty estimation approach ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "called Regularized Competition Model ( RCM ) , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "which naturally combines question-user comparisons and questions' textual descriptions into a unified framework . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 12,
+			"text": "By incorporating textual information , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 12,
+			"parent": 9,
+			"text": "RCM can effectively deal with data sparseness problem . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 8,
+			"text": "We further employ a K-Nearest Neighbor approach ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "to estimate difficulty levels of newly posted questions , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "again by leveraging textual similarities . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 16,
+			"parent": 8,
+			"text": "Experiments on two publicly available data sets show ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 17,
+			"parent": 16,
+			"text": "that for both well-resolved and newly-posted questions , RCM performs the estimation task significantly better than existing methods , ",
+			"relation": "attribution"
+		},
+		{
+			"id": 18,
+			"parent": 17,
+			"text": "demonstrating the advantage of incorporating textual information . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 19,
+			"parent": 16,
+			"text": "More interestingly , we observe ",
+			"relation": "progression"
+		},
+		{
+			"id": 20,
+			"parent": 19,
+			"text": "that RCM might provide an automatic way ",
+			"relation": "attribution"
+		},
+		{
+			"id": 21,
+			"parent": 20,
+			"text": "to quantitatively measure the knowledge levels of words . <S>",
+			"relation": "enablement"
+		}
+	]
+}

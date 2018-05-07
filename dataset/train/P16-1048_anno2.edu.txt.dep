@@ -1,0 +1,118 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 5,
+			"text": "Most sentence embedding models typically represent each sentence ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "only using word surface , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "which makes these models indiscriminative for ubiquitous homonymy and polysemy . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 5,
+			"text": "In order to enhance representation capability of sentence , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 5,
+			"parent": 0,
+			"text": "we employ conceptualization model ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "to assign associated concepts for each sentence in the text corpus , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "and then learn conceptual sentence embedding ( CSE ) . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 8,
+			"parent": 5,
+			"text": "Hence , this semantic representation is more expressive than some widely-used text representation models ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "such as latent topic model , ",
+			"relation": "elab-example"
+		},
+		{
+			"id": 10,
+			"parent": 8,
+			"text": "especially for short-text . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 5,
+			"text": "Moreover , we further extend CSE models ",
+			"relation": "progression"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "by utilizing a local attention-based model ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "that select relevant words within the context ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "to make more efficient prediction . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 15,
+			"parent": 18,
+			"text": "In the experiments , we evaluate the CSE models on two tasks , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "text classification and information retrieval . <S>",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 17,
+			"parent": 18,
+			"text": "The experimental results show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 18,
+			"parent": 5,
+			"text": "that the proposed models outperform typical sentence embed-ding models . <S>     ",
+			"relation": "evaluation"
+		}
+	]
+}

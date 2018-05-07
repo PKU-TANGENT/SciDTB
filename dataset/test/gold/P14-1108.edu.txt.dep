@@ -1,0 +1,124 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We introduce a novel approach \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "for building language models \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "based on a systematic , recursive exploration of skip n-gram models \r",
+			"relation": "bg-general"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "which are interpolated \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "using modified Kneser-Ney smoothing . <S>\r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "Our approach generalizes language models \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "as it contains the classical interpolation with lower order models as a special case . <S>\r",
+			"relation": "exp-reason"
+		},
+		{
+			"id": 8,
+			"parent": 1,
+			"text": "In this paper we motivate , formalize and present our approach . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 10,
+			"text": "In an extensive empirical experiment over English text corpora we demonstrate \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 10,
+			"parent": 1,
+			"text": "that our generalized language models lead to a substantial reduction of perplexity between 3.1 % and 12.7 % \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "in comparison to traditional language models \r",
+			"relation": "comparison"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "using modified Kneser-Ney smoothing . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 1,
+			"text": "Furthermore , we investigate the behaviour over three other languages and a domain specific corpus \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "where we observed consistent improvements . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 16,
+			"text": "Finally , we also show \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 16,
+			"parent": 1,
+			"text": "that the strength of our approach lies in its ability \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 17,
+			"parent": 16,
+			"text": "to cope in particular with sparse training data . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 18,
+			"parent": 19,
+			"text": "Using a very small training data set of only 736 KB text \r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 19,
+			"parent": 16,
+			"text": "we yield improvements of even 25.7 % reduction of perplexity . <S>\r",
+			"relation": "exp-evidence"
+		}
+	]
+}

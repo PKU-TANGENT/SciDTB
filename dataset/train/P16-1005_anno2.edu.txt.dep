@@ -1,0 +1,118 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "Slot filling aims to extract the values ( slot fillers ) of specific attributes ( slots types ) for a given entity ( query ) from a largescale corpus . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 3,
+			"text": "Slot filling remains very challenging over the past seven years . <S>",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 3,
+			"parent": 0,
+			"text": "We propose a simple yet effective unsupervised approach ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "to extract slot fillers ",
+			"relation": "enablement"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "based on the following two observations : ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "( 1 ) a trigger is usually a salient node relative to the query and filler nodes in the dependency graph of a context sentence ; ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 5,
+			"text": "( 2 ) a relation is likely to exist ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "if the query and candidate filler nodes are strongly connected by a relation-specific trigger . <S>",
+			"relation": "condition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "Thus we design a graph-based algorithm ",
+			"relation": "result"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "to automatically identify triggers ",
+			"relation": "enablement"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "based on personalized PageRank and Affinity Propagation for a given ( query , filler ) pair ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 12,
+			"parent": 10,
+			"text": "and then label the slot type ",
+			"relation": "joint"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "based on the identified triggers . <S>",
+			"relation": "bg-general"
+		},
+		{
+			"id": 14,
+			"parent": 3,
+			"text": "Our approach achieves 11.6 % -25 % higher F-score over state-ofthe-art English slot filling methods . <S>",
+			"relation": "evaluation"
+		},
+		{
+			"id": 15,
+			"parent": 17,
+			"text": "Our experiments also demonstrate ",
+			"relation": "attribution"
+		},
+		{
+			"id": 16,
+			"parent": 17,
+			"text": "that as long as a few trigger seeds , name tagging and dependency parsing capabilities exist , ",
+			"relation": "condition"
+		},
+		{
+			"id": 17,
+			"parent": 14,
+			"text": "this approach can be quickly adapted to any language and new slot types . <S>",
+			"relation": "progression"
+		},
+		{
+			"id": 18,
+			"parent": 3,
+			"text": "Our promising results on Chinese slot filling can serve as a new benchmark . <S>",
+			"relation": "summary"
+		}
+	]
+}

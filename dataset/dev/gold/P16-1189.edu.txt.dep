@@ -1,0 +1,82 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We describe and evaluate a simple method ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "to extract parallel sentences from comparable corpora . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "The approach , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "termed STACC , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "is based on expanded lexical sets and the Jaccard similarity coefficient . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 6,
+			"parent": 8,
+			"text": "We evaluate our system against state-of-theart methods on a large range of datasets in different domains , for ten language pairs , ",
+			"relation": "result"
+		},
+		{
+			"id": 7,
+			"parent": 8,
+			"text": "showing ",
+			"relation": "attribution"
+		},
+		{
+			"id": 8,
+			"parent": 1,
+			"text": "that it either matches or outperforms current methods across the board ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "and gives significantly better results on the noisiest datasets . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 10,
+			"parent": 1,
+			"text": "STACC is a portable method , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "requiring no particular adaptation for new domains or language pairs , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "thus enabling the efficient mining of parallel sentences in comparable corpora . <S>",
+			"relation": "cause"
+		}
+	]
+}

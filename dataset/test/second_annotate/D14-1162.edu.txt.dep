@@ -1,0 +1,106 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 4,
+			"text": "Recent methods for learning vector space representations of words have succeeded ",
+			"relation": "contrast"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "in capturing fine-grained semantic and syntactic regularities ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "using vector arithmetic , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 4,
+			"parent": 5,
+			"text": "but the origin of these regularities has remained opaque . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 5,
+			"parent": 0,
+			"text": "We analyze and make explicit the model properties ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "needed for such regularities ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 5,
+			"text": "to emerge in word vectors . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 8,
+			"parent": 5,
+			"text": "The result is a new global log-bilinear regression model ",
+			"relation": "progression"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "that combines the advantages of the two major model families in the literature : ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "global matrix factorization and local context window methods . <S>",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 11,
+			"parent": 8,
+			"text": "Our model efficiently leverages statistical information ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "by training only on the nonzero elements in a word-word co-occurrence matrix , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "rather than on the entire sparse matrix or on individual context windows in a large corpus . <S>",
+			"relation": "contrast"
+		},
+		{
+			"id": 14,
+			"parent": 8,
+			"text": "The model produces a vector space with meaningful sub-structure , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "as evidenced by its performance of 75 % on a recent word analogy task . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 16,
+			"parent": 14,
+			"text": "It also outperforms related models on similarity tasks and named entity recognition . <S>",
+			"relation": "joint"
+		}
+	]
+}

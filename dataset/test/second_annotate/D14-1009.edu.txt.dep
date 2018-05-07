@@ -1,0 +1,64 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We present STIR ( STrongly Incremental Repair detection ) , a system ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "that detects speech repairs ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "and edit terms on transcripts incrementally with minimal latency . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "STIR uses information-theoretic measures from n-gram models as its principal decision features in a pipeline of classifiers ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "detecting the different stages of repairs . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "Results on the Switchboard disfluency tagged corpus show utterance-final accuracy on a par with state-of-the-art incremental repair detection methods , but with better incremental accuracy , faster time-to-detection and less computational overhead . <S>",
+			"relation": "evaluation"
+		},
+		{
+			"id": 7,
+			"parent": 1,
+			"text": "We evaluate its performance ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "using incremental metrics ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 9,
+			"parent": 7,
+			"text": "and propose new repair processing evaluation standards . <S>",
+			"relation": "joint"
+		}
+	]
+}

@@ -1,0 +1,64 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "The psycholinguistic literature provides evidence for syntactic priming , i.e. , the tendency ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "to repeat structures . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 0,
+			"text": "This paper describes a method ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "for incorporating priming into an incremental probabilistic parser . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "Three models are compared , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "which involve priming of rules between sentences , within sentences , and within coordinate structures . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 5,
+			"text": "These models simulate the reading time advantage for parallel structures ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "found in human data , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 7,
+			"text": "and also yield a small increase in overall parsing accuracy . <S>",
+			"relation": "joint"
+		}
+	]
+}

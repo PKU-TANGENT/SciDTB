@@ -1,0 +1,94 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We discuss ways ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "of allowing the users of a natural language processor to define , examine , and modify the definitions of any domain-specific words or phrases ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "known to the system . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 7,
+			"text": "An implementation of this work forms a critical portion of the knowledge acquisition component of our Transportable English-Language Interface ( TELl ) , ",
+			"relation": "contrast"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "which answers English questions about tabular ( first normal-form ) data files ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "and runs on a Symbolics Lisp Machine . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 7,
+			"parent": 1,
+			"text": "However , our techniques enable the design of customization modules ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "that are largely independent of the syntactic and retrieval components of the specific system ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "they supply information to . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 7,
+			"text": "In addition to its obvious practical value , this area of research is important ",
+			"relation": "joint"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "because it requires careful attention to the formalisms ",
+			"relation": "exp-reason"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "used by a natural language system ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 11,
+			"text": "and to the interactions among the modules ",
+			"relation": "joint"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "based on those formalisms . <S>   ",
+			"relation": "bg-general"
+		}
+	]
+}

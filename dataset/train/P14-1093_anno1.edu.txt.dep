@@ -1,0 +1,124 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We propose a supervised method \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "of extracting event causalities like conduct slash-and-burn agriculture→exacerbate desertification from the web \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "using semantic relation \r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "( between nouns )\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": ", context , and association features . <S>\r",
+			"relation": "same-unit"
+		},
+		{
+			"id": 6,
+			"parent": 7,
+			"text": "Experiments show \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 7,
+			"parent": 1,
+			"text": "that our method outperforms baselines \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "that are based on state-of-the-art methods . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 1,
+			"text": "We also propose methods \r",
+			"relation": "joint"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "of generating future scenarios like conduct slash-and-burn agriculture→exacerbate desertification→increase Asian dust (from China)→asthma gets worse . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 12,
+			"text": "Experiments show \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 12,
+			"parent": 9,
+			"text": "that we can generate 50,000 scenarios with 68 % precision . <S>\r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 13,
+			"parent": 9,
+			"text": "We also generated a scenario deforestation continues→global warming worsens→sea temperatures rise→vibrio parahaemolyticus fouls (water) , \r",
+			"relation": "elab-example"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "which is written in no document in our input web corpus \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "crawled in 2007 . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 16,
+			"parent": 13,
+			"text": "But the vibrio risk \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 17,
+			"parent": 16,
+			"text": "due to global warming \r",
+			"relation": "exp-reason"
+		},
+		{
+			"id": 18,
+			"parent": 16,
+			"text": "was observed in Baker-Austin et al. ( 2013 ) . <S>\r",
+			"relation": "same-unit"
+		},
+		{
+			"id": 19,
+			"parent": 16,
+			"text": "Thus, we \" predicted \" the future event sequence in a sense . <S>\r",
+			"relation": "summary"
+		}
+	]
+}

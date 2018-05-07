@@ -1,0 +1,46 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We present WiBi , an approach to the automatic creation of a bitaxonomy for Wikipedia , \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "that is , an integrated taxonomy of Wikipage pages and categories . <S>\r",
+			"relation": "elab-definition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "We leverage the information available in either one of the taxonomies \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "to reinforce the creation of the other taxonomy . <S>\r",
+			"relation": "enablement"
+		},
+		{
+			"id": 5,
+			"parent": 1,
+			"text": "Our experiments show higher quality and coverage than state-of-the-art resources like DBpedia , YAGO , MENTA , WikiNet and WikiTaxonomy . <S>\r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "WiBi is available at http : //wibitaxonomy.org . <S>\r",
+			"relation": "elab-addition"
+		}
+	]
+}

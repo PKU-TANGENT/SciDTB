@@ -1,0 +1,52 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 2,
+			"text": "In this paper , we show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 2,
+			"parent": 0,
+			"text": "that Higher-Order Coloured Unification - a form of unification ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "developed for automated theorem proving - ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 2,
+			"text": "provides a general theory ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 5,
+			"parent": 2,
+			"text": "for modeling the interface between the interpretation process and other sources of linguistic , non semantic information . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 6,
+			"parent": 2,
+			"text": "In particular , it provides the general theory for the Primary Occurrence Restriction ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "which ( Dalrymple et al. , 1991 ) 's analysis called for . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

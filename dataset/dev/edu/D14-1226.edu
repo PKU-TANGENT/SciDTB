@@ -1,0 +1,13 @@
+A typical discussion thread in an online forum spans multiple pages 
+involving participation from multiple users 
+and thus , may contain multiple view-points and solutions . <S>
+A user 
+interested in the topic of discussion 
+or having a problem similar to being discussed in the thread 
+may not want to read all the previous posts but only a few selected posts 
+that provide her a concise summary of the ongoing discussion . <S>
+This paper describes an extractive summarization technique 
+that uses textual features and dialog act information of individual messages 
+to select a subset of posts . <S>
+Proposed approach is evaluated 
+using two real life forum datasets . <S>

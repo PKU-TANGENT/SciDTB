@@ -1,0 +1,112 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 7,
+			"text": "We present methods ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "to control the lexicon size ",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "when learning a Combinatory Categorial Grammar semantic parser . <S>",
+			"relation": "temporal"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "Existing methods incrementally expand the lexicon ",
+			"relation": "contrast"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "by greedily adding entries , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "considering a single training datapoint at a time . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 0,
+			"text": "We propose using corpus-level statistics for lexicon learning decisions . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "We introduce voting ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "to globally consider adding entries to the lexicon , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 10,
+			"parent": 8,
+			"text": "and pruning ",
+			"relation": "joint"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "to remove entries ",
+			"relation": "enablement"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "no longer required to explain the training data . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 7,
+			"text": "Our methods result in state-of-the-art performance on the task of executing sequences of natural language instructions , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "achieving up to 25 % error reduction , ",
+			"relation": "exp-evidence"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "with lexicons ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "that are up to 70 % smaller ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 17,
+			"parent": 16,
+			"text": "and are qualitatively less noisy . <S>",
+			"relation": "joint"
+		}
+	]
+}

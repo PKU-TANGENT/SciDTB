@@ -1,0 +1,82 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "In this paper , we present Espresso , a weakly-supervised , general-purpose , and accurate algorithm ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "for harvesting semantic relations . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "The main contributions are : ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "i ) a method for exploiting generic patterns",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "by filtering incorrect instances ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "using the Web ; ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 7,
+			"parent": 3,
+			"text": "and ii ) a principled measure of pattern and instance reliability ",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "enabling the filtering algorithm . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 1,
+			"text": "We present an empirical comparison of Espresso with various state of the art systems , on different size and genre corpora , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "on extracting various general and specific relations . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 12,
+			"text": "Experimental results show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 12,
+			"parent": 9,
+			"text": "that our exploitation of generic patterns substantially increases system recall with small effect on overall precision . <S> ",
+			"relation": "evaluation"
+		}
+	]
+}

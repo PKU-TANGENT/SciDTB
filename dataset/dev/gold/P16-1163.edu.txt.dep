@@ -1,0 +1,142 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 7,
+			"text": "Word pairs , ",
+			"relation": "contrast"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "which are one of the most easily accessible features between two text segments , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "have been proven to be very useful ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "for detecting the discourse relations ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "held between text segments . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 7,
+			"text": "However , because of the data sparsity problem , ",
+			"relation": "exp-reason"
+		},
+		{
+			"id": 7,
+			"parent": 10,
+			"text": "the performance ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "achieved by using word pair features ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 7,
+			"text": "is limited . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 10,
+			"parent": 11,
+			"text": "In this paper , in order to overcome the data sparsity problem , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 11,
+			"parent": 0,
+			"text": "we propose the use of word embeddings ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "to replace the original words . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 13,
+			"parent": 10,
+			"text": "Moreover , we adopt a gated relevance network ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "to capture the semantic interaction between word pairs , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 15,
+			"parent": 13,
+			"text": "and then aggregate those semantic interactions ",
+			"relation": "progression"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "using a pooling layer ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 17,
+			"parent": 16,
+			"text": "to select the most informative interactions . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 18,
+			"parent": 19,
+			"text": "Experimental results on Penn Discourse Tree Bank show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 19,
+			"parent": 10,
+			"text": "that the proposed method ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 20,
+			"parent": 19,
+			"text": "without using manually designed features ",
+			"relation": "condition"
+		},
+		{
+			"id": 21,
+			"parent": 19,
+			"text": "can achieve better performance ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 22,
+			"parent": 21,
+			"text": "on recognizing the discourse level relations in all of the relations . <S> ",
+			"relation": "elab-addition"
+		}
+	]
+}

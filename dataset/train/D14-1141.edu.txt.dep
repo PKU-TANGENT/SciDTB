@@ -1,0 +1,100 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 5,
+			"text": "The task of unsupervised induction of probabilistic context-free grammars ( PCFGs ) has attracted a lot of attention in the field of computational linguistics . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 3,
+			"text": "Although it is a difficult task , ",
+			"relation": "contrast"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "work in this area is still very much in demand ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "since it can contribute to the advancement of language parsing and modelling . <S>",
+			"relation": "cause"
+		},
+		{
+			"id": 5,
+			"parent": 0,
+			"text": "In this work , we describe a new algorithm for PCFG induction ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "based on a principled approach ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "and capable of inducing accurate yet compact artificial natural language grammars and typical context-free grammars . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 8,
+			"parent": 5,
+			"text": "Moreover , this algorithm can work on large grammars and datasets ",
+			"relation": "progression"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "and infers correctly even from small samples . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 10,
+			"parent": 5,
+			"text": "Our analysis shows ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "that the type of grammars ",
+			"relation": "attribution"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "induced by our algorithm ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 11,
+			"text": "are , in theory , capable of modelling natural language . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 14,
+			"parent": 10,
+			"text": "One of our experiments shows ",
+			"relation": "exp-evidence"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "that our algorithm can potentially outperform the state-of-the-art in unsupervised parsing on the WSJ10 corpus . <S>",
+			"relation": "attribution"
+		}
+	]
+}

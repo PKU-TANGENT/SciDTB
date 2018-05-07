@@ -1,0 +1,17 @@
+Natural touch interfaces , common now in devices such as tablets and smartphones , make it cumbersome for users to select text . <S>
+There is a need for a new text selection paradigm 
+that goes beyond the high acuity selection-by-mouse 
+that we have relied on for decades . <S>
+In this paper , we introduce such a paradigm , 
+called Smart Selection , 
+which aims to recover a user's intended text selection from her touch input . <S>
+We model the problem 
+using an ensemble learning approach , 
+which leverages multiple linguistic analysis techniques 
+combined with information from a knowledge base and a Web graph . <S>
+We collect a dataset of true intended user selections and simulated user touches 
+via a large-scale crowdsourcing task , 
+which we release to the academic community . <S>
+We show 
+that our model effectively addresses the smart selection task 
+and significantly outperforms various baselines and standalone linguistic analysis techniques . <S>

@@ -1,0 +1,10 @@
+Multi-label text categorization ( MTC ) is supervised learning , 
+where a document may be assigned with multiple categories ( labels ) simultaneously . <S>
+The labels in the MTC are correlated 
+and the correlation results in some hidden components , 
+which represent the "share" variance of correlated labels . <S>
+In this paper , we propose a method with hidden components for MTC . <S>
+The proposed method employs PCA to capture the hidden components , 
+and incorporates them into a joint learning framework 
+to improve the performance . <S>
+Experiments with real-world data sets and evaluation metrics validate the effectiveness of the proposed method . <S>

@@ -1,0 +1,94 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "Many forms of word relatedness have been developed , ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "providing different perspectives on word similarity . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 0,
+			"text": "We introduce a Bayesian probabilistic tensor factorization model ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "for synthesizing a single word vector representation ",
+			"relation": "enablement"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "and per-perspective linear transformations from any number of word similarity matrices . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 6,
+			"parent": 8,
+			"text": "The resulting word vectors , ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 7,
+			"parent": 8,
+			"text": "when combined with the per-perspective linear transformation , ",
+			"relation": "temporal"
+		},
+		{
+			"id": 8,
+			"parent": 3,
+			"text": "approximately recreate ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "while also regularizing and generalizing , ",
+			"relation": "temporal"
+		},
+		{
+			"id": 10,
+			"parent": 8,
+			"text": "each word similarity perspective . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 11,
+			"parent": 3,
+			"text": "Our method can combine manually created semantic resources with neural word embeddings to separate synonyms and antonyms , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "and is capable of generalizing to words outside the vocabulary of any particular perspective . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 13,
+			"parent": 14,
+			"text": "We evaluated the word embeddings with GRE antonym questions , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 14,
+			"parent": 3,
+			"text": "the result achieves the state-of-the-art performance . <S>  ",
+			"relation": "evaluation"
+		}
+	]
+}

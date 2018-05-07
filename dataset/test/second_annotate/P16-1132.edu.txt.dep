@@ -1,0 +1,70 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We propose a novel reranking method ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "to extend a deterministic neural dependency parser . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 4,
+			"text": "Different to conventional k-best reranking , ",
+			"relation": "contrast"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "the proposed model integrates search and learning ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "by utilizing a dynamic action revising process , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "using the reranking model ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "to guide modification for the base outputs ",
+			"relation": "enablement"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "and to rerank the candidates . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 9,
+			"parent": 1,
+			"text": "The dynamic reranking model achieves an absolute 1.78 % accuracy improvement over the deterministic baseline parser on PTB , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "which is the highest improvement by neural rerankers in the literature . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

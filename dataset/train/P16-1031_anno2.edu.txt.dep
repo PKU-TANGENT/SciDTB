@@ -1,0 +1,166 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 5,
+			"text": "Sentiment classification aims to automatically predict sentiment polarity ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "( e.g. , positive or negative ) ",
+			"relation": "elab-example"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "of user generated sentiment data ( e.g. , reviews , blogs ) . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 5,
+			"text": "Due to the mismatch among different domains , ",
+			"relation": "exp-reason"
+		},
+		{
+			"id": 5,
+			"parent": 9,
+			"text": "a sentiment classifier ",
+			"relation": "cause"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "trained in one domain ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 5,
+			"text": "may not work well ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "when directly applied to other domains . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 11,
+			"text": "Thus , domain adaptation for sentiment classification algorithms are highly desirable to reduce the domain discrepancy and manual labeling costs . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 10,
+			"parent": 11,
+			"text": "To address the above challenge , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 11,
+			"parent": 0,
+			"text": "we propose a novel domain adaptation method , ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "called Bi-Transferring Deep Neural Networks ( BTDNNs ) . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 11,
+			"text": "The proposed BTDNNs attempts to transfer the source domain examples to the target domain , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "and also transfer the target domain examples to the source domain . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 15,
+			"parent": 13,
+			"text": "The linear transformation of BTDNNs ensures the feasibility of transferring between domains , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "and the distribution consistency between the transferred domain and the desirable domain is constrained with a linear data reconstruction manner . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 17,
+			"parent": 15,
+			"text": "As a result , the transferred source domain is supervised ",
+			"relation": "result"
+		},
+		{
+			"id": 18,
+			"parent": 17,
+			"text": "and follows similar distribution as the target domain . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 19,
+			"parent": 17,
+			"text": "Therefore , any supervised method can be used on the transferred source domain ",
+			"relation": "result"
+		},
+		{
+			"id": 20,
+			"parent": 19,
+			"text": "to train a classifier for sentiment classification in a target domain . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 21,
+			"parent": 24,
+			"text": "We conduct experiments on a benchmark ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 22,
+			"parent": 21,
+			"text": "composed of reviews of 4 types of Amazon products . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 23,
+			"parent": 24,
+			"text": "Experimental results show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 24,
+			"parent": 11,
+			"text": "that our proposed approach significantly outperforms the several baseline methods , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 25,
+			"parent": 24,
+			"text": "and achieves an accuracy ",
+			"relation": "joint"
+		},
+		{
+			"id": 26,
+			"parent": 25,
+			"text": "which is competitive with the state-of-the-art method for domain adaptation . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

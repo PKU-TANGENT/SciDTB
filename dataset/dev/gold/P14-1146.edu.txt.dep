@@ -1,0 +1,130 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We present a method \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "that learns word embedding for Twitter sentiment classification in this paper . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 4,
+			"text": "Most existing algorithms for learning continuous word representations typically only model the syntactic context of words \r",
+			"relation": "contrast"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "but ignore the sentiment of text . <S>\r",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "This is problematic for sentiment analysis \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "as they usually map words with similar syntactic context but opposite sentiment polarity , such as good and bad , to neighboring word vectors . <S>\r",
+			"relation": "exp-reason"
+		},
+		{
+			"id": 7,
+			"parent": 1,
+			"text": "We address this issue \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "by learning sentiment-specific word embedding ( SSWE ) , \r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "which encodes sentiment information in the continuous representation of words . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 7,
+			"text": "Specifically , we develop three neural networks \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "to effectively incorporate the supervision from sentiment polarity of text \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "( e.g. sentences or tweets ) \r",
+			"relation": "elab-example"
+		},
+		{
+			"id": 13,
+			"parent": 11,
+			"text": "in their loss functions . <S>\r",
+			"relation": "same-unit"
+		},
+		{
+			"id": 14,
+			"parent": 15,
+			"text": "To obtain large scale training corpora , \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 15,
+			"parent": 1,
+			"text": "we learn the sentiment-specific word embedding from massive distant-supervised tweets \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "collected by positive and negative emoticons . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 17,
+			"parent": 18,
+			"text": "Experiments on applying SSWE to a benchmark Twitter sentiment classification dataset in SemEval 2013 show \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 18,
+			"parent": 1,
+			"text": "that ( 1 ) the SSWE feature performs comparably with hand-crafted features in the top-performed system \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 19,
+			"parent": 18,
+			"text": "; ( 2 ) the performance is further improved \r",
+			"relation": "joint"
+		},
+		{
+			"id": 20,
+			"parent": 19,
+			"text": "by concatenating SSWE with existing feature set . <S>\r",
+			"relation": "manner-means"
+		}
+	]
+}

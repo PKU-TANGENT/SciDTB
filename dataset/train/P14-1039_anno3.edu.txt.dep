@@ -1,0 +1,142 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We investigate whether parsers can be used for self-monitoring in surface realization \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "in order to avoid egregious errors \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "involving \"vicious\" ambiguities , \r",
+			"relation": "elab-example"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "namely those \r",
+			"relation": "elab-definition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "where the intended interpretation fails to be considerably more likely than alternative ones . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 7,
+			"text": "Using parse accuracy in a simple reranking strategy for selfmonitoring , \r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 7,
+			"parent": 1,
+			"text": "we find \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 8,
+			"parent": 9,
+			"text": "that with a state-of-the-art averaged perceptron realization ranking model , \r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 9,
+			"parent": 7,
+			"text": "BLEU scores cannot be improved \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "with any of the well-known Treebank parsers \r",
+			"relation": "condition"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "we tested , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 9,
+			"text": "since these parsers too often make errors \r",
+			"relation": "exp-reason"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "that human readers would be unlikely to make . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 17,
+			"text": "However , by using an SVM ranker \r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "to combine the realizer's model score together with features from multiple parsers , \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "including ones designed to make the ranker more robust to parsing mistakes , \r",
+			"relation": "elab-example"
+		},
+		{
+			"id": 17,
+			"parent": 18,
+			"text": "we show \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 18,
+			"parent": 1,
+			"text": "that significant increases in BLEU scores can be achieved . <S>\r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 19,
+			"parent": 20,
+			"text": "Moreover , via a targeted manual analysis , \r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 20,
+			"parent": 21,
+			"text": "we demonstrate \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 21,
+			"parent": 1,
+			"text": "that the SVM reranker frequently manages to avoid vicious ambiguities , \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 22,
+			"parent": 21,
+			"text": "while its ranking errors tend to affect fluency much more often than adequacy . <S>\r",
+			"relation": "temporal"
+		}
+	]
+}

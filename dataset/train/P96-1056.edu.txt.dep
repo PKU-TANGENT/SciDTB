@@ -1,0 +1,76 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This paper describes the incremental generation of parse tables for the LRtype parsing of Tree Adjoining Languages ( TALs ) . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 5,
+			"text": "The algorithm presented handles modifications to the input grammar ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "by updating the parser ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "generated so far . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 1,
+			"text": "In this paper , a lazy generation of LRtype parsers for TALs is defined ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "in which parse tables are created by need ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "while parsing . <S>",
+			"relation": "temporal"
+		},
+		{
+			"id": 8,
+			"parent": 1,
+			"text": "We then describe an incremental parser generator for TALs ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "which responds to modification of the input grammar ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "by updating parse tables ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "built so far . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

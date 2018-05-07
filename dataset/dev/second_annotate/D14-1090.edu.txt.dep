@@ -1,0 +1,118 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 9,
+			"text": "Several state-of-the-art event extraction systems employ models ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "based on Support Vector Machines ( SVMs ) in a pipeline architecture , ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "which fails to exploit the joint dependencies ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "that typically exist among events and arguments . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 7,
+			"text": "While there have been attempts to overcome this limitation ",
+			"relation": "contrast"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "using Markov Logic Networks ( MLNs ) , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 7,
+			"parent": 9,
+			"text": "it remains challenging to perform joint inference in MLNs ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "when the model encodes many high-dimensional sophisticated features such as those essential for event extraction . <S>",
+			"relation": "temporal"
+		},
+		{
+			"id": 9,
+			"parent": 0,
+			"text": "In this paper , we propose a new model for event extraction ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "that combines the power of MLNs and SVMs , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "dwarfing their limitations . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 9,
+			"text": "The key idea is to reliably learn and process high-dimensional features ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "using SVMs ; ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 14,
+			"parent": 12,
+			"text": "encode the output of SVMs as low-dimensional , soft formulas in MLNs ; ",
+			"relation": "joint"
+		},
+		{
+			"id": 15,
+			"parent": 12,
+			"text": "and use the superior joint inferencing power of MLNs ",
+			"relation": "joint"
+		},
+		{
+			"id": 16,
+			"parent": 12,
+			"text": "to enforce joint consistency constraints over the soft formulas . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 17,
+			"parent": 18,
+			"text": "We evaluate our approach for the task of extracting biomedical events on the BioNLP 2013 , 2011 and 2009 Genia shared task datasets . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 18,
+			"parent": 9,
+			"text": "Our approach yields the best F1 score to date on the BioNLP'13 ( 53.61 ) and BioNLP'11 ( 58.07 ) datasets and the second-best F1 score to date on the BioNLP'09 dataset ( 58.16 ) . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

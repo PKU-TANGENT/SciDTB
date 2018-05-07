@@ -1,0 +1,14 @@
+Discriminative translation models 
+utilizing source context 
+have been shown to help statistical machine translation performance . <S>
+We propose a novel extension of this work 
+using target context information . <S>
+Surprisingly , we show 
+that this model can be efficiently integrated directly in the decoding process . <S>
+Our approach scales to large training data sizes 
+and results in consistent improvements in translation quality on four language pairs . <S>
+We also provide an analysis 
+comparing the strengths of the baseline source-context model with our extended source-context and targetcontext model 
+and we show 
+that our extension allows us to better capture morphological coherence . <S>
+Our work is freely available as part of Moses . <S>

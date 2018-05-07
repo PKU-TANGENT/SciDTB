@@ -1,0 +1,106 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "How can we enable computers to automatically answer questions ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "like `` Who created the character Harry Potter '' ? <S>",
+			"relation": "elab-example"
+		},
+		{
+			"id": 3,
+			"parent": 4,
+			"text": "Carefully built knowledge bases provide rich sources of facts . <S>",
+			"relation": "contrast"
+		},
+		{
+			"id": 4,
+			"parent": 7,
+			"text": "However , it remains a challenge to answer factoid questions ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "raised in natural language ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "due to numerous expressions of one question . <S>",
+			"relation": "exp-reason"
+		},
+		{
+			"id": 7,
+			"parent": 9,
+			"text": "In particular , we focus on the most common questions - ones ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "that can be answered with a single fact in the knowledge base . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 0,
+			"text": "We propose CFO , a Conditional Focused neuralnetwork-based approach ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "to answering factoid questions with knowledge bases . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 9,
+			"text": "Our approach first zooms in a question ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "to find more probable candidate subject mentions , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 13,
+			"parent": 11,
+			"text": "and infers the final answers with a unified conditional probabilistic framework . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 14,
+			"parent": 15,
+			"text": "Powered by deep recurrent neural networks and neural embeddings , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 9,
+			"text": "our proposed CFO achieves an accuracy of 75.7 % on a dataset of 108k questions - the largest public one to date . <S>",
+			"relation": "evaluation"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "It outperforms the current state of the art by an absolute margin of 11.8 % . <S>",
+			"relation": "result"
+		}
+	]
+}

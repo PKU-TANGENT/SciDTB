@@ -1,0 +1,94 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 4,
+			"text": "For many applications , the query speed of N-gram language models is a computational bottleneck . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 3,
+			"text": "Although massively parallel hardware like GPUs offer a potential solution to this bottleneck , ",
+			"relation": "contrast"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "exploiting this hardware requires a careful rethinking of basic algorithms and data structures . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 0,
+			"text": "We present the first language model ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "designed for such hardware , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "using B-trees ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "to maximize data parallelism ",
+			"relation": "enablement"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "and minimize memory footprint and latency . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 9,
+			"parent": 10,
+			"text": "Compared with a single-threaded instance of KenLM ( Heafield , 2011 ) , a highly optimized CPUbased language model , ",
+			"relation": "comparison"
+		},
+		{
+			"id": 10,
+			"parent": 4,
+			"text": "our GPU implementation produces identical results with a smaller memory footprint and a sixfold increase in throughput on a batch query task . <S>",
+			"relation": "evaluation"
+		},
+		{
+			"id": 11,
+			"parent": 12,
+			"text": "When we saturate both devices , ",
+			"relation": "condition"
+		},
+		{
+			"id": 12,
+			"parent": 4,
+			"text": "the GPU delivers nearly twice the throughput per hardware dollar ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "even when the CPU implementation uses faster data structures . <S>",
+			"relation": "contrast"
+		},
+		{
+			"id": 14,
+			"parent": 4,
+			"text": "Our implementation is freely available at https : //github.com/XapaJIaMnu/gLM <S>  ",
+			"relation": "elab-addition"
+		}
+	]
+}

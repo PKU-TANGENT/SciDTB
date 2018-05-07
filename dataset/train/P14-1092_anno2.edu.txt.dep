@@ -1,0 +1,112 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We propose a robust answer reranking model for non-factoid questions \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "that integrates lexical semantics with discourse information , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "driven by two representations of discourse : \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "a shallow representation \r",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "centered around discourse markers , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "and a deep one \r",
+			"relation": "joint"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "based on Rhetorical Structure Theory . <S>\r",
+			"relation": "bg-general"
+		},
+		{
+			"id": 8,
+			"parent": 1,
+			"text": "We evaluate the proposed model on two corpora from different genres and domains : \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "one from Yahoo ! Answers and one from the biology domain , and two types of non-factoid questions : manner and reason . <S>\r",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 10,
+			"parent": 1,
+			"text": "We experimentally demonstrate \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "that the discourse structure of non-factoid answers provides information \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "that is complementary to lexical semantic similarity between question and answer , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 11,
+			"text": "improving performance up to 24 % ( relative ) over a state-of-the-art model \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "that exploits lexical semantic similarity alone . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 10,
+			"text": "We further demonstrate excellent domain transfer of discourse information , \r",
+			"relation": "progression"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "suggesting \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 17,
+			"parent": 16,
+			"text": "these discourse features have general utility to non-factoid question answering . <S>\r",
+			"relation": "attribution"
+		}
+	]
+}

@@ -1,0 +1,124 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We propose an online learning algorithm \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "based on tensor-space models . <S>\r",
+			"relation": "bg-general"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "A tensor-space model represents data in a compact way , \r",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "and via rank-1 approximation \r",
+			"relation": "joint"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "the weight tensor can be made highly structured , \r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "resulting in a significantly smaller number of free parameters \r",
+			"relation": "result"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "to be estimated \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 6,
+			"text": "than in comparable vector-space models . <S>\r",
+			"relation": "comparison"
+		},
+		{
+			"id": 9,
+			"parent": 1,
+			"text": "This regularizes the model complexity \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "and makes the tensor model highly effective in situations \r",
+			"relation": "joint"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "where a large feature set is defined \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 9,
+			"text": "but very limited resources are available for training . <S>\r",
+			"relation": "contrast"
+		},
+		{
+			"id": 13,
+			"parent": 1,
+			"text": "We apply with the proposed algorithm to a parsing task , \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "and show \r",
+			"relation": "joint"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "that even with very little training data the learning algorithm \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "based on a tensor model \r",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 17,
+			"parent": 15,
+			"text": "performs well , \r",
+			"relation": "same-unit"
+		},
+		{
+			"id": 18,
+			"parent": 17,
+			"text": "and gives significantly better results than standard learning algorithms \r",
+			"relation": "joint"
+		},
+		{
+			"id": 19,
+			"parent": 18,
+			"text": "based on traditional vector-space models . <S>\r",
+			"relation": "bg-general"
+		}
+	]
+}

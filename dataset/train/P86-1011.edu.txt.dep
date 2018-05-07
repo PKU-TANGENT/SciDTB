@@ -1,0 +1,40 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "We examine the relationship between the two grammatical formalisms : ",
+			"relation": "result"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "Tree Adjoining Grammars and Head Grammars . <S>",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 3,
+			"parent": 0,
+			"text": "We briefly investigate the weak equivalence of the two formalisms . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "We then turn to a discussion ",
+			"relation": "progression"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "comparing the linguistic expressiveness of the two formalisms . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

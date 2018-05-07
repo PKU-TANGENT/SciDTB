@@ -1,0 +1,10 @@
+We present a human judgments dataset 
+and an adapted metric for evaluation of Arabic machine translation . <S>
+Our mediumscale dataset is the first of its kind for Arabic with high annotation quality . <S>
+We use the dataset 
+to adapt the BLEU score for Arabic . <S>
+Our score ( AL-BLEU ) provides partial credits for stem and morphological matchings of hypothesis and reference words . <S>
+We evaluate BLEU , METEOR and AL-BLEU on our human judgments corpus 
+and show 
+that AL-BLEU has the highest correlation with human judgments . <S>
+We are releasing the dataset and software to the research community . <S>

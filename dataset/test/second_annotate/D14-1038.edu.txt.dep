@@ -1,0 +1,160 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "Search engines are increasingly relying on large knowledge bases of facts ",
+			"relation": "contrast"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "to provide direct answers to users' queries . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 5,
+			"text": "However , the construction of these knowledge bases is largely manual ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "and does not scale to the long and heavy tail of facts . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 5,
+			"parent": 10,
+			"text": "Open information extraction tries to address this challenge , ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 6,
+			"parent": 7,
+			"text": "but typically assumes ",
+			"relation": "attribution"
+		},
+		{
+			"id": 7,
+			"parent": 5,
+			"text": "that facts are expressed with verb phrases , ",
+			"relation": "contrast"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "and therefore has had difficulty ",
+			"relation": "cause"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "extracting facts for noun-based relations . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 0,
+			"text": "We describe ReNoun , an open information extraction system ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "that complements previous efforts",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "by focusing on nominal attributes and on the long tail . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 13,
+			"parent": 10,
+			"text": "ReNoun's approach is based on leveraging a large ontology of noun attributes ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "mined from a text corpus and from user queries . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 10,
+			"text": "ReNoun creates a seed set of training data ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "by using specialized patterns ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 17,
+			"parent": 18,
+			"text": "and requiring ",
+			"relation": "attribution"
+		},
+		{
+			"id": 18,
+			"parent": 16,
+			"text": "that the facts mention an attribute in the ontology . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 19,
+			"parent": 10,
+			"text": "ReNoun then generalizes from this seed set ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 20,
+			"parent": 19,
+			"text": "to produce a much larger set of extractions ",
+			"relation": "enablement"
+		},
+		{
+			"id": 21,
+			"parent": 20,
+			"text": "that are then scored . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 22,
+			"parent": 10,
+			"text": "We describe experiments ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 23,
+			"parent": 24,
+			"text": "that show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 24,
+			"parent": 22,
+			"text": "that we extract facts with high precision and for attributes ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 25,
+			"parent": 24,
+			"text": "that cannot be extracted with verb-based techniques . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

@@ -1,0 +1,106 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "In this paper we first exploit cash-tags ( \" $ \" ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "followed by stocks' ticker symbols ) ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "in Twitter ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "to build a stock network , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "where nodes are stocks ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "connected by edges ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "when two stocks co-occur frequently in tweets . <S>",
+			"relation": "temporal"
+		},
+		{
+			"id": 8,
+			"parent": 1,
+			"text": "We then employ a labeled topic model ",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "to jointly model both the tweets and the network structure ",
+			"relation": "enablement"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "to assign each node and each edge a topic respectively . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 11,
+			"parent": 8,
+			"text": "This Semantic Stock Network ( SSN ) summarizes discussion topics about stocks and stock relations . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 1,
+			"text": "We further show ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "that social sentiment about stock ( node ) topics and stock relationship ( edge ) topics are predictive of each stock's market . <S>",
+			"relation": "attribution"
+		},
+		{
+			"id": 14,
+			"parent": 12,
+			"text": "For prediction , we propose to regress the topic-sentiment time-series and the stock's price time series . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 1,
+			"text": "Experimental results demonstrate ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "that topic sentiments from close neighbors are able to help improve the prediction of a stock markedly . <S>",
+			"relation": "attribution"
+		}
+	]
+}

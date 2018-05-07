@@ -1,0 +1,58 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 4,
+			"text": "Parsing for a wide variety of grammar formalisms can be performed ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "by intersecting finite tree automata . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "However , naive implementations of parsing by intersection are very inefficient . <S>",
+			"relation": "contrast"
+		},
+		{
+			"id": 4,
+			"parent": 0,
+			"text": "We present techniques ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "that speed up tree-automata-based parsing , to the point ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "that it becomes practically feasible on realistic data ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "when applied to context-free , TAG , and graph parsing . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 4,
+			"text": "For graph parsing , we obtain the best runtimes in the literature . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

@@ -1,0 +1,64 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This paper presents a system ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "which learns to answer questions on a broad range of topics from a knowledge base ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "using few hand-crafted features . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "Our model learns low-dimensional embeddings of words and knowledge base constituents ; ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "these representations are used ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "to score natural language questions against candidate answers . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 7,
+			"parent": 1,
+			"text": "Training our system ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "using pairs of questions and structured representations of their answers , and pairs of question paraphrases , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 9,
+			"parent": 7,
+			"text": "yields competitive results on a recent benchmark of the literature . <S>",
+			"relation": "same-unit"
+		}
+	]
+}

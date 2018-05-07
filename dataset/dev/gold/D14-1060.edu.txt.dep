@@ -1,0 +1,106 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 2,
+			"text": "Term translation is of great importance for statistical machine translation ( SMT ) , especially document-informed SMT . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 0,
+			"text": "In this paper , we investigate three issues of term translation in the context of document-informed SMT ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "and propose three corresponding models : ",
+			"relation": "progression"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "( a ) a term translation disambiguation model ",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "which selects desirable translations for terms in the source language with domain information , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 3,
+			"text": "( b ) a term translation consistency model ",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "that encourages consistent translations for terms with a high strength of translation consistency throughout a document , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 3,
+			"text": "and ( c ) a term bracketing model ",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "that rewards translation hypotheses ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "where bracketable source terms are translated as a whole unit . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 3,
+			"text": "We integrate the three models into hierarchical phrase-based SMT ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "and evaluate their effectiveness on NIST Chinese-English translation tasks with large-scale training data . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 13,
+			"parent": 14,
+			"text": "Experiment results show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 14,
+			"parent": 12,
+			"text": "that all three models can achieve significant improvements over the baseline . <S>",
+			"relation": "result"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "Additionally , we can obtain a further improvement ",
+			"relation": "result"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "when combining the three models . <S>",
+			"relation": "temporal"
+		}
+	]
+}

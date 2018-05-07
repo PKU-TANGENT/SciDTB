@@ -1,0 +1,64 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This paper describes a system ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "that leads us to believe in the feasibility ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "of constructing natural spoken dialogue systems in task-oriented domains . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "It specifically addresses the issue of robust interpretation of speech in the presence of recognition errors . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 1,
+			"text": "Robustness is achieved by a combination of statistical error post-correction , syntactically- and semantically-driven robust parsing , and extensive use of the dialogue context . <S>",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 6,
+			"parent": 9,
+			"text": "We present an evaluation of the system ",
+			"relation": "result"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "using time-to-completion and the quality of the final solution ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 8,
+			"parent": 9,
+			"text": "that suggests ",
+			"relation": "attribution"
+		},
+		{
+			"id": 9,
+			"parent": 1,
+			"text": "that most native speakers of English can use the system successfully with virtually no training . <S> ",
+			"relation": "evaluation"
+		}
+	]
+}

@@ -1,0 +1,15 @@
+We address an important problem in sequence-to-sequence ( Seq2Seq ) learning 
+referred to as copying , 
+in which certain segments in the input sequence are selectively replicated in the output sequence . <S>
+A similar phenomenon is observable in human language communication . <S>
+For example , humans tend to repeat entity names or even long phrases in conversation . <S>
+The challenge with regard to copying in Seq2Seq is that new machinery is needed 
+to decide when to perform the operation . <S>
+In this paper , we incorporate copying into neural networkbased Seq2Seq learning 
+and propose a new model 
+called COPYNET with encoderdecoder structure . <S>
+COPYNET can nicely integrate the regular way of word generation in the decoder with the new copying mechanism 
+which can choose subsequences in the input sequence 
+and put them at proper places in the output sequence . <S>
+Our empirical study on both synthetic data sets and real world data sets demonstrates the efficacy of COPYNET . <S>
+For example , COPYNET can outperform regular RNN-based model with remarkable margins on text summarization tasks . <S>

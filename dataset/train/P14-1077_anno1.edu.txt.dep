@@ -1,0 +1,106 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 4,
+			"text": "Most existing relation extraction models make predictions for each entity pair locally and individually , \r",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "while ignoring implicit global clues available in the knowledge base , \r",
+			"relation": "contrast"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "sometimes leading to conflicts among local predictions from different entity pairs . <S>\r",
+			"relation": "cause"
+		},
+		{
+			"id": 4,
+			"parent": 0,
+			"text": "In this paper , we propose a joint inference framework \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "that utilizes these global clues to resolve disagreements among local predictions . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "We exploit two kinds of clues \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "to generate constraints \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "which can capture the implicit type and cardinality requirements of a relation . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 10,
+			"text": "Experimental results on three datasets , in both English and Chinese , show \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 10,
+			"parent": 4,
+			"text": "that our framework outperforms the state-of-the-art relation extraction models \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "when such clues are applicable to the datasets . <S>\r",
+			"relation": "temporal"
+		},
+		{
+			"id": 12,
+			"parent": 13,
+			"text": "And , we find \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 13,
+			"parent": 4,
+			"text": "that the clues \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "learnt automatically from existing knowledge bases \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 13,
+			"text": "perform comparably to those \r",
+			"relation": "same-unit"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "refined by human . <S>\r",
+			"relation": "elab-addition"
+		}
+	]
+}

@@ -1,0 +1,82 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 4,
+			"text": "Automatic extraction of new words is an indispensable precursor to many NLP tasks \r",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "such as Chinese word segmentation , named entity extraction , and sentiment analysis . <S>\r",
+			"relation": "elab-example"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "This paper aims at extracting new sentiment words from large-scale user-generated content . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 0,
+			"text": "We propose a fully unsupervised , purely data-driven framework for this purpose . <S>\r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "We design statistical measures respectively \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "to quantify the utility of a lexical pattern \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "and to measure the possibility of a word being a new word . <S>\r",
+			"relation": "joint"
+		},
+		{
+			"id": 8,
+			"parent": 4,
+			"text": "The method is almost free of linguistic resources ( except POS tags ) , \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "and requires no elaborated linguistic rules . <S>\r",
+			"relation": "joint"
+		},
+		{
+			"id": 10,
+			"parent": 4,
+			"text": "We also demonstrate \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "how new sentiment word will benefit sentiment analysis . <S>\r",
+			"relation": "attribution"
+		},
+		{
+			"id": 12,
+			"parent": 4,
+			"text": "Experiment results demonstrate the effectiveness of the proposed method . <S>\r",
+			"relation": "evaluation"
+		}
+	]
+}

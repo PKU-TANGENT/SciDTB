@@ -1,0 +1,82 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 2,
+			"text": "Named Entity Disambiguation ( NED ) algorithms disambiguate mentions of named entities with respect to a knowledge-base , ",
+			"relation": "contrast"
+		},
+		{
+			"id": 2,
+			"parent": 3,
+			"text": "but sometimes the context might be poor or misleading . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 3,
+			"parent": 0,
+			"text": "In this paper we introduce the acquisition of two kinds of background information ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "to alleviate that problem : ",
+			"relation": "enablement"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "entity similarity and selectional preferences for syntactic positions . <S>",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 6,
+			"parent": 8,
+			"text": "We show , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "using a generative Naive Bayes model for NED , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 8,
+			"parent": 3,
+			"text": "that the additional sources of context are complementary , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "and improve results in the CoNLL 2003 and TAC KBP DEL 2014 datasets , ",
+			"relation": "joint"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "yielding the third best and the best results , respectively . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 3,
+			"text": "We provide examples and analysis ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "which show the value of the acquired background information . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

@@ -1,0 +1,25 @@
+Automatic spoken language assessment systems are becoming increasingly important 
+to meet the demand for English second language learning . <S>
+This is a challenging task 
+due to the high error rates of , even state-of-the-art , non-native speech recognition . <S>
+Consequently current systems primarily assess fluency and pronunciation . <S>
+However , content assessment is essential for full automation . <S>
+As a first stage it is important to judge 
+whether the speaker responds on topic 
+to test questions 
+designed to elicit spontaneous speech . <S>
+Standard approaches to off-topic response detection assess similarity between the response and question 
+based on bag-of-words representations . <S>
+An alternative framework 
+based on Recurrent Neural Network Language Models ( RNNLM ) 
+is proposed in this paper . <S>
+The RNNLM is adapted to the topic of each test question . <S>
+It learns to associate example responses to questions with points in a topic space 
+constructed using these example responses . <S>
+Classification is done 
+by ranking the topic-conditional posterior probabilities of a response . <S>
+The RNNLMs associate a broad range of responses with each topic , 
+incorporate sequence information and scale better with additional training data , unlike standard methods . <S>
+On experiments 
+conducted on data from the Business Language Testing Service ( BULATS ) 
+this approach outperforms standard approaches . <S>

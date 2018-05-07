@@ -1,0 +1,88 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 5,
+			"text": "Accurately representing synonymy ",
+			"relation": "contrast"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "using distributional similarity ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "requires large volumes of data ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "to reliably represent infrequent words . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 5,
+			"parent": 9,
+			"text": "However , the naive nearest neighbour approach ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "to comparing context vectors ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "extracted from large corpora ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 5,
+			"text": "scales poorly ( O ( n2 ) in the vocabulary size ) . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 9,
+			"parent": 0,
+			"text": "In this paper , we compare several existing approaches ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "to approximating the nearestneighbour search for distributional similarity . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 13,
+			"text": "We investigate the trade-off between efficiency and accuracy , ",
+			"relation": "result"
+		},
+		{
+			"id": 12,
+			"parent": 13,
+			"text": "and find ",
+			"relation": "attribution"
+		},
+		{
+			"id": 13,
+			"parent": 9,
+			"text": "that SASH ( Houle and Sakuma , 2005 ) provides the best balance . <S> ",
+			"relation": "evaluation"
+		}
+	]
+}

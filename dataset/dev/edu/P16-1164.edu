@@ -1,0 +1,13 @@
+Quotation detection is the task 
+of locating spans of quoted speech in text . <S>
+The state of the art treats this problem as a sequence labeling task 
+and employs linear-chain conditional random fields . <S>
+We question the efficacy of this choice : 
+The Markov assumption in the model prohibits it from making joint decisions about the begin , end , and internal context of a quotation . <S>
+We perform an extensive analysis with two new model architectures . <S>
+We find 
+that ( a ) , simple boundary classification 
+combined with a greedy prediction strategy 
+is competitive with the state of the art ; 
+( b ) , a semi-Markov model significantly outperforms all others , 
+by relaxing the Markov assumption . <S>  

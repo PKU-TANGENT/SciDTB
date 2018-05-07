@@ -1,0 +1,64 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "Context is crucial ",
+			"relation": "contrast"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "for identifying argumentative relations in text , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 4,
+			"text": "but many argument mining methods make little use of contextual features . <S>",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 4,
+			"parent": 0,
+			"text": "This paper presents contextaware argumentative relation mining ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "that uses features ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "extracted from writing topics ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "as well as from windows of context sentences . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 8,
+			"parent": 9,
+			"text": "Experiments on student essays demonstrate ",
+			"relation": "attribution"
+		},
+		{
+			"id": 9,
+			"parent": 4,
+			"text": "that the proposed features improve predictive performance in two argumentative relation classification tasks . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

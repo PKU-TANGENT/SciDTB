@@ -1,0 +1,94 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 7,
+			"text": "Morphological segmentation is an effective sparsity reduction strategy for statistical machine translation ( SMT ) \r",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "involving morphologically complex languages . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 4,
+			"text": "When translating into a segmented language , \r",
+			"relation": "temporal"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "an extra step is required \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "to desegment the output ; \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 6,
+			"parent": 7,
+			"text": "previous studies have desegmented the 1-best output from the decoder . <S>\r",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 7,
+			"parent": 0,
+			"text": "In this paper , we expand our translation options \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "by desegmenting n-best lists or lattices . <S>\r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 9,
+			"parent": 7,
+			"text": "Our novel lattice desegmentation algorithm effectively combines both segmented and desegmented views of the target language for a large subspace of possible translation outputs , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "which allows for inclusion of features \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "related to the desegmentation process , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 10,
+			"text": "as well as an unsegmented language model ( LM ) . <S>\r",
+			"relation": "joint"
+		},
+		{
+			"id": 13,
+			"parent": 14,
+			"text": "We investigate this technique in the context of English-to-Arabic and English-to-Finnish translation , \r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 14,
+			"parent": 7,
+			"text": "showing significant improvements in translation quality over desegmentation of 1-best decoder outputs . <S>\r",
+			"relation": "evaluation"
+		}
+	]
+}

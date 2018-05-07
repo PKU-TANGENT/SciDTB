@@ -1,0 +1,106 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 5,
+			"text": "Word embedding maps words into a lowdimensional continuous embedding space ",
+			"relation": "summary"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "by exploiting the local word collocation patterns in a small context window . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 3,
+			"parent": 5,
+			"text": "On the other hand , topic modeling maps documents onto a low-dimensional topic space , ",
+			"relation": "summary"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "by utilizing the global word collocation patterns in the same document . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 5,
+			"parent": 6,
+			"text": "These two types of patterns are complementary . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 6,
+			"parent": 0,
+			"text": "In this paper , we propose a generative topic embedding model ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "to combine the two types of patterns . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 8,
+			"parent": 6,
+			"text": "In our model , topics are represented by embedding vectors , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "and are shared across documents . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 10,
+			"parent": 8,
+			"text": "The probability of each word is influenced by both its local context and its topic . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 8,
+			"text": "A variational inference method yields the topic embeddings as well as the topic mixing proportions for each document . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "Jointly they represent the document in a low-dimensional continuous space . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 6,
+			"text": "In two document classification tasks , our method performs better than eight existing methods , with fewer features . <S>",
+			"relation": "evaluation"
+		},
+		{
+			"id": 14,
+			"parent": 15,
+			"text": "In addition , we illustrate with an example ",
+			"relation": "attribution"
+		},
+		{
+			"id": 15,
+			"parent": 6,
+			"text": "that our method can generate coherent topics ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "even based on only one document . <S>",
+			"relation": "bg-general"
+		}
+	]
+}

@@ -1,0 +1,106 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This article describes a linguistically informed method ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "for integrating phrasal verbs into statistical machine translation ( SMT ) systems . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 6,
+			"text": "In a case study ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "involving English to Bulgarian SMT , ",
+			"relation": "elab-example"
+		},
+		{
+			"id": 5,
+			"parent": 6,
+			"text": "we show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "that our method does not only improve translation quality ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "but also outperforms similar methods ",
+			"relation": "progression"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "previously applied to the same task . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 11,
+			"text": "We attribute this to the fact ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 10,
+			"parent": 11,
+			"text": "that , in contrast to previous work on the subject , ",
+			"relation": "attribution"
+		},
+		{
+			"id": 11,
+			"parent": 6,
+			"text": "we employ detailed linguistic information . <S>",
+			"relation": "exp-reason"
+		},
+		{
+			"id": 12,
+			"parent": 13,
+			"text": "We found out ",
+			"relation": "attribution"
+		},
+		{
+			"id": 13,
+			"parent": 1,
+			"text": "that features ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "which describe phrasal verbs as idiomatic or compositional ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 13,
+			"text": "contribute most to the better translation quality ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "achieved by our method . <S>",
+			"relation": "manner-means"
+		}
+	]
+}

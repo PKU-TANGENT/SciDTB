@@ -1,0 +1,118 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We introduce LAMBADA , a dataset ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "to evaluate the capabilities of computational models for text understanding ",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "by means of a word prediction task . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "LAMBADA is a collection of narrative passages ",
+			"relation": "elab-definition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "sharing the characteristic ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "that human subjects are able to guess their last word ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "if they are exposed to the whole passage , ",
+			"relation": "condition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "but not if they only see the last sentence ",
+			"relation": "contrast"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "preceding the target word . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 12,
+			"text": "To succeed on LAMBADA , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 11,
+			"parent": 12,
+			"text": "computational models cannot simply rely on local context , ",
+			"relation": "progression"
+		},
+		{
+			"id": 12,
+			"parent": 1,
+			"text": "but must be able to keep track of information in the broader discourse . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 14,
+			"text": "We show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 14,
+			"parent": 1,
+			"text": "that LAMBADA exemplifies a wide range of linguistic phenomena , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "and that none of several state-of-the-art language models reaches accuracy above 1 % on this novel benchmark . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 16,
+			"parent": 1,
+			"text": "We thus propose LAMBADA as a challenging test set , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 17,
+			"parent": 16,
+			"text": "meant to encourage the development of new models ",
+			"relation": "enablement"
+		},
+		{
+			"id": 18,
+			"parent": 17,
+			"text": "capable of genuine understanding of broad context in natural language text . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

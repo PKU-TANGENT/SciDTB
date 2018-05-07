@@ -1,0 +1,100 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This work presents two different translation models ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "using recurrent neural networks . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "The first one is a word-based approach ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "using word alignments . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 5,
+			"parent": 1,
+			"text": "Second , we present phrase-based translation models ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "that are more consistent with phrase-based decoding . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 1,
+			"text": "Moreover , we introduce bidirectional recurrent neural models to the problem of machine translation , ",
+			"relation": "progression"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "allowing us to use the full source sentence in our models , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "which is also of theoretical interest . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 11,
+			"text": "We demonstrate ",
+			"relation": "attribution"
+		},
+		{
+			"id": 11,
+			"parent": 1,
+			"text": "that our translation models are capable of improving strong baselines ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "already including recurrent neural language models on three tasks : ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "IWSLT 2013 German to English , BOLT Arabic to English and Chinese to English . <S>",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 14,
+			"parent": 11,
+			"text": "We obtain gains up to 1.6 % BLEU and 1.7 % TER ",
+			"relation": "exp-evidence"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "by rescoring 1000-best lists . <S>",
+			"relation": "manner-means"
+		}
+	]
+}

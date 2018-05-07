@@ -1,0 +1,82 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We introduce a reinforcement learning-based approach to simultaneous machine translation—producing a translation ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "while receiving input words— between languages with drastically different word orders : ",
+			"relation": "temporal"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "from verb-final languages ( e.g. , German ) to verb-medial languages ( English ) . <S>",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "In traditional machine translation , a translator must \"wait\" for source material to appear ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "before translation begins . <S>",
+			"relation": "temporal"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "We remove this bottleneck ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "by predicting the final verb in advance . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 8,
+			"parent": 1,
+			"text": "We use reinforcement learning ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "to learn when to trust predictions about unseen , future portions of the sentence . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 10,
+			"parent": 1,
+			"text": "We also introduce an evaluation metric to measure expeditiousness and quality . <S>",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 11,
+			"parent": 1,
+			"text": "We show ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "that our new translation model outperforms batch and monotone translation strategies . <S>",
+			"relation": "attribution"
+		}
+	]
+}

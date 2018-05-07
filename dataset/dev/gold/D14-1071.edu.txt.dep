@@ -1,0 +1,70 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 5,
+			"text": "Transforming a natural language ( NL ) question into a corresponding logical form ( LF ) is central to the knowledge-based question answering ( KB-QA ) task . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 5,
+			"text": "Unlike most previous methods ",
+			"relation": "contrast"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "that achieve this goal ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "based on mappings between lexicalized phrases and logical predicates , ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 5,
+			"parent": 0,
+			"text": "this paper goes one step further ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "and proposes a novel embedding-based approach ",
+			"relation": "joint"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "that maps NL-questions into LFs for KB-QA ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "by leveraging semantic associations between lexical representations and KB-properties in the latent space . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 9,
+			"parent": 10,
+			"text": "Experimental results demonstrate ",
+			"relation": "attribution"
+		},
+		{
+			"id": 10,
+			"parent": 5,
+			"text": "that our proposed method outperforms three KB-QA baseline methods on two publicly released QA data sets . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

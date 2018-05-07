@@ -1,0 +1,64 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This paper defines a systematic approach to Opinion Mining ( OM ) on YouTube comments \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "by ( i ) modeling classifiers \r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "for predicting the opinion polarity and the type of comment \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 4,
+			"parent": 2,
+			"text": "and ( ii ) proposing robust shallow syntactic structures \r",
+			"relation": "joint"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "for improving model adaptability . <S>\r",
+			"relation": "enablement"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "We rely on the tree kernel technology \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "to automatically extract and learn features with better generalization power than bag-of-words . <S>\r",
+			"relation": "enablement"
+		},
+		{
+			"id": 8,
+			"parent": 1,
+			"text": "An extensive empirical evaluation on our manually annotated YouTube comments corpus shows a high classification accuracy \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "and highlights the benefits of structural models in a cross-domain setting . <S>\r",
+			"relation": "joint"
+		}
+	]
+}

@@ -1,0 +1,40 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "In this paper we define a novel similarity measure between examples of textual entailments ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "and we use it as a kernel function in Support Vector Machines ( SVMs ) . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "This allows us to automatically learn the rewrite rules ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "that describe a non trivial set of entailment cases . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 1,
+			"text": "The experiments with the data sets of the RTE 2005 challenge show an improvement of 4.4 % over the state-of-the-art methods . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

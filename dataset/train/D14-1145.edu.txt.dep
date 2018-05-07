@@ -1,0 +1,76 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 8,
+			"text": "Languages spoken by immigrants change ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "due to contact with the local languages . <S>",
+			"relation": "cause"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "Capturing these changes is problematic for current language technologies , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "which are typically developed for speakers of the standard dialect only . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 6,
+			"text": "Even when dialectal variants are available for such technologies , ",
+			"relation": "condition"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "we still need to predict ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "which dialect is being used . <S>",
+			"relation": "attribution"
+		},
+		{
+			"id": 8,
+			"parent": 0,
+			"text": "In this study , we distinguish between the immigrant and the standard dialect of Turkish ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "by focusing on Light Verb Constructions . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 10,
+			"parent": 8,
+			"text": "We experiment with a number of grammatical and contextual features , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "achieving over 84 % accuracy ( 56 % baseline ) . <S>",
+			"relation": "elab-example"
+		}
+	]
+}

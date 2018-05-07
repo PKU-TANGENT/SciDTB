@@ -1,0 +1,82 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "Relation classification is a crucial ingredient in numerous information extraction systems ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "seeking to mine structured facts from text . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 0,
+			"text": "We propose a novel convolutional neural network architecture for this task , ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "relying on two levels of attention ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "in order to better discern patterns in heterogeneous contexts . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 6,
+			"parent": 3,
+			"text": "This architecture enables end-to-end learning from task-specific labeled data , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "forgoing the need for external knowledge ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "such as explicit dependency structures . <S>",
+			"relation": "elab-example"
+		},
+		{
+			"id": 9,
+			"parent": 10,
+			"text": "Experiments show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 10,
+			"parent": 3,
+			"text": "that our model outperforms previous state-of-the-art methods , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "including those ",
+			"relation": "elab-example"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "relying on much richer forms of prior knowledge . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

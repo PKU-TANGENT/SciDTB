@@ -1,0 +1,76 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We present a comparison of different selectional preference models ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "and evaluate them on an automatic verb classification task in German . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 3,
+			"parent": 4,
+			"text": "We find ",
+			"relation": "attribution"
+		},
+		{
+			"id": 4,
+			"parent": 6,
+			"text": "that all the models ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "we compare ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "are effective for verb clustering ; ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "the best-performing model uses syntactic information ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "to induce nouns classes from unlabelled data in an unsupervised manner . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 9,
+			"parent": 11,
+			"text": "A very simple model ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "based on lexical preferences ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 11,
+			"parent": 6,
+			"text": "is also found to perform well . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

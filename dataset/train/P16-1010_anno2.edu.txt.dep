@@ -1,0 +1,94 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "One major drawback of phrase-based translation is that it segments an input sentence into continuous phrases . <S>",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 2,
+			"parent": 3,
+			"text": "To support linguistically informed source discontinuity , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 0,
+			"text": "in this paper we construct graphs ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "which combine bigram and dependency relations ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "and propose a graph-based translation model . <S>",
+			"relation": "progression"
+		},
+		{
+			"id": 6,
+			"parent": 3,
+			"text": "The model segments an input graph into connected subgraphs , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "each of which may cover a discontinuous phrase . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 3,
+			"text": "We use beam search ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "to combine translations of each subgraph left-to-right ",
+			"relation": "enablement"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "to produce a complete translation . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 11,
+			"parent": 12,
+			"text": "Experiments on Chinese-English and German-English tasks show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 12,
+			"parent": 3,
+			"text": "that our system is significantly better than the phrase-based model by up to +1.5/+0.5 BLEU scores . <S>",
+			"relation": "evaluation"
+		},
+		{
+			"id": 13,
+			"parent": 14,
+			"text": "By explicitly modeling the graph segmentation , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 14,
+			"parent": 12,
+			"text": "our system obtains further improvement , especially on German-English . <S>",
+			"relation": "progression"
+		}
+	]
+}

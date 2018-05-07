@@ -1,0 +1,13 @@
+Distributional semantics creates vectorspace representations 
+that capture many forms of semantic similarity , 
+but their relation to semantic entailment has been less clear . <S>
+We propose a vector-space model 
+which provides a formal foundation for a distributional semantics of entailment . <S>
+Using a mean-field approximation , 
+we develop approximate inference procedures and entailment operators over vectors of probabilities of features 
+being known ( versus unknown ) . <S>
+We use this framework 
+to reinterpret an existing distributionalsemantic model ( Word2Vec ) 
+as approximating an entailment-based model of the distributions of words in contexts , 
+thereby predicting lexical entailment relations . <S>
+In both unsupervised and semi-supervised experiments on hyponymy detection , we get substantial improvements over previous results . <S> 

@@ -1,0 +1,76 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 2,
+			"text": "Most of the sequence tagging tasks in natural language processing require to recognize segments with certain syntactic role or semantic meaning in a sentence . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 2,
+			"parent": 7,
+			"text": "They are usually tackled with Conditional Random Fields ( CRFs ) , ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "which do indirect word-level modeling over word-level features ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "and thus cannot make full use of segment-level information . <S>",
+			"relation": "progression"
+		},
+		{
+			"id": 5,
+			"parent": 6,
+			"text": "Semi-Markov Conditional Random Fields ( Semi-CRFs ) model segments directly ",
+			"relation": "contrast"
+		},
+		{
+			"id": 6,
+			"parent": 2,
+			"text": "but extracting segment-level features for Semi-CRFs is still a very challenging problem . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 0,
+			"text": "This paper presents Gated Recursive Semi-CRFs ( grSemi-CRFs ) , ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "which model segments directly ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "and automatically learn segment level features through a gated recursive convolutional neural network . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 10,
+			"parent": 11,
+			"text": "Our experiments on text chunking and named entity recognition ( NER ) demonstrate ",
+			"relation": "attribution"
+		},
+		{
+			"id": 11,
+			"parent": 7,
+			"text": "that grSemi-CRFs generally outperform other neural models . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

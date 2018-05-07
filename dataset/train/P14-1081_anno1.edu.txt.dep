@@ -1,0 +1,70 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We present an adaptive translation quality estimation ( QE ) method \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "to predict the human-targeted translation error rate ( HTER ) for a document-specific machine translation model . <S>\r",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "We first introduce features \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "derived internal to the translation decoding process as well as externally from the source sentence analysis . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "We show the effectiveness of such features in both classification and regression of MT quality . <S>\r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 6,
+			"parent": 7,
+			"text": "By dynamically training the QE model for the document-specific MT model , \r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 7,
+			"parent": 5,
+			"text": "we are able to achieve consistency and prediction quality across multiple documents , \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "demonstrated by the higher correlation coefficient and F-scores in findingGood sentences . <S>\r",
+			"relation": "exp-evidence"
+		},
+		{
+			"id": 9,
+			"parent": 5,
+			"text": "Additionally , the proposed method is applied to IBM English-to-Japanese MT post editing field study \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "and we observe strong correlation with human preference , with a 10 % increase in human translators's productivity . <S>\r",
+			"relation": "cause"
+		}
+	]
+}

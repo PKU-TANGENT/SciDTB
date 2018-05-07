@@ -1,0 +1,70 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We introduce a provably correct learning algorithm for latent-variable PCFGs . <S>\r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "The algorithm relies on two steps : \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "first , the use of a matrix-decomposition algorithm \r",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "applied to a co-occurrence matrix \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "estimated from the parse trees in a training sample ; \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 3,
+			"text": "second , the use of EM \r",
+			"relation": "joint"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "applied to a convex objective \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "derived from the training samples in combination with the output from the matrix decomposition . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 1,
+			"text": "Experiments on parsing and a language modeling problem show \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "that the algorithm is efficient and effective in practice . <S>\r",
+			"relation": "attribution"
+		}
+	]
+}

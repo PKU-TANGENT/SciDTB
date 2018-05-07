@@ -1,0 +1,64 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 5,
+			"text": "Recently , many NLP tasks have benefited from distributed word representation . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 3,
+			"text": "However , it remains unknown ",
+			"relation": "attribution"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "whether embedding models are really immune to the typological diversity of languages , ",
+			"relation": "contrast"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "despite the language-independent architecture . <S>",
+			"relation": "contrast"
+		},
+		{
+			"id": 5,
+			"parent": 0,
+			"text": "Here we investigate three representative models on a large set of language samples ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "by mapping dense embedding to sparse linguistic property space . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 7,
+			"parent": 5,
+			"text": "Experiment results reveal the language universal and specific properties ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "encoded in various word representation . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 7,
+			"text": "Additionally , strong evidence supports the utility of word form , especially for inflectional languages . <S>",
+			"relation": "progression"
+		}
+	]
+}

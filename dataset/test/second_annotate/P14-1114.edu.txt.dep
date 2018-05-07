@@ -1,0 +1,70 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 2,
+			"text": "Probabilistic Soft Logic ( PSL ) is a recently developed framework for probabilistic logic . <S>\r",
+			"relation": "bg-general"
+		},
+		{
+			"id": 2,
+			"parent": 0,
+			"text": "We use PSL to combine logical and distributional representations of natural-language meaning , \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "where distributional information is represented in the form of weighted inference rules . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 2,
+			"text": "We apply this framework to the task of Semantic Textual Similarity ( STS ) \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "( i.e. judging the semantic similarity of natural-language sentences ) , \r",
+			"relation": "elab-definition"
+		},
+		{
+			"id": 6,
+			"parent": 7,
+			"text": "and show \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 7,
+			"parent": 4,
+			"text": "that PSL gives improved results \r",
+			"relation": "cause"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "compared to a previous approach \r",
+			"relation": "comparison"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "based on Markov Logic Networks ( MLNs ) \r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 10,
+			"parent": 8,
+			"text": "and a purely distributional approach . <S>\r",
+			"relation": "same-unit"
+		}
+	]
+}

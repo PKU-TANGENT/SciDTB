@@ -1,0 +1,64 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "Recent work on Chinese analysis has led to large-scale annotations of the internal structures of words , \r",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "enabling character-level analysis of Chinese syntactic structures . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 0,
+			"text": "In this paper , we investigate the problem of character-level Chinese dependency parsing , \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "building dependency trees over characters . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "Character-level information can benefit downstream applications \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "by offering flexible granularities for word segmentation \r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 7,
+			"parent": 5,
+			"text": "while improving word-level dependency parsing accuracies . <S>\r",
+			"relation": "joint"
+		},
+		{
+			"id": 8,
+			"parent": 3,
+			"text": "We present novel adaptations of two major shift-reduce dependency parsing algorithms to character-level parsing . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "Experimental results on the Chinese Treebank demonstrate improved performances over word-based parsing methods . <S>\r",
+			"relation": "evaluation"
+		}
+	]
+}

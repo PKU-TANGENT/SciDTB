@@ -1,0 +1,190 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 6,
+			"text": "Existing models of plan inference ( PI ) in conversation have assumed ",
+			"relation": "attribution"
+		},
+		{
+			"id": 2,
+			"parent": 6,
+			"text": "that the agent ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "whose plan is being inferred ( the actor ) ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 2,
+			"text": "and the agent ",
+			"relation": "joint"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "drawing the inference ( the observer ) ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 8,
+			"text": "have identical beliefs about actions in the domain . <S>",
+			"relation": "bg-general"
+		},
+		{
+			"id": 7,
+			"parent": 8,
+			"text": "I argue ",
+			"relation": "attribution"
+		},
+		{
+			"id": 8,
+			"parent": 12,
+			"text": "that this assumption often results in failure of both the PI process and the communicative process ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "that PI is meant to support . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 8,
+			"text": "In particular , it precludes the principled generation of appropriate responses to queries ",
+			"relation": "joint"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "that arise from invalid plans . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 0,
+			"text": "I describe a model of P1 ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "that abandons this assumption . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 12,
+			"text": "It rests on an analysis of plans as mental phenomena . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 17,
+			"text": "Judgements ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "that a plan is invalid ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 17,
+			"parent": 12,
+			"text": "are associated with particular discrepancies between the beliefs ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 18,
+			"parent": 17,
+			"text": "that the observer ascribes to the actor ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 19,
+			"parent": 20,
+			"text": "when the former believes ",
+			"relation": "attribution"
+		},
+		{
+			"id": 20,
+			"parent": 17,
+			"text": "that the latter has some plan , ",
+			"relation": "temporal"
+		},
+		{
+			"id": 21,
+			"parent": 17,
+			"text": "and the beliefs ",
+			"relation": "joint"
+		},
+		{
+			"id": 22,
+			"parent": 21,
+			"text": "that the observer herself holds . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 23,
+			"parent": 24,
+			"text": "I show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 24,
+			"parent": 12,
+			"text": "that the content of an appropriate response to a query is affected by the types of any such discrepancies of belief ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 25,
+			"parent": 24,
+			"text": "judged to be present in the plan ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 26,
+			"parent": 25,
+			"text": "inferred to underlie that query . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 27,
+			"parent": 29,
+			"text": "The PI model ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 28,
+			"parent": 27,
+			"text": "described here ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 29,
+			"parent": 12,
+			"text": "has been implemented in SPIRIT , a small demonstration system ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 30,
+			"parent": 29,
+			"text": "that answers questions about the domain of computer mail . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

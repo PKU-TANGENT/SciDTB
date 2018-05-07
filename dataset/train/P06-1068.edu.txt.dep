@@ -1,0 +1,106 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This paper presents a study on ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "if and how automatically extracted keywords can be used ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "to improve text categorization . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 4,
+			"parent": 5,
+			"text": "In summary we show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 5,
+			"parent": 1,
+			"text": "that a higher performance ",
+			"relation": "summary"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "— as measured by micro-averaged F-measure on a standard text categorization collection — ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 5,
+			"text": "is achieved ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 8,
+			"parent": 5,
+			"text": "when the full-text representation is combined with the automatically extracted keywords . <S>",
+			"relation": "condition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "The combination is obtained ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "by giving higher weights to words in the full-texts ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "that are also extracted as keywords . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 15,
+			"text": "We also present results for experiments ",
+			"relation": "result"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "in which the keywords are the only input to the categorizer , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "either represented as unigrams or intact . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 1,
+			"text": "Of these two experiments , the unigrams have the best performance , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "although neither performs as well as headlines only . <S>",
+			"relation": "contrast"
+		}
+	]
+}

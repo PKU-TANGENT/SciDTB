@@ -1,0 +1,100 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We propose a novel abstractive querybased summarization system for conversations , \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "where queries are defined as phrases \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "reflecting a user information needs . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "We rank and extract the utterances in a conversation \r",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "based on the overall content and the phrasal query information . <S>\r",
+			"relation": "bg-general"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "We cluster the selected sentences \r",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "based on their lexical similarity \r",
+			"relation": "bg-general"
+		},
+		{
+			"id": 8,
+			"parent": 6,
+			"text": "and aggregate the sentences in each cluster \r",
+			"relation": "joint"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "by means of a word graph model . <S>\r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 10,
+			"parent": 1,
+			"text": "We propose a ranking strategy \r",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "to select the best path in the constructed graph as a query-based abstract sentence for each cluster . <S>\r",
+			"relation": "enablement"
+		},
+		{
+			"id": 12,
+			"parent": 1,
+			"text": "A resulting summary consists of abstractive sentences \r",
+			"relation": "cause"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "representing the phrasal query information and the overall content of the conversation . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 15,
+			"text": "Automatic and manual evaluation results over meeting , chat and email conversations show \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 15,
+			"parent": 1,
+			"text": "that our approach significantly outperforms baselines and previous extractive models . <S>\r",
+			"relation": "evaluation"
+		}
+	]
+}

@@ -1,0 +1,94 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 9,
+			"text": "This paper is concerned with building linguistic resources and statistical parsers for deep grammatical relation ( GR ) analysis of Chinese texts . <S>\r",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "A set of linguistic rules is defined \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "to explore implicit phrase structural information \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "and thus build high-quality GR annotations \r",
+			"relation": "cause"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "that are represented as general directed dependency graphs . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "The reliability of this linguistically-motivated GR extraction procedure is highlighted by manual evaluation . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 8,
+			"text": "Based on the converted corpus , \r",
+			"relation": "bg-general"
+		},
+		{
+			"id": 8,
+			"parent": 6,
+			"text": "we study transition-based , data-driven models for GR parsing . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 0,
+			"text": "We present a novel transition system \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "which suits GR graphs better than existing systems . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 9,
+			"text": "The key idea is to introduce a new type of transition \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "that reorders top k elements in the memory module . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 14,
+			"text": "Evaluation gauges \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 14,
+			"parent": 9,
+			"text": "how successful GR parsing for Chinese can be by applying data-driven models . <S>\r",
+			"relation": "evaluation"
+		}
+	]
+}

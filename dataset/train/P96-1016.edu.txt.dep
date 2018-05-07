@@ -1,0 +1,46 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 2,
+			"text": "In synchronous rewriting , the productions of two rewriting systems are paired and applied synchronously in the derivation of a pair of strings . <S>",
+			"relation": "bg-general"
+		},
+		{
+			"id": 2,
+			"parent": 0,
+			"text": "We present a new synchronous rewriting system ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 3,
+			"parent": 4,
+			"text": "and argue ",
+			"relation": "attribution"
+		},
+		{
+			"id": 4,
+			"parent": 2,
+			"text": "that it can handle certain phenomena ",
+			"relation": "joint"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "that are not covered by existing synchronous systems . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 2,
+			"text": "We also prove some interesting formal/computational properties of our system . <S>  ",
+			"relation": "joint"
+		}
+	]
+}

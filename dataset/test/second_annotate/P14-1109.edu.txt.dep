@@ -1,0 +1,112 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 5,
+			"text": "Earnings call summarizes the financial performance of a company , \r",
+			"relation": "bg-general"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "and it is an important indicator of the future financial risks of the company . <S>\r",
+			"relation": "joint"
+		},
+		{
+			"id": 3,
+			"parent": 4,
+			"text": "We quantitatively study how earnings calls are correlated with the financial risks , with a special focus on the financial crisis of 2009 . <S>\r",
+			"relation": "bg-general"
+		},
+		{
+			"id": 4,
+			"parent": 8,
+			"text": "In particular , we perform a text regression task : \r",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 5,
+			"parent": 6,
+			"text": "given the transcript of an earnings call , \r",
+			"relation": "bg-general"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "we predict the volatility of stock prices from the week \r",
+			"relation": "elab-definition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "after the call is made . <S>\r",
+			"relation": "temporal"
+		},
+		{
+			"id": 8,
+			"parent": 0,
+			"text": "We propose the use of copula : \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "a powerful statistical framework \r",
+			"relation": "elab-definition"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "that separately models the uniform marginals and their complex multivariate stochastic dependencies , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "while not requiring any prior assumptions on the distributions of the covariate and the dependent variable . <S>\r",
+			"relation": "contrast"
+		},
+		{
+			"id": 12,
+			"parent": 13,
+			"text": "By performing probability integral transform , \r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 13,
+			"parent": 8,
+			"text": "our approach moves beyond the standard count-based bag-of-words models in NLP , \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "and improves previous work on text regression \r",
+			"relation": "joint"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "by incorporating the correlation among local features in the form of semiparametric Gaussian copula . <S>\r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 16,
+			"parent": 17,
+			"text": "In experiments , we show \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 17,
+			"parent": 8,
+			"text": "that our model significantly outperforms strong linear and non-linear discriminative baselines on three datasets under various settings . <S>\r",
+			"relation": "evaluation"
+		}
+	]
+}

@@ -1,0 +1,124 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "In this paper , we propose an unsupervised method \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "to identify noun sense changes \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "based on rigorous analysis of time-varying text data available in the form of millions of digitized books . <S>\r",
+			"relation": "bg-general"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "We construct distributional thesauri based networks from data at different time points \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "and cluster each of them separately \r",
+			"relation": "joint"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "to obtain word-centric sense clusters \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "corresponding to the different time points . <S>\r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 8,
+			"parent": 1,
+			"text": "Subsequently , we compare these sense clusters of two different time points \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "to find \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "if ( i ) there is birth of a new sense or \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "( ii ) if an older sense has got split into more than one sense or \r",
+			"relation": "joint"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "( iii ) if a newer sense has been formed from the joining of older senses or \r",
+			"relation": "joint"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "( iv ) if a particular sense has died . <S>\r",
+			"relation": "joint"
+		},
+		{
+			"id": 14,
+			"parent": 1,
+			"text": "We conduct a thorough evaluation of the proposed method-ology both manually as well as through comparison with WordNet . <S>\r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "Manual evaluation indicates \r",
+			"relation": "exp-evidence"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "that the algorithm could correctly identify 60.4 % birth cases from a set of 48 randomly picked samples and 57 % split/join cases from a set of 21 randomly picked samples . <S>\r",
+			"relation": "attribution"
+		},
+		{
+			"id": 17,
+			"parent": 16,
+			"text": "Remarkably , in 44 % cases the birth of a novel sense is attested by WordNet , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 18,
+			"parent": 17,
+			"text": "while in 46 % cases and 43 % cases split and join are respectively confirmed by WordNet . <S>\r",
+			"relation": "contrast"
+		},
+		{
+			"id": 19,
+			"parent": 1,
+			"text": "Our approach can be applied for lexicography , as well as for applications like word sense disambiguation or semantic search . <S>\r",
+			"relation": "evaluation"
+		}
+	]
+}

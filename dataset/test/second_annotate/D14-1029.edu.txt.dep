@@ -1,0 +1,64 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "In this paper , we present a novel extension of a forest-to-string machine translation system with a reordering model . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "We predict reordering probabilities for every pair of source words with a model ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "using features ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "observed from the input parse forest . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 1,
+			"text": "Our approach naturally deals with the ambiguity present in the input parse forest , ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "but , at the same time , takes into account only the parts of the input forest ",
+			"relation": "contrast"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "used by the current translation hypothesis . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 1,
+			"text": "The method provides improvement from 0.6 up to 1.0 point ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "measured by ( Ter − Bleu ) /2 metric . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

@@ -1,0 +1,70 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 7,
+			"text": "The development of natural language processing ( NLP ) systems ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "that perform machine translation ( MT ) and information retrieval ( IR ) has highlighted the need for the automatic recognition of proper names . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 4,
+			"text": "While various name recognizers have been developed , ",
+			"relation": "temporal"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "they suffer from being too limited ; ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "some only recognize one name class , ",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "and all are language specific . <S>",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 7,
+			"parent": 0,
+			"text": "This work develops an approach to multilingual name recognition ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "that uses machine learning and a portable framework ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "to simplify the porting task ",
+			"relation": "enablement"
+		},
+		{
+			"id": 10,
+			"parent": 7,
+			"text": "by maximizing reuse and automation . <S>",
+			"relation": "manner-means"
+		}
+	]
+}

@@ -1,0 +1,13 @@
+Abstract Meaning Representation ( AMR ) is a semantic formalism 
+for which a grow-ing set of annotated examples is available . <S>
+We introduce the first approach 
+to parse sentences into this representation , 
+providing a strong baseline for future improvement . <S>
+The method is based on a novel algorithm 
+for finding a maximum spanning , connected subgraph , 
+embedded within a Lagrangian relaxation of an optimization problem 
+that imposes linguistically inspired constraints . <S>
+Our approach is described in the general frame-work of structured prediction , 
+allowing future incorporation of additional features and constraints , 
+and may extend to other formalisms as well . <S>
+Our open-source system , JAMR , is available at : http : //github.com/jflanigan/jamr <S>

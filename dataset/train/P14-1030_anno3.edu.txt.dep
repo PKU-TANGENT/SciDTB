@@ -1,0 +1,118 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 2,
+			"text": "Extracting opinion targets and opinion words from online reviews are two fundamental tasks in opinion mining . <S>\r",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 2,
+			"parent": 0,
+			"text": "This paper proposes a novel approach \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "to collectively extract them with graph co-ranking . <S>\r",
+			"relation": "enablement"
+		},
+		{
+			"id": 4,
+			"parent": 6,
+			"text": "First , compared to previous methods \r",
+			"relation": "comparison"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "which solely employed opinion relations among words , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 2,
+			"text": "our method constructs a heterogeneous graph \r",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "to model two types of relations , \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "including semantic relations and opinion relations . <S>\r",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 9,
+			"parent": 2,
+			"text": "Next , a co-ranking algorithm is proposed \r",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "to estimate the confidence of each candidate , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "and the candidates with higher confidence will be extracted as opinion targets/words . <S>\r",
+			"relation": "joint"
+		},
+		{
+			"id": 12,
+			"parent": 9,
+			"text": "In this way , different relations make cooperative effects on candidate's confidence estimation . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 2,
+			"text": "Moreover , word preference is captured and incorporated into our co-ranking algorithm . <S>\r",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "In this way , our co-ranking is personalized \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "and each candidate's confidence is only determined by its preferred collocations . <S>\r",
+			"relation": "joint"
+		},
+		{
+			"id": 16,
+			"parent": 13,
+			"text": "It helps to improve the extraction precision . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 17,
+			"parent": 18,
+			"text": "The experimental results on three data sets with different sizes and languages show \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 18,
+			"parent": 2,
+			"text": "that our approach achieves better performance than state-of-the-art methods . <S>\r",
+			"relation": "evaluation"
+		}
+	]
+}

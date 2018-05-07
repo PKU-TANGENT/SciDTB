@@ -1,0 +1,118 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "How much is 131 million US dollars ? <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 3,
+			"text": "To help readers put such numbers in context , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 0,
+			"text": "we propose a new task of automatically generating short descriptions ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "known as perspectives , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "e.g. `` $ 131 million is about the cost ",
+			"relation": "elab-example"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "to employ everyone in Texas over a lunch period '' . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 3,
+			"text": "First , we collect a dataset of numeric mentions in news articles , ",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "where each mention is labeled with a set of rated perspectives . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 3,
+			"text": "We then propose a system ",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "to generate these descriptions ",
+			"relation": "enablement"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "consisting of two steps : ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "formula construction and description generation . <S>",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "In construction , we compose formulae from numeric facts in a knowledge base ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "and rank the resulting formulas ",
+			"relation": "joint"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "based on familiarity , numeric proximity and semantic compatibility . <S>",
+			"relation": "bg-general"
+		},
+		{
+			"id": 16,
+			"parent": 12,
+			"text": "In generation , we convert a formula into natural language ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 17,
+			"parent": 16,
+			"text": "using a sequence-to-sequence recurrent neural network . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 18,
+			"parent": 3,
+			"text": "Our system obtains a 15.2 % F1 improvement over a non-compositional baseline at formula construction and a 12.5 BLEU point improvement over a baseline description generation . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

@@ -1,0 +1,70 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 4,
+			"text": "For many years , statistical machine translation relied on generative models ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "to provide bilingual word alignments . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 4,
+			"text": "In 2005 , several independent efforts showed ",
+			"relation": "attribution"
+		},
+		{
+			"id": 4,
+			"parent": 7,
+			"text": "that discriminative models could be used ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "to enhance or replace the standard generative approach . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 6,
+			"parent": 7,
+			"text": "Building on this work , ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 7,
+			"parent": 0,
+			"text": "we demonstrate substantial improvement in word-alignment accuracy , partly though improved training methods , ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "but predominantly through selection of more and better features . <S>",
+			"relation": "contrast"
+		},
+		{
+			"id": 9,
+			"parent": 7,
+			"text": "Our best model produces the lowest alignment error rate ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "yet reported on Canadian Hansards bilingual data . <S>  ",
+			"relation": "elab-addition"
+		}
+	]
+}

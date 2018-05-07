@@ -1,0 +1,76 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "In this paper we present a new parsing algorithm for linear indexed grammars ( LIGs ) in the same spirit as the one ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "described in ( Vijay-Shanker and Weir , 1993 ) for tree adjoining grammars . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "For a LIG L and an input string x of length n , we build a non ambiguous context-free grammar ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "whose sentences are all ( and exclusively ) valid derivation sequences in L ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "which lead to x . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 7,
+			"text": "We show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 7,
+			"parent": 1,
+			"text": "that this grammar can be built in ( O ( n^6 ) ) time ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "and that individual parses can be extracted in linear time with the size of the extracted parse tree . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 9,
+			"parent": 10,
+			"text": "Though this O ( n^6 ) upper bound does not improve over previous results , ",
+			"relation": "contrast"
+		},
+		{
+			"id": 10,
+			"parent": 1,
+			"text": "the average case behaves much better . <S>",
+			"relation": "evaluation"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "Moreover , practical parsing times can be decreased by some statically performed computations . <S>   ",
+			"relation": "joint"
+		}
+	]
+}

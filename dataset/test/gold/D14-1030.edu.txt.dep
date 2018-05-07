@@ -1,0 +1,316 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 15,
+			"text": "Many statistical models for natural language processing exist , ",
+			"relation": "result"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "including context-based neural networks ",
+			"relation": "elab-example"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "that ( 1 ) model the previously seen context as a latent feature vector , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "( 2 ) integrate successive words into the context ",
+			"relation": "joint"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "using some learned representation ( embedding ) , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "and ( 3 ) compute output probabilities for incoming words ",
+			"relation": "joint"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "given the context . <S>",
+			"relation": "condition"
+		},
+		{
+			"id": 8,
+			"parent": 1,
+			"text": "On the other hand , brain imaging studies have suggested ",
+			"relation": "joint"
+		},
+		{
+			"id": 9,
+			"parent": 10,
+			"text": "that during reading , ",
+			"relation": "temporal"
+		},
+		{
+			"id": 10,
+			"parent": 8,
+			"text": "the brain ( a ) continuously builds a context from the successive words ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "and every time it encounters a word ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 8,
+			"text": "it ( b ) fetches its properties from memory ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 13,
+			"parent": 8,
+			"text": "and ( c ) integrates it with the previous context with a degree of effort ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "that is inversely proportional to how probable the word is . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 18,
+			"text": "This hints to a parallelism between the neural networks and the brain in modeling context ( 1 and a ) , ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "representing the incoming words ( 2 and b ) ",
+			"relation": "joint"
+		},
+		{
+			"id": 17,
+			"parent": 16,
+			"text": "and integrating it ( 3 and c ) . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 18,
+			"parent": 0,
+			"text": "We explore this parallelism ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 19,
+			"parent": 18,
+			"text": "to better understand the brain processes and the neural networks representations . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 20,
+			"parent": 18,
+			"text": "We study the alignment between the latent vectors ",
+			"relation": "joint"
+		},
+		{
+			"id": 21,
+			"parent": 20,
+			"text": "used by neural networks and brain activity ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 22,
+			"parent": 21,
+			"text": "observed via Magnetoencephalography ( MEG ) ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 23,
+			"parent": 20,
+			"text": "when subjects read a story . <S>",
+			"relation": "temporal"
+		},
+		{
+			"id": 24,
+			"parent": 18,
+			"text": "For that purpose we apply the neural network to the same text ",
+			"relation": "result"
+		},
+		{
+			"id": 25,
+			"parent": 24,
+			"text": "the subjects are reading , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 26,
+			"parent": 24,
+			"text": "and explore the ability of these three vector representations ",
+			"relation": "joint"
+		},
+		{
+			"id": 27,
+			"parent": 26,
+			"text": "to predict the observed word-by-word brain activity . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 28,
+			"parent": 29,
+			"text": "Our novel results show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 29,
+			"parent": 18,
+			"text": "that : before a new word i is read , ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 30,
+			"parent": 29,
+			"text": "brain activity is well predicted by the neural network latent representation of context ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 31,
+			"parent": 30,
+			"text": "and the predictability decreases ",
+			"relation": "joint"
+		},
+		{
+			"id": 32,
+			"parent": 31,
+			"text": "as the brain integrates the word ",
+			"relation": "temporal"
+		},
+		{
+			"id": 33,
+			"parent": 32,
+			"text": "and changes its own representation of context . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 34,
+			"parent": 29,
+			"text": "Secondly , the neural network embedding of word i can predict the MEG activity ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 35,
+			"parent": 34,
+			"text": "when word i is presented to the subject , ",
+			"relation": "temporal"
+		},
+		{
+			"id": 36,
+			"parent": 34,
+			"text": "revealing ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 37,
+			"parent": 36,
+			"text": "that it is correlated with the brain's own representation of word i . <S>",
+			"relation": "attribution"
+		},
+		{
+			"id": 38,
+			"parent": 29,
+			"text": "Moreover , we obtain ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 39,
+			"parent": 38,
+			"text": "that the activity is predicted in different regions of the brain with varying delay . <S>",
+			"relation": "attribution"
+		},
+		{
+			"id": 40,
+			"parent": 39,
+			"text": "The delay is consistent with the placement of each region on the processing pathway ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 41,
+			"parent": 40,
+			"text": "that starts in the visual cortex ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 42,
+			"parent": 41,
+			"text": "and moves to higher level regions . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 43,
+			"parent": 29,
+			"text": "Finally , we show ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 44,
+			"parent": 43,
+			"text": "that the output probability ",
+			"relation": "attribution"
+		},
+		{
+			"id": 45,
+			"parent": 44,
+			"text": "computed by the neural networks ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 46,
+			"parent": 44,
+			"text": "agrees with the brain's own assessment of the probability of word i , ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 47,
+			"parent": 46,
+			"text": "as it can be used ",
+			"relation": "exp-reason"
+		},
+		{
+			"id": 48,
+			"parent": 47,
+			"text": "to predict the brain activity ",
+			"relation": "enablement"
+		},
+		{
+			"id": 49,
+			"parent": 48,
+			"text": "after the word i's properties have been fetched from memory ",
+			"relation": "temporal"
+		},
+		{
+			"id": 50,
+			"parent": 47,
+			"text": "and the brain is in the process ",
+			"relation": "joint"
+		},
+		{
+			"id": 51,
+			"parent": 50,
+			"text": "of integrating it into the context . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

@@ -1,0 +1,106 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 2,
+			"text": "We investigate ",
+			"relation": "attribution"
+		},
+		{
+			"id": 2,
+			"parent": 9,
+			"text": "how to improve bilingual embedding ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "which has been successfully used as a feature in phrase-based statistical machine translation ( SMT ) . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 5,
+			"text": "Despite bilingual embedding's success , ",
+			"relation": "contrast"
+		},
+		{
+			"id": 5,
+			"parent": 9,
+			"text": "the contextual information , ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "which is of critical importance to translation quality , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 5,
+			"text": "was ignored in previous work . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 8,
+			"parent": 9,
+			"text": "To employ the contextual information , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 9,
+			"parent": 0,
+			"text": "we propose a simple and memory-efficient model ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "for learning bilingual embedding , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 11,
+			"parent": 9,
+			"text": "taking both the source phrase and context around the phrase into account . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 9,
+			"text": "Bilingual translation scores ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "generated from our proposed bilingual embedding model ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 12,
+			"text": "are used as features in our SMT system . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 15,
+			"parent": 16,
+			"text": "Experimental results show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 16,
+			"parent": 9,
+			"text": "that the proposed method achieves significant improvements on large-scale Chinese-English translation task . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

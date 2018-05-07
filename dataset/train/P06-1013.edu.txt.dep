@@ -1,0 +1,76 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "Combination methods are an effective way ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "of improving system performance . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 0,
+			"text": "This paper examines the benefits of system combination for unsupervised WSD . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "We investigate several voting- and arbiterbased combination strategies over a diverse pool of unsupervised WSD systems . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "Our combination methods rely on predominant senses ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "which are derived automatically from raw text . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 3,
+			"text": "Experiments ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "using the SemCor and Senseval-3 data sets ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 10,
+			"text": "demonstrate ",
+			"relation": "attribution"
+		},
+		{
+			"id": 10,
+			"parent": 7,
+			"text": "that our ensembles yield signifi-cantly better results ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "when compared with state-of-the-art . <S>",
+			"relation": "comparison"
+		}
+	]
+}

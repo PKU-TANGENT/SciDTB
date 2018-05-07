@@ -1,0 +1,88 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This paper explores the relationship between the translation quality and the retrieval effectiveness in Machine Translation ( MT ) based Cross-Language Information Retrieval ( CLIR ) . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 3,
+			"text": "To obtain MT systems of different translation quality , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "we degrade a rule-based MT system ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "by decreasing the size of the rule base and the size of the dictionary . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "We use the degraded MT systems ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "to translate queries ",
+			"relation": "enablement"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "and submit the translated queries ",
+			"relation": "joint"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "of varying quality to the IR system . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 11,
+			"text": "Retrieval effectiveness is found to correlate highly with the translation quality of the queries . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 12,
+			"text": "We further analyze the factors ",
+			"relation": "result"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "that affect the retrieval effectiveness . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 1,
+			"text": "Title queries are found to be preferred in MT-based CLIR . <S>",
+			"relation": "evaluation"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "In addition , dictionary-based degradation is shown to have stronger impact than rule-based degradation in MT-based CLIR . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

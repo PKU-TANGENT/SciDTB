@@ -1,0 +1,52 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 2,
+			"text": "When Part-of-Speech annotated data is scarce , e.g. for under-resourced languages , ",
+			"relation": "temporal"
+		},
+		{
+			"id": 2,
+			"parent": 4,
+			"text": "one can turn to cross-lingual transfer and crawled dictionaries ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "to collect partially supervised data . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 4,
+			"parent": 0,
+			"text": "We cast this problem in the framework of ambiguous learning ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 5,
+			"parent": 6,
+			"text": "and show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "how to learn an accurate history-based model . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 7,
+			"parent": 4,
+			"text": "Experiments on ten languages show significant improvements over prior state of the art performance . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

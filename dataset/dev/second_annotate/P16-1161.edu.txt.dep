@@ -1,0 +1,94 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 4,
+			"text": "Discriminative translation models ",
+			"relation": "progression"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "utilizing source context ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "have been shown to help statistical machine translation performance . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 4,
+			"parent": 0,
+			"text": "We propose a novel extension of this work ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "using target context information . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 7,
+			"text": "Surprisingly , we show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 7,
+			"parent": 4,
+			"text": "that this model can be efficiently integrated directly in the decoding process . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 4,
+			"text": "Our approach scales to large training data sizes ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "and results in consistent improvements in translation quality on four language pairs . <S>",
+			"relation": "result"
+		},
+		{
+			"id": 10,
+			"parent": 12,
+			"text": "We also provide an analysis ",
+			"relation": "progression"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "comparing the strengths of the baseline source-context model with our extended source-context and targetcontext model ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 13,
+			"text": "and we show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 13,
+			"parent": 4,
+			"text": "that our extension allows us to better capture morphological coherence . <S>",
+			"relation": "evaluation"
+		},
+		{
+			"id": 14,
+			"parent": 4,
+			"text": "Our work is freely available as part of Moses . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

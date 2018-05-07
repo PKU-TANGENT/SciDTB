@@ -1,0 +1,112 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 5,
+			"text": "Most machine translation systems construct translations from a closed vocabulary of target word forms , ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "posing problems ",
+			"relation": "result"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "for translating into languages ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "that have productive compounding processes . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 0,
+			"text": "We present a simple and effective approach ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "that deals with this problem in two phases . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 5,
+			"text": "First , we build a classifier ",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "that identifies spans of the input text ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "that can be translated into a single compound word in the target language . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 5,
+			"text": "Then , for each identified span , we generate a pool of possible compounds ",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "which are added to the translation model as `` synthetic '' phrase translations . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 14,
+			"text": "Experiments reveal ",
+			"relation": "attribution"
+		},
+		{
+			"id": 13,
+			"parent": 14,
+			"text": "that ( i ) we can effectively predict ",
+			"relation": "attribution"
+		},
+		{
+			"id": 14,
+			"parent": 5,
+			"text": "what spans can be compounded ; ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "( ii ) our compound generation model produces good compounds ; ",
+			"relation": "joint"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "and ( iii ) modest improvements are possible in end-to-end English-German and English-Finnish translation tasks . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 17,
+			"parent": 5,
+			"text": "We additionally introduce KomposEval , a new multi-reference dataset of English phrases and their translations into German compounds . <S>",
+			"relation": "progression"
+		}
+	]
+}

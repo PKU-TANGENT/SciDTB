@@ -1,0 +1,136 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 6,
+			"text": "Recently , work in NLP was initiated on a type of opinion inference ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "that arises ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "when opinions are expressed toward events ",
+			"relation": "temporal"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "which have positive or negative effects on entities ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "( +/-effect events ) . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 0,
+			"text": "This paper addresses methods ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "for creating a lexicon of such events , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 6,
+			"text": "to support such work on opinion inference . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 9,
+			"parent": 6,
+			"text": "Due to significant sense ambiguity , ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "our goal is to develop a sense-level rather than word-level lexicon . <S>",
+			"relation": "result"
+		},
+		{
+			"id": 11,
+			"parent": 12,
+			"text": "To maximize the effectiveness of different types of information , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 12,
+			"parent": 6,
+			"text": "we combine a graph-based method ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "using WordNet1 relations ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "and a standard classifier ",
+			"relation": "joint"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "using gloss information . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 16,
+			"parent": 6,
+			"text": "A hybrid between the two gives the best results . <S>",
+			"relation": "evaluation"
+		},
+		{
+			"id": 17,
+			"parent": 16,
+			"text": "Further , we provide evidence ",
+			"relation": "progression"
+		},
+		{
+			"id": 18,
+			"parent": 17,
+			"text": "that the model is an effective way ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 19,
+			"parent": 18,
+			"text": "to guide manual annotation ",
+			"relation": "enablement"
+		},
+		{
+			"id": 20,
+			"parent": 19,
+			"text": "to find +/-effect senses ",
+			"relation": "enablement"
+		},
+		{
+			"id": 21,
+			"parent": 20,
+			"text": "that are not in the seed set . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

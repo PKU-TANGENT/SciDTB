@@ -1,0 +1,106 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This paper presents a novel approach ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "to learning to solve simple arithmetic word problems . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "Our system , ARIS , analyzes each of the sentences in the problem state-ment ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "to identify the relevant variables and their values . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "ARIS then maps this information into an equation ",
+			"relation": "progression"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "that represents the problem , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 5,
+			"text": "and enables its ( trivial ) solution ",
+			"relation": "joint"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "as shown in Figure 1 . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 14,
+			"text": "The paper analyzes the arithmetic-word problems \"genre\" , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "identifying seven categories of verbs ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "used in such problems . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 14,
+			"text": "ARIS learns to categorize verbs with 81.2 % accuracy , ",
+			"relation": "exp-evidence"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "and is able to solve 77.7 % of the problems in a corpus of standard primary school test questions . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 14,
+			"parent": 1,
+			"text": "We report the first learning results on this task ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "without reliance on pre-defined templates ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 16,
+			"parent": 14,
+			"text": "and make our data publicly available . <S>",
+			"relation": "joint"
+		}
+	]
+}

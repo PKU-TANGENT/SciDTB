@@ -1,0 +1,76 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 5,
+			"text": "The noisy channel model approach is successfully applied to various natural language processing tasks . <S>",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "Currently the main research focus of this approach is adaptation methods , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "how to capture characteristics of words and expressions in a target domain ",
+			"relation": "elab-definition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "given example sentences in that domain . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 0,
+			"text": "As a solution we describe a method ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "enlarging the vocabulary of a language model to an almost infinite size ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "and capturing their context information . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 8,
+			"parent": 5,
+			"text": "Especially the new method is suitable for languages ",
+			"relation": "progression"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "in which words are not delimited by whitespace . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 11,
+			"text": "We applied our method to a phoneme-to-text transcription task in Japanese ",
+			"relation": "progression"
+		},
+		{
+			"id": 11,
+			"parent": 5,
+			"text": "and reduced about 10 % of the errors in the results of an existing method . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

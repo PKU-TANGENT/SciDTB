@@ -1,0 +1,94 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 5,
+			"text": "Cross-language Text Categorization is the task ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "of assigning semantic classes to documents ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "written in a target language ( e.g. English ) ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 2,
+			"text": "while the system is trained using labeled documents in a source language ( e.g. Italian ) . <S>",
+			"relation": "temporal"
+		},
+		{
+			"id": 5,
+			"parent": 0,
+			"text": "In this work we present many solutions ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "according to the availability of bilingual resources , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 8,
+			"text": "and we show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 8,
+			"parent": 5,
+			"text": "that it is possible to deal with the problem ",
+			"relation": "joint"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "even when no such resources are accessible . <S>",
+			"relation": "condition"
+		},
+		{
+			"id": 10,
+			"parent": 5,
+			"text": "The core technique relies on the automatic acquisition of Multilingual Domain Models from comparable corpora . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 5,
+			"text": "Experiments show the effectiveness of our approach , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "providing a low cost solution for the Cross Language Text Categorization task . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 14,
+			"text": "In particular , when bilingual dictionaries are available ",
+			"relation": "condition"
+		},
+		{
+			"id": 14,
+			"parent": 11,
+			"text": "the performance of the categorization gets close to that of monolingual text categorization . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

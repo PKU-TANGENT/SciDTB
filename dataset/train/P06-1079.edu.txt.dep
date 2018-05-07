@@ -1,0 +1,52 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We approach the zero-anaphora resolution problem ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "by decomposing it into intra-sentential and inter-sentential zeroanaphora resolution . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "For the former problem , syntactic patterns of the appearance of zero-pronouns and their antecedents are useful clues . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 6,
+			"text": "Taking Japanese as a target language , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 6,
+			"text": "we empirically demonstrate ",
+			"relation": "attribution"
+		},
+		{
+			"id": 6,
+			"parent": 3,
+			"text": "that incorporating rich syntactic pattern features in a state-of-the-art learning-based anaphora resolution model dramatically improves the accuracy of intra-sentential zero-anaphora , ",
+			"relation": "elab-example"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "which consequently improves the overall performance of zeroanaphora resolution . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

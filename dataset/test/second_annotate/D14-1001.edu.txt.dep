@@ -1,0 +1,94 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 8,
+			"text": "Electronically available multi-modal data ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "( primarily text and meta-data ) ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "is unprecedented in terms of its volume , variety , velocity , ( and veracity ) . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 4,
+			"parent": 8,
+			"text": "The increased interest and investment in cognitive computing ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "for building systems and solutions ",
+			"relation": "enablement"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "that enable and support richer human-machine interactions ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 4,
+			"text": "presents a unique opportunity for novel statistical models for natural language processing . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 8,
+			"parent": 0,
+			"text": "In this talk , I will describe a journey at IBM ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "during the past three decades ",
+			"relation": "temporal"
+		},
+		{
+			"id": 10,
+			"parent": 8,
+			"text": "in developing novel statistical models for NLP ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "covering statistical parsing , machine translation , and question-answering systems . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 8,
+			"text": "Along with a discussion of some of the recent successes , I will discuss some difficult challenges ",
+			"relation": "progression"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "that need to be addressed ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "to achieve more effective cognitive systems and applications . <S>",
+			"relation": "enablement"
+		}
+	]
+}

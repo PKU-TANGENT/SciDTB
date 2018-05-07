@@ -1,0 +1,64 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We report on a series of experiments with convolutional neural networks ( CNN ) ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "trained on top of pre-trained word vectors for sentence-level classification tasks . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 4,
+			"text": "We show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "that a simple CNN with little hyperparameter tuning and static vectors achieves excellent results on multiple benchmarks . <S>",
+			"relation": "evaluation"
+		},
+		{
+			"id": 5,
+			"parent": 1,
+			"text": "Learning task-specific vectors through fine-tuning offers further gains in performance . <S>",
+			"relation": "evaluation"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "We additionally propose a simple modification to the architecture ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "to allow for the use of both task-specific and static vectors . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 8,
+			"parent": 6,
+			"text": "The CNN models discussed herein improve upon the state of the art on 4 out of 7 tasks , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "which include sentiment analysis and question classification . <S>",
+			"relation": "elab-example"
+		}
+	]
+}

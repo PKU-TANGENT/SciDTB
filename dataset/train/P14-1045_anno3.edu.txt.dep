@@ -1,0 +1,136 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "Using distributional analysis methods to compute semantic proximity links between words has become commonplace in NLP . <S>\r",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "The resulting relations are often noisy or difficult to interpret in general. <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 0,
+			"text": "This paper focuses on the issues \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "of evaluating a distributional resource \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "and filtering the relations \r",
+			"relation": "joint"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "it contains , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 8,
+			"text": "but instead of considering it in abstract , \r",
+			"relation": "contrast"
+		},
+		{
+			"id": 8,
+			"parent": 3,
+			"text": "we focus on pairs of words in context . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 3,
+			"text": "In a discourse , we are interested in knowing if the semantic link between two items is a by-product of textual coherence or is irrelevant . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "We first set up a human annotation of semantic links \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "with or without contextual information \r",
+			"relation": "condition"
+		},
+		{
+			"id": 12,
+			"parent": 10,
+			"text": "to show the importance of the textual context \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "in evaluating the relevance of semantic similarity , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "and to assess the prevalence of actual semantic relations between word tokens . <S>\r",
+			"relation": "joint"
+		},
+		{
+			"id": 15,
+			"parent": 9,
+			"text": "We then built an experiment \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "to automatically predict this relevance , \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 17,
+			"parent": 16,
+			"text": "evaluated on the reliable reference data set \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 18,
+			"parent": 17,
+			"text": "which was the outcome of the first annotation . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 19,
+			"parent": 20,
+			"text": "We show \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 20,
+			"parent": 15,
+			"text": "that in-document information greatly improve the prediction \r",
+			"relation": "cause"
+		},
+		{
+			"id": 21,
+			"parent": 20,
+			"text": "made by the similarity level alone . <S>\r",
+			"relation": "elab-addition"
+		}
+	]
+}

@@ -1,0 +1,70 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We present BAYESUM ( for \"Bayesian summarization\" ) , a model for sentence extraction in query-focused summarization . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "BAYESUM leverages the common case ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "in which multiple documents are relevant to a single query . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 5,
+			"text": "Using these documents as reinforcement for query terms , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 5,
+			"parent": 1,
+			"text": "BAYESUM is not afflicted by the paucity of information in short queries . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 7,
+			"text": "We show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 7,
+			"parent": 1,
+			"text": "that approximate inference in BAYESUM is possible on large data sets ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "and results in a state-of-the-art summarization system . <S>",
+			"relation": "progression"
+		},
+		{
+			"id": 9,
+			"parent": 10,
+			"text": "Furthermore , we show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 10,
+			"parent": 1,
+			"text": "how BAYESUM can be understood as a justified query expansion technique in the language modeling for IR framework . <S>   ",
+			"relation": "evaluation"
+		}
+	]
+}

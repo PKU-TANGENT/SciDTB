@@ -1,0 +1,52 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "Most natural language processing tasks require lexical semantic information . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "Automated acquisition of this information would thus increase the robustness and portability of NLP systems . <S>",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 3,
+			"parent": 0,
+			"text": "This paper describes an acquisition method ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "which makes use of fixed correspondences between derivational affixes and lexical semantic information . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "One advantage of this method , and of other methods ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "that rely only on surface characteristics of language , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 5,
+			"text": "is that the necessary input is currently available . <S>",
+			"relation": "same-unit"
+		}
+	]
+}

@@ -1,0 +1,76 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 4,
+			"text": "Designing measures \r",
+			"relation": "bg-general"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "that capture various aspects of language ability \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "is a central task in the design of systems for automatic scoring of spontaneous speech . <S>\r",
+			"relation": "same-unit"
+		},
+		{
+			"id": 4,
+			"parent": 5,
+			"text": "In this study , we address a key aspect of language proficiency assessment - syntactic complexity . <S>\r",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 5,
+			"parent": 0,
+			"text": "We propose a novel measure of syntactic complexity for spontaneous speech \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "that shows optimum empirical performance on real world data in multiple ways . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 5,
+			"text": "First , it is both robust and reliable , \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "producing automatic scores \r",
+			"relation": "exp-evidence"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "that agree well with human rating \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "compared to the state-of-the-art . <S>\r",
+			"relation": "comparison"
+		},
+		{
+			"id": 11,
+			"parent": 5,
+			"text": "Second , the measure makes sense theoretically , both from algorithmic and native language acquisition points of view . <S>\r",
+			"relation": "elab-aspect"
+		}
+	]
+}

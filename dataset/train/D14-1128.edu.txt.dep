@@ -1,0 +1,64 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We put forward the hypothesis ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "that high-accuracy sentiment analysis is only possible ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "if word senses with different polarity are accurately recognized . <S>",
+			"relation": "condition"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "We provide evidence for this hypothesis in a case study for the adjective \"hard\" ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "and propose contextually enhanced sentiment lexicons ",
+			"relation": "joint"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "that contain the information necessary for sentiment-relevant sense disambiguation . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 1,
+			"text": "An experimental evaluation demonstrates ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "that senses with different polarity can be distinguished well ",
+			"relation": "attribution"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "using a combination of standard and novel features . <S>",
+			"relation": "manner-means"
+		}
+	]
+}

@@ -1,0 +1,142 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 8,
+			"text": "Negation words , such as no and not , play a fundamental role \r",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "in modifying sentiment of textual expressions . <S>\r",
+			"relation": "condition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "We will refer to a negation word as the negator and the text span within the scope of the negator as the argument . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "Commonly used heuristics \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "to estimate the sentiment of negated expressions \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "rely simply on the sentiment of argument \r",
+			"relation": "same-unit"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "( and not on the negator or the argument itself ) . <S>\r",
+			"relation": "joint"
+		},
+		{
+			"id": 8,
+			"parent": 0,
+			"text": "We use a sentiment treebank \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 9,
+			"parent": 10,
+			"text": "to show \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 10,
+			"parent": 8,
+			"text": "that these existing heuristics are poor estimators of sentiment . <S>\r",
+			"relation": "enablement"
+		},
+		{
+			"id": 11,
+			"parent": 8,
+			"text": "We then modify these heuristics to be dependent on the negators \r",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "and show \r",
+			"relation": "progression"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "that this improves prediction . <S>\r",
+			"relation": "attribution"
+		},
+		{
+			"id": 14,
+			"parent": 8,
+			"text": "Next , we evaluate a recently proposed composition model ( Socher et al. , 2013 ) \r",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "that relies on both the negator and the argument . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 16,
+			"parent": 14,
+			"text": "This model learns the syntax and semantics of the negator's argument with a recursive neural network . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 17,
+			"parent": 18,
+			"text": "We show \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 18,
+			"parent": 14,
+			"text": "that this approach performs better than those \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 19,
+			"parent": 18,
+			"text": "mentioned above . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 20,
+			"parent": 8,
+			"text": "In addition , we explicitly incorporate the prior sentiment of the argument \r",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 21,
+			"parent": 20,
+			"text": "and observe \r",
+			"relation": "progression"
+		},
+		{
+			"id": 22,
+			"parent": 21,
+			"text": "that this information can help reduce fitting errors . <S>",
+			"relation": "attribution"
+		}
+	]
+}

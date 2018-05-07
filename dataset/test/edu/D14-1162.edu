@@ -1,0 +1,16 @@
+Recent methods for learning vector space representations of words have succeeded 
+in capturing fine-grained semantic and syntactic regularities 
+using vector arithmetic , 
+but the origin of these regularities has remained opaque . <S>
+We analyze and make explicit the model properties 
+needed for such regularities 
+to emerge in word vectors . <S>
+The result is a new global log-bilinear regression model 
+that combines the advantages of the two major model families in the literature : 
+global matrix factorization and local context window methods . <S>
+Our model efficiently leverages statistical information 
+by training only on the nonzero elements in a word-word co-occurrence matrix , 
+rather than on the entire sparse matrix or on individual context windows in a large corpus . <S>
+The model produces a vector space with meaningful sub-structure , 
+as evidenced by its performance of 75 % on a recent word analogy task . <S>
+It also outperforms related models on similarity tasks and named entity recognition . <S>

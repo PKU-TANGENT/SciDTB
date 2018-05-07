@@ -1,0 +1,106 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We present a structured learning approach to inducing hypernym taxonomies \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "using a probabilistic graphical model formulation . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "Our model incorporates heterogeneous relational evidence about both hypernymy and siblinghood , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "captured by semantic features \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "based on patterns and statistics from Web n-grams and Wikipedia abstracts . <S>\r",
+			"relation": "bg-general"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "For efficient inference over taxonomy structures , we use loopy belief propagation along with a directed spanning tree algorithm for the core hypernymy factor . <S>\r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 7,
+			"parent": 8,
+			"text": "To train the system , \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 8,
+			"parent": 1,
+			"text": "we extract sub-structures of WordNet \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "and discriminatively learn to reproduce them , \r",
+			"relation": "joint"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "using adaptive subgradient stochastic optimization . <S>\r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 11,
+			"parent": 13,
+			"text": "On the task \r",
+			"relation": "same-unit"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "of reproducing sub-hierarchies of WordNet , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 1,
+			"text": "our approach achieves a 51 % error reduction over a chance baseline , \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "including a 15 % error reduction \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "due to the non-hypernym-factored sibling features . <S>\r",
+			"relation": "cause"
+		},
+		{
+			"id": 16,
+			"parent": 13,
+			"text": "On a comparison setup , we find up to 29 % relative error reduction over previous work on ancestor F1 . <S>\r",
+			"relation": "comparison"
+		}
+	]
+}

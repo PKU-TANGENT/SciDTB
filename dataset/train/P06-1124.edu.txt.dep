@@ -1,0 +1,76 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We propose a new hierarchical Bayesian n-gram model of natural languages . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "Our model makes use of a generalization of the commonly used Dirichlet distributions ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "called Pitman-Yor processes ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "which produce power-law distributions ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "more closely resembling those in natural languages . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 7,
+			"text": "We show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 7,
+			"parent": 1,
+			"text": "that an approximation to the hierarchical Pitman-Yor language model recovers the exact formulation of interpolated Kneser-Ney , one of the best smoothing methods for n-gram language models . <S>",
+			"relation": "evaluation"
+		},
+		{
+			"id": 8,
+			"parent": 9,
+			"text": "Experiments verify ",
+			"relation": "attribution"
+		},
+		{
+			"id": 9,
+			"parent": 7,
+			"text": "that our model gives cross entropy results",
+			"relation": "exp-evidence"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "superior to interpolated Kneser-Ney ",
+			"relation": "comparison"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "and comparable to modified Kneser-Ney . <S>",
+			"relation": "joint"
+		}
+	]
+}

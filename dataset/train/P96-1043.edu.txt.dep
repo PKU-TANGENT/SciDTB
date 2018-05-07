@@ -1,0 +1,52 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 2,
+			"text": "Words unknown to the lexicon present a substantial problem to part-of-speech tagging . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 0,
+			"text": "In this paper we present a technique for fully unsupervised statistical acquisition of rules ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "which guess possible partsof-speech for unknown words . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 2,
+			"text": "Three complementary sets of word-guessing rules are induced from the lexicon and a raw corpus : ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "prefix morphological rules , suffix morphological rules and ending-guessing rules . <S>",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 6,
+			"parent": 7,
+			"text": "The learning was performed on the Brown Corpus data ",
+			"relation": "progression"
+		},
+		{
+			"id": 7,
+			"parent": 2,
+			"text": "and rule-sets , with a highly competitive performance , were produced and compared with the state-of-the-art . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

@@ -1,0 +1,112 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 2,
+			"text": "Various studies highlighted ",
+			"relation": "attribution"
+		},
+		{
+			"id": 2,
+			"parent": 3,
+			"text": "that topic-based approaches give a powerful spoken content representation of documents . <S>",
+			"relation": "contrast"
+		},
+		{
+			"id": 3,
+			"parent": 5,
+			"text": "Nonetheless , these documents may contain more than one main theme , ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "and their automatic transcription inevitably contains errors . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 5,
+			"parent": 0,
+			"text": "In this study , we propose an original and promising framework ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "based on a compact representation of a textual document , ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 7,
+			"parent": 5,
+			"text": "to solve issues ",
+			"relation": "enablement"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "related to topic space granularity . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 5,
+			"text": "Firstly , various topic spaces are estimated with different numbers of classes from a Latent Dirichlet Allocation . <S>",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 10,
+			"parent": 5,
+			"text": "Then , this multiple topic space representation is compacted into an elementary segment , ",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "called c-vector , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 10,
+			"text": "originally developed in the context of speaker recognition . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 14,
+			"text": "Experiments are conducted on the DECODA corpus of conversations . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 14,
+			"parent": 5,
+			"text": "Results show the effectiveness of the proposed multi-view compact representation paradigm . <S>",
+			"relation": "evaluation"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "Our identification system reaches an accuracy of 85 % , with a significant gain of 9 points ",
+			"relation": "exp-evidence"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "compared to the baseline ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 17,
+			"parent": 16,
+			"text": "( best single topic space configuration ) . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

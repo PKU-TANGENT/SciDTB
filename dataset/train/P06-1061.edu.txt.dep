@@ -1,0 +1,130 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 5,
+			"text": "Hidden Markov models ( HMMs ) are powerful statistical models ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "that have found successful applications in Information Extraction ( IE ) . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 5,
+			"text": "In current approaches ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "to applying HMMs to IE , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 5,
+			"parent": 9,
+			"text": "an HMM is used ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "to model text at the document level . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 7,
+			"parent": 5,
+			"text": "This modelling might cause undesired redundancy in extraction in the sense ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "that more than one filler is identified and extracted . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 0,
+			"text": "We propose to use HMMs ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "to model text at the segment level , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "in which the extraction process consists of two steps : ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "a segment retrieval step ",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "followed by an extraction step . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 15,
+			"text": "In order to retrieve extractionrelevant segments from documents , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 15,
+			"parent": 9,
+			"text": "we introduce a method ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "to use HMMs ",
+			"relation": "enablement"
+		},
+		{
+			"id": 17,
+			"parent": 16,
+			"text": "to model and retrieve segments . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 18,
+			"parent": 20,
+			"text": "Our experimental results show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 19,
+			"parent": 20,
+			"text": "that the resulting segment HMM IE system not only achieves near zero extraction redundancy , ",
+			"relation": "progression"
+		},
+		{
+			"id": 20,
+			"parent": 9,
+			"text": "but also has better overall extraction performance than traditional document HMM IE systems . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

@@ -1,0 +1,100 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 2,
+			"text": "We first show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 2,
+			"parent": 0,
+			"text": "how a structural locality bias can improve the accuracy of state-of-the-art dependency grammar induction models ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "trained by EM from unannotated examples ( Klein and Manning , 2004 ) . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 6,
+			"text": "Next , by annealing the free parameter ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "that controls this bias , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 2,
+			"text": "we achieve further improvements . <S>",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "We then describe an alternative kind of structural bias , toward \"broken\" hypotheses ",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "consisting of partial structures over segmented sentences , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 7,
+			"text": "and show a similar pattern of improvement . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 10,
+			"parent": 2,
+			"text": "We relate this approach to contrastive estimation ( Smith and Eisner , 2005a ) , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "apply the latter to grammar induction in six languages , ",
+			"relation": "progression"
+		},
+		{
+			"id": 12,
+			"parent": 13,
+			"text": "and show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 13,
+			"parent": 11,
+			"text": "that our new approach improves accuracy by 1-17 % ( absolute ) over CE ( and 8-30 % over EM ) , ",
+			"relation": "progression"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "achieving to our knowledge the best results on this task to date . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 2,
+			"text": "Our method , structural annealing , is a general technique with broad applicability to hidden-structure discovery problems . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

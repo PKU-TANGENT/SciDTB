@@ -1,0 +1,19 @@
+Computationally modeling the evolution of science 
+by tracking how scientific topics rise and fall over time 
+has important implications for research funding and public policy . <S>
+However , little is known about the mechanisms 
+underlying topic growth and decline . <S>
+We investigate the role of rhetorical framing : 
+whether the rhetorical role or function 
+that authors ascribe to topics ( as methods , as goals , as results , etc. ) 
+relates to the historical trajectory of the topics . <S>
+We train topic models and a rhetorical function classifier 
+to map topic models onto their rhetorical roles in 2.4 million abstracts from the Web of Science from 1991-2010 . <S>
+We find 
+that a topic 's rhetorical function is highly predictive of its eventual growth or decline . <S>
+For example , topics 
+that are rhetorically described as results 
+tend to be in decline , 
+while topics 
+that function as methods 
+tend to be in early phases of growth . <S>

@@ -1,0 +1,82 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 5,
+			"text": "Text-level discourse parsing is notoriously difficult , \r",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "as distinctions between discourse relations require subtle semantic judgments \r",
+			"relation": "exp-reason"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "that are not easily captured \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 2,
+			"text": "using standard features . <S>\r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 5,
+			"parent": 0,
+			"text": "In this paper , we present a representation learning approach , \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "in which we transform surface features into a latent space \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "that facilitates RST discourse parsing . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 9,
+			"text": "By combining the machinery of large-margin transition-based structured prediction with representation learning , \r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 9,
+			"parent": 5,
+			"text": "our method jointly learns to parse discourse \r",
+			"relation": "exp-evidence"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "while at the same time learning a discourse-driven projection of surface features . <S>\r",
+			"relation": "joint"
+		},
+		{
+			"id": 11,
+			"parent": 5,
+			"text": "The resulting shift-reduce discourse parser obtains substantial improvements over the previous state-of-the-art \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "in predicting relations and nuclearity on the RST Treebank . <S>\r",
+			"relation": "elab-addition"
+		}
+	]
+}

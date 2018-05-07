@@ -1,0 +1,118 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 7,
+			"text": "Recent work has shown success ",
+			"relation": "result"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "in using continuous word embeddings ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "learned from unlabeled data ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "as features ",
+			"relation": "comparison"
+		},
+		{
+			"id": 5,
+			"parent": 2,
+			"text": "to improve supervised NLP systems , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "which is regarded as a simple semi-supervised learning mechanism . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 10,
+			"text": "However , fundamental problems ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "on effectively incorporating the word embedding features within the framework of linear models ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 7,
+			"text": "remain . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 10,
+			"parent": 0,
+			"text": "In this study , we investigate and analyze three different approaches , ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "including a new proposed distributional prototype approach , ",
+			"relation": "elab-example"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "for utilizing the embedding features . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 13,
+			"parent": 10,
+			"text": "The presented approaches can be integrated into most of the classical linear models in NLP . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 15,
+			"text": "Experiments on the task of named entity recognition show ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 15,
+			"parent": 10,
+			"text": "that each of the proposed approaches can better utilize the word embedding features , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "among which the distributional prototype approach performs the best . <S>",
+			"relation": "comparison"
+		},
+		{
+			"id": 17,
+			"parent": 15,
+			"text": "Moreover , the combination of the approaches provides additive improvements , ",
+			"relation": "progression"
+		},
+		{
+			"id": 18,
+			"parent": 17,
+			"text": "outperforming the dense and continuous embedding features by nearly 2 points of F1 score . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

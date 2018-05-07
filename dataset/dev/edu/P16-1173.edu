@@ -1,0 +1,14 @@
+There has been almost no work on phrase structure annotation and parsing 
+specially designed for learner English 
+despite the fact 
+that they are useful for representing the structural characteristics of learner English . <S>
+To address this problem , 
+in this paper , we first propose a phrase structure annotation scheme for learner English 
+and annotate two different learner corpora 
+using it . <S>
+Second , we show their usefulness , 
+reporting on ( a ) inter-annotator agreement rate , ( b ) characteristic CFG rules in the corpora , and ( c ) parsing performance on them . <S>
+In addition ,  we explore methods 
+to improve phrase structure parsing for learner English 
+( achieving an F-measure of 0.878 ) . <S>
+Finally , we release the full annotation guidelines , the annotated data , and the improved parser model for learner English to the public . <S>

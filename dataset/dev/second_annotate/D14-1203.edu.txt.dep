@@ -1,0 +1,130 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 4,
+			"text": "Distant supervision has become the leading method ",
+			"relation": "contrast"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "for training large-scale relation extractors , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "with nearly universal adoption in recent TAC knowledge-base population competitions . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 6,
+			"text": "However , there are still many questions about the best way ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "to learn such extractors . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 6,
+			"parent": 0,
+			"text": "In this paper we investigate four orthogonal improvements : ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "integrating named entity linking ( NEL ) and coreference resolution into argument identification for training and extraction , ",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "enforcing type constraints of linked arguments , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 6,
+			"text": "and partitioning the model by relation type signature . <S>",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 10,
+			"parent": 17,
+			"text": "We evaluate sentential extraction performance on two datasets : ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "the popular set of NY Times articles ",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "partially annotated by Hoffmann et al. ( 2011 ) ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 10,
+			"text": "and a new dataset , ",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "called GORECO , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 13,
+			"text": "that is comprehensively annotated for 48 common relations . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 16,
+			"parent": 17,
+			"text": "We find ",
+			"relation": "attribution"
+		},
+		{
+			"id": 17,
+			"parent": 6,
+			"text": "that using NEL for argument identification boosts performance over the traditional approach ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 18,
+			"parent": 17,
+			"text": "( named entity recognition with string match ) , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 19,
+			"parent": 17,
+			"text": "and there is further improvement from using argument types . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 20,
+			"parent": 17,
+			"text": "Our best system boosts precision by 44 % and recall by 70 % . <S>",
+			"relation": "exp-evidence"
+		}
+	]
+}

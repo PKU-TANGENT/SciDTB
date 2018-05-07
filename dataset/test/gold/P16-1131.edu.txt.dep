@@ -1,0 +1,82 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This paper presents neural probabilistic parsing models ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "which explore up to thirdorder graph-based parsing with maximum likelihood training criteria . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "Two neural network extensions are exploited for performance improvement . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "Firstly , a convolutional layer ",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "that absorbs the influences of all words in a sentence ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "is used ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 7,
+			"parent": 4,
+			"text": "so that sentence-level information can be effectively captured . <S>",
+			"relation": "cause"
+		},
+		{
+			"id": 8,
+			"parent": 3,
+			"text": "Secondly , a linear layer is added ",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "to integrate different order neural models ",
+			"relation": "enablement"
+		},
+		{
+			"id": 10,
+			"parent": 8,
+			"text": "and trained with perceptron method . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 11,
+			"parent": 12,
+			"text": "The proposed parsers are evaluated on English and Chinese Penn Treebanks ",
+			"relation": "progression"
+		},
+		{
+			"id": 12,
+			"parent": 1,
+			"text": "and obtain competitive accuracies . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

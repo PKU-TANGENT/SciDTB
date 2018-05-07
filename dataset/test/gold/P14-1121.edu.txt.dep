@@ -1,0 +1,82 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "The main work in bilingual lexicon extraction from comparable corpora is based on the implicit hypothesis \r",
+			"relation": "contrast"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "that corpora are balanced . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 6,
+			"text": "However , the historical context-based projection method \r",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "dedicated to this task \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "is relatively insensitive to the sizes of each part of the comparable corpus . <S>\r",
+			"relation": "same-unit"
+		},
+		{
+			"id": 6,
+			"parent": 0,
+			"text": "Within this context , we have carried out a study on the influence of unbalanced specialized comparable corpora on the quality of bilingual terminology extraction \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "through different experiments . <S>\r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 8,
+			"parent": 6,
+			"text": "Moreover , we have introduced a regression model \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "that boosts the observations of word co-occurrences \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "used in the context-based projection method . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 12,
+			"text": "Our results show \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 12,
+			"parent": 6,
+			"text": "that the use of unbalanced specialized comparable corpora induces a significant gain in the quality of extracted lexicons . <S>\r",
+			"relation": "evaluation"
+		}
+	]
+}

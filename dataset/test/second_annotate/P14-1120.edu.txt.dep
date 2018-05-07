@@ -1,0 +1,136 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We present a new lexical resource for the study of preposition behavior , the Pattern Dictionary of English Prepositions ( PDEP ) . <S>\r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "This dictionary , \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "which follows principles \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "laid out in Hanks' theory of norms and exploitations , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 2,
+			"text": "is linked to 81,509 sentences for 304 prepositions , \r",
+			"relation": "same-unit"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "which have been made available under The Preposition Project ( TPP ) . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 5,
+			"text": "Notably , 47,285 sentences , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "initially untagged , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 7,
+			"text": "provide a representative sample of preposition use , \r",
+			"relation": "same-unit"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "unlike the tagged sentences \r",
+			"relation": "comparison"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "used in previous studies . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 1,
+			"text": "Each sentence has been parsed with a dependency parser \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "and our system has near-instantaneous access to features \r",
+			"relation": "joint"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "developed with this parser \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 13,
+			"text": "to explore and annotate properties of individual senses . <S>\r",
+			"relation": "enablement"
+		},
+		{
+			"id": 16,
+			"parent": 13,
+			"text": "The features make extensive use of WordNet . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 17,
+			"parent": 1,
+			"text": "We have extended feature exploration \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 18,
+			"parent": 17,
+			"text": "to include lookup of FrameNet lexical units and VerbNet classes for use \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 19,
+			"parent": 18,
+			"text": "in characterizing preposition behavior . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 20,
+			"parent": 1,
+			"text": "We have designed our system \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 21,
+			"parent": 20,
+			"text": "to allow public access to any of the data available in the system . <S>\r",
+			"relation": "enablement"
+		}
+	]
+}

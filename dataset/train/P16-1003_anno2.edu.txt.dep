@@ -1,0 +1,118 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 6,
+			"text": "A core problem in learning semantic parsers from denotations is picking out consistent logical forms-those ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "that yield the correct denotation-from a combinatorially large space . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 4,
+			"text": "To control the search space , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 4,
+			"parent": 6,
+			"text": "previous work relied on restricted set of rules , ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "which limits expressivity . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 0,
+			"text": "In this paper , we consider a much more expressive class of logical forms , ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 7,
+			"parent": 8,
+			"text": "and show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 8,
+			"parent": 6,
+			"text": "how to use dynamic programming ",
+			"relation": "progression"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "to efficiently represent the complete set of consistent logical forms . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 10,
+			"parent": 6,
+			"text": "Expressivity also introduces many more spurious logical forms ",
+			"relation": "contrast"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "which are consistent with the correct denotation ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "but do not represent the meaning of the utterance . <S>",
+			"relation": "contrast"
+		},
+		{
+			"id": 13,
+			"parent": 14,
+			"text": "To address this , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 14,
+			"parent": 10,
+			"text": "we generate fictitious worlds ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "and use crowdsourced denotations on these worlds ",
+			"relation": "joint"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "to filter out spurious logical forms . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 17,
+			"parent": 6,
+			"text": "On the WIKITABLEQUESTIONS dataset , we increase the coverage of answerable questions from 53.5 % to 76 % , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 18,
+			"parent": 17,
+			"text": "and the additional crowdsourced supervision lets us rule out 92.1 % of spurious logical forms . <S>",
+			"relation": "joint"
+		}
+	]
+}

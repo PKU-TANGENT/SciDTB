@@ -1,0 +1,106 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We present a pairwise learning-to-rank approach to machine translation evaluation ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "that learns to differentiate better from worse translations in the context of a given reference . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "We integrate several layers of linguistic information ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "encapsulated in tree-based structures , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "making use of both the reference and the system output simultaneously , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "thus bringing our ranking closer to how humans evaluate translations . <S>",
+			"relation": "result"
+		},
+		{
+			"id": 7,
+			"parent": 9,
+			"text": "Most importantly , instead of deciding upfront ",
+			"relation": "contrast"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "which types of features are important , ",
+			"relation": "attribution"
+		},
+		{
+			"id": 9,
+			"parent": 1,
+			"text": "we use the learning framework of preference re-ranking kernels ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "to learn the features automatically . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 11,
+			"parent": 12,
+			"text": "The evaluation results show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 12,
+			"parent": 1,
+			"text": "that learning in the proposed framework yields better correlation with humans ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "than computing the direct similarity over the same type of structures . <S>",
+			"relation": "comparison"
+		},
+		{
+			"id": 14,
+			"parent": 15,
+			"text": "Also , we show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 15,
+			"parent": 12,
+			"text": "our structural kernel learning ( SKL ) can be a general framework for MT evaluation , ",
+			"relation": "joint"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "in which syntactic and semantic information can be naturally incorporated . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

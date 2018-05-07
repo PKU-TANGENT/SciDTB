@@ -1,0 +1,76 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "A long-standing challenge in coreference resolution has been the incorporation of entity-level information - features ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "defined over clusters of mentions instead of mention pairs . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 0,
+			"text": "We present a neural network based coreference system ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "that produces high-dimensional vector representations for pairs of coreference clusters . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 6,
+			"text": "Using these representations , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "our system learns when combining clusters is desirable . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 3,
+			"text": "We train the system with a learning-to-search algorithm ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "that teaches it ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 7,
+			"text": "which local decisions ( cluster merges ) will lead to a high-scoring final coreference partition . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 3,
+			"text": "The system substantially outperforms the current state-of-the-art on the English and Chinese portions of the CoNLL 2012 Shared Task dataset ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "despite using few hand-engineered features . <S>            ",
+			"relation": "contrast"
+		}
+	]
+}

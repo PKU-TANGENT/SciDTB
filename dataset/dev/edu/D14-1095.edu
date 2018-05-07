@@ -1,0 +1,12 @@
+We explore the impact of morphological segmentation on keyword spotting ( KWS ) . <S>
+Despite potential benefits , 
+state-of-the-art KWS systems do not use morphological information . <S>
+In this paper , we augment a state-of-the-art KWS system with sub-word units 
+derived from supervised and unsupervised morphological segmentations , 
+and compare with phonetic and syllabic segmentations . <S>
+Our experiments demonstrate 
+that morphemes improve overall performance of KWS systems . <S>
+Syllabic units , however , rival the performance of morphological units 
+when used in KWS . <S>
+By combining morphological , phonetic and syllabic segmentations , 
+we demonstrate substantial performance gains . <S>

@@ -1,0 +1,70 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 5,
+			"text": "It is very important for Chinese language processing with the aid of an efficient input method engine ( IME ) , \r",
+			"relation": "bg-general"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "of which pinyin-to-Chinese ( PTC ) conversion is the core part . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 5,
+			"text": "Meanwhile , though typos are inevitable \r",
+			"relation": "contrast"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "during user pinyin inputting , \r",
+			"relation": "temporal"
+		},
+		{
+			"id": 5,
+			"parent": 7,
+			"text": "existing IMEs paid little attention to such big inconvenience . <S>\r",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 6,
+			"parent": 7,
+			"text": "In this paper , motivated by a key equivalence of two decoding algorithms , \r",
+			"relation": "bg-general"
+		},
+		{
+			"id": 7,
+			"parent": 0,
+			"text": "we propose a joint graph model \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "to globally optimize PTC and typo correction for IME . <S>\r",
+			"relation": "enablement"
+		},
+		{
+			"id": 9,
+			"parent": 10,
+			"text": "The evaluation results show \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 10,
+			"parent": 7,
+			"text": "that the proposed method outperforms both existing academic and commercial IMEs . <S>\r",
+			"relation": "attribution"
+		}
+	]
+}

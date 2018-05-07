@@ -1,0 +1,70 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We present a hybrid approach to sentence simplification \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "which combines deep semantics and monolingual machine translation \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "to derive simple sentences from complex ones . <S>\r",
+			"relation": "enablement"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "The approach differs from previous work in two main ways . <S>\r",
+			"relation": "comparison"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "First , it is semantic based \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "in that it takes as input a deep semantic representation rather than e.g. , a sentence or a parse tree . <S>\r",
+			"relation": "exp-reason"
+		},
+		{
+			"id": 7,
+			"parent": 4,
+			"text": "Second , it combines a simplification model for splitting and deletion with a monolingual translation model for phrase substitution and reordering . <S>\r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 8,
+			"parent": 9,
+			"text": "When compared against current state of the art methods , \r",
+			"relation": "temporal"
+		},
+		{
+			"id": 9,
+			"parent": 1,
+			"text": "our model yields significantly simpler output \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "that is both grammatical and meaning preserving . <S>\r",
+			"relation": "elab-addition"
+		}
+	]
+}

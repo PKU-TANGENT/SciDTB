@@ -1,0 +1,118 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 4,
+			"text": "The syntactic ambiguity of a transitive verb ( Vt ) ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "followed by a noun ( N ) ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "has long been a problem in Chinese parsing . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 4,
+			"parent": 0,
+			"text": "In this paper , we propose a classifier ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "to resolve the ambiguity of Vt-N structures . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "The design of the classifier is based on three important guidelines , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "namely , adopting linguistically motivated features , ",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "using all available resources , and easy integration into a parsing model . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 9,
+			"parent": 7,
+			"text": "The linguistically motivated features include semantic relations , context , and morphological structures ; ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "and the available resources are treebank , thesaurus , affix database , and large corpora . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 11,
+			"parent": 4,
+			"text": "We also propose two learning approaches ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "that resolve the problem of data sparseness ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "by auto-parsing and extracting relative knowledge from large-scale unlabeled data . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 14,
+			"parent": 15,
+			"text": "Our experiment results show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 15,
+			"parent": 4,
+			"text": "that the Vt-N classifier outperforms the current PCFG parser . <S>",
+			"relation": "evaluation"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "Furthermore , it can be easily and effectively integrated into the PCFG parser and general statistical parsing models . <S>",
+			"relation": "progression"
+		},
+		{
+			"id": 17,
+			"parent": 18,
+			"text": "Evaluation of the learning approaches indicates ",
+			"relation": "attribution"
+		},
+		{
+			"id": 18,
+			"parent": 16,
+			"text": "that world knowledge facilitates Vt-N disambiguation through data selection and error correction . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

@@ -1,0 +1,88 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 4,
+			"text": "News reader comments ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "found in many on-line news websites ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "are typically massive in amount . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 4,
+			"parent": 0,
+			"text": "We investigate the task of Cultural-common Topic Detection ( CTD ) , ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "which is aimed at discovering common discussion topics from news reader comments ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "written in different languages . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 4,
+			"text": "We propose a new probabilistic graphical model ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "called MCTA ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 7,
+			"text": "which can cope with the language gap ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "and capture the common semantics in different languages . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 11,
+			"parent": 4,
+			"text": "We also develop a partially collapsed Gibbs sampler ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "which effectively incorporates the term translation relationship into the detection of cultural-common topics for model parameter learning . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 4,
+			"text": "Experimental results show improvements over the state-of-the-art model . <S>      ",
+			"relation": "evaluation"
+		}
+	]
+}

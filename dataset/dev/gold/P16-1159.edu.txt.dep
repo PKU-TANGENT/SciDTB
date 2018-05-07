@@ -1,0 +1,58 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We propose minimum risk training for end-to-end neural machine translation . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 3,
+			"text": "Unlike conventional maximum likelihood estimation , ",
+			"relation": "comparison"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "minimum risk training is capable of optimizing model parameters directly with respect to arbitrary evaluation metrics , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "which are not necessarily differentiable . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 6,
+			"text": "Experiments show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "that our approach achieves significant improvements over maximum likelihood estimation on a state-of-the-art neural machine translation system across various languages pairs . <S>",
+			"relation": "evaluation"
+		},
+		{
+			"id": 7,
+			"parent": 8,
+			"text": "Transparent to architectures , our approach can be applied to more neural networks ",
+			"relation": "progression"
+		},
+		{
+			"id": 8,
+			"parent": 1,
+			"text": "and potentially benefit more NLP tasks . <S>  ",
+			"relation": "evaluation"
+		}
+	]
+}

@@ -1,0 +1,64 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This paper investigates a machine learning approach for temporally ordering and anchoring events in natural language texts . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 3,
+			"text": "To address data sparseness , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "we used temporal reasoning as an oversampling method ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "to dramatically expand the amount of training data , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "resulting in predictive accuracy on link labeling as high as 93 % ",
+			"relation": "result"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "using a Maximum Entropy classifier on human annotated data . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 7,
+			"parent": 1,
+			"text": "This method compared favorably against a series of increasingly sophisticated baselines ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "involving expansion of rules ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "derived from human intuitions . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

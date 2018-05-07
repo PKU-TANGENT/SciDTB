@@ -1,0 +1,52 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We present a series of algorithms with theoretical guarantees \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "for learning accurate ensembles of several structured prediction rules \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "for which no prior knowledge is as-sumed . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "This includes a number of randomized and deterministic algorithms \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "devised by converting on-line learning algorithms to batch ones , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "and a boosting-style algorithm applicable in the context of structured prediction with a large number of labels . <S>\r",
+			"relation": "joint"
+		},
+		{
+			"id": 7,
+			"parent": 1,
+			"text": "We also report the results of extensive experiments with these algorithms . <S>\r",
+			"relation": "evaluation"
+		}
+	]
+}

@@ -1,0 +1,136 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 4,
+			"text": "The documentation of ( unbounded-length ) copying and cross-serial constructions in a few languages in the recent literature is usually taken ",
+			"relation": "contrast"
+		},
+		{
+			"id": 2,
+			"parent": 3,
+			"text": "to mean ",
+			"relation": "attribution"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "that natural languages are slightly context-sensitive . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 4,
+			"parent": 10,
+			"text": "However , this ignores those copying constructions ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 5,
+			"parent": 7,
+			"text": "which , ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 6,
+			"parent": 7,
+			"text": "while productive , ",
+			"relation": "temporal"
+		},
+		{
+			"id": 7,
+			"parent": 4,
+			"text": "cannot be easily shown to apply to infinite sublanguages . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 10,
+			"text": "To allow such finite copying constructions to be taken into account in formal modeling , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 9,
+			"parent": 10,
+			"text": "it is necessary to recognize ",
+			"relation": "attribution"
+		},
+		{
+			"id": 10,
+			"parent": 21,
+			"text": "that natural languages cannot be realistically represented by formal languages of the usual sort . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "Rather , they must be modeled as families of formal languages or as formal languages with indefinite vocabularies . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 12,
+			"parent": 13,
+			"text": "Once this is done , ",
+			"relation": "condition"
+		},
+		{
+			"id": 13,
+			"parent": 10,
+			"text": "we see copying as a truly pervasive and fundamental process in human language . <S>",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 14,
+			"parent": 15,
+			"text": "Furthermore , the absence of mirror-image constructions in human languages means ",
+			"relation": "attribution"
+		},
+		{
+			"id": 15,
+			"parent": 19,
+			"text": "that it is not enough to extend Context-free Grammars in the direction of context-sensitivity . <S>",
+			"relation": "bg-general"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "Instead , a class of grammars must be found ",
+			"relation": "contrast"
+		},
+		{
+			"id": 17,
+			"parent": 16,
+			"text": "which handles ( context-sensitive ) copying but not ( context-free ) mirror images . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 18,
+			"parent": 19,
+			"text": "This suggests ",
+			"relation": "attribution"
+		},
+		{
+			"id": 19,
+			"parent": 10,
+			"text": "that human linguistic processes use queues rather than stacks , ",
+			"relation": "joint"
+		},
+		{
+			"id": 20,
+			"parent": 19,
+			"text": "making imperative the development of a hierarchy of Queue Grammars as a counterweight to the Chomsky Grammars . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 21,
+			"parent": 0,
+			"text": "A simple class of Context-free Queue Grammars is introduced and discussed . <S>",
+			"relation": "ROOT"
+		}
+	]
+}

@@ -1,0 +1,124 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 7,
+			"text": "Spoken language generation for dialogue systems requires a dictionary ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "of mappings between semantic representations of concepts ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "the system wants to express ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 2,
+			"text": "and realizations of those concepts . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 5,
+			"parent": 1,
+			"text": "Dictionary creation is a costly process ; ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "it is currently done by hand for each dialogue domain . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 0,
+			"text": "We propose a novel unsupervised method ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "for learning such mappings from user reviews in the target domain , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 7,
+			"text": "and test it on restaurant reviews . <S>",
+			"relation": "progression"
+		},
+		{
+			"id": 10,
+			"parent": 7,
+			"text": "We test the hypothesis ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "that user reviews ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "that provide individual ratings for distinguished attributes of the domain entity ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 11,
+			"text": "make it possible to map review sentences to their semantic representation with high precision . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 14,
+			"parent": 15,
+			"text": "Experimental analyses show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 15,
+			"parent": 7,
+			"text": "that the mappings learned cover most of the domain ontology , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "and provide good linguistic variation . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 17,
+			"parent": 18,
+			"text": "A subjective user evaluation shows ",
+			"relation": "attribution"
+		},
+		{
+			"id": 18,
+			"parent": 7,
+			"text": "that the consistency between the semantic representations and the learned realizations is high ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 19,
+			"parent": 18,
+			"text": "and that the naturalness of the realizations is higher than a hand-crafted baseline . <S>",
+			"relation": "joint"
+		}
+	]
+}

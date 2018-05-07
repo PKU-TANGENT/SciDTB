@@ -1,0 +1,94 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This paper demonstrates a conceptually simple but effective method ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "of increasing the accuracy of QA systems on factoid-style questions . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "We define the notion of an inverted question , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 7,
+			"text": "and show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 5,
+			"parent": 6,
+			"text": "that by requiring ",
+			"relation": "attribution"
+		},
+		{
+			"id": 6,
+			"parent": 7,
+			"text": "that the answers to the original and inverted questions be mutually consistent , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 7,
+			"parent": 3,
+			"text": "incorrect answers get demoted in confidence ",
+			"relation": "progression"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "and correct ones promoted . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 9,
+			"parent": 10,
+			"text": "Additionally ,   we show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 10,
+			"parent": 3,
+			"text": "that lack of validation can be used ",
+			"relation": "progression"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "to assert no-answer ( nil ) conditions . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 12,
+			"parent": 1,
+			"text": "We demonstrate increases of performance on TREC and other question-sets , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "and discuss the kinds of future activities ",
+			"relation": "progression"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "that can be particularly beneficial to approaches such as ours . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

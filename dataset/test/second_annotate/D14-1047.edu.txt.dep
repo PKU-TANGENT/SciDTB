@@ -1,0 +1,46 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 2,
+			"text": "Much attention has been given to the impact of informativeness and similarity measures on distributional thesauri . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 0,
+			"text": "We investigate the effects of context filters on thesaurus quality ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "and propose the use of cooccurrence frequency as a simple and inexpensive criterion . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 4,
+			"parent": 6,
+			"text": "For evaluation , we measure thesaurus agreement with WordNet and performance ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "in answering TOEFL-like questions . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 2,
+			"text": "Results illustrate the sensitivity of distributional thesauri to filters . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

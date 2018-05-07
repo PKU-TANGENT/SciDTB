@@ -1,0 +1,94 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 4,
+			"text": "Automatic metrics are widely used in machine translation as a substitute for human assessment . <S>",
+			"relation": "result"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "With the introduction of any new metric comes the question ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "of just how well that metric mimics human assessment of translation quality . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 9,
+			"text": "This is often measured by correlation with human judgment . <S>",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "Significance tests are generally not used ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "to establish ",
+			"relation": "enablement"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "whether improvements over existing methods such as BLEU are statistically significant ",
+			"relation": "attribution"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "or have occurred simply by chance , however . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 9,
+			"parent": 0,
+			"text": "In this paper , we introduce a significance test ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "for comparing correlations of two metrics , along with an open-source implementation of the test . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 11,
+			"parent": 13,
+			"text": "When applied to a range of metrics across seven language pairs , ",
+			"relation": "condition"
+		},
+		{
+			"id": 12,
+			"parent": 13,
+			"text": "tests show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 13,
+			"parent": 9,
+			"text": "that for a high proportion of metrics , there is insufficient evidence ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "to conclude significant improvement over BLEU . <S>",
+			"relation": "enablement"
+		}
+	]
+}

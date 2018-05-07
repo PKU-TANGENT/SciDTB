@@ -1,0 +1,136 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "Correctly predicting abbreviations given the full forms ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "is important in many natural language processing systems . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 3,
+			"parent": 0,
+			"text": "In this paper we propose a two-stage method ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "to find the corresponding abbreviation ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "given its full form . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 3,
+			"text": "We first use the contextual information ",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "given a large corpus ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 6,
+			"text": "to get abbreviation candidates for each full form ",
+			"relation": "enablement"
+		},
+		{
+			"id": 9,
+			"parent": 6,
+			"text": "and get a coarse-grained ranking through graph random walk . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "This coarse-grained rank list fixes the search space inside the top-ranked candidates . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 3,
+			"text": "Then we use a similarity sensitive re-ranking strategy ",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "which can utilize the features of the candidates ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 11,
+			"text": "to give a fine-grained re-ranking ",
+			"relation": "enablement"
+		},
+		{
+			"id": 14,
+			"parent": 11,
+			"text": "and select the final result . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 15,
+			"parent": 3,
+			"text": "Our method achieves good results ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "and outperforms the state-of-the-art systems . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 17,
+			"parent": 15,
+			"text": "One advantage of our method is that it only needs weak supervision ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 18,
+			"parent": 17,
+			"text": "and can get competitive results with fewer training data . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 19,
+			"parent": 17,
+			"text": "The candidate generation and coarse-grained ranking is totally unsupervised . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 20,
+			"parent": 18,
+			"text": "The re-ranking phase can use a very small amount of training data ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 21,
+			"parent": 20,
+			"text": "to get a reasonably good result . <S>",
+			"relation": "enablement"
+		}
+	]
+}

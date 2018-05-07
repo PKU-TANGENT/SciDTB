@@ -1,0 +1,112 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 6,
+			"text": "Recently , syntactic information has helped significantly ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "to improve statistical machine translation . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "However , the use of syntactic information may have a negative impact on the speed of translation ",
+			"relation": "contrast"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "because of the large number of rules , ",
+			"relation": "exp-reason"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "especially when syntax labels are projected from a parser in syntax-augmented machine translation . <S>",
+			"relation": "temporal"
+		},
+		{
+			"id": 6,
+			"parent": 0,
+			"text": "In this paper , we propose a syntax-label clustering method ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "that uses an exchange algorithm ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "in which syntax labels are clustered together ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "to reduce the number of rules . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 10,
+			"parent": 6,
+			"text": "The proposed method achieves clustering ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "by directly maximizing the likelihood of synchronous rules , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 12,
+			"parent": 10,
+			"text": "whereas previous work considered only the similarity of probabilistic distributions of labels . <S>",
+			"relation": "contrast"
+		},
+		{
+			"id": 13,
+			"parent": 6,
+			"text": "We tested the proposed method on Japanese-English and Chinese-English translation tasks ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "and found order-of-magnitude higher clustering speeds ",
+			"relation": "progression"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "for reducing labels ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "and gains in translation quality ",
+			"relation": "joint"
+		},
+		{
+			"id": 17,
+			"parent": 16,
+			"text": "compared with previous clustering method . <S>",
+			"relation": "comparison"
+		}
+	]
+}

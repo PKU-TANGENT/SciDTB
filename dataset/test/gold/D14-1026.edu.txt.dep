@@ -1,0 +1,70 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We present a human judgments dataset ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "and an adapted metric for evaluation of Arabic machine translation . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "Our mediumscale dataset is the first of its kind for Arabic with high annotation quality . <S>",
+			"relation": "evaluation"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "We use the dataset ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "to adapt the BLEU score for Arabic . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "Our score ( AL-BLEU ) provides partial credits for stem and morphological matchings of hypothesis and reference words . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 9,
+			"text": "We evaluate BLEU , METEOR and AL-BLEU on our human judgments corpus ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 8,
+			"parent": 9,
+			"text": "and show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 9,
+			"parent": 1,
+			"text": "that AL-BLEU has the highest correlation with human judgments . <S>",
+			"relation": "evaluation"
+		},
+		{
+			"id": 10,
+			"parent": 1,
+			"text": "We are releasing the dataset and software to the research community . <S>",
+			"relation": "elab-aspect"
+		}
+	]
+}

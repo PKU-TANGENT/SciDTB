@@ -1,0 +1,88 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 4,
+			"text": "Traditional models of distributional semantics suffer from computational issues such as data sparsity for individual lexemes and complexities \r",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "of modeling semantic composition \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "when dealing with structures larger than single lexical items . <S>\r",
+			"relation": "temporal"
+		},
+		{
+			"id": 4,
+			"parent": 0,
+			"text": "In this work , we present a frequency-driven paradigm for robust distributional semantics in terms of semantically cohesive lineal constituents , or motifs . <S>\r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "The framework subsumes issues such as differential compositional as well as non-compositional behavior of phrasal consituents , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "and circumvents some problems of data sparsity by design . <S>\r",
+			"relation": "joint"
+		},
+		{
+			"id": 7,
+			"parent": 4,
+			"text": "We design a segmentation model \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "to optimally partition a sentence into lineal constituents , \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "which can be used to define distributional contexts \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "that are less noisy , semantically more interpretable ,and linguistically disambiguated . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "Hellinger PCA embeddings \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "learnt using the framework \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 11,
+			"text": "show competitive results on empirical tasks . <S>\r",
+			"relation": "same-unit"
+		}
+	]
+}

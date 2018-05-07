@@ -1,0 +1,70 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "General information retrieval systems are designed to serve all users ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "without considering individual needs . <S>",
+			"relation": "condition"
+		},
+		{
+			"id": 3,
+			"parent": 0,
+			"text": "In this paper , we propose a novel approach to personalized search . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "It can , in a unified way , exploit and utilize implicit feedback information , such as query logs and immediately viewed documents . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "Moreover , our approach can implement result re-ranking and query expansion simultaneously and collaboratively . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 7,
+			"text": "Based on this approach , ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 7,
+			"parent": 3,
+			"text": "we develop a client-side personalized web search agent PAIR ( Personalized Assistant for Information Retrieval ) , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "which supports both English and Chinese . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 10,
+			"text": "Our experiments on TREC and HTRDP collections clearly show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 10,
+			"parent": 3,
+			"text": "that the new approach is both effective and efficient . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

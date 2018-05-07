@@ -1,0 +1,106 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "Idiom token classification is the task of deciding for a set of potentially idiomatic phrases ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "whether each occurrence of a phrase is a literal or idiomatic usage of the phrase . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 0,
+			"text": "In this work we explore the use of Skip-Thought Vectors ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "to create distributed representations ",
+			"relation": "enablement"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "that encode features ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "that are predictive with respect to idiom token classification . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 8,
+			"text": "We show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 8,
+			"parent": 3,
+			"text": "that classifiers ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "using these representations ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 8,
+			"text": "have competitive performance ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 11,
+			"parent": 8,
+			"text": "compared with the state of the art in idiom token classification . <S>",
+			"relation": "comparison"
+		},
+		{
+			"id": 12,
+			"parent": 3,
+			"text": "Importantly , however , our models use only the sentence ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "containing the target phrase as input ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 12,
+			"text": "and are thus less dependent on a potentially inaccurate or incomplete model of discourse context . <S>",
+			"relation": "result"
+		},
+		{
+			"id": 15,
+			"parent": 3,
+			"text": "We further demonstrate the feasibility of using these representations ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "to train a competitive general idiom token classifier . <S>",
+			"relation": "enablement"
+		}
+	]
+}

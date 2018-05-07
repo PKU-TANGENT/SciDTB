@@ -1,0 +1,58 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "Language is given meaning through its correspondence with a world representation . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "This correspondence can be at multiple levels of granularity or resolutions . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 0,
+			"text": "In this paper , we introduce an approach to multi-resolution language grounding in the extremely challenging domain of professional soccer commentaries . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "We define and optimize a factored objective function ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "that allows us to leverage discourse structure and the compositional nature of both language and game events . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 7,
+			"text": "We show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 7,
+			"parent": 3,
+			"text": "that finer resolution grounding helps coarser resolution grounding , and vice versa . <S>",
+			"relation": "evaluation"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "Our method results in an F1 improvement of more than 48 % versus the previous state of the art for fine-resolution grounding . <S>",
+			"relation": "exp-evidence"
+		}
+	]
+}

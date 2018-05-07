@@ -1,0 +1,136 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 7,
+			"text": "Vector space models ( VSMs ) are mathematically well-defined frameworks ",
+			"relation": "contrast"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "that have been widely used in the distributional approaches to semantics . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "In VSMs , high-dimensional vectors represent linguistic entities . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "In an application , the similarity of vectors—and thus the entities ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "that they represent—",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "is computed by a distance formula . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 7,
+			"parent": 11,
+			"text": "The high dimensionality of vectors , however , is a barrier to the performance of methods ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "that employ VSMs . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 7,
+			"text": "Consequently , a dimensionality reduction technique is employed ",
+			"relation": "result"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "to alleviate this problem . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 11,
+			"parent": 0,
+			"text": "This paper introduces a novel technique ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "called Random Manhattan Indexing ( RMI ) ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 11,
+			"text": "for the construction of l1 normed VSMs at reduced dimensionality . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 11,
+			"text": "RMI combines the construction of a VSM and dimension reduction into an incremental and thus scalable two-step procedure . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 16,
+			"text": "In order to attain its goal , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 16,
+			"parent": 11,
+			"text": "RMI employs the sparse Cauchy random projections . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 17,
+			"parent": 11,
+			"text": "We further introduce Random Manhattan Integer Indexing ( RMII ) : ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 18,
+			"parent": 17,
+			"text": "a computationally enhanced version of RMI . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 19,
+			"parent": 20,
+			"text": "As shown in the reported experiments , ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 20,
+			"parent": 11,
+			"text": "RMI and RMII can be used reliably ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 21,
+			"parent": 20,
+			"text": "to estimate the l1 distances between vectors in a vector space of low dimensionality . <S>  ",
+			"relation": "enablement"
+		}
+	]
+}

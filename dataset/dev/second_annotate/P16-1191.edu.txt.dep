@@ -1,0 +1,70 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 5,
+			"text": "Coarse-grained semantic categories ",
+			"relation": "result"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "such as supersenses ",
+			"relation": "elab-example"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "have proven useful for a range of downstream tasks ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "such as question answering or machine translation . <S>",
+			"relation": "elab-example"
+		},
+		{
+			"id": 5,
+			"parent": 6,
+			"text": "To date , no effort has been put into integrating the supersenses into distributional word representations . <S>",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 6,
+			"parent": 0,
+			"text": "We present a novel joint embedding model of words and supersenses , ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "providing insights into the relationship between words and supersenses in the same vector space . <S>",
+			"relation": "result"
+		},
+		{
+			"id": 8,
+			"parent": 10,
+			"text": "Using these embeddings in a deep neural network model , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 9,
+			"parent": 10,
+			"text": "we demonstrate ",
+			"relation": "attribution"
+		},
+		{
+			"id": 10,
+			"parent": 6,
+			"text": "that the supersense enrichment leads to a significant improvement in a range of downstream classification tasks . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

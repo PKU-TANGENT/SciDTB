@@ -1,0 +1,106 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "In this paper we present our task-based evaluation of query biased summarization for cross-language information retrieval ( CLIR ) ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "using relevance prediction . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "We describe our 13 summarization methods each from one of four summarization strategies . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 5,
+			"text": "We show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 5,
+			"parent": 1,
+			"text": "how well our methods perform ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "using Farsi text from the CLEF 2008 shared-task , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "which we translated to English automtatically . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 11,
+			"text": "We report precision/recall/F1 , accuracy and time-on-task . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 9,
+			"parent": 10,
+			"text": "We found ",
+			"relation": "attribution"
+		},
+		{
+			"id": 10,
+			"parent": 11,
+			"text": "that different summarization methods perform optimally for different evaluation metrics , ",
+			"relation": "contrast"
+		},
+		{
+			"id": 11,
+			"parent": 1,
+			"text": "but overall query biased word clouds are the best summarization strategy . <S>",
+			"relation": "evaluation"
+		},
+		{
+			"id": 12,
+			"parent": 13,
+			"text": "In our analysis , we demonstrate ",
+			"relation": "attribution"
+		},
+		{
+			"id": 13,
+			"parent": 1,
+			"text": "that using the ROUGE metric on our sentence-based summaries cannot make the same kinds of distinctions ",
+			"relation": "summary"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "as our evaluation framework does . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 15,
+			"parent": 1,
+			"text": "Finally , we present our recommendations ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "for creating muchneeded evaluation standards and datasets . <S>",
+			"relation": "enablement"
+		}
+	]
+}

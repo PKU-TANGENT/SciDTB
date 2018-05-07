@@ -1,0 +1,94 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 7,
+			"text": "Dependency parsing is a core task in NLP , ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "and it is widely used by many applications such as information extraction , ques-tion answering , and machine translation . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "In the era of social media , a big challenge is that parsers ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "trained on traditional newswire corpora ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "typically suffer from the domain mismatch issue , ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "and thus perform poorly on social media data . <S>",
+			"relation": "result"
+		},
+		{
+			"id": 7,
+			"parent": 0,
+			"text": "We present a new GFL/FUDG-annotated Chinese treebank with more than 18K tokens from Sina Weibo ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "( the Chinese equivalent of Twitter ) . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 7,
+			"text": "We formulate the dependency parsing problem as many small and parallelizable arc prediction tasks : ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "for each task , we use a programmable probabilistic first-order logic ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "to infer the dependency arc of a token in the sentence . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 12,
+			"parent": 7,
+			"text": "In experiments , we show ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "that the proposed model outperforms an off-the-shelf Stanford Chinese parser , as well as a strong MaltParser baseline ",
+			"relation": "attribution"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "that is trained on the same in-domain data . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

@@ -1,0 +1,94 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 4,
+			"text": "Compositional distributional semantics is a subfield of Computational Linguistics ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "which investigates methods ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "for representing the meanings of phrases and sentences . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 0,
+			"text": "In this paper , we explore implementations of a framework ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "based on Combinatory Categorial Grammar ( CCG ) , ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "in which words with certain grammatical types have meanings ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "represented by multi-linear maps ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "( i.e. multi-dimensional arrays , or tensors ) . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 4,
+			"text": "An obstacle to full implemen-tation of the framework is the size of these tensors . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 4,
+			"text": "We examine the performance of lower dimensional approximations of transitive verb tensors on a sentence plausibility/selectional preference task . <S>",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 11,
+			"parent": 4,
+			"text": "We find ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "that the matrices perform as well as , and sometimes even better than , full tensors , ",
+			"relation": "attribution"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "allowing a reduction in the number of parameters ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "needed to model the framework . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

@@ -1,0 +1,52 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "In this paper we propose a method ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "to increase dependency parser performance ",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "without using additional labeled or unlabeled data ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "by refining the layer of predicted part-of-speech ( POS ) tags . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 5,
+			"parent": 1,
+			"text": "We perform experiments on English and German ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "and show significant improvements for both languages . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 7,
+			"parent": 4,
+			"text": "The refinement is based on generative split-merge training for Hidden Markov models ( HMMs ) . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

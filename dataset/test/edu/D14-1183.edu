@@ -1,0 +1,14 @@
+Phrase reordering is a challenge for statistical machine translation systems . <S>
+Posing phrase movements as a prediction problem 
+using contextual features 
+modeled by maximum entropy-based classifier 
+is superior to the commonly used lexicalized reordering model . <S>
+However , Training this discriminative model 
+using large-scale parallel corpus 
+might be computationally expensive . <S>
+In this paper , we explore recent advancements in solving large-scale classification problems . <S>
+Using the dual problem to multinomial logistic regression , 
+we managed to shrink the training data 
+while iterating 
+and produce significant saving in computation and memory 
+while preserving the accuracy . <S>

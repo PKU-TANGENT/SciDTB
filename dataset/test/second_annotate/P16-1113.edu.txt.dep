@@ -1,0 +1,82 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This paper introduces a novel model for semantic role labeling ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "that makes use of neural sequence modeling techniques . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "Our approach is motivated by the observation ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "that complex syntactic structures and related phenomena , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "such as nested subordinations and nominal predicates , ",
+			"relation": "elab-example"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "are not handled well by existing models . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 7,
+			"parent": 1,
+			"text": "Our model treats such instances as subsequences of lexicalized dependency paths ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "and learns suitable embedding representations . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 9,
+			"parent": 10,
+			"text": "We experimentally demonstrate ",
+			"relation": "attribution"
+		},
+		{
+			"id": 10,
+			"parent": 1,
+			"text": "that such embeddings can improve results over previous state-of-the-art semantic role labelers , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "and showcase qualitative improvements ",
+			"relation": "joint"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "obtained by our method . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

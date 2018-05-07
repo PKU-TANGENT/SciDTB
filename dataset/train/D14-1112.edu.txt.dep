@@ -1,0 +1,52 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "In this paper we propose a computational method ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "for determining the orthographic similarity between Romanian and related languages . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "We account for etymons and cognates ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "and we investigate not only the number of related words , but also their forms , ",
+			"relation": "joint"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "quantifying orthographic similarities . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "The method we propose is adaptable to any language , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "as far as resources are available . <S>",
+			"relation": "condition"
+		}
+	]
+}

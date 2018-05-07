@@ -1,0 +1,76 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We present half-life regression ( HLR ) , a novel model for spaced repetition practice with applications to second language acquisition . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "HLR combines psycholinguistic theory with modern machine learning techniques , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "indirectly estimating the `` halflife '' of a word or concept in a student 's long-term memory . <S>",
+			"relation": "result"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "We use data from Duolingo - a popular online language learning application - ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "to fit HLR models , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "reducing error by 45 % + ",
+			"relation": "result"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "compared to several baselines ",
+			"relation": "comparison"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "at predicting student recall rates . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 10,
+			"text": "HLR model weights also shed light ",
+			"relation": "attribution"
+		},
+		{
+			"id": 10,
+			"parent": 4,
+			"text": "on which linguistic concepts are systematically challenging for second language learners . <S>",
+			"relation": "evaluation"
+		},
+		{
+			"id": 11,
+			"parent": 1,
+			"text": "Finally , HLR was able to improve Duolingo daily student engagement by 12 % in an operational user study . <S>",
+			"relation": "elab-process_step"
+		}
+	]
+}

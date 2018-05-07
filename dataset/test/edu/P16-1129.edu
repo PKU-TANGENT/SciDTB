@@ -1,0 +1,12 @@
+In this paper , we investigate the possibility 
+to automatically generate sports news from live text commentary scripts . <S>
+As a preliminary study , we treat this task as a special kind of document summarization 
+based on sentence extraction . <S>
+We formulate the task in a supervised learning to rank framework , 
+utilizing both traditional sentence features for generic document summarization and novelly designed task-specific features . <S>
+To tackle the problem of local redundancy , 
+we also propose a probabilistic sentence selection algorithm . <S>
+Experiments on our collected data from football live commentary scripts and corresponding sports news demonstrate the feasibility of this task . <S>
+Evaluation results show 
+that our methods are indeed appropriate for this task , 
+outperforming several baseline methods in different aspects . <S>

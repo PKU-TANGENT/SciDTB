@@ -1,0 +1,11 @@
+Crowdsourcing is a viable mechanism 
+for creating training data for machine translation . <S>
+It provides a low cost , fast turnaround way 
+of processing large volumes of data . <S>
+However , when compared to professional translation , 
+naive collection of translations from non-professionals yields low-quality results . <S>
+Careful quality control is necessary for crowdsourcing to work well . <S>
+In this paper , we examine the challenges of a two-step collaboration process with translation and post-editing by non-professionals . <S>
+We develop graph-based ranking models 
+that automatically select the best output from multiple redundant versions of translations and edits , 
+and improves translation quality closer to professionals . <S>

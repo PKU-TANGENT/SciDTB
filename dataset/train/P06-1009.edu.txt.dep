@@ -1,0 +1,88 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "In this paper we present a novel approach ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "for inducing word alignments from sentence aligned data . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "We use a Conditional Random Field ( CRF ) , a discriminative model , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "which is estimated on a small supervised training set . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 6,
+			"text": "The CRF is conditioned on both the source and target texts , ",
+			"relation": "progression"
+		},
+		{
+			"id": 6,
+			"parent": 3,
+			"text": "and thus allows for the use of arbitrary and overlapping features over these data . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 3,
+			"text": "Moreover , the CRF has efficient training and decoding processes ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "which both find globally optimal solutions . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 11,
+			"text": "We apply this alignment model to both French-English and Romanian-English language pairs . <S>",
+			"relation": "result"
+		},
+		{
+			"id": 10,
+			"parent": 11,
+			"text": "We show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 11,
+			"parent": 3,
+			"text": "how a large number of highly predictive features can be easily incorporated into the CRF , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 12,
+			"parent": 13,
+			"text": "and demonstrate ",
+			"relation": "attribution"
+		},
+		{
+			"id": 13,
+			"parent": 11,
+			"text": "that even with only a few hundred word-aligned training sentences , our model improves over the current state-ofthe-art with alignment error rates of 5.29 and 25.8 for the two tasks respectively . <S>",
+			"relation": "joint"
+		}
+	]
+}

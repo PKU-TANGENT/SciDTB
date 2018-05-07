@@ -1,0 +1,76 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 6,
+			"text": "In the past years , a number of lexical association measures have been studied ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "to help extract new scientific terminology or general-language collocations . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "The implicit assumption of this research was that newly designed term measures ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "involving more sophisticated statistical criteria ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "would outperform simple counts of cooccurrence frequencies . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 6,
+			"parent": 0,
+			"text": "We here explicitly test this assumption . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 7,
+			"parent": 9,
+			"text": "By way of four qualitative criteria , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 8,
+			"parent": 9,
+			"text": "we show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 9,
+			"parent": 6,
+			"text": "that purely statistics-based measures reveal virtually no difference ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "compared with frequency of occurrence counts , ",
+			"relation": "comparison"
+		},
+		{
+			"id": 11,
+			"parent": 9,
+			"text": "while linguistically more informed metrics do reveal such a marked difference . <S>",
+			"relation": "temporal"
+		}
+	]
+}

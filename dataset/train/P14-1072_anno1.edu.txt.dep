@@ -1,0 +1,76 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 2,
+			"text": "Widely used in speech and language processing , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 2,
+			"parent": 5,
+			"text": "Kneser-Ney ( KN ) smoothing has consistently been shown to be one of the best-performing smoothing methods . <S>\r",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "However , KN smoothing assumes integer counts , \r",
+			"relation": "contrast"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "limiting its potential uses—for example , inside Expectation-Maximization . <S>\r",
+			"relation": "cause"
+		},
+		{
+			"id": 5,
+			"parent": 0,
+			"text": "In this paper , we propose a generalization of KN smoothing \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "that operates on fractional counts , or , more precisely , on distributions over counts . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 5,
+			"text": "We rederive all the steps of KN smoothing to operate on count distributions instead of integral counts , \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 8,
+			"parent": 5,
+			"text": "and apply it to two tasks \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "where KN smoothing was not applicable before : \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "one in language model adaptation , and the other in word alignment . <S>\r",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 11,
+			"parent": 8,
+			"text": "In both cases , our method improves performance significantly . <S>\r",
+			"relation": "cause"
+		}
+	]
+}

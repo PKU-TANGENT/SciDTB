@@ -1,0 +1,18 @@
+Coherence is what makes a multi-sentence text meaningful , both logically and syntactically . <S>
+To solve the challenge of ordering a set of sentences into coherent order , 
+existing approaches focus mostly on defining and using sophisticated features 
+to capture the cross-sentence argumentation logic and syntactic relationships . <S>
+But both argumentation semantics and cross-sentence syntax 
+( such as coreference and tense rules ) 
+are very hard 
+to formalize . <S>
+In this paper , we introduce a neural network model for the coherence task 
+based on distributed sentence representation . <S>
+The proposed approach learns a syntactico-semantic representation for sentences automatically , 
+using either recurrent or recursive neural networks . <S>
+The architecture obviated the need for feature engineering , 
+and learns sentence representations , 
+which are to some extent able to capture the "rules" 
+governing coherent sentence structure . <S>
+The proposed approach outperforms existing baselines 
+and generates the state-of-art performance in standard coherence evaluation tasks . <S>

@@ -1,0 +1,94 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 2,
+			"text": "Unlike traditional over-the-phone spoken dialog systems ( SDSs ) , ",
+			"relation": "comparison"
+		},
+		{
+			"id": 2,
+			"parent": 7,
+			"text": "modern dialog systems tend to have visual rendering on the device screen as an additional modality ",
+			"relation": "contrast"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "to communicate the system's response to the user . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 4,
+			"parent": 2,
+			"text": "Visual display of the system's response not only changes human behavior ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "when interacting with devices , ",
+			"relation": "temporal"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "but also creates new research areas in SDSs . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 7,
+			"parent": 9,
+			"text": "On-screen item identification and resolution in utterances is one critical problem ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "to achieve a natural and accurate human-machine communication . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 0,
+			"text": "We pose the problem as a classification task ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "to correctly identify intended on-screen item ( s ) from user utterances . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 11,
+			"parent": 12,
+			"text": "Using syntactic , semantic as well as context features from the display screen , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 12,
+			"parent": 9,
+			"text": "our model can resolve different types of referring expressions with up to 90 % accuracy . <S>",
+			"relation": "evaluation"
+		},
+		{
+			"id": 13,
+			"parent": 14,
+			"text": "In the experiments we also show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 14,
+			"parent": 9,
+			"text": "that the proposed model is robust to domain and screen layout changes . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

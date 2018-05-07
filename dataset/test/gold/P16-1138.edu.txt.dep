@@ -1,0 +1,100 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 6,
+			"text": "We consider the task ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "of learning a context dependent mapping from utterances to denotations . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 6,
+			"text": "With only denotations at training time , we must search over a combinatorially large space of logical forms , ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "which is even larger with context-dependent utterances . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 6,
+			"text": "To cope with this challenge , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 6,
+			"parent": 0,
+			"text": "we perform successive projections of the full model onto simpler models ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "that operate over equivalence classes of logical forms . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 10,
+			"text": "Though less expressive , ",
+			"relation": "contrast"
+		},
+		{
+			"id": 9,
+			"parent": 10,
+			"text": "we find ",
+			"relation": "attribution"
+		},
+		{
+			"id": 10,
+			"parent": 6,
+			"text": "that these simpler models are much faster ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "and can be surprisingly effective . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 12,
+			"parent": 6,
+			"text": "Moreover , they can be used ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "to bootstrap the full model . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 14,
+			"parent": 6,
+			"text": "Finally , we collected three new contextdependent semantic parsing datasets , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "and develop a new left-to-right parser . <S>",
+			"relation": "joint"
+		}
+	]
+}

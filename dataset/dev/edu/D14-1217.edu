@@ -1,0 +1,13 @@
+We address the grounding of natural language to concrete spatial constraints , and inference of implicit pragmatics in 3D environments . <S>
+We apply our approach to the task of text-to-3D scene generation . <S>
+We present a representation for common sense spatial knowledge and an approach 
+to extract it from 3D scene data . <S>
+In text-to-3D scene generation , a user provides as input natural language text 
+from which we extract explicit constraints on the objects 
+that should appear in the scene . <S>
+The main innovation of this work is to show 
+how to augment these explicit constraints with learned spatial knowledge 
+to infer missing objects and likely layouts for the objects in the scene . <S>
+We demonstrate 
+that spatial knowledge is useful for interpreting natural language 
+and show examples of learned knowledge and generated 3D scenes . <S>

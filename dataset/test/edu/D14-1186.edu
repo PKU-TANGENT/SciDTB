@@ -1,0 +1,11 @@
+Previous work often used a pipelined framework 
+where Chinese word segmentation is followed by term extraction and keyword extraction . <S>
+Such framework suffers from error propagation 
+and is unable to leverage information in later modules for prior components . <S>
+In this paper , we propose a four-level Dirichlet Process based model ( DP-4 ) 
+to jointly learn the word distributions from the corpus , domain and document levels simultaneously . <S>
+Based on the DP-4 model , 
+a sentence-wise Gibbs sampler is adopted 
+to obtain proper segmentation results . <S>
+Meanwhile , terms and keywords are acquired in the sampling process . <S>
+Experimental results have shown the effectiveness of our method . <S>

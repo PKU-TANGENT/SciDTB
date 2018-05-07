@@ -1,0 +1,76 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 2,
+			"text": "Neural networks are among the state-ofthe-art techniques for language modeling . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 2,
+			"parent": 7,
+			"text": "Existing neural language models typically map discrete words to distributed , dense vector representations . <S>",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 3,
+			"parent": 4,
+			"text": "After information processing of the preceding context words by hidden layers , ",
+			"relation": "temporal"
+		},
+		{
+			"id": 4,
+			"parent": 2,
+			"text": "an output layer estimates the probability of the next word . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 2,
+			"text": "Such approaches are time- and memory-intensive ",
+			"relation": "summary"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "because of the large numbers of parameters for word embeddings and the output layer . <S>",
+			"relation": "exp-reason"
+		},
+		{
+			"id": 7,
+			"parent": 0,
+			"text": "In this paper , we propose to compress neural language models by sparse word representations . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "In the experiments , the number of parameters in our model increases very slowly with the growth of the vocabulary size , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "which is almost imperceptible . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 8,
+			"text": "Moreover , our approach not only reduces the parameter space to a large extent , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "but also improves the performance in terms of the perplexity measure . <S>",
+			"relation": "progression"
+		}
+	]
+}

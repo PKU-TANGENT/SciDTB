@@ -1,0 +1,100 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We present the Siamese Continuous Bag of Words ( Siamese CBOW ) model , a neural network for efficient estimation of highquality sentence embeddings . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 4,
+			"text": "Averaging the embeddings of words in a sentence has proven to be a surprisingly successful and efficient way ",
+			"relation": "contrast"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "of obtaining sentence embeddings . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "However , word embeddings ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "trained with the methods currently available ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "are not optimized for the task of sentence representation , ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "and , thus , likely to be suboptimal . <S>",
+			"relation": "cause"
+		},
+		{
+			"id": 8,
+			"parent": 1,
+			"text": "Siamese CBOW handles this problem ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "by training word embeddings directly ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "for the purpose of being averaged . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 11,
+			"parent": 8,
+			"text": "The underlying neural network learns word embeddings ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "by predicting , from a sentence representation , its surrounding sentences . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 13,
+			"parent": 1,
+			"text": "We show the robustness of the Siamese CBOW model ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "by evaluating it on 20 datasets ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "stemming from a wide variety of sources . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

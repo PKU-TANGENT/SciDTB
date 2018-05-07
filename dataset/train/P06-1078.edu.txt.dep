@@ -1,0 +1,82 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This paper proposes a named entity recognition ( NER ) method for speech recognition results ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "that uses confidence on automatic speech recognition ( ASR ) as a feature . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 4,
+			"text": "The ASR confidence feature indicates ",
+			"relation": "attribution"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "whether each word has been correctly recognized . <S>",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 5,
+			"parent": 1,
+			"text": "The NER model is trained ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "using ASR results with named entity ( NE ) labels as well as the corresponding transcriptions with NE labels . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 7,
+			"parent": 9,
+			"text": "In experiments ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "using support vector machines ( SVMs ) and speech data from Japanese newspaper articles , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 1,
+			"text": "the proposed method outperformed a simple application of textbased NER to ASR results in NER Fmeasure ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "by improving precision . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 11,
+			"parent": 12,
+			"text": "These results show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 12,
+			"parent": 9,
+			"text": "that the proposed method is effective in NER for noisy inputs . <S>",
+			"relation": "summary"
+		}
+	]
+}

@@ -1,0 +1,70 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 2,
+			"text": "Bidirectional models of word alignment are an appealing alternative to post-hoc combinations of directional word aligners . <S>\r",
+			"relation": "contrast"
+		},
+		{
+			"id": 2,
+			"parent": 4,
+			"text": "Unfortunately , most bidirectional formulations are NP-Hard to solve , \r",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "and a previous attempt to use a relaxation-based decoder yielded few exact solutions ( 6 % ) . <S>\r",
+			"relation": "joint"
+		},
+		{
+			"id": 4,
+			"parent": 0,
+			"text": "We present a novel relaxation \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "for decoding the bidirectional model of DeNero and Macherey ( 2011 ) . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "The relaxation can be solved with a modified version of the Viterbi algorithm . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 8,
+			"text": "To find optimal solutions on difficult instances , \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 8,
+			"parent": 4,
+			"text": "we alternate between incrementally adding constraints and applying optimality-preserving coarse-to-fine pruning . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 4,
+			"text": "The algorithm finds provably exact solutions on 86 % of sentence pairs \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "and shows improvements over directional models . <S>\r",
+			"relation": "joint"
+		}
+	]
+}

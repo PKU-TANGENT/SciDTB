@@ -1,0 +1,124 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 5,
+			"text": "Named Entity recognition ( NER ) is an important part of many natural language processing tasks . <S>",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "Current approaches often employ machine learning techniques ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "and require supervised data . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "However , many languages lack such resources . <S>",
+			"relation": "contrast"
+		},
+		{
+			"id": 5,
+			"parent": 0,
+			"text": "This paper presents an ( almost ) unsupervised learning algorithm for automatic discovery of Named Entities ( NEs ) in a resource free language , ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "given a bilingual corpora ",
+			"relation": "condition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "in which it is weakly temporally aligned with a resource rich language . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 5,
+			"text": "NEs have similar time distributions across such corpora , ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "and often some of the tokens in a multi-word NE are transliterated . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 10,
+			"parent": 5,
+			"text": "We develop an algorithm ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "that exploits both observations iteratively . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 10,
+			"text": "The algorithm makes use of a new , frequency based , metric for time distributions and a resource free discriminative approach to transliteration . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 14,
+			"text": "Seeded with a small number of transliteration pairs , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 10,
+			"text": "our algorithm discovers multi-word NEs , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "and takes advantage of a dictionary ",
+			"relation": "joint"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "( if one exists ) ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 17,
+			"parent": 15,
+			"text": "to account for translated or partially translated NEs . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 18,
+			"parent": 19,
+			"text": "We evaluate the algorithm on an English-Russian corpus , ",
+			"relation": "result"
+		},
+		{
+			"id": 19,
+			"parent": 5,
+			"text": "and show high level of NEs discovery in Russian . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

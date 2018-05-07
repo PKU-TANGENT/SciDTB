@@ -1,0 +1,94 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 7,
+			"text": "Lexical resource alignment has been an active field of research over the last decade . <S>\r",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 7,
+			"text": "However , prior methods \r",
+			"relation": "contrast"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "for aligning lexical resources \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 4,
+			"parent": 2,
+			"text": "have been either specific to a particular pair of resources , \r",
+			"relation": "same-unit"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "or heavily dependent on the availability of hand-crafted alignment data for the pair of resources \r",
+			"relation": "joint"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "to be aligned . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 0,
+			"text": "Here we present a unified approach \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "that can be applied to an arbitrary pair of lexical resources , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "including machine-readable dictionaries with no network structure . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 7,
+			"text": "Our approach leverages a similarity measure \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "that enables the structural comparison of senses across lexical resources , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "achieving state-of-the-art performance on the task \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "of aligning WordNet to three different collaborative resources : \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "Wikipedia , Wiktionary and OmegaWiki . <S>\r",
+			"relation": "elab-enum_member"
+		}
+	]
+}

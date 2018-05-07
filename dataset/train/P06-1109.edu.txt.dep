@@ -1,0 +1,76 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We investigate generalizations of the allsubtrees `` DOP '' approach to unsupervised parsing . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "Unsupervised DOP models assign all possible binary trees to a set of sentences ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "and next use ( a large random subset of ) all subtrees from these binary trees ",
+			"relation": "joint"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "to compute the most probable parse trees . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 5,
+			"parent": 1,
+			"text": "We will test both a relative frequency estimator for unsupervised DOP and a maximum likelihood estimator ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "which is known to be statistically consistent . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 5,
+			"text": "We report state-ofthe-art results on English ( WSJ ) , German ( NEGRA ) and Chinese ( CTB ) data . <S>",
+			"relation": "result"
+		},
+		{
+			"id": 8,
+			"parent": 1,
+			"text": "To the best of our knowledge this is the first paper ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "which tests a maximum likelihood estimator for DOP on the Wall Street Journal , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 8,
+			"text": "leading to the surprising result ",
+			"relation": "result"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "that an unsupervised parsing model beats a widely used supervised model ( a treebank PCFG ) . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

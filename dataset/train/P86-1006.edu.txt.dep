@@ -1,0 +1,100 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "An important goal of computational linguistics has been to use linguistic theory ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "to guide the construction of computationally efficient real-world natural language processing systems . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 12,
+			"text": "At first glance , generalized phrase structure grammar ( GPSG ) appears to be a blessing on two counts . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "First , the precise formalisms of GPSG might be a direct and fransparent guide for parser design and implementation . <S>",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 5,
+			"parent": 8,
+			"text": "Second , since GPSG has weak context-free generative power ",
+			"relation": "exp-reason"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "and context-free languages can be parsed in O(n) ",
+			"relation": "joint"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "by a wide range of algorithms , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 8,
+			"parent": 3,
+			"text": "GPSG parsers would appear to run in polynomial time . <S>",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 9,
+			"parent": 3,
+			"text": "This widely-assumed GPSG \" efficient parsability \" result is misleading : ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 11,
+			"text": "here we prove ",
+			"relation": "attribution"
+		},
+		{
+			"id": 11,
+			"parent": 9,
+			"text": "that the universal recognition problem for current GPSG theory is exponential-polynomial time hard , and assuredly intractable . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 0,
+			"text": "The paper pinpoints sources of complexity ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "( e.g. metarules and the theory of syntactic features ) ",
+			"relation": "elab-example"
+		},
+		{
+			"id": 14,
+			"parent": 12,
+			"text": "in the current GPSG theory ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 12,
+			"text": "and concludes with some linguistically and computationally motivated restrictions on GPSG . <S>",
+			"relation": "joint"
+		}
+	]
+}

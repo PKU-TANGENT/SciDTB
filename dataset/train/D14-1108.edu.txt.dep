@@ -1,0 +1,70 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We describe a new dependency parser for English tweets , TWEEBOPARSER . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "The parser builds on several contributions : ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "new syntactic annotations for a corpus of tweets ( TWEEBANK ) , with conventions ",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "informed by the domain ; ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 2,
+			"text": "adaptations to a statistical parsing algorithm ; ",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "and a new approach to exploiting out-of-domain Penn Treebank data . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 7,
+			"parent": 1,
+			"text": "Our experiments show ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "that the parser achieves over 80 % unlabeled attachment accuracy on our new , high-quality test set ",
+			"relation": "attribution"
+		},
+		{
+			"id": 9,
+			"parent": 7,
+			"text": "and measure the benefit of our contributions . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 10,
+			"parent": 1,
+			"text": "Our dataset and parser can be found at http : //www.ark.cs.cmu.edu/TweetNLP . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

@@ -1,0 +1,88 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 2,
+			"text": "Over the past decade , large-scale supervised learning corpora have enabled machine learning researchers to make substantial advances . <S>",
+			"relation": "contrast"
+		},
+		{
+			"id": 2,
+			"parent": 3,
+			"text": "However , to this date , there are no large-scale question-answer corpora available . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 3,
+			"parent": 0,
+			"text": "In this paper we present the 30M Factoid QuestionAnswer Corpus , ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "an enormous question-answer pair corpus ",
+			"relation": "elab-definition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "produced by applying a novel neural network architecture on the knowledge base Freebase ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "to transduce facts into natural language questions . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 7,
+			"parent": 3,
+			"text": "The produced question-answer pairs are evaluated ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "both by human evaluators ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "and using automatic evaluation metrics , ",
+			"relation": "joint"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "including well-established machine translation and sentence similarity metrics . <S>",
+			"relation": "elab-example"
+		},
+		{
+			"id": 11,
+			"parent": 3,
+			"text": "Across all evaluation criteria the question-generation model outperforms the competing template-based baseline . <S>",
+			"relation": "evaluation"
+		},
+		{
+			"id": 12,
+			"parent": 13,
+			"text": "Furthermore , when presented to human evaluators , ",
+			"relation": "condition"
+		},
+		{
+			"id": 13,
+			"parent": 3,
+			"text": "the generated questions appear to be comparable in quality to real human-generated questions . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

@@ -1,0 +1,88 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "Quotation detection is the task ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "of locating spans of quoted speech in text . <S>",
+			"relation": "elab-definition"
+		},
+		{
+			"id": 3,
+			"parent": 7,
+			"text": "The state of the art treats this problem as a sequence labeling task ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "and employs linear-chain conditional random fields . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 5,
+			"parent": 7,
+			"text": "We question the efficacy of this choice : ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "The Markov assumption in the model prohibits it from making joint decisions about the begin , end , and internal context of a quotation . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 0,
+			"text": "We perform an extensive analysis with two new model architectures . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 8,
+			"parent": 9,
+			"text": "We find ",
+			"relation": "attribution"
+		},
+		{
+			"id": 9,
+			"parent": 7,
+			"text": "that ( a ) , simple boundary classification ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "combined with a greedy prediction strategy ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 9,
+			"text": "is competitive with the state of the art ; ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 12,
+			"parent": 9,
+			"text": "( b ) , a semi-Markov model significantly outperforms all others , ",
+			"relation": "joint"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "by relaxing the Markov assumption . <S>  ",
+			"relation": "manner-means"
+		}
+	]
+}

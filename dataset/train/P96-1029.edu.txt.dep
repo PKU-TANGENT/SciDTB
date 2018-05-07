@@ -1,0 +1,70 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We report on a method ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "for compiling decision trees into weighted finite-state transducers . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "The key assumptions are that the tree predictions specify how to rewrite symbols from an input string , ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "and the decision at each tree node is stateable in terms of regular expressions on the input string . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 5,
+			"parent": 1,
+			"text": "Each leaf node can then be treated as a separate rule ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "where the left and right contexts are constructable from the decisions ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "made traversing the tree from the root to the leaf . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 1,
+			"text": "These rules are compiled into transducers ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "using the weighted rewrite-rule rule-compilation algorithm ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "described in ( Mohri and Sproat , 1996 ) . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

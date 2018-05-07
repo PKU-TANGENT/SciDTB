@@ -1,0 +1,94 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We present a novel approach \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "for inducing unsupervised dependency parsers for languages \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 4,
+			"text": "that have no labeled training data , \r",
+			"relation": "contrast"
+		},
+		{
+			"id": 4,
+			"parent": 2,
+			"text": "but have translated text in a resource-rich language . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 1,
+			"text": "We train probabilistic parsing models for resource-poor languages \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "by transferring cross-lingual knowledge from resource-rich language with entropy regularization . <S>\r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 7,
+			"parent": 1,
+			"text": "Our method can be used as a purely monolingual dependency parser , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "requiring no human translations for the test data , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "thus making it applicable to a wide range of resource-poor languages . <S>\r",
+			"relation": "result"
+		},
+		{
+			"id": 10,
+			"parent": 1,
+			"text": "We perform experiments on three Data sets\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "— Version 1.0 and version 2.0 of Google Universal Dependency Treebanks and Treebanks from CoNLL shared-tasks , \r",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 12,
+			"parent": 10,
+			"text": "across ten languages . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 1,
+			"text": "We obtain state-of-the art performance of all the three data sets \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "when compared with previously studied unsupervised and projected parsing systems . <S>\r",
+			"relation": "condition"
+		}
+	]
+}

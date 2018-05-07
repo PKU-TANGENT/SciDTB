@@ -1,0 +1,94 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We present a novel classifier-based deterministic parser for Chinese constituency parsing . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "Our parser computes parse trees from bottom up in one pass , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "and uses classifiers ",
+			"relation": "joint"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "to make shift-reduce decisions . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 5,
+			"parent": 6,
+			"text": "Trained and evaluated on the standard training and test sets , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "our best model ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "( using stacked classifiers ) ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 8,
+			"parent": 6,
+			"text": "runs in linear time ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "and has labeled precision and recall above 88 % ",
+			"relation": "joint"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "using gold-standard part-of-speech tags , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 11,
+			"parent": 9,
+			"text": "surpassing the best published results . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 1,
+			"text": "Our SVM parser is 2-13 times faster than state-of-the-art parsers , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "while producing more accurate results . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 14,
+			"parent": 1,
+			"text": "Our Maxent and DTree parsers run at speeds 40-270 times faster than state-of-the-art parsers , but with 5-6 % losses in accuracy . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

@@ -1,0 +1,21 @@
+Vector space models ( VSMs ) are mathematically well-defined frameworks 
+that have been widely used in the distributional approaches to semantics . <S>
+In VSMs , high-dimensional vectors represent linguistic entities . <S>
+In an application , the similarity of vectors—and thus the entities 
+that they represent—
+is computed by a distance formula . <S>
+The high dimensionality of vectors , however , is a barrier to the performance of methods 
+that employ VSMs . <S>
+Consequently , a dimensionality reduction technique is employed 
+to alleviate this problem . <S>
+This paper introduces a novel technique 
+called Random Manhattan Indexing ( RMI ) 
+for the construction of l1 normed VSMs at reduced dimensionality . <S>
+RMI combines the construction of a VSM and dimension reduction into an incremental and thus scalable two-step procedure . <S>
+In order to attain its goal , 
+RMI employs the sparse Cauchy random projections . <S>
+We further introduce Random Manhattan Integer Indexing ( RMII ) : 
+a computationally enhanced version of RMI . <S>
+As shown in the reported experiments , 
+RMI and RMII can be used reliably 
+to estimate the l1 distances between vectors in a vector space of low dimensionality . <S>  

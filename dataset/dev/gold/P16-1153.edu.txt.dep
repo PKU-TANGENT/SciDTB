@@ -1,0 +1,88 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This paper introduces a novel architecture for reinforcement learning with deep neural networks ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "designed to handle state and action spaces ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "characterized by natural language , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "as found in text-based games . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 6,
+			"text": "Termed a deep reinforcement relevance network ( DRRN ) , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "the architecture represents action and state spaces with separate embedding vectors , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "which are combined with an interaction function ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "to approximate the Q-function in reinforcement learning . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 10,
+			"text": "We evaluate the DRRN on two popular text games , ",
+			"relation": "result"
+		},
+		{
+			"id": 10,
+			"parent": 1,
+			"text": "showing superior performance over other deep Qlearning architectures . <S>",
+			"relation": "evaluation"
+		},
+		{
+			"id": 11,
+			"parent": 12,
+			"text": "Experiments with paraphrased action descriptions show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 12,
+			"parent": 1,
+			"text": "that the model is extracting meaning ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "rather than simply memorizing strings of text . <S>",
+			"relation": "contrast"
+		}
+	]
+}

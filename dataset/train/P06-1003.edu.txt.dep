@@ -1,0 +1,94 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We present a method for unsupervised topic modelling ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "which adapts methods ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "used in document classification ( Blei et al. , 2003 ; Griffiths and Steyvers , 2004 ) ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 2,
+			"text": "to unsegmented multi-party discourse transcripts . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 5,
+			"parent": 6,
+			"text": "We show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "how Bayesian inference in this generative model can be used ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "to simultaneously address the problems of topic segmentation and topic identification : ",
+			"relation": "enablement"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "automatically segmenting multi-party meetings into topically coherent segments with performance ",
+			"relation": "elab-definition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "which compares well with previous unsupervised segmentation-only methods ( Galley et al. , 2003 ) ",
+			"relation": "comparison"
+		},
+		{
+			"id": 10,
+			"parent": 8,
+			"text": "while simultaneously extracting topics ",
+			"relation": "joint"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "which rate highly ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "when assessed for coherence by human judges . <S>",
+			"relation": "condition"
+		},
+		{
+			"id": 13,
+			"parent": 14,
+			"text": "We also show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 14,
+			"parent": 1,
+			"text": "that this method appears robust in the face of off-topic dialogue and speech recognition errors . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

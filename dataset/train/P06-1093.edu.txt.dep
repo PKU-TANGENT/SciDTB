@@ -1,0 +1,142 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 7,
+			"text": "Call centers handle customer queries from various domains ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "such as computer sales and support , mobile phones , car rental , etc. . <S>",
+			"relation": "elab-example"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "Each such domain generally has a domain model ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "which is essential to handle customer complaints . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "These models contain common problem categories , typical customer issues and their solutions , greeting styles . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 3,
+			"text": "Currently these models are manually created over time . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 8,
+			"text": "Towards this , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 0,
+			"text": "we propose an unsupervised technique ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "to generate domain models automatically from call transcriptions . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 10,
+			"parent": 8,
+			"text": "We use a state of the art Automatic Speech Recognition system ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "to transcribe the calls between agents and customers , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "which still results in high word error rates ( 40 % ) ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 14,
+			"text": "and show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 14,
+			"parent": 10,
+			"text": "that even from these noisy transcriptions of calls we can automatically build a domain model . <S>",
+			"relation": "result"
+		},
+		{
+			"id": 15,
+			"parent": 8,
+			"text": "The domain model is comprised of primarily a topic taxonomy ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "where every node is characterized by topic ( s ) , typical Questions-Answers ( Q&As ) , typical actions and call statistics . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 17,
+			"parent": 18,
+			"text": "We show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 18,
+			"parent": 8,
+			"text": "how such a domain model can be used for topic identification of unseen calls . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 19,
+			"parent": 8,
+			"text": "We also propose applications for aiding agents ",
+			"relation": "progression"
+		},
+		{
+			"id": 20,
+			"parent": 19,
+			"text": "while handling calls ",
+			"relation": "temporal"
+		},
+		{
+			"id": 21,
+			"parent": 19,
+			"text": "and for agent monitoring ",
+			"relation": "joint"
+		},
+		{
+			"id": 22,
+			"parent": 21,
+			"text": "based on the domain model . <S>",
+			"relation": "bg-general"
+		}
+	]
+}

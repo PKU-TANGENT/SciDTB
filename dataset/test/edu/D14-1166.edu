@@ -1,0 +1,15 @@
+A promising approach to relation extraction , 
+called weak or distant supervision , 
+exploits an existing database of facts as training data , 
+by aligning it to an unlabeled collection of text documents . <S>
+Using this approach , 
+the task of relation extraction can easily be scaled to hundreds of different relationships . <S>
+However , distant supervision leads to a challenging multiple instance , multiple label learning problem . <S>
+Most of the proposed solutions to this problem are based on non-convex formulations , 
+and are thus prone to local min-ima . <S>
+In this article , we propose a new approach to the problem of weakly supervised relation extraction , 
+based on discriminative clustering 
+and leading to a convex formulation . <S>
+We demonstrate 
+that our approach outperforms state-of-the-art methods on the challenging dataset 
+introduced by Riedel et al. ( 2010 ) . <S>

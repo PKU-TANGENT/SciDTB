@@ -1,0 +1,70 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 2,
+			"text": "Parameter tuning is an important problem in statistical machine translation , ",
+			"relation": "contrast"
+		},
+		{
+			"id": 2,
+			"parent": 4,
+			"text": "but surprisingly , most existing methods such as MERT , MIRA and PRO are agnostic about search , ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "while search errors could severely degrade translation quality . <S>",
+			"relation": "contrast"
+		},
+		{
+			"id": 4,
+			"parent": 0,
+			"text": "We propose a search-aware framework ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "to promote promising partial translations , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "preventing them from be-ing pruned . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 8,
+			"text": "To do so ",
+			"relation": "enablement"
+		},
+		{
+			"id": 8,
+			"parent": 5,
+			"text": "we develop two metrics to evaluate partial derivations . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 4,
+			"text": "Our technique can be applied to all of the three above-mentioned tuning methods , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "and extensive experiments on Chinese-to-English and English-to-Chinese translation show up to +2.6 BLEU gains over search-agnostic baselines . <S>",
+			"relation": "joint"
+		}
+	]
+}

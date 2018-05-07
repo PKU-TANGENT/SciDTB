@@ -1,0 +1,112 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We outline a model of generation with revision , ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "focusing on improving textual coherence . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 4,
+			"text": "We argue ",
+			"relation": "attribution"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "that high quality text is more easily produced ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "by iteratively revising and regenerating , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "as people do , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 5,
+			"text": "rather than by using an architecturally more complex single pass generator . <S>",
+			"relation": "contrast"
+		},
+		{
+			"id": 8,
+			"parent": 1,
+			"text": "As a general area of study , the revision process presents interesting problems : ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "Recognition of flaws in text requires a descriptive theory ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "of what constitutes well written prose ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 9,
+			"text": "and a parser ",
+			"relation": "joint"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "which can build a representation in those terms . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 14,
+			"text": "Improving text requires associating flaws with strategies for improvement . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 14,
+			"parent": 1,
+			"text": "The strategies , in turn , need to know what adjustments to the decisions ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "made during the initial generation ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 16,
+			"parent": 14,
+			"text": "will produce appropriate modifications to the text . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 17,
+			"parent": 1,
+			"text": "We compare our treatment of revision with those of Mann and Moore ( 1981 ) , Gabriel ( 1984 ) , and Mann ( 1983 ) . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

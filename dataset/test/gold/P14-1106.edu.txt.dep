@@ -1,0 +1,100 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This paper explores a simple and effective unified framework \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "for incorporating soft linguistic reordering constraints into a hierarchical phrase-based translation system : \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "1 ) a syntactic reordering model \r",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "that explores reorderings for context free grammar rules ; \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "and 2 ) a semantic reordering model \r",
+			"relation": "joint"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "that focuses on the reordering of predicate-argument structures . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 1,
+			"text": "We develop novel features based on both models \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "and use them as soft constraints \r",
+			"relation": "joint"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "to guide the translation process . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 11,
+			"text": "Experiments on Chinese-English translation show \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 11,
+			"parent": 1,
+			"text": "that the reordering approach can significantly improve a state-of-the-art hierarchical phrase-based translation system . <S>\r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "However , the gain \r",
+			"relation": "contrast"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "achieved by the semantic reordering model \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 12,
+			"text": "is limited in the presence of the syntactic reordering model , \r",
+			"relation": "same-unit"
+		},
+		{
+			"id": 15,
+			"parent": 12,
+			"text": "and we therefore provide a detailed analysis of the behavior differences between the two . <S>\r",
+			"relation": "progression"
+		}
+	]
+}

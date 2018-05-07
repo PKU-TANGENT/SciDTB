@@ -1,0 +1,94 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We present a novel translation model ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "based on tree-to-string alignment template ( TAT ) ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "which describes the alignment between a source parse tree and a target string . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "A TAT is capable of generating both terminals and non-terminals ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "and performing reordering at both low and high levels . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "The model is linguistically syntaxbased ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "because TATs are extracted automatically from word-aligned , source side parsed parallel texts . <S>",
+			"relation": "exp-reason"
+		},
+		{
+			"id": 8,
+			"parent": 9,
+			"text": "To translate a source sentence , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 9,
+			"parent": 1,
+			"text": "we first employ a parser ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "to produce a source parse tree ",
+			"relation": "enablement"
+		},
+		{
+			"id": 11,
+			"parent": 9,
+			"text": "and then apply TATs ",
+			"relation": "progression"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "to transform the tree into a target string . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 13,
+			"parent": 14,
+			"text": "Our experiments show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 14,
+			"parent": 1,
+			"text": "that the TAT-based model significantly outperforms Pharaoh , a state-of-the-art decoder for phrase-based models . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

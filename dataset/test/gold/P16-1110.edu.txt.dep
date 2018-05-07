@@ -1,0 +1,112 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 2,
+			"text": "Effective text classification requires experts to annotate data with labels ; ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 2,
+			"parent": 5,
+			"text": "these training data are time-consuming and expensive to obtain . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 4,
+			"text": "If you know what labels you want , ",
+			"relation": "condition"
+		},
+		{
+			"id": 4,
+			"parent": 5,
+			"text": "active learning can reduce the number of labeled documents needed . <S>",
+			"relation": "contrast"
+		},
+		{
+			"id": 5,
+			"parent": 8,
+			"text": "However , establishing the label set remains difficult . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "Annotators often lack the global knowledge ",
+			"relation": "exp-reason"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "needed to induce a label set . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 0,
+			"text": "We introduce ALTO : Active Learning with Topic Overviews , an interactive system ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "to help humans annotate documents : ",
+			"relation": "enablement"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "topic models provide a global overview ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "of what labels to create ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 10,
+			"text": "and active learning directs them to the right documents ",
+			"relation": "joint"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "to label . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 16,
+			"text": "Our forty-annotator user study shows ",
+			"relation": "attribution"
+		},
+		{
+			"id": 15,
+			"parent": 16,
+			"text": "that while active learning alone is best in extremely resource limited conditions , ",
+			"relation": "temporal"
+		},
+		{
+			"id": 16,
+			"parent": 8,
+			"text": "topic models ( even by themselves ) lead to better label sets , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 17,
+			"parent": 16,
+			"text": "and ALTO 's combination is best overall . <S>",
+			"relation": "joint"
+		}
+	]
+}

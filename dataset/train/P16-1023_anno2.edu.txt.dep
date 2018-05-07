@@ -1,0 +1,88 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We introduce a new methodology for intrinsic evaluation of word representations . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "Specifically , we identify four fundamental criteria ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "based on the characteristics of natural language ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "that pose difficulties to NLP systems ; ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 2,
+			"text": "and develop tests ",
+			"relation": "joint"
+		},
+		{
+			"id": 6,
+			"parent": 7,
+			"text": "that directly show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 7,
+			"parent": 5,
+			"text": "whether or not representations contain the subspaces necessary ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "to satisfy these criteria . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 1,
+			"text": "Current intrinsic evaluations are mostly based on the overall similarity or full-space similarity of words ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "and thus view vector representations as points . <S>",
+			"relation": "result"
+		},
+		{
+			"id": 11,
+			"parent": 9,
+			"text": "We show the limits of these point-based intrinsic evaluations . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 13,
+			"text": "We apply our evaluation methodology to the comparison of a count vector model and several neural network models ",
+			"relation": "progression"
+		},
+		{
+			"id": 13,
+			"parent": 1,
+			"text": "and demonstrate important properties of these models . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

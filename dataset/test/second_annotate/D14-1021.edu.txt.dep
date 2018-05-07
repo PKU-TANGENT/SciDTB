@@ -1,0 +1,70 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We study a novel architecture for syntactic SMT . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 3,
+			"text": "In contrast to the dominant approach in the literature , ",
+			"relation": "comparison"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "the system does not rely on translation rules , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "but treat translation as an unconstrained target sentence generation task , ",
+			"relation": "contrast"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "using soft features ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "to capture lexical and syntactic correspondences between the source and target languages . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 7,
+			"parent": 1,
+			"text": "Target syntax features and bilingual translation features are trained consistently in a discriminative model . <S>",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 8,
+			"parent": 10,
+			"text": "Experiments using the IWSLT 2010 dataset ",
+			"relation": "attribution"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "show ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 10,
+			"parent": 1,
+			"text": "that the system achieves BLEU comparable to the state-of-the-art syntactic SMT systems . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

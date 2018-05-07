@@ -1,0 +1,64 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 4,
+			"text": "Recent work by Cherry ( 2013 ) has shown ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "that directly optimizing phrase-based reordering models towards BLEU can lead to significant gains . <S>",
+			"relation": "attribution"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "Their approach is limited to small training sets of a few thousand sentences and a similar number of sparse features . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 0,
+			"text": "We show ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "how the expected BLEU objective allows us to train a simple linear discriminative reordering model with millions of sparse features on hundreds of thousands of sentences ",
+			"relation": "attribution"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "resulting in significant improvements . <S>",
+			"relation": "result"
+		},
+		{
+			"id": 7,
+			"parent": 4,
+			"text": "A comparison to likelihood training demonstrates ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "that expected BLEU is vastly more effective . <S>",
+			"relation": "attribution"
+		},
+		{
+			"id": 9,
+			"parent": 7,
+			"text": "Our best results improve a hierarchical lexicalized reordering baseline by up to 2.0 BLEU in a single-reference setting on a French-English WMT 2012 setup . <S>",
+			"relation": "exp-evidence"
+		}
+	]
+}

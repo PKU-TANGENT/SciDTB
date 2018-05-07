@@ -1,0 +1,106 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 8,
+			"text": "Lexical classes , ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "when tailored to the application and domain in question , ",
+			"relation": "condition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "can provide an effective means ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "to deal with a number of natural language processing ( NLP ) tasks . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 5,
+			"parent": 7,
+			"text": "While manual construction of such classes is difficult , ",
+			"relation": "contrast"
+		},
+		{
+			"id": 6,
+			"parent": 7,
+			"text": "recent research shows ",
+			"relation": "attribution"
+		},
+		{
+			"id": 7,
+			"parent": 1,
+			"text": "that it is possible to automatically induce verb classes from cross-domain corpora with promising accuracy . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 0,
+			"text": "We report a novel experiment ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "where similar technology is applied to the important , challenging domain of biomedicine . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 11,
+			"text": "We show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 11,
+			"parent": 8,
+			"text": "that the resulting classification , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "acquired from a corpus of biomedical journal articles , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 11,
+			"text": "is highly accurate and strongly domainspecific . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 14,
+			"parent": 8,
+			"text": "It can be used ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "to aid BIO-NLP directly or as useful material ",
+			"relation": "enablement"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "for investigating the syntax and semantics of verbs in biomedical texts . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

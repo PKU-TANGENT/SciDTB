@@ -1,0 +1,52 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We propose to use coreference chains ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "extracted from a large corpus as a resource for semantic tasks . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "We extract three million coreference chains and train word embeddings on them . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "Then , we compare these embeddings to word vectors ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "derived from raw text data ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 7,
+			"text": "and show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 7,
+			"parent": 4,
+			"text": "that coreference-based word embeddings improve F1 on the task of antonym classification by up to .09 . <S>",
+			"relation": "progression"
+		}
+	]
+}

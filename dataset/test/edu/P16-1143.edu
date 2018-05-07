@@ -1,0 +1,17 @@
+There has recently been a lot of interest in unsupervised methods 
+for learning sense distributions , 
+particularly in applications 
+where sense distinctions are needed . <S>
+This paper analyses a state-of-the-art method for sense distribution learning , 
+and optimises it for application to the entire vocabulary of a given language . <S>
+The optimised method is then used 
+to produce LEXSEMTM : 
+a sense frequency and semantic dataset of unprecedented size , 
+spanning approximately 88 % of polysemous , English simplex lemmas , 
+which is released as a public resource to the community . <S>
+Finally , the quality of this data is investigated , 
+and the LEXSEMTM sense distributions are shown 
+to be superior to those 
+based on the WORDNET first sense for lemmas 
+missing from SEMCOR , 
+and at least on par with SEMCOR-based distributions otherwise . <S>

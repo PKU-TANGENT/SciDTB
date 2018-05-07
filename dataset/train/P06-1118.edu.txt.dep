@@ -1,0 +1,70 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This paper presents the particular use of \"Jibiki\" ( Papillon's web server development platform ) for the LexALP1 project . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "LexALP's goal is to harmonise the terminology on spatial planning and sustainable development ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "used within the Alpine Convention2 , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 2,
+			"text": "so that the member states are able to cooperate and communicate efficiently in the four official languages ",
+			"relation": "result"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "( French , German , Italian and Slovene ) . <S>",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "To this purpose , LexALP uses the Jibiki platform ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "to build a term bank for the contrastive analysis of the specialised terminology ",
+			"relation": "enablement"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "used in six different national legal systems and four different languages . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 10,
+			"text": "In this paper we present ",
+			"relation": "attribution"
+		},
+		{
+			"id": 10,
+			"parent": 1,
+			"text": "how a generic platform like Jibiki can cope with a new kind of dictionary . <S>",
+			"relation": "progression"
+		}
+	]
+}

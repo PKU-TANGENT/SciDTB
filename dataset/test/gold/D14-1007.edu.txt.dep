@@ -1,0 +1,88 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This paper proposes a Markov Decision Process and reinforcement learning based approach for domain selection in a multi-domain Spoken Dialogue System ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "built on a distributed architecture . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "In the proposed framework , the domain selection problem is treated as sequential planning instead of classification , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "such that confirmation and clarification interaction mechanisms are supported . <S>",
+			"relation": "cause"
+		},
+		{
+			"id": 5,
+			"parent": 7,
+			"text": "In addition , it is shown ",
+			"relation": "attribution"
+		},
+		{
+			"id": 6,
+			"parent": 7,
+			"text": "that by using a model parameter tying trick , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 7,
+			"parent": 3,
+			"text": "the extensibility of the system can be preserved , ",
+			"relation": "progression"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "where dialogue components in new domains can be easily plugged in , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "without re-training the domain selection policy . <S>",
+			"relation": "condition"
+		},
+		{
+			"id": 10,
+			"parent": 12,
+			"text": "The experimental results ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "based on human subjects ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 12,
+			"parent": 13,
+			"text": "suggest ",
+			"relation": "attribution"
+		},
+		{
+			"id": 13,
+			"parent": 1,
+			"text": "that the proposed model marginally outperforms a non-trivial baseline . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

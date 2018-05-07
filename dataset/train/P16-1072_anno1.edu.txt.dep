@@ -1,0 +1,82 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 2,
+			"text": "Relation classification is an important semantic processing task in the field of natural language processing ( NLP ) . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 0,
+			"text": "In this paper , we present a novel model BRCNN ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "to classify the relation of two entities in a sentence . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 4,
+			"parent": 2,
+			"text": "Some state-of-the-art systems concentrate on modeling the shortest dependency path ( SDP ) between two entities ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "leveraging convolutional or recurrent neural networks . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 2,
+			"text": "We further explore how to make full use of the dependency relations information in the SDP , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "by combining convolutional neural networks and twochannel recurrent neural networks with long short term memory ( LSTM ) units . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 8,
+			"parent": 2,
+			"text": "We propose a bidirectional architecture ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "to learn relation representations with directional information along the SDP forwards and backwards at the same time , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "which benefits classifying the direction of relations . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 12,
+			"text": "Experimental results show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 12,
+			"parent": 2,
+			"text": "that our method outperforms the state-of-theart approaches on the SemEval-2010 Task 8 dataset . <S>                    ",
+			"relation": "evaluation"
+		}
+	]
+}

@@ -1,0 +1,94 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We investigate the unsupervised detection of semi-fixed cue phrases ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "such as \"This paper proposes a novel approach ... \" from unseen text , ",
+			"relation": "elab-example"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "on the basis of only a handful of seed cue phrases with the desired semantics . <S>",
+			"relation": "bg-general"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "The problem , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "in contrast to bootstrapping approaches for Question Answering and Information Extraction , ",
+			"relation": "contrast"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "is that it is hard to find a constraining context for occurrences of semi-fixed cue phrases . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 7,
+			"parent": 1,
+			"text": "Our method uses components of the cue phrase itself , rather than external context , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "to bootstrap . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 9,
+			"parent": 1,
+			"text": "It successfully excludes phrases ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "which are different ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "from the target semantics , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 10,
+			"text": "but which look superficially similar . <S>",
+			"relation": "contrast"
+		},
+		{
+			"id": 13,
+			"parent": 9,
+			"text": "The method achieves 88 % accuracy , ",
+			"relation": "exp-evidence"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "outperforming standard bootstrapping approaches . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

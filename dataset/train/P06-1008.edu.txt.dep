@@ -1,0 +1,82 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We propose in this paper a method ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "for quantifying sentence grammaticality . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "The approach ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "based on Property Grammars , a constraint-based syntactic formalism , ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "makes it possible to evaluate a grammaticality index for any kind of sentence , ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "including ill-formed ones . <S>",
+			"relation": "elab-example"
+		},
+		{
+			"id": 7,
+			"parent": 1,
+			"text": "We compare on a sample of sentences the grammaticality indices ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "obtained from PG formalism ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 7,
+			"text": "and the acceptability judgements ",
+			"relation": "joint"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "measured by means of a psycholinguistic analysis . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 12,
+			"text": "The results show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 12,
+			"parent": 1,
+			"text": "that the derived grammaticality index is a fairly good tracer of acceptability scores . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

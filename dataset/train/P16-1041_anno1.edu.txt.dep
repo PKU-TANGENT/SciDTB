@@ -1,0 +1,130 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 5,
+			"text": "Understanding unstructured text is a major goal within natural language processing . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "Comprehension tests pose questions ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "based on short text passages ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 4,
+			"parent": 2,
+			"text": "to evaluate such understanding . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 5,
+			"parent": 0,
+			"text": "In this work , we investigate machine comprehension on the challenging MCTest benchmark . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 6,
+			"parent": 7,
+			"text": "Partly because of its limited size , ",
+			"relation": "cause"
+		},
+		{
+			"id": 7,
+			"parent": 5,
+			"text": "prior work on MCTest has focused mainly on engineering better features . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 5,
+			"text": "We tackle the dataset with a neural approach , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "harnessing simple neural networks ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "arranged in a parallel hierarchy . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "The parallel hierarchy enables our model to compare the passage , question , and answer from a variety of trainable perspectives , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "as opposed to using a manually designed , rigid feature set . <S>",
+			"relation": "comparison"
+		},
+		{
+			"id": 13,
+			"parent": 11,
+			"text": "Perspectives range from the word level to sentence fragments to sequences of sentences ; ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "the networks operate only on word-embedding representations of text . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 17,
+			"text": "When trained with a methodology ",
+			"relation": "condition"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "designed to help cope with limited training data , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 17,
+			"parent": 5,
+			"text": "our Parallel-Hierarchical model sets a new state of the art for MCTest , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 18,
+			"parent": 17,
+			"text": "outperforming previous feature-engineered approaches slightly ",
+			"relation": "exp-evidence"
+		},
+		{
+			"id": 19,
+			"parent": 18,
+			"text": "and previous neural approaches by a significant margin ",
+			"relation": "joint"
+		},
+		{
+			"id": 20,
+			"parent": 19,
+			"text": "( over 15 percentage points ) . <S>                                                                                                                   ",
+			"relation": "elab-addition"
+		}
+	]
+}

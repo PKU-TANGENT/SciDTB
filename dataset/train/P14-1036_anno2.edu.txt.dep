@@ -1,0 +1,112 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 11,
+			"text": "Wikification for tweets aims to automatically identify each concept mention in a tweet \r",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "and link it to a concept referent in a knowledge base \r",
+			"relation": "progression"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "( e.g. , Wikipedia ) . <S>\r",
+			"relation": "elab-example"
+		},
+		{
+			"id": 4,
+			"parent": 5,
+			"text": "Due to the shortness of a tweet , \r",
+			"relation": "cause"
+		},
+		{
+			"id": 5,
+			"parent": 11,
+			"text": "a collective inference model \r",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "incorporating global evidence from multiple mentions and concepts \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 5,
+			"text": "is more appropriate than a noncollecitve approach \r",
+			"relation": "same-unit"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "which links each mention at a time . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 11,
+			"text": "In addition , it is challenging to generate sufficient high quality labeled data for supervised models with low cost . <S>\r",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 10,
+			"parent": 11,
+			"text": "To tackle these challenges , \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 11,
+			"parent": 0,
+			"text": "we propose a novel semi-supervised graph regularization model \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "to incorporate both local and global evidence from multiple tweets through three fine-grained relations . <S>\r",
+			"relation": "enablement"
+		},
+		{
+			"id": 13,
+			"parent": 14,
+			"text": "In order to identify semantically-related mentions for collective inference , \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 14,
+			"parent": 11,
+			"text": "we detect meta path-based semantic relations through social networks . <S>\r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 15,
+			"parent": 17,
+			"text": "Compared to the state-of-the-art supervised model \r",
+			"relation": "comparison"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "trained from 100 % labeled data , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 17,
+			"parent": 11,
+			"text": "our proposed approach achieves comparable performance with 31 % labeled data and obtains 5 % absolute F1 gain with 50 % labeled data . <S>\r",
+			"relation": "evaluation"
+		}
+	]
+}

@@ -1,0 +1,88 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We present a novel technique for semantic frame identification \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "using distributed representations of predicates and their syntactic context ; \r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "this technique leverages automatic syntactic parses and a generic set of word embeddings . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 6,
+			"text": "Given labeled data \r",
+			"relation": "condition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "annotated with frame-semantic parses , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "we learn a model \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "that projects the set of word representations for the syntactic context around a predicate to a low dimensional representation . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 6,
+			"text": "The latter is used for semantic frame identification ; \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 11,
+			"text": "with a standard argument identification method \r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "inspired by prior work , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 1,
+			"text": "we achieve state-of-the-art results on FrameNet-style frame-semantic analysis . <S>\r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 12,
+			"parent": 1,
+			"text": "Additionally , we report strong results on PropBank-style semantic role labeling \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "in comparison to prior work . <S>\r",
+			"relation": "comparison"
+		}
+	]
+}

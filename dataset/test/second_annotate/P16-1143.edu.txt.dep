@@ -1,0 +1,112 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 5,
+			"text": "There has recently been a lot of interest in unsupervised methods ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "for learning sense distributions , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "particularly in applications ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "where sense distinctions are needed . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 0,
+			"text": "This paper analyses a state-of-the-art method for sense distribution learning , ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "and optimises it for application to the entire vocabulary of a given language . <S>",
+			"relation": "progression"
+		},
+		{
+			"id": 7,
+			"parent": 5,
+			"text": "The optimised method is then used ",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "to produce LEXSEMTM : ",
+			"relation": "enablement"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "a sense frequency and semantic dataset of unprecedented size , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "spanning approximately 88 % of polysemous , English simplex lemmas , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "which is released as a public resource to the community . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 5,
+			"text": "Finally , the quality of this data is investigated , ",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "and the LEXSEMTM sense distributions are shown ",
+			"relation": "joint"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "to be superior to those ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "based on the WORDNET first sense for lemmas ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "missing from SEMCOR , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 17,
+			"parent": 13,
+			"text": "and at least on par with SEMCOR-based distributions otherwise . <S>",
+			"relation": "joint"
+		}
+	]
+}

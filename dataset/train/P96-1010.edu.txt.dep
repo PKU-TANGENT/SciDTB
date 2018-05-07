@@ -1,0 +1,190 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This paper addresses the problem ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "of correcting spelling errors ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "that result in valid , though unintended words ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "( such as peace and piece , or quiet and quite ) ",
+			"relation": "elab-example"
+		},
+		{
+			"id": 5,
+			"parent": 1,
+			"text": "and also the problem ",
+			"relation": "joint"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "of correcting particular word usage errors ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "( such as amount and number , or among and between ) . <S>",
+			"relation": "elab-example"
+		},
+		{
+			"id": 8,
+			"parent": 1,
+			"text": "Such corrections require contextual information ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "and are not handled by conventional spelling programs ",
+			"relation": "progression"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "such as Unix spell . <S>",
+			"relation": "elab-example"
+		},
+		{
+			"id": 11,
+			"parent": 1,
+			"text": "First , we introduce a method ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "called Trigrams ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 11,
+			"text": "that uses part-of-speech trigrams ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "to encode the context . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 15,
+			"parent": 11,
+			"text": "This method uses a small number of parameters ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "compared to previous methods ",
+			"relation": "comparison"
+		},
+		{
+			"id": 17,
+			"parent": 16,
+			"text": "based on word trigrams . <S>",
+			"relation": "bg-general"
+		},
+		{
+			"id": 18,
+			"parent": 20,
+			"text": "However , it is effectively unable to distinguish among words ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 19,
+			"parent": 18,
+			"text": "that have the same part of speech . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 20,
+			"parent": 22,
+			"text": "For this case , an alternative feature-based method ",
+			"relation": "comparison"
+		},
+		{
+			"id": 21,
+			"parent": 20,
+			"text": "called Bayes performs better ; ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 22,
+			"parent": 1,
+			"text": "but Bayes is less effective than Trigrams ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 23,
+			"parent": 22,
+			"text": "when the distinction among words depends on syntactic constraints . <S>",
+			"relation": "temporal"
+		},
+		{
+			"id": 24,
+			"parent": 26,
+			"text": "A hybrid method ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 25,
+			"parent": 24,
+			"text": "called Tribayes ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 26,
+			"parent": 27,
+			"text": "is then introduced ",
+			"relation": "attribution"
+		},
+		{
+			"id": 27,
+			"parent": 1,
+			"text": "that combines the best of the previous two methods . <S>",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 28,
+			"parent": 27,
+			"text": "The improvement in performance of Tribayes over its components is verified experimentally . <S>",
+			"relation": "evaluation"
+		},
+		{
+			"id": 29,
+			"parent": 28,
+			"text": "Tribayes is also compared with the grammar checker in Microsoft Word , ",
+			"relation": "joint"
+		},
+		{
+			"id": 30,
+			"parent": 29,
+			"text": "and is found to have substantially higher performance . <S> ",
+			"relation": "joint"
+		}
+	]
+}

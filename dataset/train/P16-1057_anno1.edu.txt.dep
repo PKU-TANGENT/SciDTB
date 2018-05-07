@@ -1,0 +1,106 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "Many language generation tasks require the production of text ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "conditioned on both structured and unstructured inputs . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 0,
+			"text": "We present a novel neural network architecture ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "which generates an output sequence ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "conditioned on an arbitrary number of input functions . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 3,
+			"text": "Crucially , our approach allows both the choice of conditioning context and the granularity of generation , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "for example characters or tokens , ",
+			"relation": "elab-example"
+		},
+		{
+			"id": 8,
+			"parent": 6,
+			"text": "to be marginalised , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 9,
+			"parent": 6,
+			"text": "thus permitting scalable and effective training . <S>",
+			"relation": "result"
+		},
+		{
+			"id": 10,
+			"parent": 11,
+			"text": "Using this framework , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 11,
+			"parent": 3,
+			"text": "we address the problem ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "of generating programming code from a mixed natural language and structured specification . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 3,
+			"text": "We create two new data sets for this paradigm ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "derived from the collectible trading card games Magic the Gathering and Hearthstone . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 16,
+			"text": "On these , and a third preexisting corpus , we demonstrate ",
+			"relation": "attribution"
+		},
+		{
+			"id": 16,
+			"parent": 3,
+			"text": "that marginalising multiple predictors allows our model to outperform strong benchmarks . <S> ",
+			"relation": "evaluation"
+		}
+	]
+}

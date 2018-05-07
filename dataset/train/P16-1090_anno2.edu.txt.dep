@@ -1,0 +1,100 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 5,
+			"text": "Can we train a system ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "that , on any new input , either says `` do n't know '' ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "or makes a prediction ",
+			"relation": "joint"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "that is guaranteed to be correct ? <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 10,
+			"text": "We answer the question in the affirmative ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "provided our model family is wellspecified . <S>",
+			"relation": "cause"
+		},
+		{
+			"id": 7,
+			"parent": 10,
+			"text": "Specifically , we introduce the unanimity principle ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": ": only predict when all models consistent with the training data predict the same output . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "We operationalize this principle for semantic parsing , the task of mapping utterances to logical forms . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 0,
+			"text": "We develop a simple , efficient method ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "that reasons over the infinite set of all consistent models ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "by only checking two of the models . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 13,
+			"parent": 14,
+			"text": "We prove ",
+			"relation": "attribution"
+		},
+		{
+			"id": 14,
+			"parent": 15,
+			"text": "that our method obtains 100 % precision even with a modest amount of training data from a possibly adversarial distribution . <S>",
+			"relation": "exp-evidence"
+		},
+		{
+			"id": 15,
+			"parent": 10,
+			"text": "Empirically , we demonstrate the effectiveness of our approach on the standard GeoQuery dataset . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

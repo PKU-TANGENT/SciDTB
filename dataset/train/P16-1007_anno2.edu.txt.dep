@@ -1,0 +1,88 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We apply phrase-based and neural models to a core task in interactive machine translation : ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 3,
+			"text": "suggesting ",
+			"relation": "attribution"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "how to complete a partial translation . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "For the phrase-based system , we demonstrate improvements in suggestion quality ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "using novel objective functions , learning techniques , and inference algorithms ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "tailored to this task . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 1,
+			"text": "Our contributions include new tunable metrics , an improved beam search strategy , an n-best extraction method ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "that increases suggestion diversity , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 7,
+			"text": "and a tuning procedure for a hierarchical joint model of alignment and translation . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 10,
+			"parent": 1,
+			"text": "The combination of these techniques improves next-word suggestion accuracy dramatically from 28.5 % to 41.2 % in a large-scale English-German experiment . <S>",
+			"relation": "evaluation"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "Our recurrent neural translation system increases accuracy yet further to 53.0 % , ",
+			"relation": "joint"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "but inference is two orders of magnitude slower . <S>",
+			"relation": "contrast"
+		},
+		{
+			"id": 13,
+			"parent": 10,
+			"text": "Manual error analysis shows the strengths and weaknesses of both approaches . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

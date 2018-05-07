@@ -1,0 +1,106 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 7,
+			"text": "We enrich a curated resource of commonsense knowledge ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "by formulating the problem as one of knowledge base completion ( KBC ) . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 3,
+			"parent": 6,
+			"text": "Most work in KBC focuses on knowledge bases like Freebase ",
+			"relation": "contrast"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "that relate entities ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "drawn from a fixed set . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 7,
+			"text": "However , the tuples in ConceptNet ( Speer and Havasi , 2012 ) define relations between an unbounded set of phrases . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 7,
+			"parent": 0,
+			"text": "We develop neural network models ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "for scoring tuples on arbitrary phrases ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 7,
+			"text": "and evaluate them by their ability ",
+			"relation": "joint"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "to distinguish true held-out tuples from false ones . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 11,
+			"parent": 7,
+			"text": "We find strong performance from a bilinear model ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "using a simple additive architecture to model phrases . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 13,
+			"parent": 16,
+			"text": "We manually evaluate our trained model 's ability ",
+			"relation": "result"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "to assign quality scores to novel tuples , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 15,
+			"parent": 16,
+			"text": "finding ",
+			"relation": "attribution"
+		},
+		{
+			"id": 16,
+			"parent": 7,
+			"text": "that it can propose tuples at the same quality level as medium confidence tuples from ConceptNet . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

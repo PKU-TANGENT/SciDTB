@@ -1,0 +1,70 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 6,
+			"text": "Negative expressions are common in natural language text \r",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "and play a critical role in information extraction . <S>\r",
+			"relation": "joint"
+		},
+		{
+			"id": 3,
+			"parent": 6,
+			"text": "However , the performances of current systems are far from satisfaction , \r",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "largely due to its focus on intra-sentence information and its failure \r",
+			"relation": "exp-reason"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "to consider inter-sentence information . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 0,
+			"text": "In this paper , we propose a graph model \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "to enrich intra-sentence features with inter-sentence features from both lexical and topic perspectives . <S>\r",
+			"relation": "enablement"
+		},
+		{
+			"id": 8,
+			"parent": 6,
+			"text": "Evaluation on the * SEM 2012 shared task corpus indicates the usefulness of contextual discourse information in negation focus identification \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "and justifies the effectiveness of our graph model \r",
+			"relation": "joint"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "in capturing such global information . <S>\r",
+			"relation": "elab-addition"
+		}
+	]
+}

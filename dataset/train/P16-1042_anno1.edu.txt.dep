@@ -1,0 +1,118 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "Broad domain question answering is often difficult in the absence of structured knowledge bases , ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "and can benefit from shallow lexical methods ( broad coverage ) and logical reasoning ( high precision ) . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 3,
+			"parent": 0,
+			"text": "We propose an approach ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "for incorporating both of these signals in a unified framework ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "based on natural logic . <S>",
+			"relation": "bg-general"
+		},
+		{
+			"id": 6,
+			"parent": 3,
+			"text": "We extend the breadth of inferences ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "afforded by natural logic ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 6,
+			"text": "to include relational entailment ",
+			"relation": "enablement"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "( e.g. , buy -> own ) ",
+			"relation": "elab-example"
+		},
+		{
+			"id": 10,
+			"parent": 8,
+			"text": "and meronymy ",
+			"relation": "joint"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "( e.g. , a person ",
+			"relation": "elab-example"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "born in a city ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 11,
+			"text": "is born the city 's country ) . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 14,
+			"parent": 3,
+			"text": "Furthermore , we train an evaluation function ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "- akin to gameplaying - ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 16,
+			"parent": 14,
+			"text": "to evaluate the expected truth of candidate premises on the fly . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 17,
+			"parent": 3,
+			"text": "We evaluate our approach on answering multiple choice science questions , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 18,
+			"parent": 17,
+			"text": "achieving strong results on the dataset . <S> ",
+			"relation": "result"
+		}
+	]
+}

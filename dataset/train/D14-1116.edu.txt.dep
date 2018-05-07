@@ -1,0 +1,136 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 7,
+			"text": "Question Answering over Linked Data ( QALD ) aims to evaluate a question answering system over structured data , ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "the key objective of which is to translate questions ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "posed using natural language ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 2,
+			"text": "into structured queries . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 5,
+			"parent": 1,
+			"text": "This technique can help common users to directly access open-structured knowledge on the Web ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "and , accordingly , has attracted much attention . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 7,
+			"parent": 0,
+			"text": "To this end , we propose a novel method ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "using first-order logic . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 9,
+			"parent": 7,
+			"text": "We formulate the knowledge ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "for resolving the ambiguities in the main three steps of QALD ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "( phrase detection , phrase-to-semantic-item mapping and semantic item grouping ) ",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 12,
+			"parent": 9,
+			"text": "as first-order logic clauses in a Markov Logic Network . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 13,
+			"parent": 9,
+			"text": "All clauses can then produce interacted effects in a unified framework ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "and can jointly resolve all ambiguities . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 15,
+			"parent": 13,
+			"text": "Moreover , our method adopts a pattern-learning strategy for semantic item grouping . <S>",
+			"relation": "progression"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "In this way , our method can cover more text expressions ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 17,
+			"parent": 16,
+			"text": "and answer more questions than previous methods ",
+			"relation": "joint"
+		},
+		{
+			"id": 18,
+			"parent": 17,
+			"text": "using manually designed patterns . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 19,
+			"parent": 7,
+			"text": "The experimental results ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 20,
+			"parent": 19,
+			"text": "using open benchmarks ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 21,
+			"parent": 19,
+			"text": "demonstrate the effectiveness of the proposed method . <S>",
+			"relation": "same-unit"
+		}
+	]
+}

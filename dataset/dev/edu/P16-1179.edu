@@ -1,0 +1,12 @@
+Named Entity Disambiguation ( NED ) algorithms disambiguate mentions of named entities with respect to a knowledge-base , 
+but sometimes the context might be poor or misleading . <S>
+In this paper we introduce the acquisition of two kinds of background information 
+to alleviate that problem : 
+entity similarity and selectional preferences for syntactic positions . <S>
+We show , 
+using a generative Naive Bayes model for NED , 
+that the additional sources of context are complementary , 
+and improve results in the CoNLL 2003 and TAC KBP DEL 2014 datasets , 
+yielding the third best and the best results , respectively . <S>
+We provide examples and analysis 
+which show the value of the acquired background information . <S>

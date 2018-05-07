@@ -1,0 +1,11 @@
+We show 
+that semantic relationships can be used 
+to improve word alignment , in addition to the lexical and syntactic features 
+that are typically used . <S>
+In this paper , we present a method 
+based on a neural network 
+to automatically derive word similarity from monolingual data . <S>
+We present an extension 
+to word alignment models 
+that exploits word similarity . <S>
+Our experiments , in both large-scale and resource-limited settings , show improvements in word alignment tasks as well as translation tasks . <S>

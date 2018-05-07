@@ -1,0 +1,70 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We introduce new features for incorporating semantic predicate-argument structures in machine translation ( MT ) . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "The methods focus on the completeness of the semantic structures of the translations , as well as the order of the translated semantic roles . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "We experiment with translation rules ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "which contain the core arguments for the predicates in the source side of a MT system , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 6,
+			"text": "and observe ",
+			"relation": "attribution"
+		},
+		{
+			"id": 6,
+			"parent": 3,
+			"text": "that using these rules significantly improves the translation quality . <S>",
+			"relation": "progression"
+		},
+		{
+			"id": 7,
+			"parent": 1,
+			"text": "We also present a new semantic feature ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "that resembles a language model . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 10,
+			"text": "Our results show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 10,
+			"parent": 1,
+			"text": "that the language model feature can also significantly improve MT results . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

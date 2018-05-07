@@ -1,0 +1,76 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 2,
+			"text": "While unsupervised anaphoric zero pronoun ( AZP ) resolvers have recently been shown to rival their supervised counterparts in performance , ",
+			"relation": "contrast"
+		},
+		{
+			"id": 2,
+			"parent": 6,
+			"text": "it is relatively difficult to scale them up ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "to reach the next level of performance ",
+			"relation": "enablement"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "due to the large amount of feature engineering efforts involved and their ineffectiveness in exploiting lexical features . <S>",
+			"relation": "exp-reason"
+		},
+		{
+			"id": 5,
+			"parent": 6,
+			"text": "To address these weaknesses , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 6,
+			"parent": 0,
+			"text": "we propose a supervised approach to AZP resolution based on deep neural networks , ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "taking advantage of their ability ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "to learn useful task-specific representations ",
+			"relation": "enablement"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "and effectively exploit lexical features via word embeddings . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 10,
+			"parent": 6,
+			"text": "Our approach achieves stateof-the-art performance ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "when resolving the Chinese AZPs in the OntoNotes corpus . <S>",
+			"relation": "temporal"
+		}
+	]
+}

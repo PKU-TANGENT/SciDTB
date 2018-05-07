@@ -1,0 +1,88 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This paper presents a method ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "for adapting a language generator to the strengths and weaknesses of a synthetic voice , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "thereby improving the naturalness of synthetic speech in a spoken language dialogue system . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "The method trains a discriminative reranker ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "to select paraphrases ",
+			"relation": "enablement"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "that are predicted to sound natural ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "when synthesized . <S>",
+			"relation": "temporal"
+		},
+		{
+			"id": 8,
+			"parent": 4,
+			"text": "The ranker is trained on realizer and synthesizer features in supervised fashion , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "using human judgements of synthetic voice quality on a sample of the paraphrases representative of the generator's capability . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 10,
+			"parent": 11,
+			"text": "Results from a cross-validation study indicate ",
+			"relation": "attribution"
+		},
+		{
+			"id": 11,
+			"parent": 1,
+			"text": "that discriminative paraphrase reranking can achieve substantial improvements in naturalness on average , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "ameliorating the problem of highly variable synthesis quality ",
+			"relation": "enablement"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "typically encountered with today's unit selection synthesizers . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

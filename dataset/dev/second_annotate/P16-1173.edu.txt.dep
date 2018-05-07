@@ -1,0 +1,94 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 6,
+			"text": "There has been almost no work on phrase structure annotation and parsing ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "specially designed for learner English ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "despite the fact ",
+			"relation": "contrast"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "that they are useful for representing the structural characteristics of learner English . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 6,
+			"text": "To address this problem , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 6,
+			"parent": 0,
+			"text": "in this paper , we first propose a phrase structure annotation scheme for learner English ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "and annotate two different learner corpora ",
+			"relation": "progression"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "using it . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 9,
+			"parent": 6,
+			"text": "Second , we show their usefulness , ",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "reporting on ( a ) inter-annotator agreement rate , ( b ) characteristic CFG rules in the corpora , and ( c ) parsing performance on them . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 11,
+			"parent": 6,
+			"text": "In addition ,  we explore methods ",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "to improve phrase structure parsing for learner English ",
+			"relation": "enablement"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "( achieving an F-measure of 0.878 ) . <S>",
+			"relation": "exp-evidence"
+		},
+		{
+			"id": 14,
+			"parent": 6,
+			"text": "Finally , we release the full annotation guidelines , the annotated data , and the improved parser model for learner English to the public . <S>",
+			"relation": "elab-process_step"
+		}
+	]
+}

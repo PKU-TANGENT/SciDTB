@@ -1,0 +1,76 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We study the formal and linguistic properties of a class of parenthesis-free categorial grammars ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "derived from those of Ades and Steedman ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "by varying the set of reduction rules . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "We characterize the reduction rules ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "capable of generating context-sensitive languages ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "as those ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "having a partial combination rule and a combination rule in the reverse direction . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 9,
+			"text": "We show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 9,
+			"parent": 1,
+			"text": "that any categorial language is a permutation of some context-free language , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "thus inheriting properties dependent on symbol counting only . <S>",
+			"relation": "cause"
+		},
+		{
+			"id": 11,
+			"parent": 1,
+			"text": "We compare some of their properties with other contemporary formalisms . <S>",
+			"relation": "elab-aspect"
+		}
+	]
+}

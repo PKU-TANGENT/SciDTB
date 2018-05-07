@@ -1,0 +1,136 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 7,
+			"text": "Website privacy policies are often ignored by Internet users , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "because these documents tend to be long and difficult to understand . <S>",
+			"relation": "exp-reason"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "However , the significance of privacy policies greatly exceeds the attention ",
+			"relation": "contrast"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "paid to them : ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "these documents are binding legal agreements between website operators and their users , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "and their opaqueness is a challenge not only to Internet users but also to policy regulators . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 7,
+			"parent": 12,
+			"text": "One proposed alternative to the status quo is to automate or semi-automate the extraction of salient details from privacy policy text , ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "using a combination of crowdsourcing , natural language processing , and machine learning . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 9,
+			"parent": 7,
+			"text": "However , there has been a relative dearth of datasets ",
+			"relation": "contrast"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "appropriate for identifying data practices in privacy policies . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 12,
+			"text": "To remedy this problem , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 12,
+			"parent": 0,
+			"text": "we introduce a corpus of 115 privacy policies ( 267K words ) with manual annotations for 23K fine-grained data practices . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "We describe the process ",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "of using skilled annotators and a purpose-built annotation tool ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "to produce the data . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 16,
+			"parent": 12,
+			"text": "We provide findings ",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 17,
+			"parent": 16,
+			"text": "based on a census of the annotations ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 18,
+			"parent": 16,
+			"text": "and show results toward automating the annotation procedure . <S>",
+			"relation": "progression"
+		},
+		{
+			"id": 19,
+			"parent": 12,
+			"text": "Finally , we describe challenges and opportunities for the research community ",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 20,
+			"parent": 19,
+			"text": "to use this corpus ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 21,
+			"parent": 19,
+			"text": "to advance research in both privacy and language technologies . <S>",
+			"relation": "enablement"
+		}
+	]
+}

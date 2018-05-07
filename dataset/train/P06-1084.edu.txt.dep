@@ -1,0 +1,148 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 10,
+			"text": "Morphological disambiguation is the process ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "of assigning one set of morphological features to each individual word in a text . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 5,
+			"text": "When the word is ambiguous ",
+			"relation": "temporal"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "( there are several possible analyses for the word ) , ",
+			"relation": "elab-definition"
+		},
+		{
+			"id": 5,
+			"parent": 1,
+			"text": "a disambiguation procedure ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "based on the word context",
+			"relation": "bg-general"
+		},
+		{
+			"id": 7,
+			"parent": 5,
+			"text": "must be applied . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 8,
+			"parent": 10,
+			"text": "This paper deals with morphological disambiguation of the Hebrew language , ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "which combines morphemes into a word in both agglutinative and fusional ways . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 0,
+			"text": "We present an unsupervised stochastic model - ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "the only resource we use is a morphological analyzer - ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 10,
+			"text": "which deals with the data sparseness problem ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "caused by the affixational morphology of the Hebrew language . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 10,
+			"text": "We present a text encoding method for languages with affixational morphology ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "in which the knowledge of word formation rules ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "( which are quite restricted in Hebrew ) ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 17,
+			"parent": 15,
+			"text": "helps in the disambiguation . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 18,
+			"parent": 10,
+			"text": "We adapt HMM algorithms ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 19,
+			"parent": 18,
+			"text": "for learning and searching this text representation , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 20,
+			"parent": 18,
+			"text": "in such a way that segmentation and tagging can be learned in parallel in one step . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 21,
+			"parent": 22,
+			"text": "Results on a large scale evaluation indicate ",
+			"relation": "attribution"
+		},
+		{
+			"id": 22,
+			"parent": 23,
+			"text": "that this learning improves disambiguation for complex tag sets . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 23,
+			"parent": 10,
+			"text": "Our method is applicable to other languages with affix morphology . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

@@ -1,0 +1,112 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This paper presents a hybrid approach to question answering in the clinical domain ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "that combines techniques from summarization and information retrieval. <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "We tackle a frequently-occurring class of questions ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "that takes the form \"What is the best drug treatment for X ? \" <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 6,
+			"text": "Starting from an initial set of MEDLINE citations , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "our system first identifies the drugs under study . <S>",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 7,
+			"parent": 1,
+			"text": "Abstracts are then clustered ",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "using semantic classes from the UMLS ontology . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 9,
+			"parent": 1,
+			"text": "Finally , a short extractive summary is generated for each abstract ",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "to populate the clusters . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 11,
+			"parent": 17,
+			"text": "Two evaluations",
+			"relation": "attribution"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "—a manual one ",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "focused on short answers ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 12,
+			"text": "and an automatic one ",
+			"relation": "joint"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "focused on the supporting abstracts—",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 16,
+			"parent": 11,
+			"text": "demonstrate ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 17,
+			"parent": 1,
+			"text": "that our system compares favorably to PubMed , the search system most widely used by physicians today . <S> ",
+			"relation": "evaluation"
+		}
+	]
+}

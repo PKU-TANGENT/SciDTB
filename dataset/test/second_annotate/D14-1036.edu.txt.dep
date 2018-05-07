@@ -1,0 +1,76 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 6,
+			"text": "We introduce the task of incremental semantic role labeling ( iSRL ) , ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "in which semantic roles are assigned to incomplete input ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "( sentence prefixes ) . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 6,
+			"text": "iSRL is the semantic equivalent of incremental parsing , ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "and is useful for language modeling , sentence completion , machine translation , and psycholinguistic modeling . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 6,
+			"parent": 0,
+			"text": "We propose an iSRL system ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "that combines an incremental TAG parser with a semantically enriched lexicon , a role propagation algorithm , and a cascade of classifiers . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 9,
+			"text": "Our approach achieves an SRL F-score of 78.38 % on the standard CoNLL 2009 dataset . <S>",
+			"relation": "exp-evidence"
+		},
+		{
+			"id": 9,
+			"parent": 6,
+			"text": "It substantially outperforms a strong baseline ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "that combines gold-standard syntactic dependencies with heuristic role assignment , as well as a baseline ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "based on Nivre's incremental dependency parser . <S>",
+			"relation": "bg-general"
+		}
+	]
+}

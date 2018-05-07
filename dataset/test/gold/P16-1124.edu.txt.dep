@@ -1,0 +1,148 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "Knowledge bases ( KBs ) are often greatly incomplete , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "necessitating a demand for KB completion . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 8,
+			"text": "The path ranking algorithm ( PRA ) is one of the most promising approaches to this task . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 4,
+			"parent": 6,
+			"text": "Previous work on PRA usually follows a single-task learning paradigm , ",
+			"relation": "contrast"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "building a prediction model for each relation independently with its own training data . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 8,
+			"text": "It ignores meaningful associations among certain relations , ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "and might not get enough training data for less frequent relations . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 8,
+			"parent": 0,
+			"text": "This paper proposes a novel multi-task learning framework for PRA , ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "referred to as coupled PRA ( CPRA ) . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 8,
+			"text": "It first devises an agglomerative clustering strategy ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "to automatically discover relations ",
+			"relation": "enablement"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "that are highly correlated to each other , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 10,
+			"text": "and then employs a multi-task learning strategy ",
+			"relation": "progression"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "to effectively couple the prediction of such relations . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 15,
+			"parent": 10,
+			"text": "As such , CPRA takes into account relation association ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "and enables implicit data sharing among them . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 17,
+			"parent": 20,
+			"text": "We empirically evaluate CPRA on benchmark data ",
+			"relation": "result"
+		},
+		{
+			"id": 18,
+			"parent": 17,
+			"text": "created from Freebase . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 19,
+			"parent": 20,
+			"text": "Experimental results show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 20,
+			"parent": 8,
+			"text": "that CPRA can effectively identify coherent clusters ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 21,
+			"parent": 20,
+			"text": "in which relations are highly correlated . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 22,
+			"parent": 23,
+			"text": "By further coupling such relations , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 23,
+			"parent": 8,
+			"text": "CPRA significantly outperforms PRA , in terms of both predictive accuracy and model interpretability . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

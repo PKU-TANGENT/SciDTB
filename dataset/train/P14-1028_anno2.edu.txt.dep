@@ -1,0 +1,100 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "Recently , neural network models for natural language processing tasks have been increasingly focused on for their ability \r",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "to alleviate the burden of manual feature engineering . <S>\r",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 0,
+			"text": "In this paper , we propose a novel neural network model for Chinese word segmentation \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "called Max-Margin Tensor Neural Network ( MMTNN ) . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 6,
+			"text": "By exploiting tag embeddings and tensor-based transformation , \r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 6,
+			"parent": 3,
+			"text": "MMTNN has the ability \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "to model complicated interactions between tags and context characters . <S>\r",
+			"relation": "enablement"
+		},
+		{
+			"id": 8,
+			"parent": 3,
+			"text": "Furthermore , a new tensor factorization approach is proposed \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "to speed up the model \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "and avoid overfitting . <S>\r",
+			"relation": "joint"
+		},
+		{
+			"id": 11,
+			"parent": 12,
+			"text": "Experiments on the benchmark dataset show \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 12,
+			"parent": 3,
+			"text": "that our model achieves better performances than previous neural network models \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "and that our model can achieve a competitive performance with minimal feature engineering . <S>\r",
+			"relation": "joint"
+		},
+		{
+			"id": 14,
+			"parent": 15,
+			"text": "Despite Chinese word segmentation being a specific case , \r",
+			"relation": "contrast"
+		},
+		{
+			"id": 15,
+			"parent": 3,
+			"text": "MMTNN can be easily generalized and applied to other sequence labeling tasks . <S>\r",
+			"relation": "evaluation"
+		}
+	]
+}

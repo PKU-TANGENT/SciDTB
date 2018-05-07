@@ -1,0 +1,76 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We generalize contrastive estimation in two ways ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "that permit adding more knowledge to unsupervised learning . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "The first allows the modeler to specify not only the set of corrupted inputs for each observation , but also how bad each one is . <S>",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "The second allows specifying structural preferences on the latent variable ",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "used to explain the observations . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "They require setting additional hyperparameters , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "which can be problematic in unsupervised learning , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 6,
+			"text": "so we investigate new methods for unsupervised model selection and system combination . <S>",
+			"relation": "result"
+		},
+		{
+			"id": 9,
+			"parent": 1,
+			"text": "We instantiate these ideas for part-of-speech induction ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "without tag dictionaries , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 9,
+			"text": "improving over contrastive estimation as well as strong benchmarks from the PASCAL 2012 shared task . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

@@ -1,0 +1,70 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "The present work advances the accuracy and training speed of discriminative parsing . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "Our discriminative parsing method has no generative component , ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "yet surpasses a generative baseline on constituent parsing , ",
+			"relation": "contrast"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "and does so with minimal linguistic cleverness . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 5,
+			"parent": 1,
+			"text": "Our model can incorporate arbitrary features of the input and parse state , ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "and performs feature selection incrementally over an exponential feature space ",
+			"relation": "joint"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "during training . <S>",
+			"relation": "temporal"
+		},
+		{
+			"id": 8,
+			"parent": 1,
+			"text": "We demonstrate the flexibility of our approach ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "by testing it with several parsing strategies and various feature sets . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 10,
+			"parent": 8,
+			"text": "Our implementation is freely available at : http : //nlp.cs.nyu.edu/parser/ . <S>",
+			"relation": "result"
+		}
+	]
+}

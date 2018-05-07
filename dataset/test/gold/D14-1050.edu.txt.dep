@@ -1,0 +1,88 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We present an empirical study on the use of semantic information for Concept Segmentation and Labeling ( CSL ) , ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "which is an important step for semantic parsing . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "We represent the alternative analyses output by a state-of-the-art CSL parser with tree structures , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "which we rerank with a classifier ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "trained on two types of semantic tree kernels : ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "one processing structures ",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "built with words , concepts and Brown clusters , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 6,
+			"text": "and another one using semantic similarity among the words ",
+			"relation": "joint"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "composing the structure . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 11,
+			"text": "The results on a corpus from the restaurant domain show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 11,
+			"parent": 1,
+			"text": "that our semantic kernels ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "exploiting similarity measures ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 11,
+			"text": "outperform state-of-the-art rerankers . <S>",
+			"relation": "same-unit"
+		}
+	]
+}

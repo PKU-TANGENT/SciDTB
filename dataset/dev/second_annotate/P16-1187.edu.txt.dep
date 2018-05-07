@@ -1,0 +1,76 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "Distributional semantic models ( DSMs ) are often evaluated on artificial similarity datasets ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "containing single words or fully compositional phrases . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 0,
+			"text": "We present a large-scale multilingual evaluation of DSMs ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "for predicting the degree of semantic compositionality of nominal compounds on 4 datasets for English and French . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "We build a total of 816 DSMs ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "and perform 2,856 evaluations ",
+			"relation": "joint"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "using word2vec , GloVe , and PPMI-based models . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 8,
+			"parent": 3,
+			"text": "In addition to the DSMs , we compare the impact of different parameters , ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "such as level of corpus preprocessing , context window size and number of dimensions . <S>",
+			"relation": "elab-example"
+		},
+		{
+			"id": 10,
+			"parent": 3,
+			"text": "The results obtained have a high correlation with human judgments , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "being comparable to or outperforming the state of the art for some datasets ( Spearman 's p=.82 for the Reddy dataset ) . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

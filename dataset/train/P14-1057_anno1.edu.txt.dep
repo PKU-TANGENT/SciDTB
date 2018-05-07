@@ -1,0 +1,124 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 9,
+			"text": "An important search task in the biomedical domain is to find medical records of patients \r",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "who are qualified for a clinical trial. <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 9,
+			"text": "One commonly used approach is to apply NLP tools \r",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "to map terms from queries and documents to concepts \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "and then compute the relevance scores \r",
+			"relation": "joint"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "based on the concept-based representation . <S>\r",
+			"relation": "bg-general"
+		},
+		{
+			"id": 7,
+			"parent": 3,
+			"text": "However , the mapping results are not perfect , \r",
+			"relation": "contrast"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "and none of previous work studied how to deal with them in the retrieval process . <S>\r",
+			"relation": "joint"
+		},
+		{
+			"id": 9,
+			"parent": 0,
+			"text": "In this paper , we focus on addressing the limitations \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "caused by the imperfect mapping results \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 9,
+			"text": "and study how to further improve the retrieval performance of the concept-based ranking methods . <S>\r",
+			"relation": "joint"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "In particular , we apply axiomatic approaches \r",
+			"relation": "cause"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "and propose two weighting regularization methods \r",
+			"relation": "joint"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "that adjust the weighting \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "based on the relations among the concepts . <S>\r",
+			"relation": "bg-general"
+		},
+		{
+			"id": 16,
+			"parent": 17,
+			"text": "Experimental results show \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 17,
+			"parent": 12,
+			"text": "that the proposed methods are effective \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 18,
+			"parent": 17,
+			"text": "to improve the retrieval performance , \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 19,
+			"parent": 17,
+			"text": "and their performances are comparable to other top-performing systems in the TREC Medical Records Track . <S>\r",
+			"relation": "progression"
+		}
+	]
+}

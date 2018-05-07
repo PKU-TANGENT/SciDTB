@@ -1,0 +1,52 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We introduce an error mining technique ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "for automatically detecting errors in resources ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "that are used in parsing systems . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "We applied this technique on parsing results ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "produced on several million words by two distinct parsing systems , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "which share the syntactic lexicon and the pre-parsing processing chain . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 4,
+			"text": "We were thus able to identify missing and erroneous information in these resources . <S>",
+			"relation": "cause"
+		}
+	]
+}

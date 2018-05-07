@@ -1,0 +1,94 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 6,
+			"text": "Phrase reordering is a challenge for statistical machine translation systems . <S>",
+			"relation": "contrast"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "Posing phrase movements as a prediction problem ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "using contextual features ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "modeled by maximum entropy-based classifier ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 2,
+			"text": "is superior to the commonly used lexicalized reordering model . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 6,
+			"parent": 9,
+			"text": "However , Training this discriminative model ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "using large-scale parallel corpus ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 8,
+			"parent": 6,
+			"text": "might be computationally expensive . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 9,
+			"parent": 0,
+			"text": "In this paper , we explore recent advancements in solving large-scale classification problems . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 10,
+			"parent": 11,
+			"text": "Using the dual problem to multinomial logistic regression , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 11,
+			"parent": 9,
+			"text": "we managed to shrink the training data ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "while iterating ",
+			"relation": "temporal"
+		},
+		{
+			"id": 13,
+			"parent": 11,
+			"text": "and produce significant saving in computation and memory ",
+			"relation": "joint"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "while preserving the accuracy . <S>",
+			"relation": "temporal"
+		}
+	]
+}

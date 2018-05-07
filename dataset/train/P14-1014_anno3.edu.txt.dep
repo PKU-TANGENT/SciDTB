@@ -1,0 +1,94 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "In this paper , we address the problem of web-domain POS tagging \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "using a two-phase approach . <S>\r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "The first phase learns representations \r",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "that capture regularities \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "underlying web text . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 3,
+			"text": "The representation is integrated as features into a neural network \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "that serves as a scorer for an easy-first POS tagger . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 1,
+			"text": "Parameters of the neural network are trained \r",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "using guided learning in the second phase . <S>\r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 10,
+			"parent": 11,
+			"text": "Experiment on the SANCL 2012 shared task show \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 11,
+			"parent": 1,
+			"text": "that our approach achieves 93.15 % average tagging accuracy , \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "which is the best accuracy \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "reported so far on this data set , higher than those \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "given by ensembled syntactic parsers . <S>\r",
+			"relation": "elab-addition"
+		}
+	]
+}

@@ -1,0 +1,88 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We propose a treatment of coordination ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "based on the concepts of functor , argument and subcategorization . <S>",
+			"relation": "bg-general"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "Its formalization comprises two parts ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "which are conceptually independent . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 1,
+			"text": "On one hand , we have extended the feature structure unification ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "to disjunctive and set values ",
+			"relation": "enablement"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "in order to check the compatibility and the satisfiability of subcategorization requirements by structured complements . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 8,
+			"parent": 1,
+			"text": "On the other hand , we have considered the conjunction \" et \" ( and ) as the head of the coordinate structure , ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "so that coordinate structures stem simply from the subcategorization specifications of et and the general schemata of a head saturation . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 10,
+			"parent": 1,
+			"text": "Both parts have been encoded within HPSG ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "using the same resource ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "that is the subcategorization and its principle ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "which we have just extended . <S>  ",
+			"relation": "elab-addition"
+		}
+	]
+}

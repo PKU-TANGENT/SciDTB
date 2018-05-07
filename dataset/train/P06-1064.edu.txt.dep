@@ -1,0 +1,58 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We present an algorithm ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "which creates a German CCGbank ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "by translating the syntax graphs in the German Tiger corpus into CCG derivation trees . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "The resulting corpus contains 46,628 derivations , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "covering 95 % of all complete sentences in Tiger . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "Lexicons ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "extracted from this corpus ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 6,
+			"text": "contain correct lexical entries for 94 % of all known tokens in unseen text . <S>",
+			"relation": "same-unit"
+		}
+	]
+}

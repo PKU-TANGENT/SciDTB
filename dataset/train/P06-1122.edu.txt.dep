@@ -1,0 +1,124 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 5,
+			"text": "Certain distinctions ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "made in the lexicon of one language ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "may be redundant ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "when translating into another language . <S>",
+			"relation": "temporal"
+		},
+		{
+			"id": 5,
+			"parent": 6,
+			"text": "We quantify redundancy among source types by the similarity of their distributions over target types . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 6,
+			"parent": 0,
+			"text": "We propose a language-independent framework ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "for minimising lexical redundancy ",
+			"relation": "enablement"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "that can be optimised directly from parallel text . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 6,
+			"text": "Optimisation of the source lexicon for a given target language is viewed as model selection over a set of cluster-based translation models . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 6,
+			"text": "Redundant distinctions between types may exhibit monolingual regularities , for example , inflexion patterns . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 6,
+			"text": "We define a prior over model structure ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "using a Markov random field ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 11,
+			"text": "and learn features over sets of monolingual types ",
+			"relation": "joint"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "that are predictive of bilingual redundancy . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 11,
+			"text": "The prior makes model selection more robust ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "without the need for language-specific assumptions ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 17,
+			"parent": 16,
+			"text": "regarding redundancy . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 18,
+			"parent": 19,
+			"text": "Using these models in a phrase-based SMT system , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 19,
+			"parent": 6,
+			"text": "we show significant improvements in translation quality for certain language pairs . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

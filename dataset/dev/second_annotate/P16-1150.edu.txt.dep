@@ -1,0 +1,124 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We propose a new task in the field of computational argumentation ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "in which we investigate qualitative properties of Web arguments , namely their convincingness . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "We cast the problem as relation classification , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "where a pair of arguments ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "having the same stance to the same prompt ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "is judged . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 7,
+			"parent": 1,
+			"text": "We annotate a large datasets of 16k pairs of arguments over 32 topics ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 8,
+			"parent": 9,
+			"text": "and investigate ",
+			"relation": "attribution"
+		},
+		{
+			"id": 9,
+			"parent": 7,
+			"text": "whether the relation `` A is more convincing than B '' exhibits properties of total ordering ; ",
+			"relation": "joint"
+		},
+		{
+			"id": 10,
+			"parent": 7,
+			"text": "these findings are used as global constraints ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "for cleaning the crowdsourced data . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 12,
+			"parent": 1,
+			"text": "We propose two tasks : ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 14,
+			"text": "( 1 ) predicting ",
+			"relation": "attribution"
+		},
+		{
+			"id": 14,
+			"parent": 12,
+			"text": "which argument from an argument pair is more convincing ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 12,
+			"text": "and ( 2 ) ranking all arguments to the topic ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "based on their convincingness . <S>",
+			"relation": "bg-general"
+		},
+		{
+			"id": 17,
+			"parent": 18,
+			"text": "We experiment with feature-rich SVM and bidirectional LSTM ",
+			"relation": "result"
+		},
+		{
+			"id": 18,
+			"parent": 1,
+			"text": "and obtain 0.76-0.78 accuracy and 0.35-0.40 Spearman 's correlation in a cross-topic evaluation . <S>",
+			"relation": "evaluation"
+		},
+		{
+			"id": 19,
+			"parent": 1,
+			"text": "We release the newly created corpus UKPConvArg1 and the experimental software under open licenses . <S>",
+			"relation": "progression"
+		}
+	]
+}

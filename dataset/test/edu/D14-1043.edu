@@ -1,0 +1,8 @@
+Language is given meaning through its correspondence with a world representation . <S>
+This correspondence can be at multiple levels of granularity or resolutions . <S>
+In this paper , we introduce an approach to multi-resolution language grounding in the extremely challenging domain of professional soccer commentaries . <S>
+We define and optimize a factored objective function 
+that allows us to leverage discourse structure and the compositional nature of both language and game events . <S>
+We show 
+that finer resolution grounding helps coarser resolution grounding , and vice versa . <S>
+Our method results in an F1 improvement of more than 48 % versus the previous state of the art for fine-resolution grounding . <S>

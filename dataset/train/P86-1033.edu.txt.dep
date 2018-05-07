@@ -1,0 +1,64 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 2,
+			"text": "To fully understand a sequence of utterances , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 2,
+			"parent": 5,
+			"text": "one must be able to infer implicit relationships between the utterances . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 3,
+			"parent": 4,
+			"text": "Although the identification of sets of utterance relationships forms the basis for many theories of discourse , ",
+			"relation": "contrast"
+		},
+		{
+			"id": 4,
+			"parent": 5,
+			"text": "the formalization and recognition of such relationships has proven to be an extremely difficult computational task . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 5,
+			"parent": 0,
+			"text": "This paper presents a plan-based approach to the representation and recognition of implicit relationships between utterances . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "Relationships are formulated as discourse plans , ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "which allows their representation in terms of planning operators and their computation via a plan recognition process . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 9,
+			"text": "By incorporating complex inferential processes ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 9,
+			"parent": 5,
+			"text": "relating utterances into a plan-based framework , a formalization and computability not available in the earlier works is provided . <S>",
+			"relation": "elab-aspect"
+		}
+	]
+}

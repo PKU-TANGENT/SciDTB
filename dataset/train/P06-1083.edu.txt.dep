@@ -1,0 +1,88 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This paper proposes methods ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "for extracting loanwords from Cyrillic Mongolian corpora ",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "and producing a Japanese-Mongolian bilingual dictionary . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "We extract loanwords from Mongolian corpora ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "using our own handcrafted rules . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 6,
+			"parent": 7,
+			"text": "To complement the rule-based extraction , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 7,
+			"parent": 1,
+			"text": "we also extract words in Mongolian corpora ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "that are phonetically similar to Japanese Katakana words as loanwords . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 1,
+			"text": "In addition , we correspond the extracted loanwords to Japanese words ",
+			"relation": "progression"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "and produce a bilingual dictionary . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 11,
+			"parent": 1,
+			"text": "We propose a stemming method for Mongolian ",
+			"relation": "progression"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "to extract loanwords correctly . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 13,
+			"parent": 1,
+			"text": "We verify the effectiveness of our methods experimentally . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

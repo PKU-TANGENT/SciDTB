@@ -1,0 +1,100 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We aim to improve spoken term detection performance \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "by incorporating contextual information beyond traditional N-gram language models . <S>\r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 3,
+			"parent": 4,
+			"text": "Instead of taking a broad view of topic context in spoken documents , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "variability of word co-occurrence statistics across corpora leads us to focus instead the on phenomenon of word repetition within single documents . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 7,
+			"text": "We show \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 6,
+			"parent": 7,
+			"text": "that given the detection of one instance of a term \r",
+			"relation": "condition"
+		},
+		{
+			"id": 7,
+			"parent": 4,
+			"text": "we are more likely to find additional instances of that term in the same document . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 1,
+			"text": "We leverage this burstiness of keywords \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "by taking the most confident keyword hypothesis in each document \r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "and interpolating with lower scoring hits . <S>\r",
+			"relation": "joint"
+		},
+		{
+			"id": 11,
+			"parent": 1,
+			"text": "We then develop a principled approach \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "to select interpolation weights \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "using only the ASR training data . <S>\r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 14,
+			"parent": 15,
+			"text": "Using this re-weighting approach \r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 15,
+			"parent": 11,
+			"text": "we demonstrate consistent improvement in the term detection performance across all five languages in the BABEL program . <S>\r",
+			"relation": "evaluation"
+		}
+	]
+}

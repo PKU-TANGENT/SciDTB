@@ -1,0 +1,76 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We present experiments in using discourse structure \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "for improving machine translation evaluation . <S>\r",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "We first design two discourse-aware similarity measures , \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "which use all-subtree kernels \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "to compare discourse parse trees in accordance with the Rhetorical Structure Theory . <S>\r",
+			"relation": "enablement"
+		},
+		{
+			"id": 6,
+			"parent": 7,
+			"text": "Then , we show \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 7,
+			"parent": 1,
+			"text": "that these measures can help improve a number of existing machine translation evaluation metrics both at the segment- and at the system-level . <S>\r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 8,
+			"parent": 10,
+			"text": "Rather than proposing a single new metric , \r",
+			"relation": "contrast"
+		},
+		{
+			"id": 9,
+			"parent": 10,
+			"text": "we show \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 10,
+			"parent": 1,
+			"text": "that discourse information is complementary to the state-of-the-art evaluation metrics , \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "and thus should be taken into account in the development of future richer evaluation metrics . <S>\r",
+			"relation": "progression"
+		}
+	]
+}

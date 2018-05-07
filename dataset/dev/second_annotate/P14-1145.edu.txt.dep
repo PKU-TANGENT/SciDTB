@@ -1,0 +1,70 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We introduce ConnotationWordNet , a connotation lexicon over the network of words in conjunction with senses . <S>\r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "We formulate the lexicon induction problem as collective inference over pairwise-Markov Random Fields , \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "and present a loopy belief propagation algorithm for inference . <S>\r",
+			"relation": "joint"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "The key aspect of our method is that it is the first unified approach \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "that assigns the polarity of both word- and sense-level connotations , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "exploiting the innate bipartite graph structure \r",
+			"relation": "cause"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "encoded in WordNet . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 1,
+			"text": "We present comprehensive evaluation \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "to demonstrate the quality and utility of the resulting lexicon \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "in comparison to existing connotation and sentiment lexicons . <S>\r",
+			"relation": "comparison"
+		}
+	]
+}

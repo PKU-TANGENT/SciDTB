@@ -1,0 +1,76 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 6,
+			"text": "Crowdsourcing is a viable mechanism \r",
+			"relation": "contrast"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "for creating training data for machine translation . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "It provides a low cost , fast turnaround way \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "of processing large volumes of data . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 6,
+			"text": "However , when compared to professional translation , \r",
+			"relation": "condition"
+		},
+		{
+			"id": 6,
+			"parent": 8,
+			"text": "naive collection of translations from non-professionals yields low-quality results . <S>\r",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 7,
+			"parent": 1,
+			"text": "Careful quality control is necessary for crowdsourcing to work well . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 0,
+			"text": "In this paper , we examine the challenges of a two-step collaboration process with translation and post-editing by non-professionals . <S>\r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "We develop graph-based ranking models \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "that automatically select the best output from multiple redundant versions of translations and edits , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "and improves translation quality closer to professionals . <S>\r",
+			"relation": "joint"
+		}
+	]
+}

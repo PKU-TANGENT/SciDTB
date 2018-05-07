@@ -1,0 +1,160 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "Much recent work focuses on formal interpretation of natural question utterances , ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "with the goal of executing the resulting structured queries on knowledge graphs ( KGs ) such as Freebase . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 0,
+			"text": "Here we address two limitations of this approach ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "when applied to open-domain , entity-oriented Web queries . <S>",
+			"relation": "temporal"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "First , Web queries are rarely well-formed questions . <S>",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "They are \"telegraphic\" , with missing verbs , prepositions , clauses , case and phrase clues . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 3,
+			"text": "Second , the KG is always incomplete , ",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "unable to directly answer many queries . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 3,
+			"text": "We propose a novel technique ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "to segment a telegraphic query ",
+			"relation": "enablement"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "and assign a coarse-grained purpose to each segment : ",
+			"relation": "joint"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "a base entity e1 , a relation type r , a target entity type t2 , and contextual words s . <S>",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "The query seeks entity e2 ∈ t2 ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "where r ( e1 , e2 ) holds , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 13,
+			"text": "further evidenced by schema-agnostic words s . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 16,
+			"parent": 9,
+			"text": "Query segmentation is integrated with the KG and an unstructured corpus ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 17,
+			"parent": 16,
+			"text": "where mentions of entities have been linked to the KG . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 18,
+			"parent": 3,
+			"text": "We do not trust the best or any specific query segmentation . <S>",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 19,
+			"parent": 18,
+			"text": "Instead , evidence in favor of candidate e2s are aggregated across several segmentations . <S>",
+			"relation": "contrast"
+		},
+		{
+			"id": 20,
+			"parent": 3,
+			"text": "Extensive experiments on the ClueWeb corpus and parts of Freebase as our KG , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 21,
+			"parent": 20,
+			"text": "using over a thousand telegraphic queries ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 22,
+			"parent": 21,
+			"text": "adapted from TREC , INEX , and WebQuestions , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 23,
+			"parent": 20,
+			"text": "show the efficacy of our approach . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 24,
+			"parent": 20,
+			"text": "For one benchmark , MAP improves from 0.2-0.29 ( competitive baselines ) to 0.42 ( our system ) . <S>",
+			"relation": "exp-evidence"
+		},
+		{
+			"id": 25,
+			"parent": 24,
+			"text": "NDCG @ 10 improves from 0.29-0.36 to 0.54 . <S>  ",
+			"relation": "contrast"
+		}
+	]
+}

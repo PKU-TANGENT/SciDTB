@@ -1,0 +1,160 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We present an iterative procedure ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "to build a Chinese language model ( LM ) . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 5,
+			"text": "We segment Chinese text into words ",
+			"relation": "contrast"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "based on a word-based Chinese language model . <S>",
+			"relation": "bg-general"
+		},
+		{
+			"id": 5,
+			"parent": 1,
+			"text": "However , the construction of a Chinese LM itself requires word boundaries . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 6,
+			"parent": 7,
+			"text": "To get out of the chicken-and-egg problem , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 7,
+			"parent": 1,
+			"text": "we propose an iterative procedure ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "that alternates two operations : ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "segmenting text into words ",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "and building an LM . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 11,
+			"parent": 13,
+			"text": "Starting with an initial segmented corpus and an LM ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "based upon it , ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 13,
+			"parent": 1,
+			"text": "we use a Viterbi-liek algorithm ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "to segment another set of data . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 15,
+			"parent": 1,
+			"text": "Then , we build an LM ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "based on the second set ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 17,
+			"parent": 15,
+			"text": "and use the resulting LM ",
+			"relation": "joint"
+		},
+		{
+			"id": 18,
+			"parent": 17,
+			"text": "to segment again the first corpus . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 19,
+			"parent": 1,
+			"text": "The alternating procedure provides a self-organized way for the segmenter ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 20,
+			"parent": 19,
+			"text": "to detect automatically unseen words ",
+			"relation": "enablement"
+		},
+		{
+			"id": 21,
+			"parent": 20,
+			"text": "and correct segmentation errors . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 22,
+			"parent": 23,
+			"text": "Our preliminary experiment shows ",
+			"relation": "attribution"
+		},
+		{
+			"id": 23,
+			"parent": 1,
+			"text": "that the alternating procedure not only improves the accuracy of our segmentation , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 24,
+			"parent": 23,
+			"text": "but discovers unseen words surprisingly well . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 25,
+			"parent": 23,
+			"text": "The resulting word-based LM has a perplexity of 188 for a general Chinese corpus . <S>",
+			"relation": "exp-evidence"
+		}
+	]
+}

@@ -1,0 +1,88 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 9,
+			"text": "A typical discussion thread in an online forum spans multiple pages ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "involving participation from multiple users ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "and thus , may contain multiple view-points and solutions . <S>",
+			"relation": "cause"
+		},
+		{
+			"id": 4,
+			"parent": 7,
+			"text": "A user ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "interested in the topic of discussion ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "or having a problem similar to being discussed in the thread ",
+			"relation": "joint"
+		},
+		{
+			"id": 7,
+			"parent": 9,
+			"text": "may not want to read all the previous posts but only a few selected posts ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "that provide her a concise summary of the ongoing discussion . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 0,
+			"text": "This paper describes an extractive summarization technique ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "that uses textual features and dialog act information of individual messages ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "to select a subset of posts . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 12,
+			"parent": 9,
+			"text": "Proposed approach is evaluated ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "using two real life forum datasets . <S>",
+			"relation": "manner-means"
+		}
+	]
+}

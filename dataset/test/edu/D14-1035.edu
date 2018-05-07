@@ -1,0 +1,13 @@
+PCFGs with latent annotations have been shown to be a very effective model for phrase structure parsing . <S>
+We present a Bayesian model and algorithms 
+based on a Gibbs sampler 
+for parsing with a grammar with latent annotations . <S>
+For PCFG-LA , we present an additional Gibbs sampler algorithm 
+to learn annotations from training data , 
+which are parse trees with coarse ( unannotated ) symbols . <S>
+We show 
+that a Gibbs sampling technique is capable of parsing sentences in a wide variety of languages 
+and producing results 
+that are on-par with or surpass previous approaches . <S>
+Our results for Kinyarwanda and Malagasy in particular demonstrate 
+that low-resource language parsing can benefit substantially from a Bayesian approach . <S>

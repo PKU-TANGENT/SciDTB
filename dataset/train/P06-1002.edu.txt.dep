@@ -1,0 +1,76 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This paper presents an extensive evaluation of five different alignments ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "and investigates their impact on the corresponding MT system output . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "We introduce new measures for intrinsic evaluations ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "and examine the distribution of phrases and untranslated words ",
+			"relation": "progression"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "during decoding ",
+			"relation": "temporal"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "to identify which characteristics of different alignments affect translation . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 7,
+			"parent": 8,
+			"text": "We show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 8,
+			"parent": 1,
+			"text": "that precision-oriented alignments yield better MT output ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "( translating more words ",
+			"relation": "elab-definition"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "and using longer phrases ) ",
+			"relation": "joint"
+		},
+		{
+			"id": 11,
+			"parent": 8,
+			"text": "than recalloriented alignments . <S>",
+			"relation": "comparison"
+		}
+	]
+}

@@ -1,0 +1,112 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 6,
+			"text": "Coordination is an important and common syntactic construction ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "which is not handled well by state of the art parsers . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "Coordinations in the Penn Treebank are missing internal structure in many cases , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "do not include explicit marking of the conjuncts ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "and contain various errors and inconsistencies . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 6,
+			"parent": 0,
+			"text": "In this work , we initiated manual annotation process ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "for solving these issues . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 8,
+			"parent": 6,
+			"text": "We identify the different elements in a coordination phrase ",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "and label each element with its function . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 10,
+			"parent": 6,
+			"text": "We add phrase boundaries ",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "when these are missing , ",
+			"relation": "condition"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "unify inconsistencies , ",
+			"relation": "joint"
+		},
+		{
+			"id": 13,
+			"parent": 11,
+			"text": "and fix errors . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 14,
+			"parent": 10,
+			"text": "The outcome is an extension of the PTB ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "that includes consistent and detailed structures for coordinations . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 16,
+			"parent": 6,
+			"text": "We make the coordination annotation publicly available , ",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 17,
+			"parent": 16,
+			"text": "in hope that they will facilitate further research into coordination disambiguation . <S> ",
+			"relation": "enablement"
+		}
+	]
+}

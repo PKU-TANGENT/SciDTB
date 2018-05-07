@@ -1,0 +1,58 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 6,
+			"text": "The anchor words algorithm performs provably efficient topic model inference ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "by finding an approximate convex hull in a high-dimensional word co-occurrence space . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "However , the existing greedy algorithm often selects poor anchor words , ",
+			"relation": "contrast"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "reducing topic quality and interpretability . <S>",
+			"relation": "result"
+		},
+		{
+			"id": 5,
+			"parent": 6,
+			"text": "Rather than finding an approximate convex hull in a high-dimensional space , ",
+			"relation": "contrast"
+		},
+		{
+			"id": 6,
+			"parent": 0,
+			"text": "we propose to find an exact convex hull in a visualizable 2- or 3-dimensional space . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "Such low-dimensional embeddings both improve topics ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "and clearly show users why the algorithm selects certain words . <S>",
+			"relation": "joint"
+		}
+	]
+}

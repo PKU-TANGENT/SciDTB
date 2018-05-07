@@ -1,0 +1,17 @@
+Event extraction is a particularly challenging information extraction task , 
+which intends to identify and classify event triggers and arguments from raw text . <S>
+In recent works , when determining event types ( trigger classification ) , 
+most of the works are either pattern-only or feature-only . <S>
+However , although patterns cannot cover all representations of an event , 
+it is still a very important feature . <S>
+In addition , when identifying and classifying arguments , 
+previous works consider each candidate argument separately 
+while ignoring the relationship between arguments . <S>
+This paper proposes a Regularization-Based Pattern Balancing Method ( RBPB ) . <S>
+Inspired by the progress in representation learning , 
+we use trigger embedding , sentence-level embedding and pattern features together as our features for trigger classification 
+so that the effect of patterns and other useful features can be balanced . <S>
+In addition , RBPB uses a regularization method 
+to take advantage of the relationship between arguments . <S>
+Experiments show 
+that we achieve results better than current state-of-art equivalents . <S>

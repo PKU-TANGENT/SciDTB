@@ -1,0 +1,148 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 5,
+			"text": "Japanese case markers , ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "which indicate the grammatical relation of the complement NP to the predicate , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "often pose challenges to the generation of Japanese text , ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "be it done by a foreign language learner , or by a machine translation ( MT ) system . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 0,
+			"text": "In this paper , we describe the task ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "of predicting Japanese case markers ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "and propose machine learning methods ",
+			"relation": "progression"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "for solving it in two settings : ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "( i ) monolingual , when given information only from the Japanese sentence ; ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 8,
+			"text": "and ( ii ) bilingual , when also given information from a corresponding English source sentence in an MT context . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 8,
+			"text": "We formulate the task after the well-studied task of English semantic role labelling , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "and explore features from a syntactic dependency structure of the sentence . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 13,
+			"parent": 8,
+			"text": "For the monolingual task , we evaluated our models on the Kyoto Corpus ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "and achieved over 84 % accuracy ",
+			"relation": "result"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "in assigning correct case markers for each phrase . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 16,
+			"parent": 8,
+			"text": "For the bilingual task , we achieved an accuracy of 92 % per phrase ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 17,
+			"parent": 16,
+			"text": "using a bilingual dataset from a technical domain . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 18,
+			"parent": 19,
+			"text": "We show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 19,
+			"parent": 5,
+			"text": "that in both settings , features ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 20,
+			"parent": 19,
+			"text": "that exploit dependency information , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 21,
+			"parent": 20,
+			"text": "whether derived from gold-standard annotations ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 22,
+			"parent": 21,
+			"text": "or automatically assigned , ",
+			"relation": "joint"
+		},
+		{
+			"id": 23,
+			"parent": 19,
+			"text": "contribute significantly to the prediction of case markers . <S>",
+			"relation": "same-unit"
+		}
+	]
+}

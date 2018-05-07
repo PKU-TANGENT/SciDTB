@@ -1,0 +1,64 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "Grapheme-to-phoneme ( g2p ) models are rarely available in low-resource languages , ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "as the creation of training and evaluation data is expensive and time-consuming . <S>",
+			"relation": "cause"
+		},
+		{
+			"id": 3,
+			"parent": 0,
+			"text": "We use Wiktionary to obtain more than 650k word-pronunciation pairs in more than 500 languages . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "We then develop phoneme and language distance metrics ",
+			"relation": "progression"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "based on phonological and linguistic knowledge ; ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 6,
+			"parent": 7,
+			"text": "applying those , ",
+			"relation": "result"
+		},
+		{
+			"id": 7,
+			"parent": 4,
+			"text": "we adapt g2p models for highresource languages ",
+			"relation": "progression"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "to create models for related low-resource languages . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 9,
+			"parent": 3,
+			"text": "We provide results for models for 229 adapted languages . <S>",
+			"relation": "result"
+		}
+	]
+}

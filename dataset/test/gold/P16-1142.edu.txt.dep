@@ -1,0 +1,64 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This paper complements semantic role representations with spatial knowledge ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "beyond indicating plain locations . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "Namely , we extract where entities are ( and are not ) located , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "and for how long ( seconds , hours , days , etc. ) . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 5,
+			"parent": 6,
+			"text": "Crowdsourced annotations show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "that this additional knowledge is intuitive to humans ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "and can be annotated by non-experts . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 8,
+			"parent": 9,
+			"text": "Experimental results show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 9,
+			"parent": 1,
+			"text": "that the task can be automated . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

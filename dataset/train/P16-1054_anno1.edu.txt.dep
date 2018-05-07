@@ -1,0 +1,88 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "In this study , we introduce a nondeterministic method ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "for referring expression generation . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "We describe two models ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "that account for individual variation in the choice of referential form in automatically generated text : ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "a Naive Bayes model and a Recurrent Neural Network . <S>",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 6,
+			"parent": 3,
+			"text": "Both are evaluated ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "using the VaREG corpus . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 8,
+			"parent": 6,
+			"text": "Then we select the best performing model ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "to generate referential forms in texts from the GREC-2.0 corpus ",
+			"relation": "enablement"
+		},
+		{
+			"id": 10,
+			"parent": 8,
+			"text": "and conduct an evaluation experiment ",
+			"relation": "progression"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "in which humans judge the coherence and comprehensibility of the generated texts , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "comparing them both with the original references and those ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "produced by a random baseline model . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

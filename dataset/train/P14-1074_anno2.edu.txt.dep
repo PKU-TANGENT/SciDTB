@@ -1,0 +1,76 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We introduce three linguistically motivated structured regularizers \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "based on parse trees , topics , and hierarchical word clusters for text categorization . <S>\r",
+			"relation": "bg-general"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "These regularizers impose linguistic bias in feature weights , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "enabling us to incorporate prior knowledge into conventional bag-of-words models . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 1,
+			"text": "We show \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "that our structured regularizers consistently improve classification accuracies \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "compared to standard regularizers \r",
+			"relation": "comparison"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "that penalize features in isolation \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 7,
+			"text": "( such as lasso , ridge , and elastic net regularizers ) \r",
+			"relation": "elab-example"
+		},
+		{
+			"id": 10,
+			"parent": 6,
+			"text": "on a range of datasets for various text prediction problems : \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "topic classification , sentiment analysis , and forecasting . <S>\r",
+			"relation": "elab-enum_member"
+		}
+	]
+}

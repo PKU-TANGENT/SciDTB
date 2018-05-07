@@ -1,0 +1,82 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "In this paper , we demonstrate ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "that significant performance gains can be achieved in CCG semantic parsing ",
+			"relation": "attribution"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "by introducing a linguistically motivated grammar induction scheme . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "We present a new morpho-syntactic factored lexicon ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "that models systematic variations in morphology , syntax , and semantics across word classes . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "The grammar uses domain-independent facts about the English language ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "to restrict the number of incorrect parses ",
+			"relation": "enablement"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "that must be considered , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 6,
+			"text": "thereby enabling effective learning from less data . <S>",
+			"relation": "result"
+		},
+		{
+			"id": 10,
+			"parent": 1,
+			"text": "Experiments in benchmark domains match previous models with one quarter of the data ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "and provide new state-of-the-art results with all available data , ",
+			"relation": "joint"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "including up to 45 % relative test-error reduction . <S>",
+			"relation": "exp-evidence"
+		}
+	]
+}

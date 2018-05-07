@@ -1,0 +1,100 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 8,
+			"text": "Stress is a useful cue for English word segmentation . <S>",
+			"relation": "contrast"
+		},
+		{
+			"id": 2,
+			"parent": 3,
+			"text": "A wide range of computational models have found ",
+			"relation": "attribution"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "that stress cues enable a 2-10 % improvement in segmentation accuracy , ",
+			"relation": "exp-evidence"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "depending on the kind of model , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "by using input ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "that has been annotated with stress ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "using a pronouncing dictionary . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 8,
+			"parent": 10,
+			"text": "However , stress is neither invariably produced nor unambiguously identifiable in real speech . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "Heavy syllables , i.e. those with long vowels or syllable codas , attract stress in English . <S>",
+			"relation": "exp-reason"
+		},
+		{
+			"id": 10,
+			"parent": 0,
+			"text": "We devise Adaptor Grammar word segmentation models ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "that exploit either stress , or syllable weight , or both , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "and evaluate the utility of syllable weight as a cue to word boundaries . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 13,
+			"parent": 14,
+			"text": "Our results suggest ",
+			"relation": "attribution"
+		},
+		{
+			"id": 14,
+			"parent": 10,
+			"text": "that syllable weight encodes largely the same information for word segmentation in English ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "that annotated dictionary stress does . <S>",
+			"relation": "attribution"
+		}
+	]
+}

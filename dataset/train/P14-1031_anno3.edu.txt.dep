@@ -1,0 +1,100 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This paper proposes a novel context-aware method \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "for analyzing sentiment at the level of individual sentences . <S>\r",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 6,
+			"text": "Most existing machine learning approaches suffer from limitations in the modeling of complex linguistic structures across sentences \r",
+			"relation": "contrast"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "and often fail to capture non-local contextual cues \r",
+			"relation": "joint"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "that are important for sentiment interpretation . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "In contrast , our approach allows structured modeling of sentiment \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "while taking into account both local and global contextual information . <S>\r",
+			"relation": "temporal"
+		},
+		{
+			"id": 8,
+			"parent": 6,
+			"text": "Specifically , we encode intuitive lexical and discourse knowledge as expressive constraints \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "and integrate them into the learning of conditional random field models \r",
+			"relation": "joint"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "via posterior regularization . <S>\r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 11,
+			"parent": 8,
+			"text": "The context-aware constraints provide additional power to the CRF model \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "and can guide semi-supervised learning \r",
+			"relation": "joint"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "when labeled data is limited . <S>\r",
+			"relation": "condition"
+		},
+		{
+			"id": 14,
+			"parent": 15,
+			"text": "Experiments on standard product review datasets show \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 15,
+			"parent": 1,
+			"text": "that our method outperforms the state-of-the-art methods in both the supervised and semi-supervised settings . <S>\r",
+			"relation": "evaluation"
+		}
+	]
+}

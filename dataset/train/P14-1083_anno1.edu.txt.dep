@@ -1,0 +1,70 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We propose a novel learning approach for statistical machine translation ( SMT ) \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "that allows to extract supervision signals for structured learning from an extrinsic response to a translation input . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 4,
+			"text": "We show \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "how to generate responses \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "by grounding SMT in the task \r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "of executing a semantic parse of a translated query against a database . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 1,
+			"text": "Experiments on the GEOQUERY database show an improvement of about 6 points in F1-score for response-based learning over learning from references \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "only on returning the correct answer from a semantic parse of a translated query . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 1,
+			"text": "In general , our approach alleviates the dependency on human reference translations \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "and solves the reachability problem in structured learning for SMT . <S>\r",
+			"relation": "joint"
+		}
+	]
+}

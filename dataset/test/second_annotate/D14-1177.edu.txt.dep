@@ -1,0 +1,88 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 2,
+			"text": "Automatically compiling bilingual dictionaries of technical terms from comparable corpora is a challenging problem , yet with many potential applications . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 0,
+			"text": "In this paper , we exploit two independent observations about term translations : ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "( a ) terms are often formed by corresponding sub-lexical units across languages ",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 4,
+			"parent": 2,
+			"text": "and ( b ) a term and its translation tend to appear in similar lexical context . <S>",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 5,
+			"parent": 6,
+			"text": "Based on the first observation , ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 6,
+			"parent": 2,
+			"text": "we develop a new character n-gram compositional method , a logistic regression classifier , ",
+			"relation": "progression"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "for learning a string similarity measure of term translations . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 8,
+			"parent": 9,
+			"text": "According to the second observation , ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 9,
+			"parent": 6,
+			"text": "we use an existing context-based approach . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 10,
+			"parent": 12,
+			"text": "For evaluation , we investigate the performance of compositional and context-based methods on : ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "( a ) similar and unrelated languages , ( b ) corpora of different degree of comparability and ( c ) the translation of frequent and rare terms . <S>",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 12,
+			"parent": 2,
+			"text": "Finally , we combine the two translation clues , namely string and contextual similarity , in a linear model ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "and we show substantial improvements over the two translation signals . <S>",
+			"relation": "joint"
+		}
+	]
+}

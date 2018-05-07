@@ -1,0 +1,88 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 4,
+			"text": "Supervised methods have been the dominant approach for Chinese word segmentation . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "The performance can drop significantly ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "when the test domain is different from the training domain . <S>",
+			"relation": "temporal"
+		},
+		{
+			"id": 4,
+			"parent": 0,
+			"text": "In this paper , we study the problem of obtaining partial annotation from freely available data ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "to help Chinese word segmentation on different domains . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "Different sources of free annotations are transformed into a unified form of partial annotation ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "and a variant CRF model is used ",
+			"relation": "joint"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "to leverage both fully and partially annotated data consistently . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 9,
+			"parent": 10,
+			"text": "Experimental results show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 10,
+			"parent": 4,
+			"text": "that the Chinese word segmentation model benefits from free partially annotated data . <S>",
+			"relation": "evaluation"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "On the SIGHAN Bakeoff 2010 data , we achieve results ",
+			"relation": "result"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "that are competitive to the best ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "reported in the literature . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

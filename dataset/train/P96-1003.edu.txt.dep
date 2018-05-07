@@ -1,0 +1,70 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 4,
+			"text": "Information retrieval is an important application area of natural-language processing ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "where one encounters the genuine challenge ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "of processing large quantities of unrestricted natural-language text . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 0,
+			"text": "This paper reports on the application of a few simple , yet robust and efficient nounphrase analysis techniques ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "to create better indexing phrases for information retrieval. <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "In particular , we describe a hybrid approach to the extraction of meaningful ( continuous or discontinuous ) subcompounds from complex noun phrases ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "using both corpus statistics and linguistic heuristics . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 8,
+			"parent": 9,
+			"text": "Results of experiments show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 9,
+			"parent": 4,
+			"text": "that indexing based on such extracted subcompounds improves both recall and precision in an information retrieval system . <S>",
+			"relation": "evaluation"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "The noun-phrase analysis techniques are also potentially useful for book indexing and automatic thesaurus extraction . <S>",
+			"relation": "elab-aspect"
+		}
+	]
+}

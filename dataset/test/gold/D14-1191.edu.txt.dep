@@ -1,0 +1,106 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "Previous work on extracting ideology from text has focused on domains ",
+			"relation": "contrast"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "where expression of political views is expected , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 6,
+			"text": "but it's unclear ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "if current technology can work in domains ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "where displays of ideology are considered inappropriate . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 0,
+			"text": "We present a supervised ensemble n-gram model for ideology extraction with topic adjustments ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "and apply it to one such domain : ",
+			"relation": "progression"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "research papers ",
+			"relation": "elab-example"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "written by academic economists . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 11,
+			"text": "We show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 11,
+			"parent": 6,
+			"text": "economists' political leanings can be correctly predicted , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "that our predictions generalize to new domains , ",
+			"relation": "joint"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "and that they correlate with public policy-relevant research findings . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 14,
+			"parent": 6,
+			"text": "We also present evidence ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "that unsupervised models can under-perform in domains ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "where ideological expression is discouraged . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

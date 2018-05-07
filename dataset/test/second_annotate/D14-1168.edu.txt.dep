@@ -1,0 +1,112 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We propose a novel abstractive summarization system for product reviews\r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "by taking advantage of their discourse structure . <S>\r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "First , we apply a discourse parser to each review \r",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "and obtain a discourse tree representation for every review . <S>\r",
+			"relation": "joint"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "We then modify the discourse trees \r",
+			"relation": "progression"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "such that every leaf node only contains the aspect words . <S>\r",
+			"relation": "enablement"
+		},
+		{
+			"id": 7,
+			"parent": 1,
+			"text": "Second , we aggregate the aspect discourse trees \r",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "and generate a graph . <S>\r",
+			"relation": "joint"
+		},
+		{
+			"id": 9,
+			"parent": 7,
+			"text": "We then select a subgraph \r",
+			"relation": "progression"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "representing the most important aspects and the rhetorical relations between them \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 9,
+			"text": "using a PageRank algorithm , \r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 12,
+			"parent": 9,
+			"text": "and transform the selected subgraph into an aspect tree . <S>\r",
+			"relation": "joint"
+		},
+		{
+			"id": 13,
+			"parent": 1,
+			"text": "Finally , we generate a natural language summary \r",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "by applying a template-based NLG framework . <S>\r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 15,
+			"parent": 16,
+			"text": "Quantitative and qualitative analysis of the results , based on two user studies , \r",
+			"relation": "same-unit"
+		},
+		{
+			"id": 16,
+			"parent": 17,
+			"text": "show \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 17,
+			"parent": 1,
+			"text": "that our approach significantly outperforms extractive and abstractive baselines . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

@@ -1,0 +1,112 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 2,
+			"text": "Consumers' purchase decisions are increasingly influenced by user-generated online reviews . <S>\r",
+			"relation": "result"
+		},
+		{
+			"id": 2,
+			"parent": 7,
+			"text": "Accordingly , there has been growing concern about the potential \r",
+			"relation": "bg-general"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "for posting deceptive opinion spam— fictitious reviews \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "that have been deliberately written \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "to sound authentic , \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 6,
+			"parent": 3,
+			"text": "to deceive the reader . <S>\r",
+			"relation": "enablement"
+		},
+		{
+			"id": 7,
+			"parent": 0,
+			"text": "In this paper , we explore generalized approaches \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "for identifying online deceptive opinion spam \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "based on a new gold standard dataset , \r",
+			"relation": "bg-general"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "which is comprised of data from three different domains \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "( i.e. Hotel , Restaurant , Doctor ) , \r",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 12,
+			"parent": 10,
+			"text": "each of which contains three types of reviews , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "i.e. customer generated truthful reviews , Turker generated deceptive reviews and employee ( domain-expert ) generated deceptive reviews . <S>\r",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 14,
+			"parent": 7,
+			"text": "Our approach tries to capture the general difference of language usage between deceptive and truthful reviews , \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "which we hope will help customers \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "when making purchase decisions and review portal operators , such as TripAdvisor or Yelp , \r",
+			"relation": "temporal"
+		},
+		{
+			"id": 17,
+			"parent": 15,
+			"text": "investigate possible fraudulent activity on their sites . <S>\r",
+			"relation": "same-unit"
+		}
+	]
+}

@@ -1,0 +1,100 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "In this paper , we propose a novel recursive recurrent neural network ( R2NN ) \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "to model the end-to-end decoding process for statistical machine translation . <S>\r",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "R2NN is a combination of recursive neural network and recurrent neural network , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "and in turn integrates their respective capabilities : \r",
+			"relation": "progression"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "( 1 ) new information can be used \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "to generate the next hidden state , like recurrent neural networks , \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 7,
+			"parent": 5,
+			"text": "so that language model and translation model can be integrated naturally ; \r",
+			"relation": "result"
+		},
+		{
+			"id": 8,
+			"parent": 4,
+			"text": "( 2 ) a tree structure can be built , as recursive neural networks , \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "so as to generate the translation candidates in a bottom up manner . <S>\r",
+			"relation": "enablement"
+		},
+		{
+			"id": 10,
+			"parent": 1,
+			"text": "A semi-supervised training approach is proposed \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "to train the parameters , \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 12,
+			"parent": 10,
+			"text": "and the phrase pair embedding is explored \r",
+			"relation": "joint"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "to model translation confidence directly . <S>\r",
+			"relation": "enablement"
+		},
+		{
+			"id": 14,
+			"parent": 15,
+			"text": "Experiments on a Chinese to English translation task show \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 15,
+			"parent": 1,
+			"text": "that our proposed R2NN can outperform the state-of-the-art baseline by about 1.5 points in BLEU . <S>\r",
+			"relation": "evaluation"
+		}
+	]
+}

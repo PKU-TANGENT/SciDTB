@@ -1,0 +1,160 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 7,
+			"text": "Automatically recognising medical concepts ",
+			"relation": "contrast"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "mentioned in social media messages ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "( e.g. tweets ) ",
+			"relation": "elab-example"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "enables several applications ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "for enhancing health quality of people in a community , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "e.g. real-time monitoring of infectious diseases in population . <S>",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 7,
+			"parent": 10,
+			"text": "However , the discrepancy between the type of language ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "used in social media and medical ontologies ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 7,
+			"text": "poses a major challenge . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 10,
+			"parent": 13,
+			"text": "Existing studies deal with this challenge ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "by employing techniques , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "such as lexical term matching and statistical machine translation . <S>",
+			"relation": "elab-example"
+		},
+		{
+			"id": 13,
+			"parent": 0,
+			"text": "In this work , we handle the medical concept normalisation at the semantic level . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "We investigate the use of neural networks ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "to learn the transition between layman 's language ",
+			"relation": "enablement"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "used in social media messages ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 17,
+			"parent": 15,
+			"text": "and formal medical language ",
+			"relation": "joint"
+		},
+		{
+			"id": 18,
+			"parent": 17,
+			"text": "used in the descriptions of medical concepts in a standard ontology . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 19,
+			"parent": 23,
+			"text": "We evaluate our approaches ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 20,
+			"parent": 19,
+			"text": "using three different datasets , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 21,
+			"parent": 20,
+			"text": "where social media texts are extracted from Twitter messages and blog posts . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 22,
+			"parent": 23,
+			"text": "Our experimental results show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 23,
+			"parent": 13,
+			"text": "that our proposed approaches significantly and consistently outperform existing effective baselines , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 24,
+			"parent": 23,
+			"text": "which achieved state-of-the-art performance on several medical concept normalisation tasks , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 25,
+			"parent": 24,
+			"text": "by up to 44 % . <S> ",
+			"relation": "elab-addition"
+		}
+	]
+}

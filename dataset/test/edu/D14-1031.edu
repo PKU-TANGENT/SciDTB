@@ -1,0 +1,9 @@
+Child semantic development includes learning the meaning of words as well as the semantic relations among words . <S>
+A presumed outcome of semantic development is the formation of a semantic network 
+that reflects this knowledge . <S>
+We present an algorithm for simultaneously learning word meanings 
+and gradually growing a semantic network , 
+which adheres to the cognitive plausibility requirements of incrementality and limited computations . <S>
+We demonstrate 
+that the semantic connections among words in addition to their context is necessary in forming a semantic network 
+that resembles an adult's semantic knowledge . <S>

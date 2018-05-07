@@ -1,0 +1,112 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 6,
+			"text": "Text classification methods for tasks like factoid question answering typically use manually defined string matching rules or bag of words representations . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "These methods are ineffective ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "when question text contains very few individual words ",
+			"relation": "temporal"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "( e.g. , named entities ) ",
+			"relation": "elab-example"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "that are indicative of the answer . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 0,
+			"text": "We introduce a recursive neural network ( rnn ) model ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "that can reason over such input ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "by modeling textual compositionality . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 9,
+			"parent": 6,
+			"text": "We apply our model , qanta , to a dataset of questions from a trivia competition ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "called quiz bowl . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 12,
+			"text": "Unlike previous rnn models , ",
+			"relation": "comparison"
+		},
+		{
+			"id": 12,
+			"parent": 6,
+			"text": "qanta learns word and phrase-level representations ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "that combine across sentences ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "to reason about entities . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 15,
+			"parent": 6,
+			"text": "The model outperforms multiple baselines ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 16,
+			"parent": 17,
+			"text": "and , when combined with information retrieval methods , ",
+			"relation": "temporal"
+		},
+		{
+			"id": 17,
+			"parent": 15,
+			"text": "ri-vals the best human players . <S>",
+			"relation": "joint"
+		}
+	]
+}

@@ -1,0 +1,88 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "Modeling crisp logical regularities is crucial in semantic parsing , ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "making it difficult for neural models with no task-specific prior knowledge to achieve good results . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 0,
+			"text": "In this paper , we introduce data recombination , ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "a novel framework ",
+			"relation": "elab-definition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "for injecting such prior knowledge into a model . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 3,
+			"text": "From the training data , we induce a highprecision synchronous context-free grammar , ",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "which captures important conditional independence properties ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "commonly found in semantic parsing . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 3,
+			"text": "We then train a sequence-to-sequence recurrent network ( RNN ) model with a novel attention-based copying mechanism on datapoints ",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "sampled from this grammar , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 9,
+			"text": "thereby teaching the model about these structural properties . <S>",
+			"relation": "progression"
+		},
+		{
+			"id": 12,
+			"parent": 3,
+			"text": "Data recombination improves the accuracy of our RNN model on three semantic parsing datasets , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "leading to new state-of-the-art performance on the standard GeoQuery dataset for models with comparable supervision . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

@@ -1,0 +1,124 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We propose a brand new `` Liberal '' Event Extraction paradigm ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "to extract events and discover event schemas from any input corpus simultaneously . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "We incorporate symbolic ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "( e.g. , Abstract Meaning Representation ) ",
+			"relation": "elab-example"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "and distributional semantics ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 6,
+			"parent": 3,
+			"text": "to detect and represent event structures ",
+			"relation": "enablement"
+		},
+		{
+			"id": 7,
+			"parent": 3,
+			"text": "and adopt a joint typing framework ",
+			"relation": "joint"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "to simultaneously extract event types and argument roles ",
+			"relation": "enablement"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "and discover an event schema . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 10,
+			"parent": 11,
+			"text": "Experiments on general and specific domains demonstrate ",
+			"relation": "attribution"
+		},
+		{
+			"id": 11,
+			"parent": 1,
+			"text": "that this framework can construct high-quality schemas with many event and argument role types , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "covering a high proportion of event types and argument roles in manually defined schemas . <S>",
+			"relation": "elab-example"
+		},
+		{
+			"id": 13,
+			"parent": 14,
+			"text": "We show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 14,
+			"parent": 1,
+			"text": "that extraction performance ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "using discovered schemas ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 16,
+			"parent": 14,
+			"text": "is comparable to supervised models ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 17,
+			"parent": 16,
+			"text": "trained from a large amount of data ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 18,
+			"parent": 17,
+			"text": "labeled according to predefined event types . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 19,
+			"parent": 1,
+			"text": "The extraction quality of new event types is also promising . <S>   ",
+			"relation": "evaluation"
+		}
+	]
+}

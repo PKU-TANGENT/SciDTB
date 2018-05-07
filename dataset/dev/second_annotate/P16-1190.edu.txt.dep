@@ -1,0 +1,112 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We propose a joint formulation ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "for learning task-specific cross-lingual word embeddings , along with classifiers for that task . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 6,
+			"text": "Unlike prior work , ",
+			"relation": "contrast"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "which first learns the embeddings from parallel data ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "and then plugs them in a supervised learning problem , ",
+			"relation": "progression"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "our approach is oneshot : ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "a single optimization problem combines a co-regularizer for the multilingual embeddings with a task-specific loss . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 1,
+			"text": "We present theoretical results ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "showing the limitation of Euclidean co-regularizers ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "to increase the embedding dimension , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 9,
+			"text": "a limitation ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "which does not exist for other co-regularizers ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "( such as the ` 1- distance ) . <S>",
+			"relation": "elab-example"
+		},
+		{
+			"id": 14,
+			"parent": 15,
+			"text": "Despite its simplicity , ",
+			"relation": "contrast"
+		},
+		{
+			"id": 15,
+			"parent": 1,
+			"text": "our method achieves state-of-the-art accuracies on the RCV1/RCV2 dataset ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "when transferring from English to German , with training times below 1 minute . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 17,
+			"parent": 1,
+			"text": "On the TED Corpus , we obtain the highest reported scores on 10 out of 11 languages . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

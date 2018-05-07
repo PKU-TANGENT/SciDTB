@@ -1,0 +1,22 @@
+In this work , we propose a novel method 
+to incorporate corpus-level discourse information into language modelling . <S>
+We call this larger-context language model . <S>
+We introduce a late fusion approach to a recurrent language model 
+based on long short term memory units ( LSTM ) , 
+which helps the LSTM unit keep intra-sentence dependencies and inter-sentence dependencies separate from each other . <S>
+Through the evaluation on four corpora ( IMDB , BBC , Penn TreeBank , and Fil9 ) , 
+we demonstrate 
+that the proposed model improves perplexity significantly . <S>
+In the experiments , we evaluate the proposed approach 
+while varying the number of context sentences 
+and observe 
+that the proposed late fusion is superior to the usual way 
+of incorporating additional inputs to the LSTM . <S>
+By analyzing the trained larger-context language model , 
+we discover 
+that content words , 
+including nouns , adjectives and verbs , 
+benefit most from an increasing number of context sentences . <S>
+This analysis suggests 
+that larger-context language model improves the unconditional language model 
+by capturing the theme of a document better and more easily . <S>

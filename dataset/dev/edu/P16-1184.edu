@@ -1,0 +1,20 @@
+Morphologically rich languages often lack the annotated linguistic resources 
+required to develop accurate natural language processing tools . <S>
+We propose models 
+suitable for training morphological taggers with rich tagsets for low-resource languages 
+without using direct supervision . <S>
+Our approach extends existing approaches 
+of projecting part-of-speech tags across languages , 
+using bitext to infer constraints on the possible tags for a given word type or token . <S>
+We propose a tagging model 
+using Wsabie , a discriminative embeddingbased model with rank-based learning . <S>
+In our evaluation on 11 languages , on average this model performs on par with a baseline weakly-supervised HMM , 
+while being more scalable . <S>
+Multilingual experiments show 
+that the method performs best 
+when projecting between related language pairs . <S>
+Despite the inherently lossy projection , 
+we show 
+that the morphological tags 
+predicted by our models 
+improve the downstream performance of a parser by +0.6 LAS on average . <S>

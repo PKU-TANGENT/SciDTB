@@ -1,0 +1,12 @@
+Finding paraphrases in text is an important task with implications for generation , summarization and question answering , among other applications . <S>
+Of particular interest to those applications is the specific formulation of the task 
+where the paraphrases are templated , 
+which provides an easy way 
+to lexicalize one message in multiple ways 
+by simply plugging in the relevant entities . <S>
+Previous work has focused on mining paraphrases from parallel and comparable corpora , 
+or mining very short sub-sentence synonyms and paraphrases . <S>
+In this paper we present an approach 
+which combines distributional and KB-driven methods 
+to allow robust mining of sentence-level paraphrasal templates , 
+utilizing a rich type system for the slots , from a plain text corpus . <S>

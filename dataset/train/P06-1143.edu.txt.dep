@@ -1,0 +1,76 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 5,
+			"text": "Machine Transliteration is to transcribe a word ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "written in a script ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "with approximate phonetic equivalence in another language . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "It is useful for machine translation , cross-lingual information retrieval , multilingual text and speech processing . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 0,
+			"text": "Punjabi Machine Transliteration ( PMT ) is a special case of machine transliteration ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "and is a process of converting a word from Shahmukhi ",
+			"relation": "progression"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "( based on Arabic script ) ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 8,
+			"parent": 6,
+			"text": "to Gurmukhi ( derivation of Landa , Shardha and Takri , old scripts of Indian subcontinent ) , two scripts of Punjabi , irrespective of the type of word . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 9,
+			"parent": 5,
+			"text": "The Punjabi Machine Transliteration System uses transliteration rules ( character mappings and dependency rules ) for transliteration of Shahmukhi words into Gurmukhi . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "The PMT system can transliterate every word ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "written in Shahmukhi . <S>                  ",
+			"relation": "elab-addition"
+		}
+	]
+}

@@ -1,0 +1,82 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 5,
+			"text": "Distributional semantic methods \r",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "to approximate word meaning with context vectors \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "have been very successful empirically , \r",
+			"relation": "same-unit"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "and the last years have seen a surge of interest in their compositional extension to phrases and sentences . <S>\r",
+			"relation": "joint"
+		},
+		{
+			"id": 5,
+			"parent": 0,
+			"text": "We present here a new model \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "that , like those of Coecke et al ( 2010 ) and Baroni and Zamparelli ( 2010 ) , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "closely mimics the standard Montagovian semantic treatment of composition in distributional terms . <S>\r",
+			"relation": "same-unit"
+		},
+		{
+			"id": 8,
+			"parent": 5,
+			"text": "However , our approach avoids a number of issues \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "that have prevented the application of the earlier linguistically-motivated models to full-fledged , real-life sentences . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 5,
+			"text": "We test the model on a variety of empirical tasks , \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 11,
+			"parent": 12,
+			"text": "showing \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 12,
+			"parent": 10,
+			"text": "that it consistently outperforms a set of competitive rivals . <S>\r",
+			"relation": "elab-addition"
+		}
+	]
+}

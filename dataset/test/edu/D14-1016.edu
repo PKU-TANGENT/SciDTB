@@ -1,0 +1,15 @@
+We present a novel approach 
+to improve word alignment for statistical machine translation ( SMT ) . <S>
+Conventional word alignment methods allow discontinuous alignment , 
+meaning 
+that a source ( or target ) word links to several target ( or source ) words 
+whose positions are discontinuous . <S>
+However , we cannot extract phrase pairs from this kind of alignments 
+as they break the alignment consistency constraint . <S>
+In this paper , we use a weighted vote method 
+to transform discontinuous word alignment to continuous alignment , 
+which enables SMT systems extract more phrase pairs . <S>
+We carry out experiments on large scale Chinese-to-English and German-to-English translation tasks . <S>
+Experimental results show 
+statistically significant improvements of BLEU score in both cases over the baseline systems . <S>
+Our method produces a gain of +1.68 BLEU on NIST OpenMT04 for the phrase-based system , and a gain of +1.28 BLEU on NIST OpenMT06 for the hierarchical phrase-based system . <S>

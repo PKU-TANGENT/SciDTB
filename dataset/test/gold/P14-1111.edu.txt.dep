@@ -1,0 +1,88 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 4,
+			"text": "We explore the extent \r",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "to which high-resource manual annotations such as treebanks are necessary for the task of semantic role labeling ( SRL ) . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 4,
+			"text": "We examine \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 4,
+			"parent": 0,
+			"text": "how performance changes \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "without syntactic supervision , \r",
+			"relation": "condition"
+		},
+		{
+			"id": 6,
+			"parent": 3,
+			"text": "comparing both joint and pipelined methods \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "to induce latent syntax . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 4,
+			"text": "This work highlights a new application of unsupervised grammar induction \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "and demonstrates several approaches to SRL in the absence of supervised syntax . <S>\r",
+			"relation": "joint"
+		},
+		{
+			"id": 10,
+			"parent": 4,
+			"text": "Our best models obtain competitive results in the high-resource setting and state-of-the-art results in the low resource setting , \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "reaching 72.48 % F1 averaged across languages . <S>\r",
+			"relation": "exp-evidence"
+		},
+		{
+			"id": 12,
+			"parent": 4,
+			"text": "We release our code for this work along with a larger toolkit \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "for specifying arbitrary graphical structure . <S>\r",
+			"relation": "elab-addition"
+		}
+	]
+}

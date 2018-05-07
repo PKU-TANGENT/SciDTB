@@ -1,0 +1,100 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 5,
+			"text": "Foreign language learners can acquire new vocabulary ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "by using cognate and context clues ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "when reading . <S>",
+			"relation": "temporal"
+		},
+		{
+			"id": 4,
+			"parent": 5,
+			"text": "To measure such incidental comprehension , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 5,
+			"parent": 0,
+			"text": "we devise an experimental framework ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "that involves reading mixed-language `` macaronic '' sentences . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 9,
+			"text": "Using data ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "collected via Amazon Mechanical Turk , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 5,
+			"text": "we train a graphical model ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "to simulate a human subject 's comprehension of foreign words , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "based on cognate clues ( edit distance to an English word ) , context clues ( pointwise mutual information ) , and prior exposure . <S>",
+			"relation": "bg-general"
+		},
+		{
+			"id": 12,
+			"parent": 14,
+			"text": "Our model does a reasonable job ",
+			"relation": "attribution"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "at predicting ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 5,
+			"text": "which words a user will be able to understand , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "which should facilitate the automatic construction of comprehensible text for personalized foreign language education . <S>  ",
+			"relation": "elab-addition"
+		}
+	]
+}

@@ -1,0 +1,118 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We explore the use of restricted dialogue contexts in reinforcement learning ( RL ) of effective dialogue strategies for information seeking spoken dialogue systems ( e.g. COMMUNICATOR ( Walker et al. , 2001 ) ) . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "The contexts ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "we use ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 2,
+			"text": "are richer than previous research in this area , e.g. ( Levin and Pieraccini , 1997 ; Scheffler and Young , 2001 ; Singh et al. , 2002 ; Pietquin , 2004 ) , ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "which use only slot-based information , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "but are much less complex than the full dialogue \"Information States\" ",
+			"relation": "contrast"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "explored in ( Henderson et al. , 2005 ) , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 6,
+			"text": "for which tractabe learning is an issue . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 10,
+			"text": "We explore ",
+			"relation": "attribution"
+		},
+		{
+			"id": 10,
+			"parent": 1,
+			"text": "how incrementally adding richer features allows learning of more effective dialogue strategies . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 1,
+			"text": "We use 2 user simulations ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "learned from COMMUNICATOR data ( Walker et al. , 2001 ; Georgila et al. , 2005b ) ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 11,
+			"text": "to explore the effects of different features on learned dialogue strategies . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 14,
+			"parent": 15,
+			"text": "Our results show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 15,
+			"parent": 1,
+			"text": "that adding the dialogue moves of the last system and user turns increases the average reward of the automatically learned strategies by 65.9 % over the original ( hand-coded ) COMMUNICATOR systems , and by 7.8 % over a baseline RL policy ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "that uses only slot-status features . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 17,
+			"parent": 18,
+			"text": "We show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 18,
+			"parent": 1,
+			"text": "that the learned strategies exhibit an emergent \"focus switching\" strategy and effective use of the \"give help\" action . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

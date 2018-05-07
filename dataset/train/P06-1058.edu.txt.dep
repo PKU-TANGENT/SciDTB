@@ -1,0 +1,70 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This paper presents a new approach ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "based on Equivalent Pseudowords ( EPs ) ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "to tackle Word Sense Disambiguation ( WSD ) in Chinese language . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 4,
+			"parent": 2,
+			"text": "EPs are particular artificial ambiguous words , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "which can be used ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "to realize unsupervised WSD . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 7,
+			"parent": 4,
+			"text": "A Bayesian classifier is implemented ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "to test the efficacy of the EP solution on Senseval-3 Chinese test set . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 9,
+			"parent": 1,
+			"text": "The performance is better than state-of-the-art results with an average F-measure of 0.80 . <S>",
+			"relation": "evaluation"
+		},
+		{
+			"id": 10,
+			"parent": 1,
+			"text": "The experiment verifies the value of EP for unsupervised WSD . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

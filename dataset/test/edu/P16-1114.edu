@@ -1,0 +1,13 @@
+Intelligent assistants on mobile devices , 
+such as Siri , 
+have recently gained considerable attention as novel applications of dialogue technologies . <S>
+A tremendous amount of real users of intelligent assistants provide us with an opportunity 
+to explore a novel task 
+of predicting whether users will continually use their intelligent assistants in the future . <S>
+We developed prediction models of prospective user engagement 
+by using large-scale user logs 
+obtained from a commercial intelligent assistant . <S>
+Experiments demonstrated 
+that our models can predict prospective user engagement reasonably well , 
+and outperforms a strong baseline 
+that makes prediction based past utterance frequency <S>

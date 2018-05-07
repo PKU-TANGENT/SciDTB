@@ -1,0 +1,21 @@
+In this paper , we propose a novel mechanism 
+for enriching the feature vector , for the task of sarcasm detection , with cognitive features 
+extracted from eye-movement patterns of human readers . <S>
+Sarcasm detection has been a challenging research problem , 
+and its importance for NLP applications 
+such as review summarization , dialog systems and sentiment analysis 
+is well recognized . <S>
+Sarcasm can often be traced to incongruity 
+that becomes apparent 
+as the full sentence unfolds . <S>
+This presence of incongruity- implicit or explicit- affects the way 
+readers eyes move through the text . <S>
+We observe the difference in the behaviour of the eye , 
+while reading sarcastic and non sarcastic sentences . <S>
+Motivated by this observation , 
+we augment traditional linguistic and stylistic features for sarcasm detection with the cognitive features 
+obtained from readers eye movement data . <S>
+We perform statistical classification 
+using the enhanced feature set 
+so obtained . <S>
+The augmented cognitive features improve sarcasm detection by 3.7 % ( in terms of Fscore ) , over the performance of the best reported system . <S>

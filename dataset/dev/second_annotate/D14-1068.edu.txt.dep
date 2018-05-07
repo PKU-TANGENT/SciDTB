@@ -1,0 +1,52 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 4,
+			"text": "Keyboard layout errors and homoglyphs in cross-language queries impact our ability ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "to correctly interpret user information needs ",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "and offer relevant results . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 4,
+			"parent": 0,
+			"text": "We present a machine learning approach to correcting these errors , ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "based largely on character-level n-gram features . <S>",
+			"relation": "bg-general"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "We demonstrate superior performance over rule-based methods , as well as a significant reduction in the number of queries ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "that yield null search results . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

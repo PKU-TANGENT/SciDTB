@@ -1,0 +1,70 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 6,
+			"text": "Context-predicting models \r",
+			"relation": "bg-general"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "( more commonly known as embeddings or neural language models ) \r",
+			"relation": "elab-definition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "are the new kids on the distributional semantics block . <S>\r",
+			"relation": "same-unit"
+		},
+		{
+			"id": 4,
+			"parent": 6,
+			"text": "Despite the buzz \r",
+			"relation": "contrast"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "surrounding these models , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 7,
+			"text": "the literature is still lacking a systematic comparison of the predictive models with classic , count-vector-based distributional semantic approaches . <S>\r",
+			"relation": "bg-general"
+		},
+		{
+			"id": 7,
+			"parent": 0,
+			"text": "In this paper , we perform such an extensive evaluation , on a wide range of lexical semantics tasks and across many parameter settings . <S>\r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 8,
+			"parent": 9,
+			"text": "The results , to our own surprise , show \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 9,
+			"parent": 7,
+			"text": "that the buzz is fully justified , \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "as the context-predicting models obtain a thorough and resounding victory against their count-based counterparts . <S>\r",
+			"relation": "exp-reason"
+		}
+	]
+}

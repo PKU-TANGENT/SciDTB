@@ -1,0 +1,94 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We present sentence enhancement as a novel technique for text-to-text generation in abstractive summarization . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 3,
+			"text": "Compared to extraction or previous approaches to sentence fusion , ",
+			"relation": "comparison"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "sentence enhancement increases the range of possible summary sentences ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "by allowing the combination of dependency subtrees from any sentence from the source text . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 5,
+			"parent": 6,
+			"text": "Our experiments indicate ",
+			"relation": "attribution"
+		},
+		{
+			"id": 6,
+			"parent": 3,
+			"text": "that our approach yields summary sentences ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "that are competitive with a sentence fusion baseline in terms of content quality , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "but better in terms of grammaticality , ",
+			"relation": "contrast"
+		},
+		{
+			"id": 9,
+			"parent": 6,
+			"text": "and that the benefit of sentence enhancement relies crucially on an event coreference resolution algorithm ",
+			"relation": "joint"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "using distributional semantics . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 11,
+			"parent": 12,
+			"text": "We also consider ",
+			"relation": "attribution"
+		},
+		{
+			"id": 12,
+			"parent": 1,
+			"text": "how text-to-text generation approaches to summarization can be extended beyond the source text",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 13,
+			"parent": 14,
+			"text": "by examining ",
+			"relation": "attribution"
+		},
+		{
+			"id": 14,
+			"parent": 12,
+			"text": "how human summary writers incorporate source-text-external elements into their summary sentences . <S>",
+			"relation": "manner-means"
+		}
+	]
+}

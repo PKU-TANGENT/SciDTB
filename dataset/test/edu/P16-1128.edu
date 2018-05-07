@@ -1,0 +1,9 @@
+Word embeddings - distributed representations of words - in deep learning are beneficial for many tasks in NLP . <S>
+However , different embedding sets vary greatly in quality and characteristics of the captured information . <S>
+Instead of relying on a more advanced algorithm for embedding learning , 
+this paper proposes an ensemble approach 
+of combining different public embedding sets with the aim of learning metaembeddings . <S>
+Experiments on word similarity and analogy tasks and on part-of-speech tagging show better performance of metaembeddings 
+compared to individual embedding sets . <S>
+One advantage of metaembeddings is the increased vocabulary coverage . <S>
+We release our metaembeddings publicly at http ://cistern.cis.lmu.de/meta-emb . <S>

@@ -1,0 +1,12 @@
+Traditional syntax models typically leverage part-of-speech ( POS ) information 
+by constructing features from hand-tuned templates . <S>
+We demonstrate 
+that a better approach is to utilize POS tags as a regularizer of learned representations . <S>
+We propose a simple method 
+for learning a stacked pipeline of models 
+which we call `` stack-propagation '' . <S>
+We apply this to dependency parsing and tagging , 
+where we use the hidden layer of the tagger network as a representation of the input tokens for the parser . <S>
+At test time , our parser does not require predicted POS tags . <S>
+On 19 languages from the Universal Dependencies , our method is 1.3 % ( absolute ) more accurate than a state-of-the-art graph-based approach 
+and 2.7 % more accurate than the most comparable greedy model . <S>

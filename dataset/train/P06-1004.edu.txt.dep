@@ -1,0 +1,58 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 2,
+			"text": "We consider the task of unsupervised lecture segmentation . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 0,
+			"text": "We formalize segmentation as a graph-partitioning task ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "that optimizes the normalized cut criterion . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 2,
+			"text": "Our approach moves beyond localized comparisons ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "and takes into account longrange cohesion dependencies . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 6,
+			"parent": 7,
+			"text": "Our results demonstrate ",
+			"relation": "attribution"
+		},
+		{
+			"id": 7,
+			"parent": 2,
+			"text": "that global analysis improves the segmentation accuracy ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "and is robust in the presence of speech recognition errors . <S>",
+			"relation": "joint"
+		}
+	]
+}

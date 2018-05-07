@@ -1,0 +1,25 @@
+Recent work has shown success 
+in using neural network language models ( NNLMs ) as features in MT systems . <S>
+Here , we present a novel formulation for a neural network joint model ( NNJM ) , 
+which augments the NNLM with a source context window . <S>
+Our model is purely lexicalized 
+and can be integrated into any MT decoder . <S>
+We also present several variations of the NNJM 
+which provide significant additive improvements . <S>
+Although the model is quite simple , 
+it yields strong empirical results . <S>
+On the NIST OpenMT12 Arabic-English condition , the NNJM features produce a gain of +3.0 BLEU on top of a powerful , feature-rich baseline 
+which already includes a target-only NNLM . <S>
+The NNJM features also produce a gain of +6.3 BLEU on top of a simpler baseline equivalent to Chiang's (2007) original Hiero implementation . <S>
+Additionally , we describe two novel techniques 
+for overcoming the historically high cost of using NNLM-style models in MT decoding . <S>
+These techniques speed up NNJM computation by a factor of 10,000x , 
+making the model as fast as a standard back-off LM . <S>
+This work was supported by DARPA/I2O Contract HR0011-12-C-0014 under the BOLT program 
+( Approved for Public Release , Distribution Unlimited ) . <S>
+The views , opinions , and/or findings 
+contained in this article 
+are those of the author 
+and should not be interpreted as representing the official views or policies , 
+either expressed or implied , of the Defense Advanced Research Projects Agency or the Department of Defense . <S>
+ 

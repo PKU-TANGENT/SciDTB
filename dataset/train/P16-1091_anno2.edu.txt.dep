@@ -1,0 +1,64 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "Dialogue topic tracking is a sequential labelling problem ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "of recognizing the topic state at each time step in given dialogue sequences . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 0,
+			"text": "This paper presents various artificial neural network models for dialogue topic tracking , ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "including convolutional neural networks ",
+			"relation": "elab-example"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "to account for semantics at each individual utterance , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "and recurrent neural networks ",
+			"relation": "joint"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "to account for conversational contexts along multiple turns in the dialogue history . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 8,
+			"parent": 9,
+			"text": "The experimental results demonstrate ",
+			"relation": "attribution"
+		},
+		{
+			"id": 9,
+			"parent": 3,
+			"text": "that our proposed models can significantly improve the tracking performances in human-human conversations . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

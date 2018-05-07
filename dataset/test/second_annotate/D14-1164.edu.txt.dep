@@ -1,0 +1,76 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "Broad-coverage relation extraction either requires expensive supervised training data , ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "or suffers from drawbacks inherent to distant supervision . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 3,
+			"parent": 0,
+			"text": "We present an approach ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "for providing partial supervision to a distantly supervised relation extractor ",
+			"relation": "enablement"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "using a small number of carefully selected examples . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 6,
+			"parent": 3,
+			"text": "We compare against established active learning criteria ",
+			"relation": "comparison"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "and propose a novel criterion to sample examples ",
+			"relation": "joint"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "which are both uncertain and representative . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 3,
+			"text": "In this way , we combine the benefits of fine-grained supervision for difficult examples with the coverage of a large distantly supervised corpus . <S>",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 10,
+			"parent": 3,
+			"text": "Our approach gives a substantial increase of 3.9 % end-to-end F1 on the 2013 KBP Slot Filling evaluation , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "yielding a net F1 of 37.7 % . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

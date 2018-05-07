@@ -1,0 +1,106 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This paper introduces FactChecker , language-aware approach to truth-finding . <S>\r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "FactChecker differs from prior approaches \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "in that it does not rely on iterative peer voting , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "instead it leverages language \r",
+			"relation": "contrast"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "to infer believability of fact candidates . <S>\r",
+			"relation": "enablement"
+		},
+		{
+			"id": 6,
+			"parent": 2,
+			"text": "In particular , FactChecker makes use of linguistic features \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "to detect \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 8,
+			"parent": 6,
+			"text": "if a given source objectively states facts \r",
+			"relation": "condition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "or is speculative and opinionated . <S>\r",
+			"relation": "joint"
+		},
+		{
+			"id": 10,
+			"parent": 13,
+			"text": "To ensure that fact candidates \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "mentioned in similar sources \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 10,
+			"text": "have similar believability , \r",
+			"relation": "same-unit"
+		},
+		{
+			"id": 13,
+			"parent": 1,
+			"text": "FactChecker augments objectivity with a co-mention score \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "to compute the overall believability score of a fact candidate . <S>\r",
+			"relation": "enablement"
+		},
+		{
+			"id": 15,
+			"parent": 1,
+			"text": "Our experiments on various datasets show \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "that FactChecker yields higher accuracy than existing approaches . <S>\r",
+			"relation": "elab-addition"
+		}
+	]
+}

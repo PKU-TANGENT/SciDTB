@@ -1,0 +1,94 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We present an approach \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "to training a joint syntactic and semantic parser \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "that combines syntactic training information from CCGbank with semantic training information from a knowledge base \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "via distant supervision . <S>\r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 5,
+			"parent": 1,
+			"text": "The trained parser produces a full syntactic parse of any sentence , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "while simultaneously producing logical forms for portions of the sentence \r",
+			"relation": "joint"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "that have a semantic representation within the parser's predicate vocabulary . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 1,
+			"text": "We demonstrate our approach \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "by training a parser \r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "whose semantic representation contains 130 predicates from the NELL ontology . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 12,
+			"text": "A semantic evaluation demonstrates \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 12,
+			"parent": 8,
+			"text": "that this parser produces logical forms better than both comparable prior work and a pipelined syntax-then-semantics approach . <S>\r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 13,
+			"parent": 14,
+			"text": "A syntactic evaluation on CCGbank demonstrates \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 14,
+			"parent": 8,
+			"text": "that the parser's dependency F-score is within 2.5 % of state-of-the-art . <S>\r",
+			"relation": "elab-aspect"
+		}
+	]
+}

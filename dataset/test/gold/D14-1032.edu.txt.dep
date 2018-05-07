@@ -1,0 +1,100 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 5,
+			"text": "Models ",
+			"relation": "result"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "that acquire semantic representations from both linguistic and perceptual input ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "are of interest to researchers in NLP ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "because of the obvious parallels with human language learning . <S>",
+			"relation": "exp-reason"
+		},
+		{
+			"id": 5,
+			"parent": 8,
+			"text": "Performance advantages of the multi-modal approach over language-only models have been clearly established ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "when models are required to learn concrete noun concepts . <S>",
+			"relation": "temporal"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "However , such concepts are comparatively rare in everyday language . <S>",
+			"relation": "contrast"
+		},
+		{
+			"id": 8,
+			"parent": 0,
+			"text": "In this work , we present a new means ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "of extending the scope of multi-modal models to more commonly-occurring abstract lexical concepts ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "via an approach ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "that learns multi-modal embeddings . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 8,
+			"text": "Our architecture outperforms previous approaches in combining input from distinct modalities , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "and propagates perceptual information on concrete concepts to abstract concepts more effectively than alternatives . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 14,
+			"parent": 8,
+			"text": "We discuss the implications of our results ",
+			"relation": "summary"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "both for optimizing the performance of multi-modal models and for theories of abstract conceptual representation . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

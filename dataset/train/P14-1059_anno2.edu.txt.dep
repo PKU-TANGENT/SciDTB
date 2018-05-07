@@ -1,0 +1,88 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We introduce the problem of generation in distributional semantics : \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 4,
+			"text": "Given a distributional vector \r",
+			"relation": "condition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "representing some meaning , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "how can we generate the phrase \r",
+			"relation": "elab-definition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "that best expresses that meaning ? <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "We motivate this novel challenge on theoretical and practical grounds \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "and propose a simple data-driven approach to the estimation of generation functions . <S>\r",
+			"relation": "joint"
+		},
+		{
+			"id": 8,
+			"parent": 1,
+			"text": "We test this in a monolingual scenario \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "( paraphrase generation ) \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 8,
+			"text": "as well as in a cross-lingual setting \r",
+			"relation": "joint"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "( translation \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "by synthesizing adjective-noun phrase vectors in English \r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "and generating the equivalent expressions in Italian ) . <S>\r",
+			"relation": "joint"
+		}
+	]
+}

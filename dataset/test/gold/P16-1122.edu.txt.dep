@@ -1,0 +1,82 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 4,
+			"text": "Attention based recurrent neural networks have shown advantages ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "in representing natural language sentences ( Hermann et al. , 2015 ; Rocktaschel et al. , 2015 ; Tan et al. , 2015 ) . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 4,
+			"text": "Based on recurrent neural networks ( RNN ) , ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 4,
+			"parent": 7,
+			"text": "external attention information was added to hidden representations ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "to get an attentive sentence representation . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 6,
+			"parent": 7,
+			"text": "Despite the improvement over nonattentive models , ",
+			"relation": "contrast"
+		},
+		{
+			"id": 7,
+			"parent": 8,
+			"text": "the attention mechanism under RNN is not well studied . <S>",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 8,
+			"parent": 0,
+			"text": "In this work , we analyze the deficiency of traditional attention based RNN models quantitatively and qualitatively . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "Then we present three new RNN models ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "that add attention information before RNN hidden representation , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "which shows advantage in representing sentence ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "and achieves new state-of-art results in answer selection task . <S>",
+			"relation": "joint"
+		}
+	]
+}

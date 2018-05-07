@@ -1,0 +1,15 @@
+We propose the first probabilistic approach 
+to modeling cross-lingual semantic similarity ( CLSS ) in context 
+which requires only comparable data . <S>
+The approach relies on an idea 
+of projecting words and sets of words into a shared latent semantic space 
+spanned by language-pair independent latent semantic concepts 
+( e.g. , cross-lingual topics 
+obtained by a multilingual topic model ) . <S>
+These latent cross-lingual concepts are induced from a comparable corpus 
+without any additional lexical resources . <S>
+Word meaning is represented as a probability distribution over the latent concepts , 
+and a change in meaning is represented as a change in the distribution over these latent concepts . <S>
+We present new models 
+that modulate the isolated out-of-context word representations with contextual knowledge . <S>
+Results on the task of suggesting word translations in context for 3 language pairs reveal the utility of the proposed contextualized models of cross-lingual semantic similarity . <S>

@@ -1,0 +1,64 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "When it is not possible to compare the suspicious document to the source document ( s ) ",
+			"relation": "condition"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "plagiarism has been committed from , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 4,
+			"text": "the evidence of plagiarism has to be looked for intrinsically in the document itself . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 4,
+			"parent": 0,
+			"text": "In this paper , we introduce a novel languageindependent intrinsic plagiarism detection method ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "which is based on a new text representation ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "that we called n-gram classes . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 4,
+			"text": "The proposed method was evaluated on three publicly available standard corpora . <S>",
+			"relation": "evaluation"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "The obtained results are comparable to the ones ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "obtained by the best state-of-the-art methods . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

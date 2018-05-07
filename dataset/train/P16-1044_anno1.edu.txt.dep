@@ -1,0 +1,118 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 4,
+			"text": "Passage-level question answer matching is a challenging task ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "since it requires effective representations ",
+			"relation": "exp-reason"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "that capture the complex semantic relations between questions and answers . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 0,
+			"text": "In this work , we propose a series of deep learning models ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "to address passage answer selection . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 6,
+			"parent": 10,
+			"text": "To match passage answers to questions ",
+			"relation": "enablement"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "accommodating their complex semantic relations , ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 8,
+			"parent": 10,
+			"text": "unlike most previous work ",
+			"relation": "comparison"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "that utilizes a single deep learning structure , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 4,
+			"text": "we develop hybrid models ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "that process the text ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "using both convolutional and recurrent neural networks , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "combining the merits on extracting linguistic information from both structures . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 4,
+			"text": "Additionally , we also develop a simple but effective attention mechanism ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "for the purpose of constructing better answer representations according to the input question , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "which is imperative for better modeling long answer sequences . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 17,
+			"parent": 18,
+			"text": "The results on two public benchmark datasets , InsuranceQA and TREC-QA , show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 18,
+			"parent": 4,
+			"text": "that our proposed models outperform a variety of strong baselines . <S> ",
+			"relation": "evaluation"
+		}
+	]
+}

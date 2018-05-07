@@ -1,0 +1,112 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 10,
+			"text": "Event extraction is a particularly challenging information extraction task , ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "which intends to identify and classify event triggers and arguments from raw text . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 4,
+			"text": "In recent works , when determining event types ( trigger classification ) , ",
+			"relation": "temporal"
+		},
+		{
+			"id": 4,
+			"parent": 10,
+			"text": "most of the works are either pattern-only or feature-only . <S>",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 5,
+			"parent": 6,
+			"text": "However , although patterns cannot cover all representations of an event , ",
+			"relation": "contrast"
+		},
+		{
+			"id": 6,
+			"parent": 3,
+			"text": "it is still a very important feature . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 8,
+			"text": "In addition , when identifying and classifying arguments , ",
+			"relation": "temporal"
+		},
+		{
+			"id": 8,
+			"parent": 3,
+			"text": "previous works consider each candidate argument separately ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "while ignoring the relationship between arguments . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 10,
+			"parent": 0,
+			"text": "This paper proposes a Regularization-Based Pattern Balancing Method ( RBPB ) . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 11,
+			"parent": 12,
+			"text": "Inspired by the progress in representation learning , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 10,
+			"text": "we use trigger embedding , sentence-level embedding and pattern features together as our features for trigger classification ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "so that the effect of patterns and other useful features can be balanced . <S>",
+			"relation": "cause"
+		},
+		{
+			"id": 14,
+			"parent": 10,
+			"text": "In addition , RBPB uses a regularization method ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "to take advantage of the relationship between arguments . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 16,
+			"parent": 17,
+			"text": "Experiments show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 17,
+			"parent": 10,
+			"text": "that we achieve results better than current state-of-art equivalents . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

@@ -1,0 +1,178 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 2,
+			"text": "This paper shows ",
+			"relation": "attribution"
+		},
+		{
+			"id": 2,
+			"parent": 0,
+			"text": "that a simple two-stage approach ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "to handle non-local dependencies in Named Entity Recognition ( NER ) ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 2,
+			"text": "can outperform existing approaches ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "that handle non-local dependencies , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "while being much more computationally efficient . <S>",
+			"relation": "temporal"
+		},
+		{
+			"id": 7,
+			"parent": 2,
+			"text": "NER systems typically use sequence models for tractable inference , ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "but this makes them unable to capture the long distance structure present in text . <S>",
+			"relation": "contrast"
+		},
+		{
+			"id": 9,
+			"parent": 2,
+			"text": "We use a Conditional Random Field ( CRF ) based NER system ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "using local features ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 9,
+			"text": "to make predictions ",
+			"relation": "enablement"
+		},
+		{
+			"id": 12,
+			"parent": 9,
+			"text": "and then train another CRF ",
+			"relation": "joint"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "which uses both local information and features ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "extracted from the output of the first CRF . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 17,
+			"text": "Using features ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "capturing non-local dependencies from the same document , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 17,
+			"parent": 2,
+			"text": "our approach yields a 12.6 % relative error reduction on the F1 score , over state-of-theart NER systems ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 18,
+			"parent": 17,
+			"text": "using local-information alone , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 19,
+			"parent": 17,
+			"text": "when compared to the 9.3 % relative error reduction ",
+			"relation": "comparison"
+		},
+		{
+			"id": 20,
+			"parent": 19,
+			"text": "offered by the best systems ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 21,
+			"parent": 20,
+			"text": "that exploit non-local information . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 22,
+			"parent": 2,
+			"text": "Our approach also makes it easy to incorporate non-local information from other documents in the test corpus , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 23,
+			"parent": 22,
+			"text": "and this gives us a 13.3 % error reduction over NER systems ",
+			"relation": "exp-evidence"
+		},
+		{
+			"id": 24,
+			"parent": 23,
+			"text": "using local-information alone . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 25,
+			"parent": 2,
+			"text": "Additionally , our running time for inference is just the inference time of two sequential CRFs , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 26,
+			"parent": 25,
+			"text": "which is much less than that of other more complicated approaches ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 27,
+			"parent": 26,
+			"text": "that directly model the dependencies ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 28,
+			"parent": 25,
+			"text": "and do approximate inference . <S>",
+			"relation": "joint"
+		}
+	]
+}

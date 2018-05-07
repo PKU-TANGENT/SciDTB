@@ -1,0 +1,112 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "Precise evaluation metrics are important for assessing progress in high-level language generation tasks ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "such as machine translation or image captioning . <S>",
+			"relation": "elab-example"
+		},
+		{
+			"id": 3,
+			"parent": 8,
+			"text": "Historically , these metrics have been evaluated ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "using correlation with human judgment . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "However , human-derived scores are often alarmingly inconsistent ",
+			"relation": "contrast"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "and are also limited in their ability ",
+			"relation": "progression"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "to identify precise areas of weakness . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 0,
+			"text": "In this paper , we perform a case study for metric evaluation ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "by measuring the effect ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "that systematic sentence transformations ( e.g. active to passive voice ) have on the automatic metric scores . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 8,
+			"text": "These sentence `` corruptions '' serve as unit tests ",
+			"relation": "enablement"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "for precisely measuring the strengths and weaknesses of a given metric . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 13,
+			"parent": 14,
+			"text": "We find ",
+			"relation": "attribution"
+		},
+		{
+			"id": 14,
+			"parent": 8,
+			"text": "that not only are human annotations heavily inconsistent in this study , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "but that the Metric Unit TesT analysis is able to capture precise shortcomings of particular metrics ",
+			"relation": "progression"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "( e.g. comparing passive and active sentences ) ",
+			"relation": "elab-example"
+		},
+		{
+			"id": 17,
+			"parent": 15,
+			"text": "better than a simple correlation with human judgment can . <S>",
+			"relation": "comparison"
+		}
+	]
+}

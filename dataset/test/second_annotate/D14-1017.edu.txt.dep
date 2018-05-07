@@ -1,0 +1,88 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 6,
+			"text": "Generative word alignment models , such as IBM Models , are restricted to one-to-many alignment , ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "and cannot explicitly represent many-to-many relationships in a bilingual text . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 3,
+			"parent": 6,
+			"text": "The problem is partially solved ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "either by introducing heuristics or by agreement constraints ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "such that two directional word alignments agree with each other . <S>",
+			"relation": "cause"
+		},
+		{
+			"id": 6,
+			"parent": 0,
+			"text": "In this paper , we focus on the posterior regularization frame-work ( Ganchev et al. , 2010 ) ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "that can force two directional word alignment models to agree with each other ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "during training , ",
+			"relation": "temporal"
+		},
+		{
+			"id": 9,
+			"parent": 7,
+			"text": "and propose new constraints ",
+			"relation": "joint"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "that can take into account the difference between function words and content words . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 6,
+			"text": "Experimental results on French-to-English and Japanese-to-English alignment tasks show statistically significant gains over the previous posterior regularization baseline . <S>",
+			"relation": "evaluation"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "We also observed gains in Japanese-to-English translation tasks , ",
+			"relation": "joint"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "which prove the effectiveness of our methods under grammatically different language pairs . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

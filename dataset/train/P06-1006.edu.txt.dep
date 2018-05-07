@@ -1,0 +1,88 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 4,
+			"text": "Syntactic knowledge is important for pronoun resolution . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 4,
+			"text": "Traditionally , the syntactic information for pronoun resolution is represented in terms of features ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "that have to be selected and defined heuristically . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 0,
+			"text": "In the paper , we propose a kernel-based method ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "that can automatically mine the syntactic information from the parse trees for pronoun resolution . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 7,
+			"text": "Specifically , we utilize the parse trees directly as a structured feature ",
+			"relation": "progression"
+		},
+		{
+			"id": 7,
+			"parent": 4,
+			"text": "and apply kernel functions to this feature , as well as other normal features , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "to learn the resolution classifier . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 9,
+			"parent": 7,
+			"text": "In this way , our approach avoids the efforts ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "of decoding the parse trees into the set of flat syntactic features . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 12,
+			"text": "The experimental results show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 12,
+			"parent": 4,
+			"text": "that our approach can bring significant performance improvement ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "and is reliably effective for the pronoun resolution task . <S> ",
+			"relation": "joint"
+		}
+	]
+}

@@ -1,0 +1,70 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 4,
+			"text": "Text-based document geolocation is commonly rooted in language-based information retrieval techniques over geodesic grids . <S>",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "These methods ignore the natural hierarchy of cells in such grids ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "and fall afoul of independence assumptions . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 4,
+			"parent": 0,
+			"text": "We demonstrate the effectiveness ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "of using logistic regression models on a hierarchy of nodes in the grid , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "which improves upon the state of the art accuracy by several percent ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "and reduces mean error distances by hundreds of kilometers on data from Twitter , Wikipedia , and Flickr . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 8,
+			"parent": 9,
+			"text": "We also show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 9,
+			"parent": 4,
+			"text": "that logistic regression performs feature selection effectively , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "assigning high weights to geocentric terms . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

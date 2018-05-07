@@ -1,0 +1,118 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "Deep Random Walk ( DeepWalk ) can learn a latent space representation ",
+			"relation": "contrast"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "for describing the topological structure of a network . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 6,
+			"text": "However , for relational network classification , DeepWalk can be suboptimal ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "as it lacks a mechanism ",
+			"relation": "exp-reason"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "to optimize the objective of the target task . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 0,
+			"text": "In this paper , we present Discriminative Deep Random Walk ( DDRW ) , a novel method for relational network classification . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 7,
+			"parent": 8,
+			"text": "By solving a joint optimization problem , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 8,
+			"parent": 6,
+			"text": "DDRW can learn the latent space representations ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "that well capture the topological structure ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "and meanwhile are discriminative for the network classification task . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 11,
+			"parent": 12,
+			"text": "Our experimental results on several real social networks demonstrate ",
+			"relation": "attribution"
+		},
+		{
+			"id": 12,
+			"parent": 6,
+			"text": "that DDRW significantly outperforms DeepWalk on multilabel network classification tasks , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "while retaining the topological structure in the latent space . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 14,
+			"parent": 6,
+			"text": "DDRW is stable ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "and consistently outperforms the baseline methods by various percentages of labeled data . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 16,
+			"parent": 6,
+			"text": "DDRW is also an online method ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 17,
+			"parent": 16,
+			"text": "that is scalable ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 18,
+			"parent": 17,
+			"text": "and can be naturally parallelized . <S>",
+			"relation": "joint"
+		}
+	]
+}

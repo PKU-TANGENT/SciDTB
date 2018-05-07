@@ -1,0 +1,124 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 5,
+			"text": "The current approaches to Semantic Role Labeling ( SRL ) ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "usually perform role classification for each predicate separately ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "and the interaction among individual predicate's role labeling is ignored ",
+			"relation": "contrast"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "if there is more than one predicate in a sentence . <S>",
+			"relation": "condition"
+		},
+		{
+			"id": 5,
+			"parent": 0,
+			"text": "In this paper , we prove ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "that different predicates in a sentence could help each other during SRL . <S>",
+			"relation": "attribution"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "In multi-predicate role labeling , there are mainly two key points : ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "argument identification and role labeling of the arguments ",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "shared by multiple predicates . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 11,
+			"text": "To address these issues , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 11,
+			"parent": 8,
+			"text": "in the stage of argument identification , we propose novel predicate-related features ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "which help remove many argument identification errors ; ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 8,
+			"text": "in the stage of argument classification , we adopt a discriminative reranking approach ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "to perform role classification of the shared arguments , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "in which a large set of global features are proposed . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 16,
+			"parent": 19,
+			"text": "We conducted experiments on two standard benchmarks : ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 17,
+			"parent": 16,
+			"text": "Chinese PropBank and English PropBank . <S>",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 18,
+			"parent": 19,
+			"text": "The experimental results show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 19,
+			"parent": 5,
+			"text": "that our approach can significantly improve SRL performance , especially in Chinese PropBank . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

@@ -1,0 +1,106 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 6,
+			"text": "Text-level discourse parsing remains a challenge . <S>\r",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 4,
+			"text": "The current state-of-the-art overall accuracy in relation assignment is 55.73 % , \r",
+			"relation": "contrast"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "achieved by Joty et al. ( 2013 ) . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 6,
+			"text": "However , their model has a high order of time complexity , \r",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "and thus cannot be applied in practice . <S>\r",
+			"relation": "cause"
+		},
+		{
+			"id": 6,
+			"parent": 0,
+			"text": "In this work , we develop a much faster model \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "whose time complexity is linear in the number of sentences . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 6,
+			"text": "Our model adopts a greedy bottom-up approach , \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "with two linear-chain CRFs \r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "applied in cascade as local classifiers . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 12,
+			"text": "To enhance the accuracy of the pipeline , \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 12,
+			"parent": 6,
+			"text": "we add additional constraints in the Viterbi decoding of the first CRF . <S>\r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 13,
+			"parent": 6,
+			"text": "In addition to efficiency , our parser also significantly outperforms the state of the art . <S>\r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 14,
+			"parent": 6,
+			"text": "Moreover , our novel approach of post-editing , \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "which modifies a fully-built tree by considering information from constituents on upper levels , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 16,
+			"parent": 14,
+			"text": "can further improve the accuracy . <S>\r",
+			"relation": "same-unit"
+		}
+	]
+}

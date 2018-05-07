@@ -1,0 +1,172 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 2,
+			"text": "Consideration of the question of meaning in the framework of linguistics often requires an allusion to sets and other higher-order notions . <S>",
+			"relation": "bg-general"
+		},
+		{
+			"id": 2,
+			"parent": 6,
+			"text": "The traditional approach to representing and reasoning about meaning in a computational setting has been to use knowledge representation systems ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "that are either based on first-order logic ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "or that use mechanisms ",
+			"relation": "joint"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "whose formal justifications are to be provided after the fact . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 0,
+			"text": "In this paper we shall consider the use of a higher-order logic for this task . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "We first present a version of definite clauses ( positive Horn clauses ) ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "that is based on this logic . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 7,
+			"text": "Predicate and function variables may occur in such clauses ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "and the terms in the language are the typed λ-terms . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 11,
+			"parent": 7,
+			"text": "Such term structures have a richness ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "that may be exploited in representing meanings . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 9,
+			"text": "We also describe a higher-order logic programming language , ",
+			"relation": "joint"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "called λProlog , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 13,
+			"text": "which represents programs as higher-order definite clauses ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 16,
+			"parent": 13,
+			"text": "and interprets them ",
+			"relation": "joint"
+		},
+		{
+			"id": 17,
+			"parent": 16,
+			"text": "using a depth-first interpreter . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 18,
+			"parent": 13,
+			"text": "A virtue of this language is that it is possible to write programs in it ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 19,
+			"parent": 18,
+			"text": "that integrate syntactic and semantic analyses into one computational paradigm . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 20,
+			"parent": 13,
+			"text": "This is to be contrasted with the more common practice ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 21,
+			"parent": 20,
+			"text": "of using two entirely different computation paradigms , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 22,
+			"parent": 21,
+			"text": "such as DCGs or ATNs for parsing and frames or semantic nets for semantic processing . <S>",
+			"relation": "elab-example"
+		},
+		{
+			"id": 23,
+			"parent": 26,
+			"text": "We illustrate such an integration in this language ",
+			"relation": "joint"
+		},
+		{
+			"id": 24,
+			"parent": 23,
+			"text": "by considering a simple example , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 25,
+			"parent": 26,
+			"text": "and we claim ",
+			"relation": "attribution"
+		},
+		{
+			"id": 26,
+			"parent": 6,
+			"text": "that its use makes the task of providing formal justifications for the computations ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 27,
+			"parent": 26,
+			"text": "specified much more direct . <S>",
+			"relation": "same-unit"
+		}
+	]
+}

@@ -1,0 +1,118 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 4,
+			"text": "The automatic detection of causal relationships in text is important for natural language understanding . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "This task has proven to be difficult , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "however , due to the need for world knowledge and inference . <S>",
+			"relation": "exp-reason"
+		},
+		{
+			"id": 4,
+			"parent": 0,
+			"text": "We focus on a sub-task of this problem ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "where an open class set of linguistic markers can provide clues towards understanding causality . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 7,
+			"text": "Unlike the explicit markers , a closed class , ",
+			"relation": "contrast"
+		},
+		{
+			"id": 7,
+			"parent": 5,
+			"text": "these markers vary significantly in their linguistic forms . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 4,
+			"text": "We leverage parallel Wikipedia corpora ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "to identify new markers ",
+			"relation": "enablement"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "that are variations on known causal phrases , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 8,
+			"text": "creating a training set ",
+			"relation": "result"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "via distant supervision . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 13,
+			"parent": 4,
+			"text": "We also train a causal classifier ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "using features from the open class markers and semantic features ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "providing contextual information . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 16,
+			"parent": 17,
+			"text": "The results show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 17,
+			"parent": 4,
+			"text": "that our features provide an 11.05 point absolute increase over the baseline on the task ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 18,
+			"parent": 17,
+			"text": "of identifying causality in text . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

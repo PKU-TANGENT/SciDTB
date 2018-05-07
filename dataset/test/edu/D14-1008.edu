@@ -1,0 +1,14 @@
+Discourse parsing is a challenging task 
+and plays a critical role in discourse analysis . <S>
+In this paper , we focus on labeling full argument spans of discourse connectives in the Penn Discourse Treebank ( PDTB ) . <S>
+Previous studies cast this task as a linear tagging or subtree extraction problem . <S>
+In this paper , we propose a novel constituent-based approach to argument labeling , 
+which integrates the advantages of both linear tagging and subtree extraction . <S>
+In particular , the proposed approach unifies intra- and inter-sentence cases 
+by treating the immediately preceding sentence as a special constituent . <S>
+Besides , a joint inference mechanism is introduced 
+to incorporate global information across arguments into our constituent-based approach 
+via integer linear programming . <S>
+Evaluation on PDTB shows significant performance improvements of our constituent-based approach over the best state-of-the-art system . <S>
+It also shows the effectiveness of our joint inference mechanism 
+in modeling global information across arguments . <S>

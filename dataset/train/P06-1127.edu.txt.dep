@@ -1,0 +1,136 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "A web search with double checking model is proposed ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "to explore the web as a live corpus . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "Five association measures ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "including variants of Dice , Overlap Ratio , Jaccard , and Cosine , as well as Co-Occurrence Double Check ( CODC ) , ",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "are presented . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 6,
+			"parent": 3,
+			"text": "In the experiments on Rubenstein-Goodenough's benchmark data set , the CODC measure achieves correlation coefficient 0.8492 , ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "which competes with the performance ( 0.8914 ) of the model ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "using WordNet . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 12,
+			"text": "The experiments on link detection of named entities ",
+			"relation": "attribution"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "using the strategies of direct association , association matrix and scalar association matrix ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 9,
+			"text": "verify ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 12,
+			"parent": 3,
+			"text": "that the double-check frequencies are reliable . <S>",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 13,
+			"parent": 14,
+			"text": "Further study on named entity clustering shows ",
+			"relation": "attribution"
+		},
+		{
+			"id": 14,
+			"parent": 3,
+			"text": "that the five measures are quite useful . <S>",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "In particular , CODC measure is very stable on wordword and name-name experiments . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 16,
+			"parent": 3,
+			"text": "The application of CODC measure ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 17,
+			"parent": 16,
+			"text": "to expand community chains for personal name disambiguation ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 18,
+			"parent": 16,
+			"text": "achieves 9.65 % and 14.22 % increase ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 19,
+			"parent": 18,
+			"text": "compared to the system without community expansion . <S>",
+			"relation": "comparison"
+		},
+		{
+			"id": 20,
+			"parent": 21,
+			"text": "All the experiments illustrate ",
+			"relation": "attribution"
+		},
+		{
+			"id": 21,
+			"parent": 1,
+			"text": "that the novel model of web search with double checking is feasible for mining associations from the web . <S>   ",
+			"relation": "summary"
+		}
+	]
+}

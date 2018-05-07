@@ -1,0 +1,148 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 6,
+			"text": "Update summarization is a form of multi-document summarization \r",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "where a document set must be summarized in the context of other documents \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "assumed to be known . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "Efficient update summarization must focus on identifying new information and avoiding repetition of known information . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 1,
+			"text": "In Query-focused summarization , the task is to produce a summary as an answer to a given query . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 0,
+			"text": "We introduce a new task , Query-Chain Summarization , \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "which combines aspects of the two previous tasks : \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "starting from a given document set , \r",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "increasingly specific queries are considered , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 8,
+			"text": "and a new summary is produced at each step . <S>\r",
+			"relation": "joint"
+		},
+		{
+			"id": 11,
+			"parent": 6,
+			"text": "This process models exploratory search : \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "a user explores a new topic \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "by submitting a sequence of queries , \r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "inspecting a summary of the result set \r",
+			"relation": "joint"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "and phrasing a new query at each step . <S>\r",
+			"relation": "joint"
+		},
+		{
+			"id": 16,
+			"parent": 6,
+			"text": "We present a novel dataset \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 17,
+			"parent": 16,
+			"text": "comprising 22 query-chains sessions of length up to 3 with 3 matching human summaries each in the consumer-health domain . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 18,
+			"parent": 6,
+			"text": "Our analysis demonstrates \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 19,
+			"parent": 18,
+			"text": "that summaries produced in the context of such exploratory process are different from informative summaries . <S>\r",
+			"relation": "attribution"
+		},
+		{
+			"id": 20,
+			"parent": 6,
+			"text": "We present an algorithm for Query-Chain Summarization \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 21,
+			"parent": 20,
+			"text": "based on a new LDA topic model variant . <S>\r",
+			"relation": "bg-general"
+		},
+		{
+			"id": 22,
+			"parent": 6,
+			"text": "Evaluation indicates \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 23,
+			"parent": 22,
+			"text": "the algorithm improves on strong baselines . <S>\r",
+			"relation": "attribution"
+		}
+	]
+}

@@ -1,0 +1,10 @@
+Bidirectional models of word alignment are an appealing alternative to post-hoc combinations of directional word aligners . <S>
+Unfortunately , most bidirectional formulations are NP-Hard to solve , 
+and a previous attempt to use a relaxation-based decoder yielded few exact solutions ( 6 % ) . <S>
+We present a novel relaxation 
+for decoding the bidirectional model of DeNero and Macherey ( 2011 ) . <S>
+The relaxation can be solved with a modified version of the Viterbi algorithm . <S>
+To find optimal solutions on difficult instances , 
+we alternate between incrementally adding constraints and applying optimality-preserving coarse-to-fine pruning . <S>
+The algorithm finds provably exact solutions on 86 % of sentence pairs 
+and shows improvements over directional models . <S>

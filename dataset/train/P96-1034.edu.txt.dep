@@ -1,0 +1,40 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 4,
+			"text": "In transformation-based parsing , a finite sequence of tree rewriting rules are checked for application to an input structure . <S>",
+			"relation": "bg-general"
+		},
+		{
+			"id": 2,
+			"parent": 3,
+			"text": "Since in practice only a small percentage of rules are applied to any particular structure , ",
+			"relation": "temporal"
+		},
+		{
+			"id": 3,
+			"parent": 4,
+			"text": "the naive parsing algorithm is rather inefficient . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 4,
+			"parent": 0,
+			"text": "We exploit this sparseness in rule applications ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "to derive an algorithm two to three orders of magnitude faster than the standard parsing algorithm . <S>  ",
+			"relation": "enablement"
+		}
+	]
+}

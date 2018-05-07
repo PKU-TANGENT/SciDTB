@@ -1,0 +1,94 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 4,
+			"text": "Analyses of computer aided translation typically focus on either frontend interfaces and human effort , or backend translation and machine learnability of corrections . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "However , this distinction is artificial in practice ",
+			"relation": "contrast"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "since the frontend and backend must work in concert . <S>",
+			"relation": "cause"
+		},
+		{
+			"id": 4,
+			"parent": 0,
+			"text": "We present the first holistic , quantitative evaluation of these issues ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "by contrasting two assistive modes : ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "post-editing and interactive machine translation ( MT ) . <S>",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 7,
+			"parent": 4,
+			"text": "We describe a new translator interface , extensive modifications to a phrase-based MT system , and a novel objective function ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "for re-tuning to human corrections . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 4,
+			"text": "Evaluation with professional bilingual translators shows ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "that post-edit is faster than interactive at the cost of translation quality for French-English and English-German . <S>",
+			"relation": "attribution"
+		},
+		{
+			"id": 11,
+			"parent": 9,
+			"text": "However , re-tuning the MT system to interactive output leads to larger , statistically significant reductions in HTER ",
+			"relation": "contrast"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "versus re-tuning to post-edit . <S>",
+			"relation": "contrast"
+		},
+		{
+			"id": 13,
+			"parent": 4,
+			"text": "Analysis shows ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "that tuning directly to HTER results in fine-grained corrections to subsequent machine output . <S>",
+			"relation": "attribution"
+		}
+	]
+}

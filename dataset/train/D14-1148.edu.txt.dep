@@ -1,0 +1,106 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 8,
+			"text": "It has been shown ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "that news events influence the trends of stock price movements . <S>",
+			"relation": "attribution"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "However , previous work on news-driven stock market prediction rely on shallow features ",
+			"relation": "contrast"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "( such as bags-of-words , named entities and noun phrases ) , ",
+			"relation": "elab-example"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "which do not capture structured entity-relation information , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 3,
+			"text": "and hence cannot represent complete and exact events . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 7,
+			"parent": 1,
+			"text": "Recent advances in Open Information Extraction ( Open IE ) techniques enable the extraction of structured events from web-scale data . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 0,
+			"text": "We propose to adapt Open IE technology for event-based stock price movement prediction , ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "extracting structured events from large-scale public news ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "without manual efforts . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 8,
+			"text": "Both linear and nonlinear models are employed to empirically investigate the hidden and complex relationships between events and the stock market . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 8,
+			"text": "Largescale experiments show ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "that the accuracy of S&P 500 index prediction is 60 % , ",
+			"relation": "attribution"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "and that of individual stock prediction can be over 70 % . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 15,
+			"parent": 8,
+			"text": "Our event-based system outperforms bags-of-words-based baselines , and previously reported systems ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "trained on S&P 500 stock historical data . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

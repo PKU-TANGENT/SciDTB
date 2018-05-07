@@ -1,0 +1,100 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 4,
+			"text": "Phrase-based models ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "directly trained on mix-of-domain corpora ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "can be sub-optimal. <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 4,
+			"parent": 0,
+			"text": "In this paper we equip phrase-based models with a latent domain variable ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "and present a novel method ",
+			"relation": "progression"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "for adapting them to an in-domain task ",
+			"relation": "enablement"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "represented by a seed corpus . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 4,
+			"text": "We derive an EM algorithm ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "which alternates between inducing domain-focused phrase pair estimates , and weights for mix-domain sentence pairs ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "reflecting their relevance for the in-domain task . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 13,
+			"text": "By embedding our latent domain phrase model in a sentence-level model ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "and training the two in tandem , ",
+			"relation": "joint"
+		},
+		{
+			"id": 13,
+			"parent": 4,
+			"text": "we are able to adapt all core translation components together - phrase , lexical and reordering . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 4,
+			"text": "We show experiments on weighing sentence pairs for relevance as well as adapting phrase-based models , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "showing significant performance improvement in both tasks . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

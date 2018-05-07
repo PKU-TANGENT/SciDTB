@@ -1,0 +1,70 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 4,
+			"text": "There is rich knowledge ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "encoded in online web data . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "For example , punctuation and entity tags in Wikipedia data define some word boundaries in a sentence . <S>",
+			"relation": "elab-example"
+		},
+		{
+			"id": 4,
+			"parent": 0,
+			"text": "In this paper we adopt partial-label learning with conditional random fields ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "to make use of this valuable knowledge for semi-supervised Chinese word segmentation . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "The basic idea of partial-label learning is to optimize a cost function ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "that marginalizes the probability mass in the constrained space ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "that encodes this knowledge . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 10,
+			"text": "By integrating some domain adaptation techniques , such as EasyAdapt , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 10,
+			"parent": 4,
+			"text": "our result reaches an F-measure of 95.98 % on the CTB-6 corpus , a significant improvement from both the supervised baseline and a previous proposed approach , namely constrained decode . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

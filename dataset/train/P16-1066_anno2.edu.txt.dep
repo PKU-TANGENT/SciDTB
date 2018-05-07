@@ -1,0 +1,130 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 4,
+			"text": "Sentiment Analysis ( SA ) is an active research area nowadays ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "due to the tremendous interest in aggregating and evaluating opinions ",
+			"relation": "exp-reason"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "being disseminated by users on the Web . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 9,
+			"text": "SA of English has been thoroughly researched ; ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "however research on SA of Arabic has just flourished . <S>",
+			"relation": "contrast"
+		},
+		{
+			"id": 6,
+			"parent": 9,
+			"text": "Twitter is considered a powerful tool ",
+			"relation": "result"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "for disseminating information and a rich resource for opinionated text ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "containing views on many different topics . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 0,
+			"text": "In this paper we attempt to bridge a gap in Arabic SA of Twitter ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "which is the lack of sentiment lexicons ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "that are tailored for the informal language of Twitter . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 9,
+			"text": "We generate two lexicons ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "extracted from a large dataset of tweets ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 12,
+			"text": "using two approaches ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 15,
+			"parent": 12,
+			"text": "and evaluate their use in a simple lexicon based method . <S>",
+			"relation": "progression"
+		},
+		{
+			"id": 16,
+			"parent": 17,
+			"text": "The evaluation is performed on internal and external datasets . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 17,
+			"parent": 9,
+			"text": "The performance of these automatically generated lexicons was very promising , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 18,
+			"parent": 17,
+			"text": "albeit the simple method ",
+			"relation": "progression"
+		},
+		{
+			"id": 19,
+			"parent": 18,
+			"text": "used for classification . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 20,
+			"parent": 17,
+			"text": "The best F-score obtained was 89.58 % on the internal dataset and 63.1-64.7 % on the external datasets . <S>   ",
+			"relation": "exp-evidence"
+		}
+	]
+}

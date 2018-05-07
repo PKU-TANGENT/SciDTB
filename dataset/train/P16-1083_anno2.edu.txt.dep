@@ -1,0 +1,106 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 2,
+			"text": "We prove ",
+			"relation": "attribution"
+		},
+		{
+			"id": 2,
+			"parent": 0,
+			"text": "that log-linearly interpolated backoff language models can be efficiently and exactly collapsed into a single normalized backoff model , ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "contradicting Hsu ( 2007 ) . <S>",
+			"relation": "contrast"
+		},
+		{
+			"id": 4,
+			"parent": 5,
+			"text": "While prior work reported ",
+			"relation": "attribution"
+		},
+		{
+			"id": 5,
+			"parent": 2,
+			"text": "that log-linear interpolation yields lower perplexity than linear interpolation , ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "normalizing at query time was impractical . <S>",
+			"relation": "contrast"
+		},
+		{
+			"id": 7,
+			"parent": 2,
+			"text": "We normalize the model offline in advance , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "which is efficient due to a ecurrence relationship between the normalizing factors . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 10,
+			"text": "To tune interpolation weights , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 10,
+			"parent": 2,
+			"text": "we apply Newton 's method to this convex problem ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 12,
+			"text": "and show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 12,
+			"parent": 10,
+			"text": "that the derivatives can be computed efficiently in a batch process . <S>",
+			"relation": "progression"
+		},
+		{
+			"id": 13,
+			"parent": 15,
+			"text": "These findings are combined in new open-source interpolation tool , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "which is distributed with KenLM . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 2,
+			"text": "With 21 out-of-domain corpora , log-linear interpolation yields 72.58 perplexity on TED talks , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "compared to 75.91 for linear interpolation . <S>    ",
+			"relation": "comparison"
+		}
+	]
+}

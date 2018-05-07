@@ -1,0 +1,130 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "Morphologically rich languages often lack the annotated linguistic resources ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "required to develop accurate natural language processing tools . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 0,
+			"text": "We propose models ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "suitable for training morphological taggers with rich tagsets for low-resource languages ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "without using direct supervision . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 3,
+			"text": "Our approach extends existing approaches ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "of projecting part-of-speech tags across languages , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "using bitext to infer constraints on the possible tags for a given word type or token . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 9,
+			"parent": 3,
+			"text": "We propose a tagging model ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "using Wsabie , a discriminative embeddingbased model with rank-based learning . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 11,
+			"parent": 9,
+			"text": "In our evaluation on 11 languages , on average this model performs on par with a baseline weakly-supervised HMM , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "while being more scalable . <S>",
+			"relation": "progression"
+		},
+		{
+			"id": 13,
+			"parent": 14,
+			"text": "Multilingual experiments show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 14,
+			"parent": 11,
+			"text": "that the method performs best ",
+			"relation": "progression"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "when projecting between related language pairs . <S>",
+			"relation": "temporal"
+		},
+		{
+			"id": 16,
+			"parent": 18,
+			"text": "Despite the inherently lossy projection , ",
+			"relation": "contrast"
+		},
+		{
+			"id": 17,
+			"parent": 18,
+			"text": "we show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 18,
+			"parent": 3,
+			"text": "that the morphological tags ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 19,
+			"parent": 18,
+			"text": "predicted by our models ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 20,
+			"parent": 18,
+			"text": "improve the downstream performance of a parser by +0.6 LAS on average . <S>",
+			"relation": "same-unit"
+		}
+	]
+}

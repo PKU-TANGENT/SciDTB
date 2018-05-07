@@ -1,0 +1,148 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 8,
+			"text": "Automatic negation scope detection is a task ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "that has been tackled ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "using different classifiers and heuristics . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "Most systems are however 1 ) highly-engineered , ",
+			"relation": "contrast"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "2 ) English-specific , ",
+			"relation": "joint"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "and 3 ) only tested on the same genre ",
+			"relation": "joint"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "they were trained on . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 0,
+			"text": "We start by addressing 1 ) and 2 ) ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "using a neural network architecture . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 10,
+			"parent": 8,
+			"text": "Results ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "obtained on data from the * SEM2012 shared task on negation scope detection ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 13,
+			"text": "show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 13,
+			"parent": 10,
+			"text": "that even a simple feed-forward neural network ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "using word-embedding features alone , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 13,
+			"text": "performs on par with earlier classifiers , with a bi-directional LSTM ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "outperforming all of them . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 17,
+			"parent": 8,
+			"text": "We then address 3 ) by means of a specially-designed synthetic test set ; ",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 18,
+			"parent": 19,
+			"text": "in doing so , ",
+			"relation": "result"
+		},
+		{
+			"id": 19,
+			"parent": 17,
+			"text": "we explore the problem of detecting the negation scope more in depth ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 20,
+			"parent": 21,
+			"text": "and show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 21,
+			"parent": 19,
+			"text": "that performance suffers from genre effects ",
+			"relation": "progression"
+		},
+		{
+			"id": 22,
+			"parent": 21,
+			"text": "and differs with the type of negation ",
+			"relation": "joint"
+		},
+		{
+			"id": 23,
+			"parent": 22,
+			"text": "considered . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

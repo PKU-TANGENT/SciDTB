@@ -1,0 +1,76 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This paper describes an algorithm ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "for propagating verb arguments along lexical chains ",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "consisting of WordNet relations . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "The algorithm creates verb argument structures ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "using VerbNet syntactic patterns . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 6,
+			"parent": 7,
+			"text": "In order to increase the coverage , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 7,
+			"parent": 4,
+			"text": "a larger set of verb senses were automatically associated with the existing patterns from VerbNet . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 4,
+			"text": "The algorithm is used in an in-house Question Answering system ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "for re-ranking the set of candidate answers . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 11,
+			"text": "Tests on factoid questions from TREC 2004 indicate ",
+			"relation": "attribution"
+		},
+		{
+			"id": 11,
+			"parent": 1,
+			"text": "that the algorithm improved the system performance by 2.4 % . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

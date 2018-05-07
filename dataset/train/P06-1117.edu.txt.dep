@@ -1,0 +1,106 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This article describes a robust semantic parser ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "that uses a broad knowledge base ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "created by interconnecting three major resources : ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "FrameNet , VerbNet and PropBank . <S>",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 5,
+			"parent": 1,
+			"text": "The FrameNet corpus contains the examples ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "annotated with semantic roles ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 5,
+			"text": "whereas the VerbNet lexicon provides the knowledge about the syntactic behavior of the verbs . <S>",
+			"relation": "contrast"
+		},
+		{
+			"id": 8,
+			"parent": 5,
+			"text": "We connect VerbNet and FrameNet ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "by mapping the FrameNet frames to the VerbNet Intersective Levin classes . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 10,
+			"parent": 1,
+			"text": "The PropBank corpus , ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "which is tightly connected to the VerbNet lexicon , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 10,
+			"text": "is used ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "to increase the verb coverage ",
+			"relation": "enablement"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "and also to test the effectiveness of our approach . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 15,
+			"parent": 16,
+			"text": "The results indicate ",
+			"relation": "attribution"
+		},
+		{
+			"id": 16,
+			"parent": 1,
+			"text": "that our model is an interesting step towards the design of more robust semantic parsers . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

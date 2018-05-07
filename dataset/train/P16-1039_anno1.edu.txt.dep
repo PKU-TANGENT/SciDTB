@@ -1,0 +1,76 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "Most previous approaches to Chinese word segmentation formalize this problem as a character-based sequence labeling task ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "so that only contextual information within fixed sized local windows and simple interactions between adjacent tags can be captured . <S>",
+			"relation": "result"
+		},
+		{
+			"id": 3,
+			"parent": 0,
+			"text": "In this paper , we propose a novel neural framework ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "which thoroughly eliminates context windows ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "and can utilize complete segmentation history . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 6,
+			"parent": 3,
+			"text": "Our model employs a gated combination neural network over characters ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "to produce distributed representations of word candidates , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "which are then given to a long shortterm memory ( LSTM ) language scoring model . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 11,
+			"text": "Experiments on the benchmark datasets show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 10,
+			"parent": 11,
+			"text": "that without the help of feature engineering as most existing approaches , ",
+			"relation": "condition"
+		},
+		{
+			"id": 11,
+			"parent": 3,
+			"text": "our models achieve competitive or better performances with previous stateof-the-art methods . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

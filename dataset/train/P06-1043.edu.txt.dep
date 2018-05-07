@@ -1,0 +1,130 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 4,
+			"text": "Statistical parsers ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "trained and tested on the Penn Wall Street Journal ( WSJ ) treebank ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "have shown vast improvements over the last 10 years . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 4,
+			"parent": 6,
+			"text": "Much of this improvement , however , is based upon an ever-increasing number of features ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "to be trained on ( typically ) the WSJ treebank data . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 11,
+			"text": "This has led to concern ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "that such parsers may be too finely tuned to this corpus at the expense of portability to other genres . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 6,
+			"text": "Such worries have merit . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 10,
+			"text": "The standard \"Charniak parser\" checks in at a labeled precisionrecall f-measure of 89.7 % on the Penn WSJ test set , ",
+			"relation": "contrast"
+		},
+		{
+			"id": 10,
+			"parent": 8,
+			"text": "but only 82.9 % on the test set from the Brown treebank corpus . <S>",
+			"relation": "exp-evidence"
+		},
+		{
+			"id": 11,
+			"parent": 0,
+			"text": "This paper should allay these fears . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 12,
+			"parent": 13,
+			"text": "In particular , we show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 13,
+			"parent": 11,
+			"text": "that the reranking parser ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "described in Charniak and Johnson ( 2005 ) ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 13,
+			"text": "improves performance of the parser on Brown to 85.2 % . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 16,
+			"parent": 11,
+			"text": "Furthermore , use of the self-training techniques described in ( McClosky et al. , 2006 ) ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 17,
+			"parent": 16,
+			"text": "raise this to 87.8 % ( an error reduction of 28 % ) again ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 18,
+			"parent": 16,
+			"text": "without any use of labeled Brown data . <S>",
+			"relation": "condition"
+		},
+		{
+			"id": 19,
+			"parent": 16,
+			"text": "This is remarkable ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 20,
+			"parent": 19,
+			"text": "since training the parser and reranker on labeled Brown data achieves only 88.4 % . <S>",
+			"relation": "exp-reason"
+		}
+	]
+}

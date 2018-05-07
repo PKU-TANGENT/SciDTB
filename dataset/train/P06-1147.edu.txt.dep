@@ -1,0 +1,112 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 2,
+			"text": "In this paper , we discuss ",
+			"relation": "attribution"
+		},
+		{
+			"id": 2,
+			"parent": 0,
+			"text": "how to utilize the co-occurrence of answers ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "in building an automatic question answering system ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "that answers a series of questions on a specific topic in a batch mode . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 6,
+			"text": "Experiments show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 6,
+			"parent": 2,
+			"text": "that the answers to the many of the questions in the series usually have a high degree of co-occurrence in relevant document passages . <S>",
+			"relation": "evaluation"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "This feature sometimes can't be easily utilized in an automatic QA system ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "which processes questions independently . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 7,
+			"text": "However it can be utilized in a QA system ",
+			"relation": "contrast"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "that processes questions in a batch mode . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 2,
+			"text": "We have used our pervious TREC QA system as baseline ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "and augmented it with new answer clustering and co-occurrence maximization components ",
+			"relation": "progression"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "to build the batch QA system . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 14,
+			"parent": 15,
+			"text": "The experiment results show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 15,
+			"parent": 2,
+			"text": "that the QA system ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "running under the batch mode ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 17,
+			"parent": 15,
+			"text": "get significant performance improvement over our baseline TREC QA system . <S>",
+			"relation": "same-unit"
+		}
+	]
+}

@@ -1,0 +1,88 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This paper introduces a model of multiple-instance learning ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "applied to the prediction of aspect ratings or judgments of specific properties of an item from user-contributed texts such as product reviews . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "Each variable-length text is represented by several independent feature vectors ; ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "one word vector per sentence or paragraph . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 5,
+			"parent": 6,
+			"text": "For learning from texts with known aspect ratings , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "the model performs multiple-instance regression ( MIR ) ",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "and assigns importance weights to each of the sentences or paragraphs of a text , ",
+			"relation": "joint"
+		},
+		{
+			"id": 8,
+			"parent": 6,
+			"text": "uncovering their contribution to the aspect ratings . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 1,
+			"text": "Next , the model is used ",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "to predict aspect ratings in previously unseen texts , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "demonstrating interpretability and explanatory power for its predictions . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 0,
+			"text": "We evaluate the model on seven multi-aspect sentiment analysis data sets , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "improving over four MIR baselines and two strong bag-of-words linear models , namely SVR and Lasso , by more than 10 % relative in terms of MSE . <S>",
+			"relation": "result"
+		}
+	]
+}

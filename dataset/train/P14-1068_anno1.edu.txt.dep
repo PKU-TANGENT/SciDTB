@@ -1,0 +1,64 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 2,
+			"text": "In this paper we address the problem of grounding distributional representations of lexical meaning . <S>\r",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 0,
+			"text": "We introduce a new model \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "which uses stacked autoencoders \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "to learn higher-level embeddings from textual and visual input . <S>\r",
+			"relation": "enablement"
+		},
+		{
+			"id": 5,
+			"parent": 2,
+			"text": "The two modalities are encoded as vectors of attributes \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "and are obtained automatically from text and images , respectively . <S>\r",
+			"relation": "joint"
+		},
+		{
+			"id": 7,
+			"parent": 2,
+			"text": "We evaluate our model on its ability \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "to simulate similarity judgments and concept categorization . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 7,
+			"text": "On both tasks , our approach outperforms baselines and related models . <S>\r",
+			"relation": "cause"
+		}
+	]
+}

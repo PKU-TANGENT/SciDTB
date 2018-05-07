@@ -1,0 +1,64 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "There are several NLP systems ",
+			"relation": "contrast"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "whose accuracy depends crucially on finding misspellings fast . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 4,
+			"text": "However , the classical approach is based on a quadratic time algorithm with 80 % coverage . <S>",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 4,
+			"parent": 0,
+			"text": "We present a novel algorithm for misspelling detection , ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "which runs in constant time ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "and improves the coverage to more than 96 % . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 7,
+			"parent": 4,
+			"text": "We use this algorithm together with a cross document coreference system ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "in order to find proper name misspellings . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 9,
+			"parent": 4,
+			"text": "The experiments confirmed significant improvement over the state of the art . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

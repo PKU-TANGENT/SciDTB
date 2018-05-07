@@ -1,0 +1,94 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We investigate the interaction of power , gender , and language use in the Enron email corpus . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "We present a freely available extension to the Enron corpus , with the gender of senders of 87 % messages reliably identified . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 4,
+			"text": "Using this data , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "we test two specific hypotheses ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "drawn from the sociolinguistic literature ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "pertaining to gender and power : ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "women managers use face-saving communicative strategies , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "and women use language more explicitly than men ",
+			"relation": "joint"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "to create and maintain social relations . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 10,
+			"parent": 1,
+			"text": "We introduce the notion of \"gender environment\" to the computational study of written conversations ; ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "we interpret this notion as the gender makeup of an email thread , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 12,
+			"parent": 13,
+			"text": "and show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 13,
+			"parent": 11,
+			"text": "that some manifestations of power differ significantly between gender environments . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 14,
+			"parent": 1,
+			"text": "Finally , we show the utility of gender information in the problem of automatically predicting the direction of power between pairs of participants in email interactions . <S>",
+			"relation": "summary"
+		}
+	]
+}

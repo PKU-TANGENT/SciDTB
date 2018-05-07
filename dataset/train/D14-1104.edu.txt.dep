@@ -1,0 +1,94 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 8,
+			"text": "Importance weighting is a generalization of various statistical bias correction techniques . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 3,
+			"text": "While our labeled data in NLP is heavily biased , ",
+			"relation": "contrast"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "importance weighting has seen only few applications in NLP , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "most of them relying on a small amount of labeled target data . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 2,
+			"text": "The publication bias ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "toward reporting positive results ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 5,
+			"text": "makes it hard to say whether researchers have tried . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 8,
+			"parent": 0,
+			"text": "This paper presents a negative result on unsupervised domain adaptation for POS tagging . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "In this setup , we only have unlabeled data ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "and thus only indirect access to the bias in emission and transition probabilities . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 11,
+			"parent": 9,
+			"text": "Moreover , most errors in POS tagging are due to unseen words , ",
+			"relation": "progression"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "and there , importance weighting cannot help . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 13,
+			"parent": 8,
+			"text": "We present experiments with a wide variety of weight functions , quantilizations , as well as with randomly generated weights , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "to support these claims . <S> ",
+			"relation": "enablement"
+		}
+	]
+}

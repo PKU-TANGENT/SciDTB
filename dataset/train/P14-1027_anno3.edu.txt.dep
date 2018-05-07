@@ -1,0 +1,124 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 4,
+			"text": "Inspired by experimental psychological findings \r",
+			"relation": "bg-general"
+		},
+		{
+			"id": 2,
+			"parent": 3,
+			"text": "suggesting \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "that function words play a special role in word learning , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 0,
+			"text": "we make a simple modification to an Adaptor Grammar based Bayesian word segmentation model \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "to allow it to learn sequences of monosyllabic \"function words\" at the beginnings and endings of collocations of ( possibly multi-syllabic ) words . <S>\r",
+			"relation": "enablement"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "This modification improves unsupervised word segmentation on the standard Bernstein-Ratner ( 1987 ) corpus of child-directed English by more than 4 % token f-score \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "compared to a model identical \r",
+			"relation": "comparison"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "except that it does not special-case \"function words\" , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 6,
+			"text": "setting a new state-of-the-art of 92.4 % token f-score . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 11,
+			"text": "Our function word model assumes \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 11,
+			"parent": 4,
+			"text": "that function words appear at the left periphery , \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 12,
+			"parent": 13,
+			"text": "and while this is true of languages such as English , \r",
+			"relation": "temporal"
+		},
+		{
+			"id": 13,
+			"parent": 11,
+			"text": "it is not true universally . <S>\r",
+			"relation": "joint"
+		},
+		{
+			"id": 14,
+			"parent": 15,
+			"text": "We show \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 15,
+			"parent": 4,
+			"text": "that a learner can use Bayesian model selection \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "to determine the location of function words in their language , \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 17,
+			"parent": 16,
+			"text": "even though the input to the model only consists of unsegmented sequences of phones . <S>\r",
+			"relation": "contrast"
+		},
+		{
+			"id": 18,
+			"parent": 4,
+			"text": "Thus our computational models support the hypothesis \r",
+			"relation": "summary"
+		},
+		{
+			"id": 19,
+			"parent": 18,
+			"text": "that function words play a special role in word learning . <S>\r",
+			"relation": "elab-addition"
+		}
+	]
+}

@@ -1,0 +1,94 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 2,
+			"text": "Free-word order languages have long posed significant problems for standard parsing algorithms . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 0,
+			"text": "This paper reports on an implemented parser , ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "based on GovernmentBinding theory ( GB ) ( Chomsky , 1981 , 1982 ) , ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 4,
+			"parent": 2,
+			"text": "for a particular free-word order language , Warlpiri , an aboriginal language of central Australia . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 2,
+			"text": "The parser is explicitly designed ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "to transparently mirror the principles of GB . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 7,
+			"parent": 2,
+			"text": "The operation of this parsing system is quite different in character from that of a rule-based parsing system , ~ e.g. , a context-free parsing method . <S>",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 8,
+			"parent": 2,
+			"text": "In this system , phrases are constructed via principles of selection , case-marking , caseassignment , and argument-linking , rather than by phrasal rules . <S>",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 9,
+			"parent": 2,
+			"text": "The output of the parser for a sample Warlpiri sentence of four words in length is given . <S>",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 10,
+			"parent": 12,
+			"text": "The parser was executed on each of the 23 other permutations of the sentence , ",
+			"relation": "exp-evidence"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "and it output equivalent parses , ",
+			"relation": "joint"
+		},
+		{
+			"id": 12,
+			"parent": 2,
+			"text": "thereby demonstrating its ability ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "to correctly handle the highly scrambled sentences ",
+			"relation": "enablement"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "found in Warlpiri . <S>  ",
+			"relation": "elab-addition"
+		}
+	]
+}

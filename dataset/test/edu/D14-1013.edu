@@ -1,0 +1,20 @@
+Punctuation prediction and disfluency prediction can improve downstream natural language processing tasks such as machine translation and information extraction . <S>
+Combining the two tasks can potentially improve the efficiency of the overall pipeline system 
+and reduce error propagation . <S>
+In this work , we compare various methods 
+for combining punctuation prediction ( PU ) and disfluency prediction ( DF ) on the Switchboard corpus . <S>
+We compare an isolated prediction approach with a cascade approach , a rescoring approach , and three joint model approaches . <S>
+For the cascade approach , we show 
+that the soft cascade method is better than the hard cascade method . <S>
+We also use the cascade models 
+to generate an n-best list , 
+use the bi-directional cascade models 
+to perform rescoring , 
+and compare that with the results of the cascade models . <S>
+For the joint model approach , we compare mixed-label Linear-chain Conditional Random Field ( LCRF ) , cross-product LCRF and 2-layer Factorial Conditional Random Field ( FCRF ) with soft-cascade LCRF . <S>
+Our results show 
+that the various methods 
+linking the two tasks 
+are not significantly different from one another , 
+although they perform better than the isolated prediction method by 0.5-1.5 % in the F1 score . <S>
+Moreover , the clique order of features also shows a marked difference . <S>

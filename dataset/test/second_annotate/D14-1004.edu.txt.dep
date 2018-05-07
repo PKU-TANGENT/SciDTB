@@ -1,0 +1,76 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "This paper investigates the use of neural networks for the acquisition of selectional preferences . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 3,
+			"text": "Inspired by recent advances of neural network models for NLP applications , ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 3,
+			"parent": 0,
+			"text": "we propose a neural network model ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "that learns to discriminate between felicitous and infelicitous arguments for a particular predicate . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "The model is entirely unsupervised ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "- preferences are learned from unannotated corpus data . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 3,
+			"text": "We propose two neural network architectures : ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "one that handles standard two-way selectional preferences ",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 9,
+			"parent": 7,
+			"text": "and one that is able to deal with multi-way selectional preferences . <S>",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 10,
+			"parent": 3,
+			"text": "The model's performance is evaluated on a pseudo-disambiguation task , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "on which it is shown to achieve state of the art performance . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

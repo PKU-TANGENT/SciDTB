@@ -1,0 +1,88 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We address the grounding of natural language to concrete spatial constraints , and inference of implicit pragmatics in 3D environments . <S>\r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "We apply our approach to the task of text-to-3D scene generation . <S>\r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "We present a representation for common sense spatial knowledge and an approach \r",
+			"relation": "progression"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "to extract it from 3D scene data . <S>\r",
+			"relation": "enablement"
+		},
+		{
+			"id": 5,
+			"parent": 1,
+			"text": "In text-to-3D scene generation , a user provides as input natural language text \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "from which we extract explicit constraints on the objects \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "that should appear in the scene . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 9,
+			"text": "The main innovation of this work is to show \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 9,
+			"parent": 1,
+			"text": "how to augment these explicit constraints with learned spatial knowledge \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "to infer missing objects and likely layouts for the objects in the scene . <S>\r",
+			"relation": "enablement"
+		},
+		{
+			"id": 11,
+			"parent": 12,
+			"text": "We demonstrate \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 12,
+			"parent": 1,
+			"text": "that spatial knowledge is useful for interpreting natural language \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "and show examples of learned knowledge and generated 3D scenes . <S>",
+			"relation": "joint"
+		}
+	]
+}

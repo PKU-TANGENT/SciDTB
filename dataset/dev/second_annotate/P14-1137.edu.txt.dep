@@ -1,0 +1,112 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 4,
+			"text": "The sense \r",
+			"relation": "bg-general"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "in which a word is used \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "determines the translation of the word . <S>\r",
+			"relation": "same-unit"
+		},
+		{
+			"id": 4,
+			"parent": 0,
+			"text": "In this paper , we propose a sense-based translation model \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "to integrate word senses into statistical machine translation . <S>\r",
+			"relation": "enablement"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "We build a broad-coverage sense tagger \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "based on a nonparametric Bayesian topic model \r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "that automatically learns sense clusters for words in the source language . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 4,
+			"text": "The proposed sense-based translation model enables the decoder to select appropriate translations for source words \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "according to the inferred senses for these words \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "using maximum entropy classifiers . <S>\r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 12,
+			"parent": 4,
+			"text": "Our method is significantly different from previous word sense disambiguation \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "reformulated for machine translation \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 12,
+			"text": "in that the latter neglects word senses in nature . <S>\r",
+			"relation": "exp-reason"
+		},
+		{
+			"id": 15,
+			"parent": 4,
+			"text": "We test the effectiveness of the proposed sense-based translation model on a large-scale Chinese-to-English translation task . <S>\r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 16,
+			"parent": 17,
+			"text": "Results show \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 17,
+			"parent": 15,
+			"text": "that the proposed model substantially outperforms not only the baseline but also the previous reformulated word sense disambiguation . <S>\r",
+			"relation": "cause"
+		}
+	]
+}

@@ -1,0 +1,11 @@
+Training neural network language models over large vocabularies is computationally costly 
+compared to count-based models 
+such as Kneser-Ney . <S>
+We present a systematic comparison of neural strategies 
+to represent and train large vocabularies , 
+including softmax , hierarchical softmax , target sampling , noise contrastive estimation and self normalization . <S>
+We extend self normalization 
+to be a proper estimator of likelihood 
+and introduce an efficient variant of softmax . <S>
+We evaluate each method on three popular benchmarks , 
+examining performance on rare words , the speed/accuracy trade-off and complementarity to Kneser-Ney . <S>

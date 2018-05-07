@@ -1,0 +1,52 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We present power low rank ensembles ( PLRE ) , a flexible framework for n-gram language modeling ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "where ensembles of low rank matrices and tensors are used ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "to obtain smoothed probability estimates of words in context . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "Our method can be understood as a generalization of n-gram modeling to non-integer n , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "and includes standard techniques such as absolute discounting and Kneser-Ney smoothing as special cases . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "PLRE training is efficient ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "and our approach outperforms state-of-the-art modified Kneser Ney baselines in terms of perplexity on large corpora as well as on BLEU score in a downstream machine translation task . <S>",
+			"relation": "joint"
+		}
+	]
+}

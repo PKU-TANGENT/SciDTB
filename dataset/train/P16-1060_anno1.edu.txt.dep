@@ -1,0 +1,100 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 2,
+			"text": "Interpretability and discriminative power are the two most basic requirements for an evaluation metric . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 0,
+			"text": "In this paper , we report the mention identification effect in the B3 , CEAF , and BLANC coreference evaluation metrics ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "that makes it impossible to interpret their results properly . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 2,
+			"text": "The only metric ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "which is insensitive to this flaw ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "is MUC , ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "which , however , is known to be the least discriminative metric . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 10,
+			"text": "It is a known fact ",
+			"relation": "result"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "that none of the current metrics are reliable . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 11,
+			"text": "The common practice for ranking coreference resolvers is to use the average of three different metrics . <S>",
+			"relation": "contrast"
+		},
+		{
+			"id": 11,
+			"parent": 2,
+			"text": "However , one cannot expect to obtain a reliable score ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "by averaging three unreliable metrics . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 13,
+			"parent": 2,
+			"text": "We propose LEA , a Link-based Entity-Aware evaluation metric ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "that is designed to overcome the shortcomings of the current evaluation metrics . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 13,
+			"text": "LEA is available as branch LEA-scorer in the reference implementation of the official CoNLL scorer . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

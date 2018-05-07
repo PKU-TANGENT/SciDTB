@@ -1,0 +1,70 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 9,
+			"text": "Left-to-right ( LR ) decoding ( Watanabe et al. , 2006 ) is promising decoding algorithm for hierarchical phrase-based translation ( Hiero ) ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "that visits input spans in arbitrary order ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "producing the output translation in left to right order . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 9,
+			"text": "This leads to far fewer language model calls , ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "but while LR decoding is more efficient than CKY decoding , ",
+			"relation": "contrast"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "it is unable to capture some hierarchical phrase alignments reachable ",
+			"relation": "contrast"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "using CKY decoding ",
+			"relation": "condition"
+		},
+		{
+			"id": 8,
+			"parent": 6,
+			"text": "and suffers from lower translation quality as a result . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 9,
+			"parent": 0,
+			"text": "This paper introduces two improvements to LR decoding ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "that make it comparable in translation quality to CKY-based Hiero . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

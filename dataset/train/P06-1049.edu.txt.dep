@@ -1,0 +1,82 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "Ordering information is a difficult but important task for applications ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "generating natural-language text . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 0,
+			"text": "We present a bottom-up approach ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "to arranging sentences ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "extracted for multi-document summarization . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 7,
+			"text": "To capture the association and order of two textual segments ( eg , sentences ) , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 7,
+			"parent": 3,
+			"text": "we define four criteria , chronology , topical-closeness , precedence , and succession . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "These criteria are integrated into a criterion by a supervised learning approach . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 3,
+			"text": "We repeatedly concatenate two textual segments into one segment ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "based on the criterion ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 11,
+			"parent": 9,
+			"text": "until we obtain the overall segment with all sentences arranged . <S>",
+			"relation": "temporal"
+		},
+		{
+			"id": 12,
+			"parent": 3,
+			"text": "Our experimental results show a significant improvement over existing sentence ordering strategies . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

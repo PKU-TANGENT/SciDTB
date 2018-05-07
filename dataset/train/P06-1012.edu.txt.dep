@@ -1,0 +1,94 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 6,
+			"text": "Instances of a word ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "drawn from different domains ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "may have different sense priors ( the proportions of the different senses of a word ) . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "This in turn affects the accuracy of word sense disambiguation ( WSD ) systems ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "trained and applied on different domains . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 0,
+			"text": "This paper presents a method ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "to estimate the sense priors of words ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "drawn from a new domain , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 7,
+			"text": "and highlights the importance ",
+			"relation": "joint"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "of using well calibrated probabilities ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 9,
+			"text": "when performing these estimations . <S>",
+			"relation": "condition"
+		},
+		{
+			"id": 12,
+			"parent": 13,
+			"text": "By using well calibrated probabilities , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 13,
+			"parent": 6,
+			"text": "we are able to estimate the sense priors effectively ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "to achieve significant improvements in WSD accuracy . <S>",
+			"relation": "enablement"
+		}
+	]
+}

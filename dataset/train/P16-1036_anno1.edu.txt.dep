@@ -1,0 +1,142 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 11,
+			"text": "Community Question Answering ( cQA ) services ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "like Yahoo Answers , Baidu Zhidao , Quora , StackOverflow etc. ",
+			"relation": "elab-example"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "provide a platform for interaction with experts ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "and help users to obtain precise and accurate answers to their questions . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 5,
+			"parent": 1,
+			"text": "The time lag between the user ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "posting a question ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "and receiving its answer ",
+			"relation": "joint"
+		},
+		{
+			"id": 8,
+			"parent": 5,
+			"text": "could be reduced ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "by retrieving similar historic questions from the cQA archives . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 10,
+			"parent": 5,
+			"text": "The main challenge in this task is the `` lexicosyntactic '' gap between the current and the previous questions . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 0,
+			"text": "In this paper , we propose a novel approach ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "called `` Siamese Convolutional Neural Network for cQA ( SCQA ) '' ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 11,
+			"text": "to find the semantic similarity between the current and the archived questions . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 14,
+			"parent": 11,
+			"text": "SCQA consist of twin convolutional neural networks with shared parameters and a contrastive loss function ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "joining them . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 16,
+			"parent": 11,
+			"text": "SCQA learns the similarity metric for question-question pairs ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 17,
+			"parent": 16,
+			"text": "by leveraging the question-answer pairs available in cQA forum archives . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 18,
+			"parent": 11,
+			"text": "The model projects semantically similar question pairs nearer to each other and dissimilar question pairs farther away from each other in the semantic space . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 19,
+			"parent": 20,
+			"text": "Experiments on large scale reallife `` Yahoo Answers '' dataset reveals ",
+			"relation": "attribution"
+		},
+		{
+			"id": 20,
+			"parent": 11,
+			"text": "that SCQA outperforms current state-of-theart approaches",
+			"relation": "evaluation"
+		},
+		{
+			"id": 21,
+			"parent": 20,
+			"text": "based on translation models , topic models and deep neural network based models ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 22,
+			"parent": 21,
+			"text": "which use non-shared parameters . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

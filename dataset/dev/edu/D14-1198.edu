@@ -1,0 +1,9 @@
+In this paper , we propose a new framework 
+that unifies the output of three information extraction ( IE ) tasks - entity mentions , relations and events as an information network representation , 
+and extracts all of them 
+using one single joint model 
+based on structured prediction . <S>
+This novel formulation allows different parts of the information network fully interact with each other . <S>
+For example , many relations can now be considered as the resultant states of events . <S>
+Our approach achieves substantial improvements over traditional pipelined approaches , 
+and significantly advances state-of-the-art end-to-end event argument extraction . <S> 

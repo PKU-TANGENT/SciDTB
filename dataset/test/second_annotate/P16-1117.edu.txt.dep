@@ -1,0 +1,76 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This paper presents a novel model for Japanese predicate argument structure ( PAS ) analysis ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "based on a neural network framework . <S>",
+			"relation": "bg-general"
+		},
+		{
+			"id": 3,
+			"parent": 6,
+			"text": "Japanese PAS analysis is challenging ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "due to the tangled characteristics of the Japanese language , ",
+			"relation": "exp-reason"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "such as case disappearance and argument omission . <S>",
+			"relation": "elab-example"
+		},
+		{
+			"id": 6,
+			"parent": 7,
+			"text": "To unravel this problem , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 7,
+			"parent": 1,
+			"text": "we learn selectional preferences from a large raw corpus , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "and incorporate them into a SOTA PAS analysis model , ",
+			"relation": "joint"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "which considers the consistency of all PASs in a given sentence . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 11,
+			"text": "We demonstrate ",
+			"relation": "attribution"
+		},
+		{
+			"id": 11,
+			"parent": 1,
+			"text": "that the proposed PAS analysis model significantly outperforms the base SOTA system . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

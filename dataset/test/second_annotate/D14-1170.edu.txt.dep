@@ -1,0 +1,112 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 5,
+			"text": "In this paper , we investigate a challenging task of automatic related work generation . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 3,
+			"text": "Given multiple reference papers as input , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "the task aims to generate a related work section for a target paper . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "The generated related work section can be used as a draft for the author to complete his or her final related work section . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 0,
+			"text": "We propose our Automatic Related Work Generation system ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "called ARWG ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 5,
+			"text": "to address this task . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 8,
+			"parent": 5,
+			"text": "It first exploits a PLSA model ",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "to split the sentence set of the given papers into different topic-biased parts , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 10,
+			"parent": 8,
+			"text": "and then applies regression models ",
+			"relation": "progression"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "to learn the importance of the sentences . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 12,
+			"parent": 5,
+			"text": "At last it employs an optimization framework ",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "to generate the related work section . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 14,
+			"parent": 15,
+			"text": "Our evaluation results on a test set of 150 target papers along with their reference papers show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 15,
+			"parent": 5,
+			"text": "that our proposed ARWG system can generate related work sections with better quality . <S>",
+			"relation": "evaluation"
+		},
+		{
+			"id": 16,
+			"parent": 17,
+			"text": "A user study is also performed to show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 17,
+			"parent": 15,
+			"text": "ARWG can achieve an improvement over generic multi-document summarization baselines . <S>",
+			"relation": "joint"
+		}
+	]
+}

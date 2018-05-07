@@ -1,0 +1,76 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "Under categorial grammars ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "that have powerful rules like composition , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 6,
+			"text": "a simple n-word sentence can have exponentially many parses . <S>",
+			"relation": "bg-general"
+		},
+		{
+			"id": 4,
+			"parent": 6,
+			"text": "Generating all parses is inefficient ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "and obscures whatever true semantic ambiguities are in the input . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 6,
+			"parent": 0,
+			"text": "This paper addresses the problem for a fairly general form of Combinatory Categorial Grammar , ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "by means of an efficient , correct , and easy to implement normal-form parsing technique . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 8,
+			"parent": 6,
+			"text": "The parser is proved to find exactly one parse in each semantic equivalence class of allowable parses ; ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 9,
+			"parent": 11,
+			"text": "that is , spurious ambiguity ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 10,
+			"parent": 11,
+			"text": "( as carefully defined ) ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 8,
+			"text": "is shown to be both safely and completely eliminated . <S>  ",
+			"relation": "elab-addition"
+		}
+	]
+}

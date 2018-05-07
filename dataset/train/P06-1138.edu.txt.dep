@@ -1,0 +1,52 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This paper describes a minimal topology driven parsing algorithm for topological grammars ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "that synchronizes a rewriting grammar and a dependency grammar , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "obtaining two linguistically motivated syntactic structures . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "The use of non-local slash and visitor features can be restricted ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "to obtain a CKY type analysis in polynomial time . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "German long distance phenomena illustrate the algorithm , ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "bringing to the fore the procedural needs of the analyses of syntax-topology mismatches in constraint based approaches like for example HPSG . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

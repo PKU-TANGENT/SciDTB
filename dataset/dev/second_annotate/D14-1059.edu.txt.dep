@@ -1,0 +1,94 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 2,
+			"text": "Common-sense reasoning is important for AI applications , both in NLP and many vision and robotics tasks . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 0,
+			"text": "We propose NaturalLI : a Natural Logic inference system ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "for inferring common sense facts ",
+			"relation": "enablement"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "- for instance , that cats have tails ",
+			"relation": "elab-example"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "or tomatoes are round ",
+			"relation": "joint"
+		},
+		{
+			"id": 6,
+			"parent": 3,
+			"text": "- from a very large database of known facts . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 7,
+			"parent": 8,
+			"text": "In addition to being able to provide strictly valid derivations , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 2,
+			"text": "the system is also able to produce derivations ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "which are only likely valid , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 8,
+			"text": "accompanied by an associated confidence . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 12,
+			"text": "We both show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 12,
+			"parent": 2,
+			"text": "that our system is able to capture strict Natural Logic inferences on the FraCaS test suite , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "and demonstrate its ability ",
+			"relation": "joint"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "to predict common sense facts with 49 % recall and 91 % precision . <S>",
+			"relation": "enablement"
+		}
+	]
+}

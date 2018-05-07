@@ -1,0 +1,100 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 8,
+			"text": "We address an important problem in sequence-to-sequence ( Seq2Seq ) learning ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "referred to as copying , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "in which certain segments in the input sequence are selectively replicated in the output sequence . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "A similar phenomenon is observable in human language communication . <S>",
+			"relation": "progression"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "For example , humans tend to repeat entity names or even long phrases in conversation . <S>",
+			"relation": "elab-example"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "The challenge with regard to copying in Seq2Seq is that new machinery is needed ",
+			"relation": "result"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "to decide when to perform the operation . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 8,
+			"parent": 0,
+			"text": "In this paper , we incorporate copying into neural networkbased Seq2Seq learning ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "and propose a new model ",
+			"relation": "progression"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "called COPYNET with encoderdecoder structure . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "COPYNET can nicely integrate the regular way of word generation in the decoder with the new copying mechanism ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "which can choose subsequences in the input sequence ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "and put them at proper places in the output sequence . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 14,
+			"parent": 8,
+			"text": "Our empirical study on both synthetic data sets and real world data sets demonstrates the efficacy of COPYNET . <S>",
+			"relation": "evaluation"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "For example , COPYNET can outperform regular RNN-based model with remarkable margins on text summarization tasks . <S>",
+			"relation": "exp-evidence"
+		}
+	]
+}

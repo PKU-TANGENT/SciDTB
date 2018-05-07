@@ -1,0 +1,70 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This paper describes an algorithm ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "for computing optimal structural descriptions for Optimality Theory grammars with context-free position structures . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "This algorithm extends Tesar 's dynamic programming approach ( Tesar , 1994 ) ( Tesar , 1995 ) ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "to computing optimal structural descriptions from regular to context-free structures . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 5,
+			"parent": 1,
+			"text": "The generalization to context free structures creates several complications , ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "all of which are overcome ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "without compromising the core dynamic programming approach . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 1,
+			"text": "The resulting algorithm has a time complexity cubic in the length of the input , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "and is applicable to grammars with universal constraints ",
+			"relation": "joint"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "that exhibit context-free locality . <S>   ",
+			"relation": "elab-addition"
+		}
+	]
+}

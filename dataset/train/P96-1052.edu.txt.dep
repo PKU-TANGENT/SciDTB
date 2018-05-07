@@ -1,0 +1,76 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 4,
+			"text": "Little work has been done in NLP on the subject of punctuation , ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "owing mainly to a lack of a good theory ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "on which computational treatments could be based . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 0,
+			"text": "This paper described early work in progress ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "to try to construct such a theory . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "Two approaches ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "to finding the syntactic function of punctuation marks ",
+			"relation": "enablement"
+		},
+		{
+			"id": 8,
+			"parent": 6,
+			"text": "are discussed , ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 9,
+			"parent": 6,
+			"text": "and procedures are described ",
+			"relation": "joint"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "by which the results from these approaches can be tested and evaluated both against each other as well as against other work . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 11,
+			"parent": 4,
+			"text": "Suggestions are made for the use of these results , and for future work . <S>",
+			"relation": "elab-aspect"
+		}
+	]
+}

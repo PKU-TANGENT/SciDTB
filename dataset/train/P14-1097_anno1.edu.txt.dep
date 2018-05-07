@@ -1,0 +1,106 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We present an unsupervised method \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "for inducing verb classes from verb uses in giga-word corpora . <S>\r",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "Our method consists of two clustering steps : \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "verb-specific semantic frames are first induced \r",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "by clustering verb uses in a corpus \r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 6,
+			"parent": 3,
+			"text": "and then verb classes are induced \r",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "by clustering these frames . <S>\r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 8,
+			"parent": 9,
+			"text": "By taking this step-wise approach , \r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 9,
+			"parent": 1,
+			"text": "we can not only generate verb classes \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "based on a massive amount of verb uses in a scalable manner , \r",
+			"relation": "bg-general"
+		},
+		{
+			"id": 11,
+			"parent": 9,
+			"text": "but also deal with verb polysemy , \r",
+			"relation": "progression"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "which is bypassed by most of the previous studies on verb clustering . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 15,
+			"text": "In our experiments , we acquire semantic frames and verb classes from two giga-word corpora , the larger \r",
+			"relation": "bg-general"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "comprising 20 billion words . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 1,
+			"text": "The effectiveness of our approach is verified through quantitative evaluations \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "based on polysemy-aware gold-standard data . <S>\r",
+			"relation": "bg-general"
+		}
+	]
+}

@@ -1,0 +1,64 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 4,
+			"text": "Open Relation Extraction ( ORE ) overcomes the limitations of traditional IE techniques , ",
+			"relation": "contrast"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "which train individual extractors for every single relation type . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "Systems such as ReVerb , PATTY , OLLIE , and Exemplar have attracted much attention on English ORE . <S>",
+			"relation": "cause"
+		},
+		{
+			"id": 4,
+			"parent": 5,
+			"text": "However , few studies have been reported on ORE for languages beyond English . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 5,
+			"parent": 0,
+			"text": "This paper presents a syntax-based Chinese ( Zh ) ORE system , ZORE , ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "for extracting relations and semantic patterns from Chinese text . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 7,
+			"parent": 5,
+			"text": "ZORE identifies relation candidates from automatically parsed dependency trees , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "and then extracts relations with their semantic patterns iteratively through a novel double propagation algorithm . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 9,
+			"parent": 5,
+			"text": "Empirical results on two data sets show the effectiveness of the proposed system . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

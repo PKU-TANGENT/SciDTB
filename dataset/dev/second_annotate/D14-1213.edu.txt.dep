@@ -1,0 +1,124 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 12,
+			"text": "Self-disclosure , the act of revealing one-self to others , is an important social behavior ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "that strengthens interpersonal relationships ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "and increases social support . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 4,
+			"parent": 5,
+			"text": "Although there are many social science studies of self-disclosure , ",
+			"relation": "contrast"
+		},
+		{
+			"id": 5,
+			"parent": 1,
+			"text": "they are based on manual coding of small datasets and questionnaires . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 12,
+			"text": "We conduct a computational analysis of self-disclosure with a large dataset of naturally-occurring conversations , a semi-supervised machine learning algorithm , and a computational analysis of the effects of self-disclosure on subsequent conversations . <S>",
+			"relation": "bg-general"
+		},
+		{
+			"id": 7,
+			"parent": 12,
+			"text": "We use a longitudinal dataset of 17 million tweets , ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "all of which occurred in conversations ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "that consist of five or more tweets ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "directly replying to the previous tweet , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 9,
+			"text": "and from dyads with twenty of more conversations each . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 12,
+			"parent": 0,
+			"text": "We develop self-disclosure topic model ( SDTM ) , a variant of latent Dirichlet allocation ( LDA ) ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "for automatically classifying the level of self-disclosure for each tweet . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 14,
+			"parent": 16,
+			"text": "We take the results of SDTM ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "and analyze the effects of self-disclosure on subsequent conversations . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 16,
+			"parent": 12,
+			"text": "Our model significantly outperforms several comparable methods on classifying the level of self-disclosure , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 17,
+			"parent": 19,
+			"text": "and the analysis of the longitudinal data ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 18,
+			"parent": 17,
+			"text": "using SDTM ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 19,
+			"parent": 16,
+			"text": "uncovers significant and positive correlation between self-disclosure and conversation frequency and length . <S>",
+			"relation": "joint"
+		}
+	]
+}

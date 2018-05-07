@@ -1,0 +1,76 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "In this paper , we present the first experiments ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "using neural network models for the task of error detection in learner writing . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "We perform a systematic comparison of alternative compositional architectures ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "and propose a framework for error detection ",
+			"relation": "progression"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "based on bidirectional LSTMs . <S>",
+			"relation": "bg-general"
+		},
+		{
+			"id": 6,
+			"parent": 7,
+			"text": "Experiments on the CoNLL-14 shared task dataset show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 7,
+			"parent": 1,
+			"text": "the model is able to outperform other participants ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "on detecting errors in learner writing . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 1,
+			"text": "Finally , the model is integrated with a publicly deployed self-assessment system , ",
+			"relation": "progression"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "leading to performance ",
+			"relation": "result"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "comparable to human annotators . <S>",
+			"relation": "bg-compare"
+		}
+	]
+}

@@ -1,0 +1,76 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This work provides the essential foundations for modular construction of ( typed ) unification grammars for natural languages . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 3,
+			"text": "Much of the information in such grammars is encoded in the signature , ",
+			"relation": "progression"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "and hence the key is facilitating a modularized development of type signatures . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 6,
+			"text": "We introduce a definition of signature modules ",
+			"relation": "progression"
+		},
+		{
+			"id": 5,
+			"parent": 6,
+			"text": "and show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "how two modules combine . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 1,
+			"text": "Our definitions are motivated by the actual needs of grammar developers ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "obtained through a careful examination of large scale grammars . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 10,
+			"text": "We show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 10,
+			"parent": 1,
+			"text": "that our definitions meet these needs ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "by conforming to a detailed set of desiderata . <S>",
+			"relation": "manner-means"
+		}
+	]
+}

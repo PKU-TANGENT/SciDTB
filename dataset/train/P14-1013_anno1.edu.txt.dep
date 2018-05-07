@@ -1,0 +1,100 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "Statistical Machine Translation ( SMT ) usually utilizes contextual information \r",
+			"relation": "bg-general"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "to disambiguate translation candidates . <S>\r",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 5,
+			"text": "However ,  it is often limited to contexts within sentence boundaries , \r",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "hence broader topical information cannot be leveraged . <S>\r",
+			"relation": "cause"
+		},
+		{
+			"id": 5,
+			"parent": 0,
+			"text": "In this paper , we propose a novel approach \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "to learning topic representation for parallel data \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "using a neural network architecture , \r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "where abundant topical contexts are embedded \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "via topic relevant monolingual data . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 11,
+			"text": "By associating each translation rule with the topic representation , \r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 11,
+			"parent": 5,
+			"text": "topic relevant rules are selected \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "according to the distributional similarity with the source text during SMT decoding . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 14,
+			"text": "Experimental results show \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 14,
+			"parent": 5,
+			"text": "that our method significantly improves translation accuracy in the NIST Chinese-to-English translation task \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "compared to a state-of-the-art baseline . <S>\r",
+			"relation": "comparison"
+		}
+	]
+}

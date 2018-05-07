@@ -1,0 +1,70 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We present an approach to pronoun resolution ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "based on syntactic paths . <S>",
+			"relation": "bg-general"
+		},
+		{
+			"id": 3,
+			"parent": 4,
+			"text": "Through a simple bootstrapping procedure , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "we learn the likelihood of coreference between a pronoun and a candidate noun ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "based on the path in the parse tree between the two entities . <S>",
+			"relation": "bg-general"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "This path information enables us to handle previously challenging resolution instances , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "and also robustly addresses traditional syntactic coreference constraints . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 8,
+			"parent": 6,
+			"text": "Highly coreferent paths also allow mining of precise probabilistic gender/number information . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 10,
+			"text": "We combine statistical knowledge with well known features in a Support Vector Machine pronoun resolution classifier . <S>",
+			"relation": "result"
+		},
+		{
+			"id": 10,
+			"parent": 1,
+			"text": "Significant gains in performance are observed on several datasets . <S>                                                  ",
+			"relation": "evaluation"
+		}
+	]
+}

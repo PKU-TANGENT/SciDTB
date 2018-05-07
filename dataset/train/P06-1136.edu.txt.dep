@@ -1,0 +1,88 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 7,
+			"text": "Statistical ranking methods based on centroid vector ( profile ) ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "extracted from external knowledge ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "have become widely adopted in the top definitional QA systems in TREC 2003 and 2004 . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "In these approaches , terms in the centroid vector are treated as a bag of words ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "based on the independent assumption . <S>",
+			"relation": "bg-general"
+		},
+		{
+			"id": 6,
+			"parent": 7,
+			"text": "To relax this assumption , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 7,
+			"parent": 0,
+			"text": "this paper proposes a novel language model-based answer reranking method ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "to improve the existing bag-ofwords model approach ",
+			"relation": "enablement"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "by considering the dependence of the words in the centroid vector . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 10,
+			"parent": 13,
+			"text": "Experiments have been conducted ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "to evaluate the different dependence models . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 12,
+			"parent": 13,
+			"text": "The results on the TREC 2003 test set show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 13,
+			"parent": 7,
+			"text": "that the reranking approach with biterm language model , significantly outperforms the one with the bag-ofwords model and unigram language model by 14.9 % and 12.5 % respectively in F-Measure . <S>   ",
+			"relation": "evaluation"
+		}
+	]
+}

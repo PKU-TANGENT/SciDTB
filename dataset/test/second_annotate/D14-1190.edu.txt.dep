@@ -1,0 +1,52 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We propose a model ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "for jointly predicting multiple emotions in natural language sentences . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "Our model is based on a low-rank coregionalisation approach , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "which combines a vector-valued Gaussian Process with a rich parameterisation scheme . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 6,
+			"text": "We show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "that our approach is able to learn correlations and anti-correlations between emotions on a news headlines dataset . <S>",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 7,
+			"parent": 1,
+			"text": "The proposed model outperforms both single-task baselines and other multi-task approaches . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

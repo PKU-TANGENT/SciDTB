@@ -1,0 +1,10 @@
+Translating into morphologically rich languages is a particularly difficult problem in machine translation 
+due to the high degree of inflectional ambiguity in the target language , 
+often only poorly captured by existing word translation models . <S>
+We present a general approach 
+that exploits source-side contexts of foreign words 
+to improve translation prediction accuracy . <S>
+Our approach is based on a probabilistic neural network 
+which does not require linguistic annotation nor manual feature engineering . <S>
+We report significant improvements in word translation prediction accuracy for three morphologically rich target languages . <S>
+In addition , preliminary results for integrating our approach into a large-scale English-Russian statistical machine translation system show small but statistically significant improvements in translation quality . <S>

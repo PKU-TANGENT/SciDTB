@@ -1,0 +1,58 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We present persona-based models ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "for handling the issue of speaker consistency in neural response generation . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "A speaker model encodes personas in distributed embeddings ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "that capture individual characteristics ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "such as background information and speaking style . <S>",
+			"relation": "elab-example"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "A dyadic speakeraddressee model captures properties of interactions between two interlocutors . <S>",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 7,
+			"parent": 1,
+			"text": "Our models yield qualitative performance improvements in both perplexity and BLEU scores over baseline sequence-to-sequence models , with similar gains in speaker consistency ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "as measured by human judges . <S>  ",
+			"relation": "elab-addition"
+		}
+	]
+}

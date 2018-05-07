@@ -1,0 +1,64 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 2,
+			"text": "Dependency-based Compositional Semantics  (DCS ) is a framework of natural language semantics with easy-to-process structures as well as strict semantics . <S>\r",
+			"relation": "elab-definition"
+		},
+		{
+			"id": 2,
+			"parent": 0,
+			"text": "In this paper , we equip the DCS framework with logical inference , \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "by defining abstract denotations as an abstraction of the computing process of denotations in original DCS . <S>\r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 4,
+			"parent": 2,
+			"text": "An inference engine is built \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "to achieve inference on abstract denotations . <S>\r",
+			"relation": "enablement"
+		},
+		{
+			"id": 6,
+			"parent": 2,
+			"text": "Furthermore , we propose a way \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "to generate on-the-fly knowledge in logical inference , \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "by combining our framework with the idea of tree transformation . <S>\r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 9,
+			"parent": 2,
+			"text": "Experiments on FraCaS and PASCAL RTE datasets show promising results . <S>\r",
+			"relation": "evaluation"
+		}
+	]
+}

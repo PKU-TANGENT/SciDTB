@@ -1,0 +1,94 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "In this paper , we present two improvements to the beam search approach ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "for solving homophonic substitution ciphers ",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "presented in Nuhn et al. ( 2013 ) : ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "An improved rest cost estimation together with an optimized strategy ",
+			"relation": "elab-definition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "for obtaining the order ",
+			"relation": "enablement"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "in which the symbols of the cipher are deciphered reduces the beam size ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "needed to successfully decipher the Zodiac-408 cipher from several million down to less than one hundred : ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "The search effort is reduced from several hours of computation time to just a few seconds on a single CPU . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 1,
+			"text": "These improvements allow us to successfully decipher the second part of the famous Beale cipher ( see ( Ward et al. , 1885 ) and e.g. ( King , 1993 ) ) : ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 12,
+			"text": "Having 182 different cipher symbols ",
+			"relation": "cause"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "while having a length of just 762 symbols , ",
+			"relation": "contrast"
+		},
+		{
+			"id": 12,
+			"parent": 1,
+			"text": "the decipherment is way more challenging than the decipherment of the previously deciphered Zodiac-408 cipher ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "( length 408 , 54 different symbols ) . <S>",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 14,
+			"parent": 1,
+			"text": "To the best of our knowledge , this cipher has not been deciphered automatically before . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

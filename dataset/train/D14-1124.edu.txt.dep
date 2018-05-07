@@ -1,0 +1,82 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 5,
+			"text": "Casual online forums such as Reddit , Slashdot and Digg , are continuing to increase in popularity as a means of communication . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "Detecting disagreement in this domain is a considerable challenge . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "Many topics are unique to the conversation on the forum , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "and the appearance of disagreement may be much more subtle than on political blogs or social media sites such as twitter . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 5,
+			"parent": 0,
+			"text": "In this analysis we present a crowd-sourced annotated corpus for topic level disagreement detection in Slashdot , ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "showing ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "that disagreement detection in this domain is difficult even for humans . <S>",
+			"relation": "attribution"
+		},
+		{
+			"id": 8,
+			"parent": 5,
+			"text": "We then proceed to show ",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "that a new set of features ",
+			"relation": "attribution"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "determined from the rhetorical structure of the conversation ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 9,
+			"text": "significantly improves the performance on disagreement detection over a baseline ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "consisting of unigram/bigram features , discourse markers , structural features and meta-post features . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

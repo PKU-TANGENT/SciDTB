@@ -1,0 +1,100 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This paper proposes a method ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "for detecting errors in article usage and singular plural usage ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "based on the mass count distinction . <S>",
+			"relation": "bg-general"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "First , it learns decision lists from training data ",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "generated automatically to distinguish mass and count nouns . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 7,
+			"text": "Then , in order to improve its performance , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 7,
+			"parent": 1,
+			"text": "it is augmented by feedback ",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "that is obtained from the writing of learners . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 1,
+			"text": "Finally , it detects errors ",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "by applying rules to the mass count distinction . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 11,
+			"parent": 12,
+			"text": "Experiments show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 12,
+			"parent": 1,
+			"text": "that it achieves a recall of 0.71 and a precision of 0.72 ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "and outperforms other methods ",
+			"relation": "joint"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "used for comparison ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 13,
+			"text": "when augmented by feedback . <S>",
+			"relation": "condition"
+		}
+	]
+}

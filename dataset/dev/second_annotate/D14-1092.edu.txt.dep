@@ -1,0 +1,130 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "In this paper , we propose a joint model for unsupervised Chinese word segmentation ( CWS ) . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 3,
+			"text": "Inspired by the \"products of experts\" idea , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "our joint model firstly combines two generative models , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "which are word-based hierarchical Dirichlet process model and character-based hidden Markov model , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "by simply multiplying their probabilities together . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "Gibbs sampling is used for model inference . <S>",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 7,
+			"parent": 8,
+			"text": "In order to further combine the strength of goodness-based model , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 8,
+			"parent": 1,
+			"text": "we then integrated nVBE into our joint model ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "by using it to initializing the Gibbs sampler . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 10,
+			"parent": 13,
+			"text": "We conduct our experiments on PKU and MSRA datasets ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "provided by the second SIGHAN bakeoff . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 13,
+			"text": "Test results on these two datasets show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 13,
+			"parent": 1,
+			"text": "that the joint model achieves much better results than all of its component models . <S>",
+			"relation": "evaluation"
+		},
+		{
+			"id": 14,
+			"parent": 15,
+			"text": "Statistical significance tests also show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 15,
+			"parent": 13,
+			"text": "that it is significantly better than state-of-the-art systems , ",
+			"relation": "joint"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "achieving the highest F-scores . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 17,
+			"parent": 19,
+			"text": "Finally , analysis indicates ",
+			"relation": "attribution"
+		},
+		{
+			"id": 18,
+			"parent": 19,
+			"text": "that compared with nVBE and HDP , ",
+			"relation": "comparison"
+		},
+		{
+			"id": 19,
+			"parent": 13,
+			"text": "the joint model has a stronger ability ",
+			"relation": "joint"
+		},
+		{
+			"id": 20,
+			"parent": 19,
+			"text": "to solve both combinational and overlapping ambiguities in Chinese word segmentation . <S>",
+			"relation": "enablement"
+		}
+	]
+}

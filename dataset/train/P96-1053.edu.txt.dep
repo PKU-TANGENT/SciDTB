@@ -1,0 +1,64 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "I examine how terminological languages can be used ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "to manage linguistic data during NL research and development . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "In particular , I consider the lexical semantics task ",
+			"relation": "joint"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "of characterizing semantic verb classes ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 6,
+			"text": "and show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 6,
+			"parent": 3,
+			"text": "how the language can be extended ",
+			"relation": "progression"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "to flag inconsistencies in verb class definitions , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "identify the need for new verb classes , ",
+			"relation": "joint"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "and identify appropriate linguistic hypotheses for a new verb 's behavior . <S>",
+			"relation": "joint"
+		}
+	]
+}

@@ -1,0 +1,106 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 2,
+			"text": "Sentence level evaluation in MT has turned out far more difficult than corpus level evaluation . <S>",
+			"relation": "cause"
+		},
+		{
+			"id": 2,
+			"parent": 6,
+			"text": "Existing sentence level metrics employ a limited set of features , ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "most of which are rather sparse at the sentence level , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "and their intricate models are rarely trained ",
+			"relation": "joint"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "for ranking . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 6,
+			"parent": 0,
+			"text": "This paper presents a simple linear model ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "exploiting 33 relatively dense features , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "some of which are novel ",
+			"relation": "elab-example"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "while others are known ",
+			"relation": "contrast"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "but seldom used , ",
+			"relation": "contrast"
+		},
+		{
+			"id": 11,
+			"parent": 6,
+			"text": "and train it under the learning-to-rank framework . <S>",
+			"relation": "progression"
+		},
+		{
+			"id": 12,
+			"parent": 14,
+			"text": "We evaluate our metric on the standard WMT12 data ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 13,
+			"parent": 14,
+			"text": "showing ",
+			"relation": "attribution"
+		},
+		{
+			"id": 14,
+			"parent": 6,
+			"text": "that it outperforms the strong baseline METEOR . <S>",
+			"relation": "evaluation"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "We also analyze the contribution of individual features and the choice of training data , language-pair vs. target-language data , ",
+			"relation": "progression"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "providing new insights into this task . <S>",
+			"relation": "enablement"
+		}
+	]
+}

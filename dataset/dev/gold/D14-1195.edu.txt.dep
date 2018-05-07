@@ -1,0 +1,88 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "In this paper , we provide a new method ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "for decoding tree transduction based sentence compression models ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "augmented with language model scores , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "by jointly decoding two components . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 5,
+			"parent": 1,
+			"text": "In our proposed solution , rich local discriminative features can be easily integrated ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "without increasing computational complexity . <S>",
+			"relation": "condition"
+		},
+		{
+			"id": 7,
+			"parent": 9,
+			"text": "Utilizing an unobvious fact ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "that the resulted two components can be independently decoded , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 1,
+			"text": "we conduct efficient joint decoding ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "based on dual decomposition . <S>",
+			"relation": "bg-general"
+		},
+		{
+			"id": 11,
+			"parent": 12,
+			"text": "Experimental results show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 12,
+			"parent": 1,
+			"text": "that our method outperforms traditional beam search decoding ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "and achieves the state-of-the-art performance . <S>",
+			"relation": "joint"
+		}
+	]
+}

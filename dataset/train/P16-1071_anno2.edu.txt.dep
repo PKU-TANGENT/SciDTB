@@ -1,0 +1,64 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "Neuro-imaging studies on reading different parts of speech ( PoS ) report somewhat mixed results , ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "yet some of them indicate different activations with different PoS . <S>",
+			"relation": "contrast"
+		},
+		{
+			"id": 3,
+			"parent": 0,
+			"text": "This paper addresses the difficulty ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "of using fMRI to discriminate between linguistic tokens in reading of running text ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "because of low temporal resolution . <S>",
+			"relation": "exp-reason"
+		},
+		{
+			"id": 6,
+			"parent": 8,
+			"text": "We show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 7,
+			"parent": 8,
+			"text": "that once we solve this problem , ",
+			"relation": "temporal"
+		},
+		{
+			"id": 8,
+			"parent": 3,
+			"text": "fMRI data contains a signal of PoS distinctions to the extent ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "that it improves PoS induction with error reductions of more than 4 % . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

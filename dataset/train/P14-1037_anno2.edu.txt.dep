@@ -1,0 +1,100 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 2,
+			"text": "In order to extract entities of a fine-grained category from semi-structured data in web pages , \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 2,
+			"parent": 3,
+			"text": "existing information extraction systems rely on seed examples or redundancy across multiple web pages . <S>\r",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 3,
+			"parent": 0,
+			"text": "In this paper , we consider a new zero-shot learning task of extracting entities \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "specified by a natural language query  \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "( in place of seeds ) \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 3,
+			"text": "given only a single web page . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 3,
+			"text": "Our approach defines a log-linear model over latent extraction predicates , \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "which select lists of entities from the web page . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 3,
+			"text": "The main challenge is to define features on widely varying candidate entity lists . <S>\r",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 10,
+			"parent": 3,
+			"text": "We tackle this\r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "by abstracting list elements \r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "and using aggregate statistics to define features . <S>\r",
+			"relation": "progression"
+		},
+		{
+			"id": 13,
+			"parent": 3,
+			"text": "Finally , we created a new dataset of diverse queries and web pages , \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 14,
+			"parent": 15,
+			"text": "and show \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 15,
+			"parent": 13,
+			"text": "that our system achieves significantly better accuracy than a natural baseline . <S>\r",
+			"relation": "joint"
+		}
+	]
+}

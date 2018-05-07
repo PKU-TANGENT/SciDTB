@@ -1,0 +1,52 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This paper proposes to apply the continuous vector representations of words ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "for discovering keywords from a financial sentiment lexicon . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 4,
+			"text": "In order to capture more keywords , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "we also incorporate syntactic information into the Continuous Bag-of-Words ( CBOW ) model . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 1,
+			"text": "Experimental results on a task of financial risk prediction ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 6,
+			"parent": 7,
+			"text": "using the discovered keywords demonstrate ",
+			"relation": "attribution"
+		},
+		{
+			"id": 7,
+			"parent": 5,
+			"text": "that the proposed approach is good at predicting financial risk . <S>",
+			"relation": "same-unit"
+		}
+	]
+}

@@ -1,0 +1,13 @@
+We explore the extent 
+to which high-resource manual annotations such as treebanks are necessary for the task of semantic role labeling ( SRL ) . <S>
+We examine 
+how performance changes 
+without syntactic supervision , 
+comparing both joint and pipelined methods 
+to induce latent syntax . <S>
+This work highlights a new application of unsupervised grammar induction 
+and demonstrates several approaches to SRL in the absence of supervised syntax . <S>
+Our best models obtain competitive results in the high-resource setting and state-of-the-art results in the low resource setting , 
+reaching 72.48 % F1 averaged across languages . <S>
+We release our code for this work along with a larger toolkit 
+for specifying arbitrary graphical structure . <S>

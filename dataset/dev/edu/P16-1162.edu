@@ -1,0 +1,21 @@
+Neural machine translation ( NMT ) models typically operate with a fixed vocabulary , 
+but translation is an open-vocabulary problem . <S>
+Previous work addresses the translation of out-of-vocabulary words 
+by backing off to a dictionary . <S>
+In this paper , we introduce a simpler and more effective approach , 
+making the NMT model capable of open-vocabulary translation 
+by encoding rare and unknown words as sequences of subword units . <S>
+This is based on the intuition 
+that various word classes are translatable 
+via smaller units than words , 
+for instance names 
+( via character copying or transliteration ) , 
+compounds 
+( via compositional translation ) , 
+and cognates and loanwords 
+( via phonological and morphological transformations ) . <S>
+We discuss the suitability of different word segmentation techniques , 
+including simple character ngram models and a segmentation 
+based on the byte pair encoding compression algorithm , 
+and empirically show 
+that subword models improve over a back-off dictionary baseline for the WMT 15 translation tasks English-German and English-Russian by up to 1.1 and 1.3 BLEU , respectively . <S> 

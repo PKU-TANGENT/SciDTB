@@ -1,0 +1,82 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 6,
+			"text": "Accurate scoring of syntactic structures such as head-modifier arcs in dependency parsing typically requires rich , high-dimensional feature representations . <S>\r",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 6,
+			"text": "A small subset of such features is often selected manually . <S>\r",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "This is problematic \r",
+			"relation": "contrast"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "when features lack clear linguistic meaning as in embeddings \r",
+			"relation": "condition"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "or when the information is blended across features . <S>\r",
+			"relation": "condition"
+		},
+		{
+			"id": 6,
+			"parent": 0,
+			"text": "In this paper , we use tensors \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "to map high-dimensional feature vectors into low dimensional representations . <S>\r",
+			"relation": "enablement"
+		},
+		{
+			"id": 8,
+			"parent": 6,
+			"text": "We explicitly maintain the parameters as a low-rank tensor \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "to obtain low dimensional representations of words in their syntactic roles , \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "and to leverage modularity in the tensor for easy training with online algorithms . <S>\r",
+			"relation": "joint"
+		},
+		{
+			"id": 11,
+			"parent": 6,
+			"text": "Our parser consistently outperforms the Turbo and MST parsers across 14 different languages . <S>\r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 12,
+			"parent": 6,
+			"text": "We also obtain the best published UAS results on 5 languages . <S>\r",
+			"relation": "evaluation"
+		}
+	]
+}

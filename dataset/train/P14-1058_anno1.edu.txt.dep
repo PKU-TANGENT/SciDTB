@@ -1,0 +1,130 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 2,
+			"text": "Although the distributional hypothesis has been applied successfully in many natural language processing tasks , \r",
+			"relation": "contrast"
+		},
+		{
+			"id": 2,
+			"parent": 12,
+			"text": "systems \r",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "using distributional information \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 2,
+			"text": "have been limited to a single domain \r",
+			"relation": "same-unit"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "because the distribution of a word can vary between domains \r",
+			"relation": "exp-reason"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "as the word's predominant meaning changes . <S>\r",
+			"relation": "temporal"
+		},
+		{
+			"id": 7,
+			"parent": 8,
+			"text": "However , if it were possible to predict how the distribution of a word changes from one domain to another , \r",
+			"relation": "condition"
+		},
+		{
+			"id": 8,
+			"parent": 12,
+			"text": "the predictions could be used \r",
+			"relation": "bg-general"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "to adapt a system \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "trained in one domain \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 9,
+			"text": "to work in another . <S>\r",
+			"relation": "same-unit"
+		},
+		{
+			"id": 12,
+			"parent": 0,
+			"text": "We propose an unsupervised method \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "to predict the distribution of a word in one domain , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "given its distribution in another domain . <S>\r",
+			"relation": "bg-general"
+		},
+		{
+			"id": 15,
+			"parent": 12,
+			"text": "We evaluate our method on two tasks : \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "cross-domain part-of-speech tagging and cross-domain sentiment classification . <S>\r",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 17,
+			"parent": 15,
+			"text": "In both tasks , our method significantly outperforms competitive baselines \r",
+			"relation": "cause"
+		},
+		{
+			"id": 18,
+			"parent": 17,
+			"text": "and returns results \r",
+			"relation": "joint"
+		},
+		{
+			"id": 19,
+			"parent": 18,
+			"text": "that are statistically comparable to current state-of-the-art methods , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 20,
+			"parent": 19,
+			"text": "while requiring no task-specific customisations . <S>\r",
+			"relation": "elab-addition"
+		}
+	]
+}

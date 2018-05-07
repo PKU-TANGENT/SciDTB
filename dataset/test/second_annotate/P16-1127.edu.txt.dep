@@ -1,0 +1,124 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We propose an approach for semantic parsing ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "that uses a recurrent neural network ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "to map a natural language question into a logical form representation of a KB query . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 4,
+			"parent": 5,
+			"text": "Building on recent work by ( Wang et al. , 2015 ) , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 1,
+			"text": "the interpretable logical forms , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "which are structured objects ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "obeying certain constraints , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 5,
+			"text": "are enumerated by an underlying grammar ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "and are paired with their canonical realizations . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 10,
+			"parent": 11,
+			"text": "In order to use sequence prediction , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 11,
+			"parent": 1,
+			"text": "we need to sequentialize these logical forms . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "We compare three sequentializations : ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "a direct linearization of the logical form , a linearization of the associated canonical realization , and a sequence ",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "consisting of derivation steps relative to the underlying grammar . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 16,
+			"text": "We also show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 16,
+			"parent": 1,
+			"text": "how grammatical constraints on the derivation sequence can easily be integrated inside the RNNbased sequential predictor . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 17,
+			"parent": 1,
+			"text": "Our experiments show important improvements over previous results for the same dataset , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 18,
+			"parent": 17,
+			"text": "and also demonstrate the advantage ",
+			"relation": "progression"
+		},
+		{
+			"id": 19,
+			"parent": 18,
+			"text": "of incorporating the grammatical constraints . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

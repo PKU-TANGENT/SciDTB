@@ -1,0 +1,112 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We present a discriminative model for single-document summarization ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "that integrally combines compression and anaphoricity constraints . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "Our model selects textual units ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "to include in the summary ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "based on a rich set of sparse features ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "whose weights are learned on a large corpus . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 1,
+			"text": "We allow for the deletion of content within a sentence ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "when that deletion is licensed by compression rules ; ",
+			"relation": "temporal"
+		},
+		{
+			"id": 9,
+			"parent": 7,
+			"text": "in our framework , these are implemented as dependencies between subsentential units of text . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 10,
+			"parent": 1,
+			"text": "Anaphoricity constraints then improve cross-sentence coherence ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 11,
+			"parent": 14,
+			"text": "by guaranteeing ",
+			"relation": "attribution"
+		},
+		{
+			"id": 12,
+			"parent": 14,
+			"text": "that , for each pronoun ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "included in the summary , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 10,
+			"text": "the pronoun 's antecedent is included as well ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "or the pronoun is rewritten as a full mention . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 16,
+			"parent": 17,
+			"text": "When trained end-to-end , ",
+			"relation": "temporal"
+		},
+		{
+			"id": 17,
+			"parent": 1,
+			"text": "our final system outperforms prior work on both ROUGE as well as on human judgments of linguistic quality . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

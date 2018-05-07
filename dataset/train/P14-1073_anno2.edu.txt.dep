@@ -1,0 +1,82 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 5,
+			"text": "Entity clustering must determine when two named-entity mentions refer to the same entity . <S>\r",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "Typical approaches use a pipeline architecture \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "that clusters the mentions \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "using fixed or learned measures of name and context similarity . <S>\r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 5,
+			"parent": 0,
+			"text": "In this paper , we propose a model for cross-document coreference resolution \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "that achieves robustness \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "by learning similarity from unlabeled data . <S>\r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 8,
+			"parent": 5,
+			"text": "The generative process assumes \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "that each entity mention arises from copying and optionally mutating an earlier name from a similar context . <S>\r",
+			"relation": "attribution"
+		},
+		{
+			"id": 10,
+			"parent": 5,
+			"text": "Clustering the mentions into entities depends on recovering this copying tree jointly \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "with estimating models of the mutation process and parent selection process . <S>\r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 12,
+			"parent": 5,
+			"text": "We present a block Gibbs sampler for posterior inference and an empirical evaluation on several datasets . <S>\r",
+			"relation": "evaluation"
+		}
+	]
+}

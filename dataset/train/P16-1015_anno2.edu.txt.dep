@@ -1,0 +1,52 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "In this paper , we present a generalized transition-based parsing framework ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "where parsers are instantiated in terms of a set of control parameters ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "that constrain transitions between parser states . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "This generalization provides a unified framework ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "to describe and compare various transitionbased parsing approaches from both a theoretical and empirical perspective . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "This includes well-known transition systems , ",
+			"relation": "elab-example"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "but also previously unstudied systems . <S>",
+			"relation": "progression"
+		}
+	]
+}

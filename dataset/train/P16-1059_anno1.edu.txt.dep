@@ -1,0 +1,64 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 5,
+			"text": "Entity resolution is the task ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "of linking each mention of an entity in text to the corresponding record in a knowledge base ( KB ) . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "Coherence models for entity resolution encourage all referring expressions in a document to resolve to entities ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "that are related in the KB . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 0,
+			"text": "We explore attentionlike mechanisms for coherence , ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "where the evidence for each candidate is based on a small set of strong relations , rather than relations to all other entities in the document . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 5,
+			"text": "The rationale is that documentwide support may simply not exist for non-salient entities , or entities ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "not densely connected in the KB . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 5,
+			"text": "Our proposed system outperforms state-of-the-art systems on the CoNLL 2003 , TAC KBP 2010 , 2011 and 2012 tasks . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

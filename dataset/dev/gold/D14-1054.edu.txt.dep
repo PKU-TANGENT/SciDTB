@@ -1,0 +1,118 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "In this paper , we propose a joint segmentation and classification framework for sentiment analysis . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "Existing sentiment classification algorithms typically split a sentence as a word sequence , ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "which does not effectively handle the inconsistent sentiment polarity between a phrase and the words ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "it contains , such as \" not bad\"  and \" a great deal of \" . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 2,
+			"text": "We address this issue ",
+			"relation": "result"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "by developing a joint segmentation and classification framework ( JSC ) , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "which simultaneously conducts sentence segmentation and sentence-level sentiment classification . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 6,
+			"text": "Specifically , we use a log-linear model ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "to score each segmentation candidate , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 10,
+			"parent": 8,
+			"text": "and exploit the phrasal information of top-ranked segmentations as features ",
+			"relation": "joint"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "to build the sentiment classifier . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 12,
+			"parent": 8,
+			"text": "A marginal log-likelihood objective function is devised for the segmentation model , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "which is optimized for enhancing the sentiment classification performance . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 12,
+			"text": "The joint model is trained ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "only based on the annotated sentiment polarity of sentences , ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "without any segmentation annotations . <S>",
+			"relation": "contrast"
+		},
+		{
+			"id": 17,
+			"parent": 18,
+			"text": "Experiments on a benchmark Twitter sentiment classification dataset in SemEval 2013 show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 18,
+			"parent": 1,
+			"text": "that , our joint model performs comparably with the state-of-the-art methods . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

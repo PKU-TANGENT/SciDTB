@@ -1,0 +1,17 @@
+Text classification methods for tasks like factoid question answering typically use manually defined string matching rules or bag of words representations . <S>
+These methods are ineffective 
+when question text contains very few individual words 
+( e.g. , named entities ) 
+that are indicative of the answer . <S>
+We introduce a recursive neural network ( rnn ) model 
+that can reason over such input 
+by modeling textual compositionality . <S>
+We apply our model , qanta , to a dataset of questions from a trivia competition 
+called quiz bowl . <S>
+Unlike previous rnn models , 
+qanta learns word and phrase-level representations 
+that combine across sentences 
+to reason about entities . <S>
+The model outperforms multiple baselines 
+and , when combined with information retrieval methods , 
+ri-vals the best human players . <S>

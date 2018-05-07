@@ -1,0 +1,11 @@
+Broad-coverage relation extraction either requires expensive supervised training data , 
+or suffers from drawbacks inherent to distant supervision . <S>
+We present an approach 
+for providing partial supervision to a distantly supervised relation extractor 
+using a small number of carefully selected examples . <S>
+We compare against established active learning criteria 
+and propose a novel criterion to sample examples 
+which are both uncertain and representative . <S>
+In this way , we combine the benefits of fine-grained supervision for difficult examples with the coverage of a large distantly supervised corpus . <S>
+Our approach gives a substantial increase of 3.9 % end-to-end F1 on the 2013 KBP Slot Filling evaluation , 
+yielding a net F1 of 37.7 % . <S>

@@ -1,0 +1,88 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "In this paper , we propose a novel neural network model ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "called RNN Encoder- Decoder ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "that consists of two recurrent neural networks ( RNN ) . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "One RNN encodes a sequence of symbols into a fixed-length vector representation , ",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "and the other decodes the representation into another sequence of symbols . <S>",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "The encoder and decoder of the proposed model are jointly trained ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "to maximize the conditional probability of a target sequence ",
+			"relation": "enablement"
+		},
+		{
+			"id": 8,
+			"parent": 6,
+			"text": "given a source sequence . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 9,
+			"parent": 1,
+			"text": "The performance of a statistical machine translation system is empirically found to improve ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "by using the conditional probabilities of phrase pairs ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "computed by the RNN Encoder-Decoder as an additional feature in the existing log-linear model . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 13,
+			"text": "Qualitatively , we show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 13,
+			"parent": 9,
+			"text": "that the proposed model learns a semantically and syntactically meaningful representation of linguistic phrases . <S>",
+			"relation": "progression"
+		}
+	]
+}

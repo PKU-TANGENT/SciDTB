@@ -1,0 +1,118 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "Analyses of filler-gap dependencies usually involve complex syntactic rules or heuristics ; \r",
+			"relation": "contrast"
+		},
+		{
+			"id": 2,
+			"parent": 3,
+			"text": "however recent results suggest \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 3,
+			"parent": 4,
+			"text": "that filler-gap comprehension begins earlier than seemingly simpler constructions such as ditransitives or passives . <S>\r",
+			"relation": "result"
+		},
+		{
+			"id": 4,
+			"parent": 0,
+			"text": "Therefore , this work models filler-gap acquisition as a byproduct \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "of learning word orderings \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "( e.g. SVO vs OSV ) , \r",
+			"relation": "elab-example"
+		},
+		{
+			"id": 7,
+			"parent": 5,
+			"text": "which must be done at a very young age anyway \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "in order to extract meaning from language . <S>\r",
+			"relation": "enablement"
+		},
+		{
+			"id": 9,
+			"parent": 4,
+			"text": "Specifically , this model , \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "trained on part-of-speech tags , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 9,
+			"text": "represents the preferred locations of semantic roles relative to a verb as Gaussian mix-tures over real numbers . <S>\r",
+			"relation": "same-unit"
+		},
+		{
+			"id": 12,
+			"parent": 4,
+			"text": "This approach learns role assignment in filler-gap constructions in a manner \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "consistent with current developmental findings \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 12,
+			"text": "and is extremely robust to initialization variance . <S>\r",
+			"relation": "joint"
+		},
+		{
+			"id": 15,
+			"parent": 4,
+			"text": "Additionally , this model is shown to be able to account for a characteristic error \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "made by learners \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 17,
+			"parent": 15,
+			"text": "during this period \r",
+			"relation": "temporal"
+		},
+		{
+			"id": 18,
+			"parent": 15,
+			"text": "( A and B gorped interpreted as A gorped B ) . <S>\r",
+			"relation": "elab-example"
+		}
+	]
+}

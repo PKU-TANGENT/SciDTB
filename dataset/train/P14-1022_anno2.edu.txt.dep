@@ -1,0 +1,112 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We present a parser \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "that relies primarily on extracting information directly from surface spans \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "rather than on propagating information \r",
+			"relation": "contrast"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "through enriched grammar structure . <S>\r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 5,
+			"parent": 7,
+			"text": "For example , instead of creating separate grammar symbols \r",
+			"relation": "contrast"
+		},
+		{
+			"id": 6,
+			"parent": 7,
+			"text": "to mark the definiteness of an NP , \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 7,
+			"parent": 2,
+			"text": "our parser might instead capture the same information from the first word of the NP . <S>\r",
+			"relation": "elab-example"
+		},
+		{
+			"id": 8,
+			"parent": 1,
+			"text": "Moving context out of the grammar and onto surface features can greatly simplify the structural component of the parser : \r",
+			"relation": "bg-general"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "because so many deep syntactic cues have surface reflexes , \r",
+			"relation": "exp-reason"
+		},
+		{
+			"id": 10,
+			"parent": 1,
+			"text": "our system can still parse accurately with context-free backbones as minimal as X-bar grammars . <S>\r",
+			"relation": "elab-example"
+		},
+		{
+			"id": 11,
+			"parent": 1,
+			"text": "Keeping the structural backbone simple and moving features to the surface also allows easy adaptation to new languages and even to new tasks . <S>\r",
+			"relation": "bg-general"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "On the SPMRL 2013 multilingual constituency parsing shared task ( Seddah et al. , 2013 ) , our system outperforms the top single parser system of Björkelund et al. ( 2013 ) on a range of languages . <S>\r",
+			"relation": "exp-evidence"
+		},
+		{
+			"id": 13,
+			"parent": 14,
+			"text": "In addition, despite being designed for syntactic analysis , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 1,
+			"text": "our system also achieves state-of-the-art numbers on the structural sentiment task of Socher et al. ( 2013 ) . <S>\r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 15,
+			"parent": 16,
+			"text": "Finally , we show \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 16,
+			"parent": 1,
+			"text": "that , in both syntactic parsing and sentiment analysis , many broad linguistic trends can be captured \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 17,
+			"parent": 16,
+			"text": "via surface features . <S>\r",
+			"relation": "manner-means"
+		}
+	]
+}

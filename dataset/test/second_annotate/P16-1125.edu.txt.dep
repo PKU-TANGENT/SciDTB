@@ -1,0 +1,142 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "In this work , we propose a novel method ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "to incorporate corpus-level discourse information into language modelling . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "We call this larger-context language model . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "We introduce a late fusion approach to a recurrent language model ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "based on long short term memory units ( LSTM ) , ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "which helps the LSTM unit keep intra-sentence dependencies and inter-sentence dependencies separate from each other . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 9,
+			"text": "Through the evaluation on four corpora ( IMDB , BBC , Penn TreeBank , and Fil9 ) , ",
+			"relation": "result"
+		},
+		{
+			"id": 8,
+			"parent": 9,
+			"text": "we demonstrate ",
+			"relation": "attribution"
+		},
+		{
+			"id": 9,
+			"parent": 1,
+			"text": "that the proposed model improves perplexity significantly . <S>",
+			"relation": "evaluation"
+		},
+		{
+			"id": 10,
+			"parent": 13,
+			"text": "In the experiments , we evaluate the proposed approach ",
+			"relation": "progression"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "while varying the number of context sentences ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 13,
+			"text": "and observe ",
+			"relation": "attribution"
+		},
+		{
+			"id": 13,
+			"parent": 1,
+			"text": "that the proposed late fusion is superior to the usual way ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "of incorporating additional inputs to the LSTM . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 17,
+			"text": "By analyzing the trained larger-context language model , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 16,
+			"parent": 17,
+			"text": "we discover ",
+			"relation": "attribution"
+		},
+		{
+			"id": 17,
+			"parent": 1,
+			"text": "that content words , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 18,
+			"parent": 17,
+			"text": "including nouns , adjectives and verbs , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 19,
+			"parent": 17,
+			"text": "benefit most from an increasing number of context sentences . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 20,
+			"parent": 21,
+			"text": "This analysis suggests ",
+			"relation": "attribution"
+		},
+		{
+			"id": 21,
+			"parent": 1,
+			"text": "that larger-context language model improves the unconditional language model ",
+			"relation": "summary"
+		},
+		{
+			"id": 22,
+			"parent": 21,
+			"text": "by capturing the theme of a document better and more easily . <S>",
+			"relation": "manner-means"
+		}
+	]
+}

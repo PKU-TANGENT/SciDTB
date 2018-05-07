@@ -1,0 +1,64 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 2,
+			"text": "Demographic lexica have potential for widespread use in social science , economic , and business applications . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 0,
+			"text": "We derive predictive lexica ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "( words and weights ) ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 2,
+			"text": "for age and gender ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 2,
+			"text": "using regression and classification models from word usage in Facebook , blog , and Twitter data with associated demographic labels . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 6,
+			"parent": 2,
+			"text": "The lexica , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "made publicly available, ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 6,
+			"text": "achieved state-of-the-art accuracy in language based age and gender prediction over Facebook and Twitter , ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "and were evaluated for generalization across social media genres as well as in limited message situations . <S>",
+			"relation": "joint"
+		}
+	]
+}

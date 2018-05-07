@@ -1,0 +1,82 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This paper presents a novel training algorithm for a linearly-scored block sequence translation model . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "The key component is a new procedure ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "to directly optimize the global scoring function ",
+			"relation": "enablement"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "used by a SMT decoder . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 6,
+			"text": "No translation , language , or distortion model probabilities are used as in earlier work on SMT . <S>",
+			"relation": "result"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "Therefore our method , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "which employs less domain specific knowledge , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 6,
+			"text": "is both simpler and more extensible than previous approaches . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 9,
+			"parent": 6,
+			"text": "Moreover , the training procedure treats the decoder as a black-box , ",
+			"relation": "progression"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "and thus can be used ",
+			"relation": "result"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "to optimize any decoding scheme . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 12,
+			"parent": 1,
+			"text": "The training algorithm is evaluated on a standard Arabic-English translation task . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

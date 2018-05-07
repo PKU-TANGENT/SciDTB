@@ -1,0 +1,52 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We introduce a polynomial-time algorithm for statistical machine translation . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "This algorithm can be used in place of the expensive , slow best-first search strategies in current statistical translation architectures . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "The approach employs the stochastic bracketing transduction grammar ( SBTG ) model ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "we recently introduced ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "to replace earlier word alignment channel models , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "while retaining a bigram language model . <S>",
+			"relation": "temporal"
+		},
+		{
+			"id": 7,
+			"parent": 1,
+			"text": "The new algorithm in our experience yields major speed improvement with no significant loss of accuracy . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

@@ -1,0 +1,76 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "Statistical machine translation is quite robust ",
+			"relation": "contrast"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "when it comes to the choice of input representation . <S>",
+			"relation": "temporal"
+		},
+		{
+			"id": 3,
+			"parent": 4,
+			"text": "It only requires consistency between training and testing . <S>",
+			"relation": "result"
+		},
+		{
+			"id": 4,
+			"parent": 8,
+			"text": "As a result , there is a wide range of possible preprocessing choices for data ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "used in statistical machine translation . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "This is even more so for morphologically rich languages ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "such as Arabic . <S>",
+			"relation": "elab-example"
+		},
+		{
+			"id": 8,
+			"parent": 0,
+			"text": "In this paper , we study the effect of different word-level preprocessing schemes for Arabic on the quality of phrase-based statistical machine translation . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "We also present and evaluate different methods ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "for combining preprocessing schemes ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "resulting in improved translation quality . <S>  ",
+			"relation": "cause"
+		}
+	]
+}

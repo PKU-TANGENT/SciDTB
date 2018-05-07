@@ -1,0 +1,100 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We investigate grammatical error detection in spoken language , ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "and present a data-driven method ",
+			"relation": "joint"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "to train a dependency parser ",
+			"relation": "enablement"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "to automatically identify and label grammatical errors . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 5,
+			"parent": 2,
+			"text": "This method is agnostic to the label set used , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "and the only manual annotations ",
+			"relation": "joint"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "needed for training ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 6,
+			"text": "are grammatical error labels . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 9,
+			"parent": 1,
+			"text": "We find ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "that the proposed system is robust to disfluencies , ",
+			"relation": "attribution"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "so that a separate stage to elide disfluencies is not required . <S>",
+			"relation": "result"
+		},
+		{
+			"id": 12,
+			"parent": 1,
+			"text": "The proposed system outperforms two baseline systems on two different corpora ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "that use different sets of error tags . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 12,
+			"text": "It is able to identify utterances with grammatical errors with an F1-score as high as 0.623 , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "as compared to a baseline F1 of 0.350 on the same data . <S>",
+			"relation": "comparison"
+		}
+	]
+}

@@ -1,0 +1,88 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We cast sentence boundary detection and syntactic parsing as a joint problem , ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "so an entire text document forms a training instance for transition-based dependency parsing . <S>",
+			"relation": "cause"
+		},
+		{
+			"id": 3,
+			"parent": 5,
+			"text": "When trained with an early update or max-violation strategy for inexact search , ",
+			"relation": "condition"
+		},
+		{
+			"id": 4,
+			"parent": 5,
+			"text": "we observe ",
+			"relation": "attribution"
+		},
+		{
+			"id": 5,
+			"parent": 1,
+			"text": "that only a tiny part of these very long training instances is ever exploited . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "We demonstrate this effect ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "by extending the ArcStandard transition system with swap for the joint prediction task . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 8,
+			"parent": 9,
+			"text": "When we use an alternative update strategy , ",
+			"relation": "condition"
+		},
+		{
+			"id": 9,
+			"parent": 1,
+			"text": "our models are considerably better on both tasks ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "and train in substantially less time ",
+			"relation": "joint"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "compared to models ",
+			"relation": "comparison"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "trained with early update/max-violation . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 1,
+			"text": "A comparison between a standard pipeline and our joint model furthermore empirically shows the usefulness of syntactic information on the task of sentence boundary detection . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

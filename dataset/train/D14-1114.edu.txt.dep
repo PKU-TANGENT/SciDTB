@@ -1,0 +1,106 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 7,
+			"text": "Knowledge graphs are recently used ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "for enriching query representations in an entity-aware way for the rich facts ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "organized around entities in it . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "However , few of the methods pay attention to non-entity words ",
+			"relation": "contrast"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "and clicked websites in queries , ",
+			"relation": "joint"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "which also help conveying user intent . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 0,
+			"text": "In this paper , we tackle the problem of intent understanding with ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "innovatively representing entity words , refiners and clicked urls as intent topics in a unified knowledge graph based framework , in a way ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "to exploit and expand knowledge graph ",
+			"relation": "enablement"
+		},
+		{
+			"id": 10,
+			"parent": 8,
+			"text": "which we call \"tailor\" . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 7,
+			"text": "We collaboratively exploit global knowledge in knowledge graphs and local contexts in query log ",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "to initialize intent representation , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 13,
+			"parent": 7,
+			"text": "then propagate the enriched features in a graph ",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "consisting of intent topics ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 13,
+			"text": "using an unsupervised algorithm . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 16,
+			"parent": 7,
+			"text": "The experiments prove intent topics with knowledge graph enriched features significantly enhance intent understanding . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

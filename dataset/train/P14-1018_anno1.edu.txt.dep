@@ -1,0 +1,124 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 4,
+			"text": "Existing models for social media personal analytics assume access to thousands of messages per user , \r",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "even though most users author content only sporadically over time . <S>\r",
+			"relation": "contrast"
+		},
+		{
+			"id": 3,
+			"parent": 4,
+			"text": "Given this sparsity , \r",
+			"relation": "bg-general"
+		},
+		{
+			"id": 4,
+			"parent": 0,
+			"text": "we : ( i ) leverage content from the local neighborhood of a user ; \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "( ii ) evaluate batch models as a function of size and the amount of messages in various types of neighborhoods ; \r",
+			"relation": "progression"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "and ( iii ) estimate the amount of time and tweets \r",
+			"relation": "progression"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "required for a dynamic model \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "to predict user preferences . <S>\r",
+			"relation": "enablement"
+		},
+		{
+			"id": 9,
+			"parent": 11,
+			"text": "We show \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 10,
+			"parent": 11,
+			"text": "that even when limited or no self-authored data is available , \r",
+			"relation": "condition"
+		},
+		{
+			"id": 11,
+			"parent": 4,
+			"text": "language from friend , retweet and user mention communications provide sufficient evidence for prediction . <S>\r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 12,
+			"parent": 15,
+			"text": "When updating models over time \r",
+			"relation": "temporal"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "based on Twitter , \r",
+			"relation": "bg-general"
+		},
+		{
+			"id": 14,
+			"parent": 15,
+			"text": "we find \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 15,
+			"parent": 4,
+			"text": "that political preference can be often be predicted \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "using roughly 100 tweets , \r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 17,
+			"parent": 16,
+			"text": "depending on the context of user selection , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 18,
+			"parent": 16,
+			"text": "where this could mean hours , or weeks , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 19,
+			"parent": 18,
+			"text": "based on the author's tweeting frequency . <S>\r",
+			"relation": "bg-general"
+		}
+	]
+}

@@ -1,0 +1,94 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "In this paper we introduce a new game ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "to crowd-source natural language referring expressions . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 4,
+			"text": "By designing a two player game , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 4,
+			"parent": 2,
+			"text": "we can both collect and verify referring expressions directly within the game . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 1,
+			"text": "To date , the game has produced a dataset ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "containing 130,525 expressions , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "referring to 96,654 distinct objects , in 19,894 photographs of natural scenes . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 5,
+			"text": "This dataset is larger and more varied than previous REG datasets ",
+			"relation": "comparison"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "and allows us to study referring expressions in real-world scenes . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 10,
+			"parent": 1,
+			"text": "We provide an in depth analysis of the resulting dataset . <S>",
+			"relation": "evaluation"
+		},
+		{
+			"id": 11,
+			"parent": 12,
+			"text": "Based on our findings , ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 12,
+			"parent": 1,
+			"text": "we design a new optimization based model ",
+			"relation": "progression"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "for generating referring expressions ",
+			"relation": "enablement"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "and perform experimental evaluations on 3 test sets . <S>",
+			"relation": "joint"
+		}
+	]
+}

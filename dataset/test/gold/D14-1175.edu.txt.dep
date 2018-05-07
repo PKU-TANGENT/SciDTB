@@ -1,0 +1,70 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 4,
+			"text": "Translating into morphologically rich languages is a particularly difficult problem in machine translation ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "due to the high degree of inflectional ambiguity in the target language , ",
+			"relation": "cause"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "often only poorly captured by existing word translation models . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 0,
+			"text": "We present a general approach ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "that exploits source-side contexts of foreign words ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "to improve translation prediction accuracy . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 7,
+			"parent": 4,
+			"text": "Our approach is based on a probabilistic neural network ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "which does not require linguistic annotation nor manual feature engineering . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 4,
+			"text": "We report significant improvements in word translation prediction accuracy for three morphologically rich target languages . <S>",
+			"relation": "evaluation"
+		},
+		{
+			"id": 10,
+			"parent": 4,
+			"text": "In addition , preliminary results for integrating our approach into a large-scale English-Russian statistical machine translation system show small but statistically significant improvements in translation quality . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

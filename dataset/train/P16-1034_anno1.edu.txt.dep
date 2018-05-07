@@ -1,0 +1,88 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We present a novel dependency parsing method ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "which enforces two structural properties on dependency trees : ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "bounded block degree and well-nestedness . <S>",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 4,
+			"parent": 2,
+			"text": "These properties are useful to better represent the set of admissible dependency structures in treebanks ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "and connect dependency parsing to context-sensitive grammatical formalisms . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "We cast this problem as an Integer Linear Program ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "that we solve with Lagrangian Relaxation ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "from which we derive a heuristic and an exact method ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "based on a Branch-and-Bound search . <S>",
+			"relation": "bg-general"
+		},
+		{
+			"id": 10,
+			"parent": 11,
+			"text": "Experimentally , we see ",
+			"relation": "attribution"
+		},
+		{
+			"id": 11,
+			"parent": 1,
+			"text": "that these methods are efficient and competitive ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "compared to a baseline unconstrained parser , ",
+			"relation": "comparison"
+		},
+		{
+			"id": 13,
+			"parent": 11,
+			"text": "while enforcing structural properties in all cases . <S>",
+			"relation": "condition"
+		}
+	]
+}

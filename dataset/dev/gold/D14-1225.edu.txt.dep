@@ -1,0 +1,106 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We propose a novel search-based approach for greedy coreference resolution , ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "where the mentions are processed in order ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "and added to previous coreference clusters . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "Our method is distinguished by the use of two functions ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "to make each coreference decision : ",
+			"relation": "enablement"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "a pruning function ",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "that prunes bad coreference decisions from further consideration , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 6,
+			"text": "and a scoring function ",
+			"relation": "joint"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "that then selects the best among the remaining decisions . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 1,
+			"text": "Our framework reduces learning of these functions to rank learning , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "which helps leverage powerful off-the-shelf rank-learners . <S>",
+			"relation": "evaluation"
+		},
+		{
+			"id": 12,
+			"parent": 13,
+			"text": "We show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 13,
+			"parent": 1,
+			"text": "that our Prune-and-Score approach is superior to using a single scoring function ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "to make both decisions ",
+			"relation": "enablement"
+		},
+		{
+			"id": 15,
+			"parent": 13,
+			"text": "and outperforms several state-of-the-art approaches on multiple benchmark corpora ",
+			"relation": "joint"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "including OntoNotes . <S>",
+			"relation": "elab-example"
+		}
+	]
+}

@@ -1,0 +1,82 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This paper presents a novel approach ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "to improve reordering in phrase-based machine translation ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "by using richer , syntactic representations of units of bilingual language models ( BiLMs ) . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "Our method ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "to include syntactic information ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "is simple in implementation ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "and requires minimal changes in the decoding algorithm . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 8,
+			"parent": 1,
+			"text": "The approach is evaluated in a series of Arabic-English and Chinese-English translation experiments . <S>",
+			"relation": "evaluation"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "The best models demonstrate significant improvements in BLEU and TER over the phrase-based baseline , as well as over the lexicalized BiLM by Niehues et al. ( 2011 ) . <S>",
+			"relation": "elab-example"
+		},
+		{
+			"id": 10,
+			"parent": 8,
+			"text": "Further improvements of up to 0.45 BLEU for Arabic-English and up to 0.59 BLEU for Chinese-English are obtained ",
+			"relation": "elab-example"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "by combining our dependency BiLM with a lexicalized BiLM . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 12,
+			"parent": 8,
+			"text": "An improvement of 0.98 BLEU is obtained for Chinese-English in the setting of an increased distortion limit . <S>",
+			"relation": "elab-example"
+		}
+	]
+}

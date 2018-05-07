@@ -1,0 +1,82 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We propose a simple and effective approach ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "to learn translation spans for the hierarchical phrase-based translation model . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 4,
+			"text": "Our model evaluates ",
+			"relation": "attribution"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "if a source span should be covered by translation rules ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "during decoding , ",
+			"relation": "temporal"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "which is integrated into the translation system as soft constraints . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 8,
+			"text": "Compared to syntactic constraints , ",
+			"relation": "comparison"
+		},
+		{
+			"id": 8,
+			"parent": 1,
+			"text": "our model is directly acquired from an aligned parallel corpus ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "and does not require parsers . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 10,
+			"parent": 1,
+			"text": "Rich source side contextual features and advanced machine learning methods were utilized for this learning task . <S>",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 11,
+			"parent": 1,
+			"text": "The proposed approach was evaluated on NTCIR-9 Chinese-English and Japanese-English translation tasks ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "and showed significant improvement over the baseline system . <S>",
+			"relation": "joint"
+		}
+	]
+}

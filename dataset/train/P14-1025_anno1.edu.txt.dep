@@ -1,0 +1,88 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "Unsupervised word sense disambiguation ( WSD ) methods are an attractive approach to all-words WSD \r",
+			"relation": "bg-general"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "due to their non-reliance on expensive annotated data . <S>\r",
+			"relation": "exp-reason"
+		},
+		{
+			"id": 3,
+			"parent": 5,
+			"text": "Unsupervised estimates of sense frequency have been shown to be very useful for WSD \r",
+			"relation": "bg-general"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "due to the skewed nature of word sense distributions . <S>\r",
+			"relation": "exp-reason"
+		},
+		{
+			"id": 5,
+			"parent": 0,
+			"text": "This paper presents a fully unsupervised topic modelling-based approach to sense frequency estimation , \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "which is highly portable to different corpora and sense inventories , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "in being applicable to any part of speech , \r",
+			"relation": "joint"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "and not requiring a hierarchical sense inventory , parsing or parallel text . <S>\r",
+			"relation": "joint"
+		},
+		{
+			"id": 9,
+			"parent": 5,
+			"text": "We demonstrate the effectiveness of the method over the tasks of predominant sense learning and sense distribution acquisition , and also the novel tasks \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "of detecting senses \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "which aren't attested in the corpus , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 10,
+			"text": "and identifying novel senses in the corpus \r",
+			"relation": "joint"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "which aren't captured in the sense inventory . <S>\r",
+			"relation": "elab-addition"
+		}
+	]
+}

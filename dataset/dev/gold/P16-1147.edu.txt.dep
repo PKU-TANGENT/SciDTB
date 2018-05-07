@@ -1,0 +1,82 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 5,
+			"text": "Traditional syntax models typically leverage part-of-speech ( POS ) information ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "by constructing features from hand-tuned templates . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 3,
+			"parent": 4,
+			"text": "We demonstrate ",
+			"relation": "attribution"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "that a better approach is to utilize POS tags as a regularizer of learned representations . <S>",
+			"relation": "contrast"
+		},
+		{
+			"id": 5,
+			"parent": 0,
+			"text": "We propose a simple method ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "for learning a stacked pipeline of models ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "which we call `` stack-propagation '' . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 5,
+			"text": "We apply this to dependency parsing and tagging , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "where we use the hidden layer of the tagger network as a representation of the input tokens for the parser . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 5,
+			"text": "At test time , our parser does not require predicted POS tags . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 5,
+			"text": "On 19 languages from the Universal Dependencies , our method is 1.3 % ( absolute ) more accurate than a state-of-the-art graph-based approach ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "and 2.7 % more accurate than the most comparable greedy model . <S>",
+			"relation": "joint"
+		}
+	]
+}

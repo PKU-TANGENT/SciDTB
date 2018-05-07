@@ -1,0 +1,112 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 2,
+			"text": "Representing predicates in terms of their argument distribution is common practice in NLP . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 2,
+			"parent": 8,
+			"text": "Multi-word predicates ( MWPs ) in this context are often either disregarded \r",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "or considered as fixed expressions . <S>\r",
+			"relation": "joint"
+		},
+		{
+			"id": 4,
+			"parent": 8,
+			"text": "The latter treatment is unsatisfactory in two ways : \r",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "( 1 ) identifying MWPs is notoriously difficult , \r",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "( 2 ) MWPs show varying degrees of compositionality \r",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "and could benefit from taking into account the identity of their component parts . <S>\r",
+			"relation": "joint"
+		},
+		{
+			"id": 8,
+			"parent": 0,
+			"text": "We propose a novel approach \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "that integrates the distributional representation of multiple sub-sets of the MWP's words . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 8,
+			"text": "We assume a latent distribution over sub-sets of the MWP , \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "and estimate it relative to a downstream prediction task . <S>\r",
+			"relation": "joint"
+		},
+		{
+			"id": 12,
+			"parent": 13,
+			"text": "Focusing on the supervised identification of lexical inference relations , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 8,
+			"text": "we compare against state-of-the-art baselines \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "that consider a single sub-set of an MWP , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "obtaining substantial improvements . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 16,
+			"parent": 8,
+			"text": "To our knowledge , this is the first work \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 17,
+			"parent": 16,
+			"text": "to address lexical relations between MWPs of varying degrees of compositionality within distributional semantics . <S>\r",
+			"relation": "enablement"
+		}
+	]
+}

@@ -1,0 +1,11 @@
+Microblogs have recently received widespread interest from NLP researchers . <S>
+However , current tools for Japanese word segmentation and POS tagging still perform poorly on microblog texts . <S>
+We developed an annotated corpus 
+and proposed a joint model 
+for over-coming this situation . <S>
+Our annotated corpus of microblog texts enables not only training of accurate statistical models 
+but also quantitative evaluation of their performance . <S>
+Our joint model with lexical normalization handles the orthographic diversity of microblog texts . <S>
+We conducted an experiment 
+to demonstrate 
+that the corpus and model substantially contribute to boosting accuracy . <S>

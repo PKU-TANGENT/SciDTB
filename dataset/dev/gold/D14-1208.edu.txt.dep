@@ -1,0 +1,94 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 7,
+			"text": "Distant supervision , a paradigm of relation extraction ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "where training data is created ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "by aligning facts in a database with a large unannotated corpus , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "is an attractive approach for training relation extractors . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 5,
+			"parent": 1,
+			"text": "Various models are proposed in recent literature ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "to align the facts in the database to their mentions in the corpus . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 7,
+			"parent": 0,
+			"text": "In this paper , we discuss and critically analyse a popular alignment strategy ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "called the \"at least one\" heuristic . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 7,
+			"text": "We provide a simple , yet effective relaxation to this strategy . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "We formulate the inference procedures in training as integer linear programming ( ILP ) problems ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "and implement the relaxation to the \"at least one \" heuristic ",
+			"relation": "progression"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "via a soft constraint in this formulation . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 13,
+			"parent": 14,
+			"text": "Empirically , we demonstrate ",
+			"relation": "attribution"
+		},
+		{
+			"id": 14,
+			"parent": 7,
+			"text": "that this simple strategy leads to a better performance under certain settings over the existing approaches . <S> ",
+			"relation": "evaluation"
+		}
+	]
+}

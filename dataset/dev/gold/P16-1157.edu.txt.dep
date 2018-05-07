@@ -1,0 +1,88 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "Despite interest in using cross-lingual knowledge ",
+			"relation": "contrast"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "to learn word embeddings for various tasks , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 4,
+			"text": "a systematic comparison of the possible approaches is lacking in the literature . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 4,
+			"parent": 0,
+			"text": "We perform an extensive evaluation of four popular approaches ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "of inducing cross-lingual embeddings , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "each requiring a different form of supervision , on four typologically different language pairs . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 10,
+			"text": "Our evaluation setup spans four different tasks , ",
+			"relation": "result"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "including intrinsic evaluation on mono-lingual and cross-lingual similarity , and extrinsic evaluation on downstream semantic and syntactic applications . <S>",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 9,
+			"parent": 10,
+			"text": "We show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 10,
+			"parent": 4,
+			"text": "that models ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "which require expensive cross-lingual knowledge ",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 12,
+			"parent": 10,
+			"text": "almost always perform better , ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 13,
+			"parent": 10,
+			"text": "but cheaply supervised models often prove competitive on certain tasks . <S> ",
+			"relation": "contrast"
+		}
+	]
+}

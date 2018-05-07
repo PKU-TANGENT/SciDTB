@@ -1,0 +1,82 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We investigate the utility of supertag information ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "for guiding an existing dependency parser of German . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 4,
+			"text": "Using weighted constraints to integrate the additionally available information , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "the decision process of the parser is influenced ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "by changing its preferences , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "without excluding alternative structural interpretations from being considered . <S>",
+			"relation": "condition"
+		},
+		{
+			"id": 7,
+			"parent": 1,
+			"text": "The paper reports on a series of experiments ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "using varying models of supertags ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "that significantly increase the parsing accuracy . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 1,
+			"text": "In addition , an upper bound on the accuracy ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "that can be achieved with perfect supertags ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 10,
+			"text": "is estimated . <S>",
+			"relation": "same-unit"
+		}
+	]
+}

@@ -1,0 +1,100 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 2,
+			"text": "Due to their origin in computer graphics , \r",
+			"relation": "exp-evidence"
+		},
+		{
+			"id": 2,
+			"parent": 10,
+			"text": "graphics processing units ( GPUs ) are highly optimized for dense problems , \r",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "where the exact same operation is applied repeatedly to all data points . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 10,
+			"text": "Natural language processing algorithms , on the other hand , are traditionally constructed in ways \r",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "that exploit structural sparsity . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 10,
+			"text": "Recently , Canny et al ( 2013 ) presented an approach to GPU parsing \r",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "that sacrifices traditional sparsity in exchange for raw computational power , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "obtaining a system \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "that can compute Viterbi parses for a high-quality grammar at about 164 sentences per second on a mid-range GPU . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 0,
+			"text": "In this work , we reintroduce sparsity to GPU parsing \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "by adapting a coarse-to-fine pruning approach to the constraints of a GPU . <S>\r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 12,
+			"parent": 10,
+			"text": "The resulting system is capable of computing over 404 Viterbi parses per second more than a 2x speedup on the same hardware . <S>\r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 13,
+			"parent": 10,
+			"text": "Moreover , our approach allows us to efficiently implement less GPU-friendly minimum Bayes risk inference , \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "improving throughput for this more accurate algorithm from only 32 sentences per second unpruned to over 190 sentences per second \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "using pruning nearly a 6x speedup . <S>\r",
+			"relation": "manner-means"
+		}
+	]
+}

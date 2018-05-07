@@ -1,0 +1,76 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 5,
+			"text": "Previous work often used a pipelined framework ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "where Chinese word segmentation is followed by term extraction and keyword extraction . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "Such framework suffers from error propagation ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "and is unable to leverage information in later modules for prior components . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 5,
+			"parent": 0,
+			"text": "In this paper , we propose a four-level Dirichlet Process based model ( DP-4 ) ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "to jointly learn the word distributions from the corpus , domain and document levels simultaneously . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 7,
+			"parent": 8,
+			"text": "Based on the DP-4 model , ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 8,
+			"parent": 5,
+			"text": "a sentence-wise Gibbs sampler is adopted ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "to obtain proper segmentation results . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 10,
+			"parent": 5,
+			"text": "Meanwhile , terms and keywords are acquired in the sampling process . <S>",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 11,
+			"parent": 5,
+			"text": "Experimental results have shown the effectiveness of our method . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

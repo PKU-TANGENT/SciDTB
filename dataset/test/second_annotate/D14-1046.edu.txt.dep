@@ -1,0 +1,76 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This paper reports on the development of a hybrid and simple method ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "based on a machine learning classifier ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "( Naive Bayes ) , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 2,
+			"text": "Word Sense Disambiguation and rules , ",
+			"relation": "joint"
+		},
+		{
+			"id": 5,
+			"parent": 1,
+			"text": "for the automatic assignment of WordNet Domains to nominal entries of a lexicographic dictionary , the Senso Comune De Mauro Lexicon . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "The system obtained an F1 score of 0.58 , with a Precision of 0.70 . <S>",
+			"relation": "evaluation"
+		},
+		{
+			"id": 7,
+			"parent": 1,
+			"text": "We further used the automatically assigned domains ",
+			"relation": "progression"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "to filter out word sense alignments between MultiWordNet and Senso Comune . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 9,
+			"parent": 7,
+			"text": "This has led to an improvement in the quality of the sense alignments ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "showing the validity of the approach for domain assignment and the importance of domain information ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "for achieving good sense alignments . <S>",
+			"relation": "enablement"
+		}
+	]
+}

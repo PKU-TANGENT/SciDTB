@@ -1,0 +1,88 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 4,
+			"text": "Inspired by previous work , ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "where decipherment is used ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "to improve machine translation , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 4,
+			"parent": 0,
+			"text": "we propose a new idea ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "to combine word alignment and decipherment into a single learning process . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "We use EM ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "to estimate the model parameters , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "not only to maximize the probability of parallel corpus , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "but also the monolingual corpus . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 10,
+			"parent": 4,
+			"text": "We apply our approach ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "to improve Malagasy-English machine translation , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "where only a small amount of parallel data is available . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 4,
+			"text": "In our experiments , we observe gains of 0.9 to 2.1 Bleu over a strong baseline . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

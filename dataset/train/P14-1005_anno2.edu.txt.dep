@@ -1,0 +1,58 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We investigate different ways of learning structured perceptron models for coreference resolution \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "when using non-local features and beam search . <S>\r",
+			"relation": "temporal"
+		},
+		{
+			"id": 3,
+			"parent": 4,
+			"text": "Our experimental results indicate \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "that standard techniques such as early updates or Learning as Search Optimization ( LaSO ) perform worse than a greedy baseline \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "that only uses local features . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 7,
+			"text": "By modifying LaSO to delay updates until the end of each instance \r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 7,
+			"parent": 3,
+			"text": "we obtain significant improvements over the baseline . <S>\r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 8,
+			"parent": 3,
+			"text": "Our model obtains the best results to date on recent shared task data for Arabic , Chinese , and English . <S>\r",
+			"relation": "evaluation"
+		}
+	]
+}

@@ -1,0 +1,70 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "This paper addresses the problem of speech act recognition in written asynchronous conversations ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "( e.g. , fora , emails ) . <S>",
+			"relation": "elab-example"
+		},
+		{
+			"id": 3,
+			"parent": 0,
+			"text": "We propose a class of conditional structured models ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "defined over arbitrary graph structures ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "to capture the conversational dependencies between sentences . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 6,
+			"parent": 3,
+			"text": "Our models use sentence representations ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "encoded by a long short term memory ( LSTM ) recurrent neural model . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 9,
+			"text": "Empirical evaluation shows the effectiveness of our approach over existing ones : ",
+			"relation": "attribution"
+		},
+		{
+			"id": 9,
+			"parent": 3,
+			"text": "( i ) LSTMs provide better task-specific representations , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "and ( ii ) the global joint model improves over local models . <S>",
+			"relation": "joint"
+		}
+	]
+}

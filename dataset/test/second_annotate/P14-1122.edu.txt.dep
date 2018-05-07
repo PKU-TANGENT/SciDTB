@@ -1,0 +1,106 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 2,
+			"text": "Large-scale knowledge bases are important assets in NLP . <S>\r",
+			"relation": "bg-general"
+		},
+		{
+			"id": 2,
+			"parent": 5,
+			"text": "Frequently , such resources are constructed \r",
+			"relation": "contrast"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "through automatic mergers of complementary resources , \r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "such as WordNet and Wikipedia . <S>\r",
+			"relation": "elab-example"
+		},
+		{
+			"id": 5,
+			"parent": 7,
+			"text": "However , manually validating these resources is prohibitively expensive , \r",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "even when using methods such as crowdsourcing . <S>\r",
+			"relation": "condition"
+		},
+		{
+			"id": 7,
+			"parent": 0,
+			"text": "We propose a cost-effective method \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "of validating and extending knowledge bases \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "using video games with a purpose . <S>\r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 10,
+			"parent": 7,
+			"text": "Two video games were created \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "to validate concept-concept and concept-image relations . <S>\r",
+			"relation": "enablement"
+		},
+		{
+			"id": 12,
+			"parent": 14,
+			"text": "In experiments \r",
+			"relation": "same-unit"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "comparing with crowdsourcing , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 15,
+			"text": "we show \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 15,
+			"parent": 7,
+			"text": "that video game-based validation consistently leads to higher-quality annotations , \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "even when players are not compensated . <S>\r",
+			"relation": "condition"
+		}
+	]
+}

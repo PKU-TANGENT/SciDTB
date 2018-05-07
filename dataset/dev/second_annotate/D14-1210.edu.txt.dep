@@ -1,0 +1,88 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "Data-driven refinement of non-terminal categories has been demonstrated to be a reliable technique ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "for improving monolingual parsing with PCFGs . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 0,
+			"text": "In this paper , we extend these techniques ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "to learn latent refinements of single-category synchronous grammars , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "so as to improve translation performance . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 6,
+			"parent": 3,
+			"text": "We compare two estimators for this latent-variable model : ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "one based on EM and the other is a spectral algorithm ",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "based on the method of moments . <S>",
+			"relation": "bg-general"
+		},
+		{
+			"id": 9,
+			"parent": 11,
+			"text": "We evaluate their performance on a Chinese-English translation task . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 10,
+			"parent": 11,
+			"text": "The results indicate ",
+			"relation": "attribution"
+		},
+		{
+			"id": 11,
+			"parent": 3,
+			"text": "that we can achieve significant gains over the baseline with both approaches , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "but in particular the moments-based estimator is both faster ",
+			"relation": "contrast"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "and performs better than EM . <S>",
+			"relation": "joint"
+		}
+	]
+}

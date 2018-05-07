@@ -1,0 +1,46 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We propose WIDL-expressions as a flexible formalism ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "that facilitates the integration of a generic sentence realization system within end-to-end language processing applications . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "WIDL-expressions represent compactly probability distributions over finite sets of candidate realizations , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "and have optimal algorithms for realization via interpolation with language model probability distributions . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 5,
+			"parent": 1,
+			"text": "We show the effectiveness of a WIDL-based NLG system in two sentence realization tasks : ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "automatic translation and headline generation . <S>    ",
+			"relation": "elab-enum_member"
+		}
+	]
+}

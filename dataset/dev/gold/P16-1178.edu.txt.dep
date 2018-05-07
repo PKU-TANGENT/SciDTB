@@ -1,0 +1,100 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 6,
+			"text": "Online news editors ask themselves the same question many times : ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "what is missing in this news article ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "to go online ? <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "This is not an easy question ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "to be answered by computational linguistic methods . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 0,
+			"text": "In this work , we address this important question ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "and characterise the constituents of news article editorial quality . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 8,
+			"parent": 6,
+			"text": "More specifically , we identify 14 aspects ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "related to the content of news articles . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 6,
+			"text": "Through a correlation analysis , we quantify their independence and relation ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "to assessing an article 's editorial quality . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 12,
+			"parent": 13,
+			"text": "We also demonstrate ",
+			"relation": "attribution"
+		},
+		{
+			"id": 13,
+			"parent": 6,
+			"text": "that the identified aspects , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "when combined together , ",
+			"relation": "condition"
+		},
+		{
+			"id": 15,
+			"parent": 13,
+			"text": "can be used effectively in quality control methods for online news . <S> ",
+			"relation": "same-unit"
+		}
+	]
+}

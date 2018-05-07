@@ -1,0 +1,124 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 10,
+			"text": "State legislatures often rely on existing text ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "when drafting new bills . <S>",
+			"relation": "temporal"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "Resource and expertise constraints , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "which often drive this copying behavior , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "can be taken advantage of by lobbyists and special interest groups . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "These groups provide model bills , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "which encode policy agendas , with the intent ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "that the models become actual law . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 1,
+			"text": "Unfortunately , model legislation is often opaque to the public-both in source and content . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 0,
+			"text": "In this paper we present LOBBYBACK , a system ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "that reverse engineers model legislation from observed text . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 10,
+			"text": "LOBBYBACK identifies clusters of bills ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "which have text reuse ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 12,
+			"text": "and generates `` prototypes '' ",
+			"relation": "joint"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "that represent a canonical version of the text ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "shared between the documents . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 17,
+			"parent": 18,
+			"text": "We demonstrate ",
+			"relation": "attribution"
+		},
+		{
+			"id": 18,
+			"parent": 10,
+			"text": "that LOBBYBACK accurately reconstructs model legislation ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 19,
+			"parent": 18,
+			"text": "and apply it to a dataset of over 550k bills . <S>",
+			"relation": "joint"
+		}
+	]
+}

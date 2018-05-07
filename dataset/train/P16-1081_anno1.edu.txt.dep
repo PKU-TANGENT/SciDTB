@@ -1,0 +1,94 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 4,
+			"text": "Motivated by the findings in social science ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 3,
+			"text": "that people 's opinions are diverse and variable ",
+			"relation": "contrast"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "while together they are shaped by evolving social norms , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 0,
+			"text": "we perform personalized sentiment classification ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "via shared model adaptation over time . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "In our proposed solution , a global sentiment model is constantly updated ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "to capture the homogeneity ",
+			"relation": "enablement"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "in which users express opinions , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 6,
+			"text": "while personalized models are simultaneously adapted from the global model ",
+			"relation": "joint"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "to recognize the heterogeneity of opinions from individuals . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 11,
+			"parent": 4,
+			"text": "Global model sharing alleviates data sparsity issue , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "and individualized model adaptation enables efficient online model learning . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 13,
+			"parent": 14,
+			"text": "Extensive experimentations are performed on two large review collections from Amazon and Yelp , ",
+			"relation": "progression"
+		},
+		{
+			"id": 14,
+			"parent": 4,
+			"text": "and encouraging performance gain is achieved against several state-of-the-art transfer learning and multi-task learning based sentiment classification solutions . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

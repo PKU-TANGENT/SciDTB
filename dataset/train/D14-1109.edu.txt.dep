@@ -1,0 +1,82 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 4,
+			"text": "Dependency parsing with high-order features results in a provably hard decoding problem . <S> \r",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "A lot of work has gone into developing powerful optimization methods \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "for solving these combinatorial problems . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 0,
+			"text": "In contrast , we explore , analyze , and demonstrate \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "that a substantially simpler randomized greedy inference algorithm already suffices for near optimal parsing : \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "a) we analytically quantify the number of local optima \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "that the greedy method has to overcome in the context of first-order parsing ; \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 4,
+			"text": "b) we show \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "that , as a decoding algorithm , the greedy method surpasses dual decomposition in second-order parsing ; \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 10,
+			"parent": 4,
+			"text": "c) we empirically demonstrate \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "that our approach with up to third-order and global features outperforms the state-of-the-art dual decomposition and MCMC sampling methods \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "when evaluated on 14 languages of non-projective CoNLL datasets . <S>",
+			"relation": "temporal"
+		}
+	]
+}

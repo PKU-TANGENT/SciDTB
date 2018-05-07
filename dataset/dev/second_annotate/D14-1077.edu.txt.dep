@@ -1,0 +1,58 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "In this study , we analyzed the effects ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "of applying different levels of stemming approaches such as fixed-length word truncation and morphological analysis for multi-document summarization ( MDS ) on Turkish , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "which is an agglutinative and morphologically rich language . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 7,
+			"text": "We constructed a manually annotated MDS data set , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "and to our best knowledge , reported the first results on Turkish MDS . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 6,
+			"parent": 7,
+			"text": "Our results show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 7,
+			"parent": 1,
+			"text": "that a simple fixed-length word truncation approach performs slightly better than no stemming , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "whereas applying complex morphological analysis does not improve Turkish MDS . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

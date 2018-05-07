@@ -1,0 +1,82 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "Instructor intervention in student discussion forums is a vital component in Massive Open Online Courses ( MOOCs ) , \r",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "where personalized interaction is limited . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 0,
+			"text": "This paper introduces the problem \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "of predicting instructor interventions in MOOC forums . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "We propose several prediction models \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "designed to capture unique aspects of MOOCs , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 5,
+			"text": "combining course information , forum structure and posts content . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 5,
+			"text": "Our models abstract contents of individual posts of threads \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "using latent categories , \r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "learned jointly with the binary intervention prediction problem . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 12,
+			"text": "Experiments over data from two Coursera MOOCs demonstrate \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 12,
+			"parent": 3,
+			"text": "that incorporating the structure of threads into the learning problem leads to better predictive performance . <S>\r",
+			"relation": "evaluation"
+		}
+	]
+}

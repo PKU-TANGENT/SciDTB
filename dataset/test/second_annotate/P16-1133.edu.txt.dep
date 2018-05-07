@@ -1,0 +1,88 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 2,
+			"text": "Cross-lingual sentiment classification aims to adapt the sentiment resource in a resource-rich language to a resource-poor language . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 0,
+			"text": "In this study , we propose a representation learning approach ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "which simultaneously learns vector representations for the texts in both the source and the target languages . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 6,
+			"text": "Different from previous research ",
+			"relation": "contrast"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "which only gets bilingual word embedding , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 2,
+			"text": "our Bilingual Document Representation Learning model BiDRL directly learns document representations . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "Both semantic and sentiment correlations are utilized ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "to map the bilingual texts into the same embedding space . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 9,
+			"parent": 13,
+			"text": "The experiments are based on the multilingual multi-domain Amazon review dataset . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "We use English as the source language ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "and use Japanese , German and French as the target languages . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 12,
+			"parent": 13,
+			"text": "The experimental results show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 13,
+			"parent": 2,
+			"text": "that BiDRL outperforms the state-of-the-art methods for all the target languages . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

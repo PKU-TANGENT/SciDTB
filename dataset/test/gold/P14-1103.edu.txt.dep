@@ -1,0 +1,94 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We present a method \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "to jointly learn features and weights directly from distributional data in a log-linear framework . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "Specifically , we propose a non-parametric Bayesian model \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "for learning phonological markedness constraints directly from the distribution of input-output mappings in an Optimality Theory ( OT ) setting . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "The model uses an Indian Buffet Process \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "prior to learn the feature values \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "used in the log-linear method , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 5,
+			"text": "and is the first algorithm \r",
+			"relation": "joint"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "for learning phonological constraints \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "without presupposing constraint structure . <S>\r",
+			"relation": "condition"
+		},
+		{
+			"id": 11,
+			"parent": 3,
+			"text": "The model learns a system of constraints \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "that explains observed data as well as the phonologically-grounded constraints of a standard analysis , with a violation structure \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "corresponding to the standard constraints . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 3,
+			"text": "These results suggest an alternative data-driven source for constraints instead of a fully innate constraint set . <S>\r",
+			"relation": "evaluation"
+		}
+	]
+}

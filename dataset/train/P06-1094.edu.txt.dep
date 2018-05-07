@@ -1,0 +1,58 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "The paper presents a new model for contextdependent interpretation of linguistic expressions about spatial proximity between objects in a natural scene . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "The paper discusses novel psycholinguistic experimental data ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "that tests and verifies the model . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 2,
+			"text": "The model has been implemented , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "and enables a conversational robot ",
+			"relation": "joint"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "to identify objects in a scene through topological spatial relations ",
+			"relation": "enablement"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "( e.g. \"X near Y\" ) . <S>",
+			"relation": "elab-example"
+		},
+		{
+			"id": 8,
+			"parent": 2,
+			"text": "The model can help motivate the choice between topological and projective prepositions . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

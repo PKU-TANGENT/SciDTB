@@ -1,0 +1,94 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "State-of-the-art fact extraction is heavily constrained by recall , ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "as demonstrated by recent performance in TAC Slot Filling . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 0,
+			"text": "We isolate this recall loss for NE slots ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "by systematically analysing each stage of the slot filling pipeline as a filter over correct answers . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "Recall is critical ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "as candidates never generated can never be recovered , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "whereas precision can always be increased in downstream processing . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 3,
+			"text": "We provide precise , empirical confirmation of previously hypothesised sources of recall loss in slot filling . <S>",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 9,
+			"parent": 11,
+			"text": "While NE type constraints substantially reduce the search space with only a minor recall penalty , ",
+			"relation": "contrast"
+		},
+		{
+			"id": 10,
+			"parent": 11,
+			"text": "we find ",
+			"relation": "attribution"
+		},
+		{
+			"id": 11,
+			"parent": 14,
+			"text": "that 10 % to 39 % of slot fills will be entirely ignored by most systems . <S>",
+			"relation": "exp-evidence"
+		},
+		{
+			"id": 12,
+			"parent": 14,
+			"text": "One in six correct answers are lost ",
+			"relation": "contrast"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "if coreference is not used , ",
+			"relation": "condition"
+		},
+		{
+			"id": 14,
+			"parent": 3,
+			"text": "but this can be mostly retained by simple name matching rules . <S>",
+			"relation": "summary"
+		}
+	]
+}

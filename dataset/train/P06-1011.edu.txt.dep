@@ -1,0 +1,82 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We present a novel method ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "for extracting parallel sub-sentential fragments from comparable , non-parallel bilingual corpora . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 6,
+			"text": "By analyzing potentially similar sentence pairs ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "using a signal processinginspired approach , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 5,
+			"parent": 6,
+			"text": "we detect ",
+			"relation": "attribution"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "which segments of the source sentence are translated into segments in the target sentence , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "and which are not . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 8,
+			"parent": 1,
+			"text": "This method enables us to extract useful machine translation training data even from very non-parallel corpora , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "which contain no parallel sentence pairs . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 1,
+			"text": "We evaluate the quality of the extracted data ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 11,
+			"parent": 12,
+			"text": "by showing ",
+			"relation": "attribution"
+		},
+		{
+			"id": 12,
+			"parent": 10,
+			"text": "that it improves the performance of a state-of-the-art statistical machine translation system . <S>",
+			"relation": "manner-means"
+		}
+	]
+}

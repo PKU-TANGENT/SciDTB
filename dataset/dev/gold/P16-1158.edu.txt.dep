@@ -1,0 +1,100 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "Recent work has shown ",
+			"relation": "attribution"
+		},
+		{
+			"id": 2,
+			"parent": 3,
+			"text": "that simple vector subtraction over word embeddings is surprisingly effective at capturing different lexical relations , ",
+			"relation": "contrast"
+		},
+		{
+			"id": 3,
+			"parent": 7,
+			"text": "despite lacking explicit supervision . <S>",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 4,
+			"parent": 6,
+			"text": "Prior work has evaluated this intriguing result ",
+			"relation": "contrast"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "using a word analogy prediction formulation and hand-selected relations , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 6,
+			"parent": 7,
+			"text": "but the generality of the finding over a broader range of lexical relation types and different learning settings has not been evaluated . <S>",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 7,
+			"parent": 0,
+			"text": "In this paper , we carry out such an evaluation in two learning settings : ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "( 1 ) spectral clustering ",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "to induce word relations , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 10,
+			"parent": 7,
+			"text": "and ( 2 ) supervised learning ",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "to classify vector differences into relation types . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 12,
+			"parent": 13,
+			"text": "We find ",
+			"relation": "attribution"
+		},
+		{
+			"id": 13,
+			"parent": 7,
+			"text": "that word embeddings capture a surprising amount of information , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "and that , under suitable supervised training , vector subtraction generalises well to a broad range of relations , ",
+			"relation": "joint"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "including over unseen lexical items . <S>  ",
+			"relation": "elab-example"
+		}
+	]
+}

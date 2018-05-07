@@ -1,0 +1,106 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "In this paper , we propose a textual clue approach ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "to help metaphor detection , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "in order to improve the semantic processing of this figure . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "The previous works in the domain studied the semantic regularities only , ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "overlooking an obvious set of regularities . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "A corpus-based analysis shows the existence of surface regularities ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "related to metaphors . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 6,
+			"text": "These clues can be characterized by syntactic structures and lexical markers . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 1,
+			"text": "We present an object oriented model ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "for representing the textual clues ",
+			"relation": "enablement"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "that were found . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 9,
+			"text": "This representation is designed to help the choice of a semantic processing , in terms of possible non-literal meanings . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 15,
+			"text": "A prototype ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "implementing this model ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 1,
+			"text": "is currently under development , within an incremental approach ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "allowing step-by-step evaluations . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

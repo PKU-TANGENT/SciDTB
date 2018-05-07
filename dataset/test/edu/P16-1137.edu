@@ -1,0 +1,16 @@
+We enrich a curated resource of commonsense knowledge 
+by formulating the problem as one of knowledge base completion ( KBC ) . <S>
+Most work in KBC focuses on knowledge bases like Freebase 
+that relate entities 
+drawn from a fixed set . <S>
+However , the tuples in ConceptNet ( Speer and Havasi , 2012 ) define relations between an unbounded set of phrases . <S>
+We develop neural network models 
+for scoring tuples on arbitrary phrases 
+and evaluate them by their ability 
+to distinguish true held-out tuples from false ones . <S>
+We find strong performance from a bilinear model 
+using a simple additive architecture to model phrases . <S>
+We manually evaluate our trained model 's ability 
+to assign quality scores to novel tuples , 
+finding 
+that it can propose tuples at the same quality level as medium confidence tuples from ConceptNet . <S>

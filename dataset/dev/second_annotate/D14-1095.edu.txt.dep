@@ -1,0 +1,82 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 4,
+			"text": "We explore the impact of morphological segmentation on keyword spotting ( KWS ) . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 3,
+			"text": "Despite potential benefits , ",
+			"relation": "contrast"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "state-of-the-art KWS systems do not use morphological information . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 0,
+			"text": "In this paper , we augment a state-of-the-art KWS system with sub-word units ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "derived from supervised and unsupervised morphological segmentations , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "and compare with phonetic and syllabic segmentations . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 7,
+			"parent": 8,
+			"text": "Our experiments demonstrate ",
+			"relation": "attribution"
+		},
+		{
+			"id": 8,
+			"parent": 4,
+			"text": "that morphemes improve overall performance of KWS systems . <S>",
+			"relation": "evaluation"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "Syllabic units , however , rival the performance of morphological units ",
+			"relation": "contrast"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "when used in KWS . <S>",
+			"relation": "temporal"
+		},
+		{
+			"id": 11,
+			"parent": 12,
+			"text": "By combining morphological , phonetic and syllabic segmentations , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 12,
+			"parent": 4,
+			"text": "we demonstrate substantial performance gains . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

@@ -1,0 +1,136 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 10,
+			"text": "Languages with rich inflectional morphology exhibit lexical data sparsity , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "since the word ",
+			"relation": "exp-reason"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "used to express a given concept ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 2,
+			"text": "will vary with the syntactic context . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 5,
+			"parent": 1,
+			"text": "For instance , each count noun in Czech has 12 forms ",
+			"relation": "elab-example"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "( where English uses only singular and plural ) . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 5,
+			"text": "Even in large corpora , we are unlikely to observe all inflections of a given lemma . <S>",
+			"relation": "progression"
+		},
+		{
+			"id": 8,
+			"parent": 1,
+			"text": "This reduces the vocabulary coverage of methods ",
+			"relation": "result"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "that induce continuous representations for words from distributional corpus information . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 13,
+			"text": "We solve this problem ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "by exploiting existing morphological resources ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "that can enumerate a word 's component morphemes . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 0,
+			"text": "We present a latent variable Gaussian graphical model ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "that allows us to extrapolate continuous representations for words ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "not observed in the training corpus , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 16,
+			"parent": 14,
+			"text": "as well as smoothing the representations ",
+			"relation": "joint"
+		},
+		{
+			"id": 17,
+			"parent": 16,
+			"text": "provided for the observed words . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 18,
+			"parent": 13,
+			"text": "The latent variables represent embeddings of morphemes , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 19,
+			"parent": 18,
+			"text": "which combine to create embeddings of words . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 20,
+			"parent": 13,
+			"text": "Over several languages and training sizes , our model improves the embeddings for words , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 21,
+			"parent": 20,
+			"text": "when evaluated on an analogy task , skip-gram predictive accuracy , and word similarity . <S>  ",
+			"relation": "elab-addition"
+		}
+	]
+}

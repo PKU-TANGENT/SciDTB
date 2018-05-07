@@ -1,0 +1,112 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This paper presents a novel framework \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "called error case frames \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "for correcting preposition errors . <S>\r",
+			"relation": "enablement"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "They are case frames \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "specially designed for describing and correcting preposition errors . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "Their most distinct advantage is that they can correct errors with feedback messages \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "explaining why the preposition is erroneous . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 1,
+			"text": "This paper proposes a method \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "for automatically generating them \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "by comparing learner and native corpora . <S>\r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 11,
+			"parent": 1,
+			"text": "Experiments show \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "( i ) automatically generated error case frames achieve a performance comparable to conventional methods ; \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 13,
+			"parent": 11,
+			"text": "( ii ) error case frames are intuitively interpretable and manually modifiable to improve them ; \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 14,
+			"parent": 11,
+			"text": "( iii ) feedback messages provided by error case frames are effective in language learning assistance . <S>\r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 15,
+			"parent": 17,
+			"text": "Considering these advantages and the fact \r",
+			"relation": "condition"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "that it has been difficult to provide feedback messages by automatically generated rules , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 17,
+			"parent": 1,
+			"text": "error case frames will likely be one of the major approaches for preposition error correction . <S>\r",
+			"relation": "evaluation"
+		}
+	]
+}

@@ -1,0 +1,64 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "The introduction of dynamic oracles has considerably improved the accuracy of greedy transition-based dependency parsers , ",
+			"relation": "contrast"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "without sacrificing parsing efficiency . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 6,
+			"text": "However , this enhancement is limited to projective parsing , ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "and dynamic oracles have not yet been implemented for parsers ",
+			"relation": "joint"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "supporting non-projectivity . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 0,
+			"text": "In this paper we introduce the first such oracle , for a non-projective parser ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "based on Attardi's parser . <S>",
+			"relation": "bg-general"
+		},
+		{
+			"id": 8,
+			"parent": 9,
+			"text": "We show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 9,
+			"parent": 6,
+			"text": "that training with this oracle improves parsing accuracy over a conventional ( static ) oracle on a wide range of datasets . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

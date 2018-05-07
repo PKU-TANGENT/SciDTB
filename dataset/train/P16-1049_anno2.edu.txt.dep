@@ -1,0 +1,130 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "Most current chatbot engines are designed to reply to user utterances ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "based on existing utterance-response ( or Q-R ) 1 pairs . <S>",
+			"relation": "bg-general"
+		},
+		{
+			"id": 3,
+			"parent": 0,
+			"text": "In this paper , we present DocChat , ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "a novel information retrieval approach for chatbot engines ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "that can leverage unstructured documents , instead of Q-R pairs , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "to respond to utterances . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 7,
+			"parent": 3,
+			"text": "A learning to rank model with features ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "designed at different levels of granularity ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 7,
+			"text": "is proposed ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "to measure the relevance between utterances and responses directly . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 11,
+			"parent": 3,
+			"text": "We evaluate our proposed approach in both English and Chinese ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": ": ( i ) For English , we evaluate DocChat on WikiQA and QASent , ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "two answer sentence selection tasks , ",
+			"relation": "elab-definition"
+		},
+		{
+			"id": 14,
+			"parent": 12,
+			"text": "and compare it with state-of-the-art methods . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "Reasonable improvements and good adaptability are observed . <S>",
+			"relation": "result"
+		},
+		{
+			"id": 16,
+			"parent": 11,
+			"text": "( ii ) For Chinese , we compare DocChat with XiaoIce2 , ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 17,
+			"parent": 16,
+			"text": "a famous chitchat engine in China , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 18,
+			"parent": 19,
+			"text": "and side-by-side evaluation shows ",
+			"relation": "attribution"
+		},
+		{
+			"id": 19,
+			"parent": 17,
+			"text": "that DocChat is a perfect complement for chatbot engines ",
+			"relation": "result"
+		},
+		{
+			"id": 20,
+			"parent": 19,
+			"text": "using Q-R pairs as main source of responses . <S> ",
+			"relation": "elab-addition"
+		}
+	]
+}

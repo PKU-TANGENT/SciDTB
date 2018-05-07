@@ -1,0 +1,88 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 7,
+			"text": "Metaphor is a common linguistic tool in communication , ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "making its detection in discourse a crucial task for natural language understanding . <S>",
+			"relation": "result"
+		},
+		{
+			"id": 3,
+			"parent": 7,
+			"text": "One popular approach to this challenge is to capture semantic incohesion between a metaphor and the dominant topic of the surrounding text . <S>",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 4,
+			"parent": 5,
+			"text": "While these methods are effective , ",
+			"relation": "condition"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "they tend to overclassify target words as metaphorical ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "when they deviate in meaning from its context . <S>",
+			"relation": "condition"
+		},
+		{
+			"id": 7,
+			"parent": 0,
+			"text": "We present a new approach ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "that ( 1 ) distinguishes literal and non-literal use of target words ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "by examining sentence-level topic transitions ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 10,
+			"parent": 8,
+			"text": "and ( 2 ) captures the motivation of speakers ",
+			"relation": "joint"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "to express emotions and abstract concepts metaphorically . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 12,
+			"parent": 7,
+			"text": "Experiments on an online breast cancer discussion forum dataset demonstrate a significant improvement in metaphor detection over the state-of-theart . <S>",
+			"relation": "evaluation"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "These experimental results also reveal a tendency toward metaphor usage in personal topics and certain emotional contexts . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

@@ -1,0 +1,100 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We propose Bilingually-constrained Recursive Auto-encoders ( BRAE ) \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "to learn semantic phrase embeddings \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "( compact vector representations for phrases ) , \r",
+			"relation": "elab-definition"
+		},
+		{
+			"id": 4,
+			"parent": 2,
+			"text": "which can distinguish the phrases with different semantic meanings . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 1,
+			"text": "The BRAE is trained in a way \r",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "that minimizes the semantic distance of translation equivalents \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "and maximizes the semantic distance of non-translation pairs simultaneously . <S>\r",
+			"relation": "joint"
+		},
+		{
+			"id": 8,
+			"parent": 9,
+			"text": "After training , \r",
+			"relation": "temporal"
+		},
+		{
+			"id": 9,
+			"parent": 1,
+			"text": "the model learns how to embed each phrase semantically in two languages \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "and also learns how to transform semantic embedding space in one language to the other . <S>\r",
+			"relation": "joint"
+		},
+		{
+			"id": 11,
+			"parent": 15,
+			"text": "We evaluate our proposed method on two end-to-end SMT tasks \r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "( phrase table pruning and decoding with phrasal semantic similarities ) \r",
+			"relation": "elab-definition"
+		},
+		{
+			"id": 13,
+			"parent": 11,
+			"text": "which need to measure semantic similarity between a source phrase and its translation candidates . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 15,
+			"text": "Extensive experiments show \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 15,
+			"parent": 1,
+			"text": "that the BRAE is remarkably effective in these two tasks . <S>\r",
+			"relation": "evaluation"
+		}
+	]
+}

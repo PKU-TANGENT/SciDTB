@@ -1,0 +1,64 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "In this paper , we investigate various strategies \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "to predict both syntactic dependency parsing and contiguous multiword expression ( MWE ) recognition , \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "testing them on the dependency version of French Tree-bank (Abeillé and Barrier, 2004) , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "as instantiated in the SPMRL Shared Task ( Seddah et al. , 2013 ) . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 1,
+			"text": "Our work focuses on using an alternative representation of syntactically regular MWEs , \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "which captures their syntactic internal structure . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 1,
+			"text": "We obtain a system with comparable performance to that of previous works on this dataset , \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "but which predicts both syntactic dependencies and the internal structure of MWEs . <S>\r",
+			"relation": "contrast"
+		},
+		{
+			"id": 9,
+			"parent": 1,
+			"text": "This can be useful for capturing the various degrees of semantic compositionality of MWEs . <S>\r",
+			"relation": "evaluation"
+		}
+	]
+}

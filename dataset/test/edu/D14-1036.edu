@@ -1,0 +1,11 @@
+We introduce the task of incremental semantic role labeling ( iSRL ) , 
+in which semantic roles are assigned to incomplete input 
+( sentence prefixes ) . <S>
+iSRL is the semantic equivalent of incremental parsing , 
+and is useful for language modeling , sentence completion , machine translation , and psycholinguistic modeling . <S>
+We propose an iSRL system 
+that combines an incremental TAG parser with a semantically enriched lexicon , a role propagation algorithm , and a cascade of classifiers . <S>
+Our approach achieves an SRL F-score of 78.38 % on the standard CoNLL 2009 dataset . <S>
+It substantially outperforms a strong baseline 
+that combines gold-standard syntactic dependencies with heuristic role assignment , as well as a baseline 
+based on Nivre's incremental dependency parser . <S>

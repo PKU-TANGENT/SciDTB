@@ -1,0 +1,10 @@
+This paper addresses the problem of speech act recognition in written asynchronous conversations 
+( e.g. , fora , emails ) . <S>
+We propose a class of conditional structured models 
+defined over arbitrary graph structures 
+to capture the conversational dependencies between sentences . <S>
+Our models use sentence representations 
+encoded by a long short term memory ( LSTM ) recurrent neural model . <S>
+Empirical evaluation shows the effectiveness of our approach over existing ones : 
+( i ) LSTMs provide better task-specific representations , 
+and ( ii ) the global joint model improves over local models . <S>

@@ -1,0 +1,88 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 8,
+			"text": "An individual's words often reveal their political ideology . <S>\r",
+			"relation": "bg-general"
+		},
+		{
+			"id": 2,
+			"parent": 8,
+			"text": "Existing automated techniques \r",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "to identify ideology from text \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 4,
+			"parent": 2,
+			"text": "focus on bags of words or wordlists , \r",
+			"relation": "same-unit"
+		},
+		{
+			"id": 5,
+			"parent": 2,
+			"text": "ignoring syntax . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 8,
+			"text": "Taking inspiration from recent work in sentiment analysis \r",
+			"relation": "bg-general"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "that successfully models the compositional aspect of language , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 0,
+			"text": "we apply a recursive neural network ( RNN ) framework to the task \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "of identifying the political position \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "evinced by a sentence . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 12,
+			"text": "To show the importance of modeling subsentential elements , \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 12,
+			"parent": 13,
+			"text": "we crowdsource political annotations at a phrase and sentence level . <S>\r",
+			"relation": "bg-general"
+		},
+		{
+			"id": 13,
+			"parent": 8,
+			"text": "Our model outperforms existing models on our newly annotated dataset and an existing dataset . <S>\r",
+			"relation": "evaluation"
+		}
+	]
+}

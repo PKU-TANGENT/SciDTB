@@ -1,0 +1,64 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "In this paper , we propose a new framework ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "that unifies the output of three information extraction ( IE ) tasks - entity mentions , relations and events as an information network representation , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "and extracts all of them ",
+			"relation": "joint"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "using one single joint model ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "based on structured prediction . <S>",
+			"relation": "bg-general"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "This novel formulation allows different parts of the information network fully interact with each other . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "For example , many relations can now be considered as the resultant states of events . <S>",
+			"relation": "elab-example"
+		},
+		{
+			"id": 8,
+			"parent": 1,
+			"text": "Our approach achieves substantial improvements over traditional pipelined approaches , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "and significantly advances state-of-the-art end-to-end event argument extraction . <S> ",
+			"relation": "joint"
+		}
+	]
+}

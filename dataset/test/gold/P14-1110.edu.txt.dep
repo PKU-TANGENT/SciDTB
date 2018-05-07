@@ -1,0 +1,82 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 4,
+			"text": "Topic models ,  an unsupervised technique \r",
+			"relation": "contrast"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "for inferring translation domains \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "improve machine translation quality . <S>\r",
+			"relation": "same-unit"
+		},
+		{
+			"id": 4,
+			"parent": 7,
+			"text": "However , previous work uses only the source language \r",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "and completely ignores the target language , \r",
+			"relation": "joint"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "which can disambiguate domains . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 0,
+			"text": "We propose new polylingual tree-based topic models \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "to extract domain knowledge \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "that considers both source and target languages \r",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 10,
+			"parent": 8,
+			"text": "and derive three different inference schemes . <S>\r",
+			"relation": "joint"
+		},
+		{
+			"id": 11,
+			"parent": 7,
+			"text": "We evaluate our model on a Chinese to English translation task \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "and obtain up to 1.2 BLEU improvement over strong baselines . <S>\r",
+			"relation": "progression"
+		}
+	]
+}

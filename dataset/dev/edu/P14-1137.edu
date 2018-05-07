@@ -1,0 +1,17 @@
+The sense 
+in which a word is used 
+determines the translation of the word . <S>
+In this paper , we propose a sense-based translation model 
+to integrate word senses into statistical machine translation . <S>
+We build a broad-coverage sense tagger 
+based on a nonparametric Bayesian topic model 
+that automatically learns sense clusters for words in the source language . <S>
+The proposed sense-based translation model enables the decoder to select appropriate translations for source words 
+according to the inferred senses for these words 
+using maximum entropy classifiers . <S>
+Our method is significantly different from previous word sense disambiguation 
+reformulated for machine translation 
+in that the latter neglects word senses in nature . <S>
+We test the effectiveness of the proposed sense-based translation model on a large-scale Chinese-to-English translation task . <S>
+Results show 
+that the proposed model substantially outperforms not only the baseline but also the previous reformulated word sense disambiguation . <S>

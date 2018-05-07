@@ -1,0 +1,94 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 10,
+			"text": "Word alignment ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "using recency-vector based approach ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "has recently become popular . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 4,
+			"parent": 6,
+			"text": "One major advantage of these techniques is that ",
+			"relation": "attribution"
+		},
+		{
+			"id": 5,
+			"parent": 6,
+			"text": "unlike other approaches ",
+			"relation": "contrast"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "they perform well ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "even if the size of the parallel corpora is small . <S>",
+			"relation": "contrast"
+		},
+		{
+			"id": 8,
+			"parent": 1,
+			"text": "This makes these algorithms worth-studying for languages ",
+			"relation": "progression"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "where resources are scarce . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 0,
+			"text": "In this work we studied the performance of two very popular recency-vector based approaches , ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "proposed in ( Fung and McKeown , 1994 ) and ( Somers , 1998 ) , respectively , for word alignment in English-Hindi parallel corpus . <S>",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "But performance of the above algorithms was not found to be satisfactory . <S>",
+			"relation": "contrast"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "However , subsequent addition of some new constraints improved the performance of the recency-vector based alignment technique significantly for the said corpus . <S>",
+			"relation": "contrast"
+		},
+		{
+			"id": 14,
+			"parent": 10,
+			"text": "The present paper discusses the new version of the algorithm and its performance in detail . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

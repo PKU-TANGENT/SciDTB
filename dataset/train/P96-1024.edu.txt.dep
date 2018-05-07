@@ -1,0 +1,112 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 6,
+			"text": "Many different metrics exist ",
+			"relation": "contrast"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "for evaluating parsing results , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "including Viterbi , Crossing Brackets Rate , Zero Crossing Brackets Rate , and several others . <S>",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 4,
+			"parent": 6,
+			"text": "However , most parsing algorithms , ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "including the Viterbi algorithm , ",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 6,
+			"parent": 10,
+			"text": "attempt to optimize the same metric , namely the probability ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "of getting the correct labelled tree . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 9,
+			"text": "By choosing a parsing algorithm appropriate for the evaluation metric , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 9,
+			"parent": 10,
+			"text": "better performance can be achieved . <S>",
+			"relation": "exp-reason"
+		},
+		{
+			"id": 10,
+			"parent": 0,
+			"text": "We present two new algorithms : ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "the \" Labelled Recall Algorithm , \" ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "which maximizes the expected Labelled Recall Rate , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 11,
+			"text": "and the \" Bracketed Recall Algorithm , \" ",
+			"relation": "joint"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "which maximizes the Bracketed Recall Rate . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 10,
+			"text": "Experimental results are given , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "showing that the two new algorithms have improved performance over the Viterbi algorithm on many criteria , especially the ones ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 17,
+			"parent": 16,
+			"text": "that they optimize . <S>    ",
+			"relation": "elab-addition"
+		}
+	]
+}

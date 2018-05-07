@@ -1,0 +1,148 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This paper describes the SDC PUNDIT , ( Prolog UNDerstands Integrated Text ) , system ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "for processing natural language messages . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 5,
+			"text": "1 PUNDIT , ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "written in Prolog , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 1,
+			"text": "is a highly modular system ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "consisting of distinct syntactic , semantic and pragmatics components . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 5,
+			"text": "Each component draws on one or more sets of data , ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "including a lexicon , a broad-coverage grammar of EngLish , semantic verb decompositions , rules ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "mapping between syntactic and semantic constituents , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 8,
+			"text": "and a domain model . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 11,
+			"parent": 1,
+			"text": "This paper discusses the communication between the syntactic , semantic and pragmatic modules ",
+			"relation": "progression"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "that is necessary for making implicit linguistic information explicit . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 11,
+			"text": "The key is letting syntax and semantics recognize missing linguistic entities as implicit entities , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "so that they can be labelled as such , ",
+			"relation": "cause"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "and referenee resolution can be directed ",
+			"relation": "joint"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "to find specific referents for the entities . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 17,
+			"parent": 19,
+			"text": "In this way the task ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 18,
+			"parent": 17,
+			"text": "of making implicit linguistic information explicit ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 19,
+			"parent": 1,
+			"text": "becomes a subset of the tasks ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 20,
+			"parent": 19,
+			"text": "performed by reference resolution . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 21,
+			"parent": 1,
+			"text": "The success of this approach is dependent on marking missing syntactic constituents as elided ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 22,
+			"parent": 21,
+			"text": "and missing semantic roles as ESSENTIAL ",
+			"relation": "joint"
+		},
+		{
+			"id": 23,
+			"parent": 21,
+			"text": "so that reference resolution can know when to look for referents . <S>   ",
+			"relation": "cause"
+		}
+	]
+}

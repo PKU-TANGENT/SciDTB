@@ -1,0 +1,82 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "Readability is used to provide users with high-quality service in text recommendation or text visualization . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "With the increasing use of hand-held devices , reading device is regarded as an important factor for readability . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 0,
+			"text": "Therefore , this paper investigates the relationship between readability and reading devices such as a smart phone , a tablet , and paper . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 4,
+			"parent": 2,
+			"text": "We suggest readability factors ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "that are strongly related with the readability of a specific device ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "by showing the correlations between various factors in each device and human-rated readability . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 7,
+			"parent": 3,
+			"text": "Our experimental results show ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "that each device has its own readability characteristics , ",
+			"relation": "attribution"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "and thus different weights should be imposed on readability factors ",
+			"relation": "joint"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "according to the device type . <S>",
+			"relation": "cause"
+		},
+		{
+			"id": 11,
+			"parent": 12,
+			"text": "In order to prove the usefulness of the results , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 12,
+			"parent": 7,
+			"text": "we apply the device-dependent readability to news article recommendation . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

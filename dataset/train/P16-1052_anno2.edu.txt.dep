@@ -1,0 +1,124 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 2,
+			"text": "To establish sophisticated dialogue systems , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 2,
+			"parent": 7,
+			"text": "text planning needs to cope with congruent as well as incongruent interlocutor interests ",
+			"relation": "cause"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "as given in everyday dialogues . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 2,
+			"text": "Little attention has been given to this topic in text planning in contrast to dialogues ",
+			"relation": "contrast"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "that are fully aligned with anticipated user interests . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 7,
+			"text": "When considering dialogues with congruent and incongruent interlocutor interests , ",
+			"relation": "temporal"
+		},
+		{
+			"id": 7,
+			"parent": 9,
+			"text": "dialogue partners are facing the constant challenge ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "of finding a balance between cooperation and competition . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 0,
+			"text": "We introduce the concept of fairness ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "that operationalize an equal and adequate , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "i.e. equitable satisfaction of all interlocutors ' interests . <S>",
+			"relation": "elab-example"
+		},
+		{
+			"id": 12,
+			"parent": 13,
+			"text": "Focusing on Question-Answering ( QA ) settings , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 9,
+			"text": "we describe an answer planning approach ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "that support fair dialogues under congruent and incongruent interlocutor interests . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 17,
+			"text": "Due to the fact ",
+			"relation": "result"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "that fairness is subjective perse , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 17,
+			"parent": 9,
+			"text": "we present promising results from an empirical study ( N=107 ) ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 18,
+			"parent": 17,
+			"text": "in which human subjects interacted with a QA system ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 19,
+			"parent": 18,
+			"text": "implementing the proposed approach . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

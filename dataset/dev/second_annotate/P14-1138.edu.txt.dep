@@ -1,0 +1,100 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This study proposes a word alignment model \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "based on a recurrent neural network ( RNN ) , \r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "in which an unlimited alignment history is represented by recurrently connected hidden layers . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "We perform unsupervised learning \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "using noise-contrastive estimation ( Gutmann and Hyvärinen , 2010 ; Mnih and Teh , 2012 ) , \r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "which utilizes artificially generated negative samples . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 1,
+			"text": "Our alignment model is directional , \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "similar to the generative IBM models ( Brown et al. , 1993 ) . <S>\r",
+			"relation": "comparison"
+		},
+		{
+			"id": 9,
+			"parent": 10,
+			"text": "To overcome this limitation , \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 10,
+			"parent": 7,
+			"text": "we encourage agreement between the two directional models \r",
+			"relation": "cause"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "by introducing a penalty function \r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "that ensures word embedding consistency across two directional models \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "during training . <S>\r",
+			"relation": "temporal"
+		},
+		{
+			"id": 14,
+			"parent": 1,
+			"text": "The RNN-based model outperforms the feed-forward neural network-based model ( Yang et al. , 2013 ) as well as the IBM Model 4 under Japanese-English and French-English word alignment tasks , \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "and achieves comparable translation performance to those baselines for Japanese-English and Chinese-English translation tasks . <S>\r",
+			"relation": "joint"
+		}
+	]
+}

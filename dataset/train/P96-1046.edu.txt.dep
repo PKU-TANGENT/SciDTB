@@ -1,0 +1,94 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This paper describes a prototype disambiguation module , KANKEI , ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "which was tested on two corpora of the TRAINS project . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "In ambiguous verb phrases of form V ... NP PP or V ... NP adverb ( s ) , the two corpora have very different PP and adverb attachment patterns ; ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "in the first , the correct attachment is to the VP 88.7 % of the time , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "while in the second , the correct attachment is to the NP 73.5 % of the time . <S>",
+			"relation": "comparison"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "KANKEI uses various n-gram patterns of the phrase heads around these ambiguities , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "and assigns parse trees ( with these ambiguities ) a score ",
+			"relation": "joint"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "based on a linear combination of the frequencies ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 9,
+			"parent": 7,
+			"text": "with which these patterns appear with NP and VP attachments in the TRAINS corpora . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 1,
+			"text": "Unlike previous statistical disambiguation systems , this technique thus combines evidence from bigrams , trigrams , and the 4-gram around an ambiguous attachment . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 12,
+			"text": "In the current experiments , equal weights are used for simplicity ",
+			"relation": "contrast"
+		},
+		{
+			"id": 12,
+			"parent": 1,
+			"text": "but results are still good on the TRAINS corpora ( 92.2 % and 92.4 % accuracy ) . <S>",
+			"relation": "evaluation"
+		},
+		{
+			"id": 13,
+			"parent": 14,
+			"text": "Despite the large statistical differences in attachment preferences in the two corpora , ",
+			"relation": "contrast"
+		},
+		{
+			"id": 14,
+			"parent": 12,
+			"text": "training on the first corpus and testing on the second gives an accuracy of 90.9 % . <S>",
+			"relation": "joint"
+		}
+	]
+}

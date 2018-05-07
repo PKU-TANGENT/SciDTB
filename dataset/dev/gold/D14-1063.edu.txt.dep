@@ -1,0 +1,76 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 5,
+			"text": "In Corpus-Based Machine Translation , the search space of the translation candidates for a given input sentence is often defined by a set of ( cycle-free ) context-free grammar rules . <S>",
+			"relation": "contrast"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "This happens naturally in Syntax-Based Machine Translation and Hierarchical Phrase-Based Machine Translation ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "( where the representation will be the set of the target-side half of the synchronous rules ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "used to parse the input sentence ) . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 6,
+			"text": "But it is also possible to describe Phrase-Based Machine Translation in this framework . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 6,
+			"parent": 0,
+			"text": "We propose a natural extension to this representation ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "by using lattice-rules ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "that allow to easily encode an exponential number of variations of each rules . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 10,
+			"text": "We also demonstrate ",
+			"relation": "attribution"
+		},
+		{
+			"id": 10,
+			"parent": 8,
+			"text": "how the representation of the search space has an impact on decoding efficiency , ",
+			"relation": "progression"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "and how it is possible to optimize this representation . <S>",
+			"relation": "joint"
+		}
+	]
+}

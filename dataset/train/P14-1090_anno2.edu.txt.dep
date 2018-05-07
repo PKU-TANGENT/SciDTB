@@ -1,0 +1,70 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 7,
+			"text": "Answering natural language questions \r",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "using the Freebase knowledge base \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "has recently been explored as a platform \r",
+			"relation": "same-unit"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "for advancing the state of the art in open domain semantic parsing . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "Those efforts map questions to sophisticated meaning representations \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "that are then attempted to be matched against viable answer candidates in the knowledge base . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 0,
+			"text": "Here we show \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "that relatively modest information extraction techniques , \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "when paired with a web-scale corpus , \r",
+			"relation": "temporal"
+		},
+		{
+			"id": 10,
+			"parent": 8,
+			"text": "can outperform these sophisticated approaches by roughly 34 % relative gain . <S>\r",
+			"relation": "same-unit"
+		}
+	]
+}

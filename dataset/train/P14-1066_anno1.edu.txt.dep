@@ -1,0 +1,76 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This paper tackles the sparsity problem \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "in estimating phrase translation probabilities \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "by learning continuous phrase representations , \r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "whose distributed nature enables the sharing of related phrases in their representations . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "A pair of source and target phrases are projected into continuous-valued vector representations in a low-dimensional latent space , \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "where their translation score is computed by the distance between the pair in this new space . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 5,
+			"text": "The projection is performed by a neural network \r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "whose weights are learned on parallel training data . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 3,
+			"text": "Experimental evaluation has been performed on two WMT translation tasks . <S>\r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "Our best result improves the performance of a state-of-the-art phrase-based statistical machine translation system \r",
+			"relation": "cause"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "trained on WMT 2012 French-English data by up to 1.3 BLEU points . <S>\r",
+			"relation": "elab-addition"
+		}
+	]
+}

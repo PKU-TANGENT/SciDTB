@@ -1,0 +1,76 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We seek to address the lack of labeled data ( and high cost of annotation ) for textual entailment in some domains . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "To that end , we first create ( for experimental purposes ) an entailment dataset for the clinical domain , and a highly competitive supervised entailment system , ENT , ",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "that is effective ( out of the box ) on two domains . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "We then explore self-training and active learning strategies ",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "to address the lack of labeled data . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 6,
+			"parent": 7,
+			"text": "With self-training , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 7,
+			"parent": 1,
+			"text": "we successfully exploit unlabeled data ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "to improve over ENT by 15 % F-score on the newswire domain , and 13 % F-score on clinical data . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 9,
+			"parent": 10,
+			"text": "On the other hand , our active learning experiments demonstrate ",
+			"relation": "attribution"
+		},
+		{
+			"id": 10,
+			"parent": 1,
+			"text": "that we can match ( and even beat ) ENT ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "using only 6.6 % of the training data in the clinical domain , and only 5.8 % of the training data in the newswire domain . <S>",
+			"relation": "manner-means"
+		}
+	]
+}

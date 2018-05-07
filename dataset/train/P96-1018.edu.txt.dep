@@ -1,0 +1,112 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This paper describes an accurate and robust text alignment system for structurally different languages . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "Among structurally different languages such as Japanese and English , there is a limitation on the amount of word correspondences ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "that can be statistically acquired . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "The proposed method makes use of two kinds of word correspondences ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "in aligning bilingual texts . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "One is a bilingual dictionary of general use . <S>",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 7,
+			"parent": 4,
+			"text": "The other is the word correspondences ",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "that are statistically acquired in the alignment process . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 1,
+			"text": "Our method gradually determines sentence pairs ( anchors ) ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "that correspond to each other ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 9,
+			"text": "by relaxing parameters . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 12,
+			"parent": 14,
+			"text": "The method , ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 13,
+			"parent": 14,
+			"text": "by combining two kinds of word correspondences , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 14,
+			"parent": 15,
+			"text": "achieves adequate word correspondences for complete alignment . <S>",
+			"relation": "result"
+		},
+		{
+			"id": 15,
+			"parent": 4,
+			"text": "As a result , texts of various length and of various genres in structurally different languages can be aligned with high precision . <S>",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 16,
+			"parent": 17,
+			"text": "Experimental results show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 17,
+			"parent": 1,
+			"text": "our system outperforms conventional methods for various kinds of Japanese-English texts . <S>     ",
+			"relation": "evaluation"
+		}
+	]
+}

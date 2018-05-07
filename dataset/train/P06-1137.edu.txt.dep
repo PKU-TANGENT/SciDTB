@@ -1,0 +1,88 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 6,
+			"text": "Unification grammars are widely accepted as an expressive means ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "for describing the structure of natural languages . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "In general , the recognition problem is undecidable for unification grammars . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 5,
+			"text": "Even with restricted variants of the formalism , offline parsable grammars , ",
+			"relation": "contrast"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "the problem is computationally hard . <S>",
+			"relation": "exp-reason"
+		},
+		{
+			"id": 6,
+			"parent": 0,
+			"text": "We present two natural constraints on unification grammars ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "which limit their expressivity . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 9,
+			"text": "We first show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 9,
+			"parent": 6,
+			"text": "that non-reentrant unification grammars generate exactly the class of contextfree languages . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 6,
+			"text": "We then relax the constraint ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 12,
+			"text": "and show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 12,
+			"parent": 10,
+			"text": "that one-reentrant unification grammars generate exactly the class of tree-adjoining languages . <S>",
+			"relation": "result"
+		},
+		{
+			"id": 13,
+			"parent": 6,
+			"text": "We thus relate the commonly used and linguistically motivated formalism of unification grammars to more restricted , computationally tractable classes of languages . <S>",
+			"relation": "progression"
+		}
+	]
+}

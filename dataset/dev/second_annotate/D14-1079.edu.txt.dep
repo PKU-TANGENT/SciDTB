@@ -1,0 +1,100 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We provide a comparative study between neural word representations and traditional vector spaces ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "based on co-occurrence counts , ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "in a number of compositional tasks . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "We use three different semantic spaces ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "and implement seven tensor-based compositional models , ",
+			"relation": "joint"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "which we then test ( together with simpler additive and multiplicative approaches ) in tasks ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "involving verb disambiguation and sentence similarity . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 9,
+			"text": "To check their scalability , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 9,
+			"parent": 12,
+			"text": "we additionally evaluate the spaces ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "using simple compositional methods on larger-scale tasks with less constrained language : ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "paraphrase detection and dialogue act tagging . <S>",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 12,
+			"parent": 1,
+			"text": "In the more constrained tasks , co-occurrence vectors are competitive , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "although choice of compositional method is important ; ",
+			"relation": "contrast"
+		},
+		{
+			"id": 14,
+			"parent": 12,
+			"text": "on the larger-scale tasks , they are outperformed by neural word embeddings , ",
+			"relation": "joint"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "which show robust , stable performance across the tasks . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

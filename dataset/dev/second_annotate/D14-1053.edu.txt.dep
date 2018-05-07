@@ -1,0 +1,58 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We propose a semi-supervised bootstrapping algorithm ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "for analyzing China's foreign relations from the People's Daily . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "Our approach addresses sentiment target clustering , subjective lexicons extraction and sentiment prediction in a unified framework . <S>",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 4,
+			"parent": 5,
+			"text": "Different from existing algorithms in the literature , ",
+			"relation": "comparison"
+		},
+		{
+			"id": 5,
+			"parent": 1,
+			"text": "time information is considered in our algorithm through a hierarchical bayesian model ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "to guide the bootstrapping approach . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 7,
+			"parent": 1,
+			"text": "We are hopeful that our approach can facilitate quantitative political analysis ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "conducted by social scientists and politicians . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

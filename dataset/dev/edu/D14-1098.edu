@@ -1,0 +1,23 @@
+In this paper , we propose novel structured language modeling methods for code mixing speech recognition 
+by incorporating a well-known syntactic constraint for switching code , namely the Functional Head Constraint ( FHC ) . <S>
+Code mixing data is not abundantly available 
+for training language models . <S>
+Our proposed methods successfully alleviate this core problem for code mixing speech recognition 
+by using bilingual data to train a structured language model with syntactic constraint . <S>
+Linguists and bilingual speakers found 
+that code switch do not happen between the functional head and its complements . <S>
+We propose to learn the code mixing language model from bilingual data with this constraint in a weighted finite state transducer ( WFST ) framework . <S>
+The constrained code switch language model is obtained 
+by first expanding the search network with a translation model , 
+and then using parsing to restrict paths to those permissible under the constraint . <S>
+We implement and compare two approaches 
+- lattice parsing enables a sequential coupling 
+whereas partial parsing enables a tight coupling between parsing and filtering . <S>
+We tested our system on a lecture speech dataset with 16 % embedded second language , and on a lunch conversation dataset with 20 % embedded language . <S>
+Our language models with lattice parsing and partial parsing reduce word error rates from a baseline mixed language model by 3.8 % and 3.9 % in terms of word error rate relatively on the average on the first and second tasks respectively . <S>
+It outperforms the interpolated language model by 3.7 % and 5.6 % in terms of word error rate relatively , 
+and outperforms the adapted language model by 2.6 % and 4.6 % relatively . <S>
+Our proposed approach avoids making early decisions on code-switch boundaries 
+and is therefore more robust . <S>
+We address the code switch data scarcity challenge 
+by using bilingual data with syntactic structure . <S>

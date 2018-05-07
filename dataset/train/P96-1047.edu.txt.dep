@@ -1,0 +1,82 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This paper stems from an ongoing research project on verb phrase ellipsis . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "The project 's goals are to implement a verb phrase ellipsis resolution algorithm , ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "automatically test the algorithm on corpus data , ",
+			"relation": "progression"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "then automatically evaluate the algorithm against human-generated answers . <S>",
+			"relation": "progression"
+		},
+		{
+			"id": 5,
+			"parent": 1,
+			"text": "The paper will establish the current status of the algorithm ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "based on this automatic evaluation , ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 7,
+			"parent": 5,
+			"text": "categorizing current problem situations . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 10,
+			"text": "An algorithm ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "to handle one of these problems , the ease of subdeletion , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 10,
+			"parent": 11,
+			"text": "will be described and evaluated . <S>",
+			"relation": "result"
+		},
+		{
+			"id": 11,
+			"parent": 1,
+			"text": "The algorithm attempts to detect and solve subdeletion ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "by locating adjuncts of similar types in a verb phrase ellipsis and corresponding antecedent . <S>",
+			"relation": "manner-means"
+		}
+	]
+}

@@ -1,0 +1,112 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "In this paper , we focus on the problem ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "of using sentence compression techniques to improve multi-document summarization . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 0,
+			"text": "We propose an innovative sentence compression method ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "by considering every node in the constituent parse tree ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "and deciding its status ",
+			"relation": "joint"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "- remove or retain . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 3,
+			"text": "Integer liner programming with discriminative training is used ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "to solve the problem . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 9,
+			"parent": 7,
+			"text": "Under this model , we incorporate various constraints ",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "to improve the linguistic quality of the compressed sentences . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 11,
+			"parent": 7,
+			"text": "Then we utilize a pipeline summarization framework ",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "where sentences are first compressed by our proposed compression model ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "to obtain top-n candidates ",
+			"relation": "enablement"
+		},
+		{
+			"id": 14,
+			"parent": 7,
+			"text": "and then a sentence selection module is used ",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "to generate the final summary . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 16,
+			"parent": 17,
+			"text": "Compared with state-of-the-art algorithms , ",
+			"relation": "comparison"
+		},
+		{
+			"id": 17,
+			"parent": 3,
+			"text": "our model has similar ROUGE-2 scores but better linguistic quality on TAC data . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

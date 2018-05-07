@@ -1,0 +1,130 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 4,
+			"text": "In conversation , speakers tend to `` accommodate '' or `` align '' to their partners , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "changing the style and substance of their communications ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "to be more similar to their partners ' utterances . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 4,
+			"parent": 10,
+			"text": "We focus here on `` linguistic alignment , '' changes in word choice ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "based on others ' choices . <S>",
+			"relation": "bg-general"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "Although linguistic alignment is observed across many different contexts ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "and its degree correlates with important social factors ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "such as power and likability , ",
+			"relation": "elab-example"
+		},
+		{
+			"id": 9,
+			"parent": 7,
+			"text": "its sources are still uncertain . <S>",
+			"relation": "contrast"
+		},
+		{
+			"id": 10,
+			"parent": 0,
+			"text": "We build on a recent probabilistic model of alignment , ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "using it to separate out alignment attributable to words versus word categories . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 10,
+			"text": "We model alignment in two contexts : ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "telephone conversations and microblog replies . <S>",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 14,
+			"parent": 10,
+			"text": "Our results show evidence of alignment , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "but it is primarily lexical rather than categorical . <S>",
+			"relation": "contrast"
+		},
+		{
+			"id": 16,
+			"parent": 17,
+			"text": "Furthermore , we find ",
+			"relation": "attribution"
+		},
+		{
+			"id": 17,
+			"parent": 14,
+			"text": "that discourse acts modulate alignment substantially . <S>",
+			"relation": "progression"
+		},
+		{
+			"id": 18,
+			"parent": 17,
+			"text": "This evidence supports the view ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 19,
+			"parent": 18,
+			"text": "that alignment is shaped by strategic communicative processes ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 20,
+			"parent": 19,
+			"text": "related to the ongoing discourse . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

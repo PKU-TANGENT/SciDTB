@@ -1,0 +1,88 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This paper proposes a framework ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "for training Conditional Random Fields ( CRFs ) ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "to optimize multivariate evaluation measures , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "including non-linear measures ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "such as F-score . <S>",
+			"relation": "elab-example"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "Our proposed framework is derived from an error minimization approach ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "that provides a simple solution ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "for directly optimizing any evaluation measure . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 10,
+			"text": "Specifically focusing on sequential segmentation tasks , i.e. text chunking and named entity recognition , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 1,
+			"text": "we introduce a loss function ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "that closely reflects the target evaluation measure for these tasks , namely , segmentation F-score . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 13,
+			"text": "Our experiments show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 13,
+			"parent": 1,
+			"text": "that our method performs better than standard CRF training . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

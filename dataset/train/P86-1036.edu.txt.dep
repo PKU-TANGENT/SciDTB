@@ -1,0 +1,64 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "A new method is presented ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "for simplifying the logical expressions ",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "used to represent utterance meaning in a natural language system . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "This simplification method utilizes the encoded knowledge and the limited inference-making capability of a taxonomic knowledge representation system ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "to reduce the constituent structure of logical expressions . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "The specific application is to the problem ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "of mapping expressions of the meaning representation language to a database language ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "capable of retrieving actual responses . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 1,
+			"text": "Particular account is taken of the model-theoretic aspects of this problem . <S> ",
+			"relation": "elab-aspect"
+		}
+	]
+}

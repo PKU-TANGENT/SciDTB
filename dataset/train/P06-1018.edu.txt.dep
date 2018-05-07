@@ -1,0 +1,46 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This paper proposes a generic mathematical formalism for the combination of various structures : ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "strings , trees , dags , graphs and products of them . <S>",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "The polarization of the objects of the elementary structures controls the saturation of the final structure . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "This formalism is both elementary and powerful enough ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "to strongly simulate many grammar formalisms , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "such as rewriting systems , dependency grammars , TAG , HPSG and LFG . <S>",
+			"relation": "elab-example"
+		}
+	]
+}

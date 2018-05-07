@@ -1,0 +1,106 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 2,
+			"text": "Following the works of Carletta ( 1996 ) and Artstein and Poesio ( 2008 ) , \r",
+			"relation": "bg-general"
+		},
+		{
+			"id": 2,
+			"parent": 5,
+			"text": "there is an increasing consensus within the field \r",
+			"relation": "result"
+		},
+		{
+			"id": 3,
+			"parent": 4,
+			"text": "that in order to properly gauge the reliability of an annotation effort , \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 4,
+			"parent": 2,
+			"text": "chance-corrected measures of inter-annotator agreement should be used . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 9,
+			"text": "With this in mind , it is striking that virtually all evaluations of syntactic annotation efforts use uncorrected parser evaluation metrics such as bracket F1 \r",
+			"relation": "bg-general"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "( for phrase structure ) \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 5,
+			"text": "and accuracy scores \r",
+			"relation": "same-unit"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "( for dependencies ) . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 0,
+			"text": "In this work we present a chance-corrected metric \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "based on Krippendorff's α, \r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 11,
+			"parent": 9,
+			"text": "adapted to the structure of syntactic annotations and applicable both to phrase structure and dependency annotation without any modifications . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 13,
+			"text": "To evaluate our metric \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 13,
+			"parent": 9,
+			"text": "we first present a number of synthetic experiments \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "to better control the sources of noise \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "and gauge the metric's responses , \r",
+			"relation": "joint"
+		},
+		{
+			"id": 16,
+			"parent": 13,
+			"text": "before finally contrasting the behaviour of our chance-corrected metric with that of uncorrected parser evaluation metrics on real corpora. <S>\r",
+			"relation": "temporal"
+		}
+	]
+}

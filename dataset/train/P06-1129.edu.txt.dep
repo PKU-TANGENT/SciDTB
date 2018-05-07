@@ -1,0 +1,76 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "A query speller is crucial to search engine ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "in improving web search relevance . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 0,
+			"text": "This paper describes novel methods for use of distributional similarity ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "estimated from query logs ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "in learning improved query spelling correction models . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 3,
+			"text": "The key to our methods is the property of distributional similarity between two terms : ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "it is high between a frequently occurring misspelling and its correction , and low between two irrelevant terms only with similar spellings . <S>",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 8,
+			"parent": 3,
+			"text": "We present two models ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "that are able to take advantage of this property . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 11,
+			"text": "Experimental results demonstrate ",
+			"relation": "attribution"
+		},
+		{
+			"id": 11,
+			"parent": 3,
+			"text": "that the distributional similarity based models can significantly outperform their baseline systems in the web query spelling correction task . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

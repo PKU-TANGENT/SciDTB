@@ -1,0 +1,100 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 6,
+			"text": "User traits ",
+			"relation": "contrast"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "disclosed through written text , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "such as age and gender , ",
+			"relation": "elab-example"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "can be used to personalize applications ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "such as recommender systems or conversational agents . <S>",
+			"relation": "elab-example"
+		},
+		{
+			"id": 6,
+			"parent": 7,
+			"text": "However , human perception of these traits is not perfectly aligned with reality . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 7,
+			"parent": 0,
+			"text": "In this paper , we conduct a large-scale crowdsourcing experiment ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "on guessing age and gender from tweets . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 9,
+			"parent": 7,
+			"text": "We systematically analyze the quality and possible biases of these predictions . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "We identify the textual cues ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "which lead to miss-assessments of traits ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "or make annotators more or less confident in their choice . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 13,
+			"parent": 14,
+			"text": "Our study demonstrates ",
+			"relation": "attribution"
+		},
+		{
+			"id": 14,
+			"parent": 7,
+			"text": "that differences between real and perceived traits are noteworthy ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "and elucidates inaccurately used stereotypes in human perception . <S>",
+			"relation": "progression"
+		}
+	]
+}

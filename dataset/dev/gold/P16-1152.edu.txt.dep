@@ -1,0 +1,82 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 4,
+			"text": "Structured prediction from bandit feedback describes a learning scenario ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 3,
+			"text": "where instead of having access to a gold standard structure , ",
+			"relation": "contrast"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "a learner only receives partial feedback in form of the loss value of a predicted structure . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 0,
+			"text": "We present new learning objectives and algorithms for this interactive scenario , ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "focusing on convergence speed and ease of elicitability of feedback . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 9,
+			"text": "We present supervised-to-bandit simulation experiments for several NLP tasks ",
+			"relation": "result"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "( machine translation , sequence labeling , text classification ) , ",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 8,
+			"parent": 9,
+			"text": "showing ",
+			"relation": "attribution"
+		},
+		{
+			"id": 9,
+			"parent": 4,
+			"text": "that bandit ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "learning from relative preferences ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 9,
+			"text": "eases feedback strength ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "and yields improved empirical convergence . <S>",
+			"relation": "joint"
+		}
+	]
+}

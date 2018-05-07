@@ -1,0 +1,136 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 6,
+			"text": "Languages ",
+			"relation": "contrast"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "that have no explicit word delimiters ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "often have to be segmented for statistical machine translation ( SMT ) . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "This is commonly performed by automated segmenters ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "trained on manually annotated corpora . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 15,
+			"text": "However , the word segmentation ( WS ) schemes of these annotated corpora are handcrafted for general usage , ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "and may not be suitable for SMT . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 8,
+			"parent": 6,
+			"text": "An analysis was performed to test this hypothesis ",
+			"relation": "exp-evidence"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "using a manually annotated word alignment ( WA ) corpus for Chinese-English SMT . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 10,
+			"parent": 11,
+			"text": "An analysis revealed ",
+			"relation": "attribution"
+		},
+		{
+			"id": 11,
+			"parent": 6,
+			"text": "that 74.60 % of the sentences in the WA corpus ",
+			"relation": "exp-evidence"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "if segmented using an automated segmenter ",
+			"relation": "condition"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "trained on the Penn Chinese Treebank ( CTB ) ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 11,
+			"text": "will contain conflicts with the gold WA annotations . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 15,
+			"parent": 0,
+			"text": "We formulated an approach ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "based on word splitting with reference to the annotated WA ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 17,
+			"parent": 15,
+			"text": "to alleviate these conflicts . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 18,
+			"parent": 19,
+			"text": "Experimental results show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 19,
+			"parent": 15,
+			"text": "that the refined WS reduced word alignment error rate by 6.82 % ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 20,
+			"parent": 19,
+			"text": "and achieved the highest BLEU improvement ( 0.63 on average ) on the Chinese-English open machine translation ( OpenMT ) corpora ",
+			"relation": "joint"
+		},
+		{
+			"id": 21,
+			"parent": 19,
+			"text": "compared to related work . <S>",
+			"relation": "comparison"
+		}
+	]
+}

@@ -1,0 +1,58 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We present a natural language interface system ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "which is based entirely on trained statistical models . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "The system consists of three stages of processing : ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "parsing , semantic interpretation , and discourse . <S>",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "Each of these stages is modeled as a statistical process . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "The models are fully integrated , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "resulting in an end-to-end system ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "that maps input utterances into meaning representation frames . <S>  ",
+			"relation": "elab-addition"
+		}
+	]
+}

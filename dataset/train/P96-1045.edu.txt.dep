@@ -1,0 +1,58 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 2,
+			"text": "Lexicalized Tree Adjoining Grammars have proved useful for NLP . <S>",
+			"relation": "contrast"
+		},
+		{
+			"id": 2,
+			"parent": 4,
+			"text": "However , numerous redundancy problems face LTAGs developers , ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "as highlighted by Vijay-Shanker and Schabes ( 92 ) . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 0,
+			"text": "We present and a tool ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "that automatically generates the tree families of an LTAG . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "It starts from a compact hierarchical organization of syntactic descriptions ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "that is linguistically motivated ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 6,
+			"text": "and carries out all the relevant combinations of linguistic phenomena . <S>",
+			"relation": "joint"
+		}
+	]
+}

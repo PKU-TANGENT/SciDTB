@@ -1,0 +1,76 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This paper introduces a novel framework for the accurate retrieval of relational concepts from huge texts . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 3,
+			"text": "Prior to retrieval , ",
+			"relation": "temporal"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "all sentences are annotated with predicate argument structures and ontological identifiers ",
+			"relation": "elab-example"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "by applying a deep parser and a term recognizer . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 5,
+			"parent": 6,
+			"text": "During the run time , ",
+			"relation": "temporal"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "user requests are converted into queries of region algebra on these annotations . <S>",
+			"relation": "elab-example"
+		},
+		{
+			"id": 7,
+			"parent": 1,
+			"text": "Structural matching with pre-computed semantic annotations establishes the accurate and efficient retrieval of relational concepts . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 10,
+			"text": "This framework was applied to a text retrieval system for MEDLINE . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 9,
+			"parent": 10,
+			"text": "Experiments on the retrieval of biomedical correlations revealed ",
+			"relation": "attribution"
+		},
+		{
+			"id": 10,
+			"parent": 1,
+			"text": "that the cost is sufficiently small for real-time applications ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "and that the retrieval precision is significantly improved . <S> ",
+			"relation": "joint"
+		}
+	]
+}

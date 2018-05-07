@@ -1,0 +1,94 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 6,
+			"text": "Distinct properties of translated text have been the subject of research in linguistics for many year ( Baker , 1993 ) . <S>",
+			"relation": "result"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "In recent years computational methods have been developed ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "to empirically verify the linguistic theories about translated text ( Baroni and Bernardini , 2006 ) . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 4,
+			"parent": 6,
+			"text": "While many characteristics of translated text are more apparent ",
+			"relation": "contrast"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "in comparison to the original text , ",
+			"relation": "comparison"
+		},
+		{
+			"id": 6,
+			"parent": 7,
+			"text": "most of the prior research has focused on monolingual features of translated and original text . <S>",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 7,
+			"parent": 0,
+			"text": "The contribution of this work is introducing bilingual features ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "that are capable of explaining differences in translation direction ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "using localized linguistic phenomena at the phrase or sentence level , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "rather than using monolingual statistics at the document level . <S>",
+			"relation": "contrast"
+		},
+		{
+			"id": 11,
+			"parent": 12,
+			"text": "We show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 12,
+			"parent": 7,
+			"text": "that these bilingual features out-perform the monolingual features ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "used in prior work ( Kurokawa et al. , 2009 ) for the task ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "of classifying translation direction . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

@@ -1,0 +1,88 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 2,
+			"text": "While end-to-end neural machine translation ( NMT ) has made remarkable progress recently , ",
+			"relation": "comparison"
+		},
+		{
+			"id": 2,
+			"parent": 6,
+			"text": "NMT systems only rely on parallel corpora for parameter estimation . <S>",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 3,
+			"parent": 4,
+			"text": "Since parallel corpora are usually limited in quantity , quality , and coverage , especially for low-resource languages , ",
+			"relation": "exp-reason"
+		},
+		{
+			"id": 4,
+			"parent": 2,
+			"text": "it is appealing to exploit monolingual corpora ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "to improve NMT . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 6,
+			"parent": 0,
+			"text": "We propose a semisupervised approach for training NMT models on the concatenation of labeled ( parallel corpora ) and unlabeled ( monolingual corpora ) data . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "The central idea is to reconstruct the monolingual corpora ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "using an autoencoder , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "in which the sourceto-target and target-to-source translation models serve as the encoder and decoder , respectively . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 11,
+			"text": "Our approach can not only exploit the monolingual corpora of the target language , ",
+			"relation": "progression"
+		},
+		{
+			"id": 11,
+			"parent": 6,
+			"text": "but also of the source language . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 13,
+			"text": "Experiments on the ChineseEnglish dataset show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 13,
+			"parent": 6,
+			"text": "that our approach achieves significant improvements over state-of-the-art SMT and NMT systems . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

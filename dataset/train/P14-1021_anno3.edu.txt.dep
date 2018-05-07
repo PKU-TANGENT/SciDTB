@@ -1,0 +1,100 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This paper presents the first dependency model for a shift-reduce CCG parser . <S>\r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "Modelling dependencies is desirable for a number of reasons , \r",
+			"relation": "exp-reason"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "including handling the \" spurious \" ambiguity of CCG ; \r",
+			"relation": "elab-example"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "fitting well with the theory of CCG ; \r",
+			"relation": "joint"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "and optimizing for structures \r",
+			"relation": "joint"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "which are evaluated at test time . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 1,
+			"text": "We develop a novel training technique \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "using a dependency oracle , \r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "in which all derivations are hidden . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 8,
+			"text": "A challenge arises from the fact \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "that the oracle needs to keep track of exponentially many gold-standard derivations , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "which is solved \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "by integrating a packed parse forest with the beam-search decoder . <S>\r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 14,
+			"parent": 15,
+			"text": "Standard CCGBank tests show \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 15,
+			"parent": 1,
+			"text": "the model achieves up to 1.05 labeled F-score improvements over three existing , competitive CCG parsing models . <S>\r",
+			"relation": "evaluation"
+		}
+	]
+}

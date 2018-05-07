@@ -1,0 +1,100 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This paper presents an approach for Multilingual Document Clustering in comparable corpora . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "The algorithm is of heuristic nature ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "and it uses as unique evidence ",
+			"relation": "joint"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "for clustering the identification of cognate named entities between both sides of the comparable corpora . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 5,
+			"parent": 1,
+			"text": "One of the main advantages of this approach is that it does not depend on bilingual or multilingual resources . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "However , it depends on the possibility ",
+			"relation": "contrast"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "of identifying cognate named entities between the languages ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "used in the corpus . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 5,
+			"text": "An additional advantage of the approach is that it does not need any information about the right number of clusters ; ",
+			"relation": "progression"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "the algorithm calculates it . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 11,
+			"parent": 15,
+			"text": "We have tested this approach with a comparable corpus of news ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "written in English and Spanish . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 15,
+			"text": "In addition , we have compared the results with a system ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "which translates selected document features . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 1,
+			"text": "The obtained results are encouraging . <S>       ",
+			"relation": "evaluation"
+		}
+	]
+}

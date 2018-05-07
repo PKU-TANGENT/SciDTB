@@ -1,0 +1,8 @@
+We propose minimum risk training for end-to-end neural machine translation . <S>
+Unlike conventional maximum likelihood estimation , 
+minimum risk training is capable of optimizing model parameters directly with respect to arbitrary evaluation metrics , 
+which are not necessarily differentiable . <S>
+Experiments show 
+that our approach achieves significant improvements over maximum likelihood estimation on a state-of-the-art neural machine translation system across various languages pairs . <S>
+Transparent to architectures , our approach can be applied to more neural networks 
+and potentially benefit more NLP tasks . <S>  

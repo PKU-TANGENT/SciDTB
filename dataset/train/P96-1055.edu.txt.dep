@@ -1,0 +1,58 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We use a statistical method ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "to select the most probable structure ",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "or parse for a given sentence . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "It takes as input the dependency structures generated for the sentence by a dependency grammar , ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "finds all triple of modifier , particle and modificant relations , ",
+			"relation": "progression"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "calculates mutual information of each relation ",
+			"relation": "progression"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "and chooses the structure ",
+			"relation": "progression"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "for which the product of the mutual information of its relations is the highest . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

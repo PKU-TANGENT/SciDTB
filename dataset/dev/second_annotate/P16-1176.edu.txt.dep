@@ -1,0 +1,88 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We present a computational analysis of three language varieties : ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "native , advanced non-native , and translation . <S>",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "Our goal is to investigate the similarities and differences between non-native language productions and translations , ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "contrasting both with native language . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 5,
+			"parent": 6,
+			"text": "Using a collection of computational methods ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "we establish three main results ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": ": ( 1 ) the three types of texts are easily distinguishable ; ",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 8,
+			"parent": 6,
+			"text": "( 2 ) nonnative language and translations are closer to each other ",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "than each of them is to native language ; ",
+			"relation": "comparison"
+		},
+		{
+			"id": 10,
+			"parent": 6,
+			"text": "and ( 3 ) some of these characteristics depend on the source or native language , ",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "while others do not , ",
+			"relation": "contrast"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "reflecting , perhaps , unified principles ",
+			"relation": "result"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "that similarly affect translations and non-native language . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

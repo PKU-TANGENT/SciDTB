@@ -1,0 +1,154 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "Through a particular choice of a predicate \r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "( e.g. , ��x violated y�� ) , \r",
+			"relation": "elab-example"
+		},
+		{
+			"id": 3,
+			"parent": 10,
+			"text": "a writer can subtly connote a range of implied sentiment and presupposed facts about the entities x and y \r",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": ": ( 1 ) writer��s perspective : \r",
+			"relation": "elab-example"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "projecting x as an ��antagonist�� and y as a ��victim�� , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 3,
+			"text": "( 2 ) entities�� perspective : y probably dislikes x , \r",
+			"relation": "elab-example"
+		},
+		{
+			"id": 7,
+			"parent": 3,
+			"text": "( 3 ) effect : something bad happened to y , \r",
+			"relation": "elab-example"
+		},
+		{
+			"id": 8,
+			"parent": 3,
+			"text": "( 4 ) value : y is something valuable , \r",
+			"relation": "elab-example"
+		},
+		{
+			"id": 9,
+			"parent": 3,
+			"text": "and ( 5 ) mental state : y is distressed by the event . <S>\r",
+			"relation": "elab-example"
+		},
+		{
+			"id": 10,
+			"parent": 0,
+			"text": "We introduce connotation frames as a representation formalism \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "to organize these rich dimensions of connotation \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "using typed relations . <S>\r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 13,
+			"parent": 10,
+			"text": "First , we investigate the feasibility \r",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "of obtaining connotative labels through crowdsourcing experiments . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 10,
+			"text": "We then present models \r",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "for predicting the connotation frames of verb predicates \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 17,
+			"parent": 16,
+			"text": "based on their distributional word representations and the interplay between different types of connotative relations . <S>\r",
+			"relation": "bg-general"
+		},
+		{
+			"id": 18,
+			"parent": 19,
+			"text": "Empirical results confirm \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 19,
+			"parent": 10,
+			"text": "that connotation frames can be induced from various data sources \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 20,
+			"parent": 21,
+			"text": "that reflect \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 21,
+			"parent": 19,
+			"text": "how language is used in context . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 22,
+			"parent": 10,
+			"text": "We conclude with analytical results \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 23,
+			"parent": 22,
+			"text": "that show the potential use of connotation frames \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 24,
+			"parent": 23,
+			"text": "for analyzing subtle biases in online news media . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

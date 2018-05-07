@@ -1,0 +1,82 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "In this paper we address the problem of multilingual part-of-speech tagging for resource-poor languages . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "We use parallel data ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "to transfer part-of-speech information from resource-rich to resource-poor languages . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "Additionally , we use a small amount of annotated data ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "to learn to \"correct\" errors from projected approach such as tagset mismatch between languages , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "achieving state-of-the-art performance ( 91.3 % ) across 8 languages . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 1,
+			"text": "Our approach is based on modest data requirements , ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "and uses minimum divergence classification . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 9,
+			"parent": 11,
+			"text": "For situations ",
+			"relation": "enablement"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "where no universal tagset mapping is available , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 1,
+			"text": "we propose an alternate method , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "resulting in state-of-the-art 85.6 % accuracy on the resource-poor language Malagasy . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

@@ -1,0 +1,130 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 2,
+			"text": "Punctuation prediction and disfluency prediction can improve downstream natural language processing tasks such as machine translation and information extraction . <S>",
+			"relation": "result"
+		},
+		{
+			"id": 2,
+			"parent": 4,
+			"text": "Combining the two tasks can potentially improve the efficiency of the overall pipeline system ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "and reduce error propagation . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 4,
+			"parent": 0,
+			"text": "In this work , we compare various methods ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "for combining punctuation prediction ( PU ) and disfluency prediction ( DF ) on the Switchboard corpus . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "We compare an isolated prediction approach with a cascade approach , a rescoring approach , and three joint model approaches . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 8,
+			"text": "For the cascade approach , we show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 8,
+			"parent": 6,
+			"text": "that the soft cascade method is better than the hard cascade method . <S>",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 9,
+			"parent": 6,
+			"text": "We also use the cascade models ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "to generate an n-best list , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 11,
+			"parent": 9,
+			"text": "use the bi-directional cascade models ",
+			"relation": "joint"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "to perform rescoring , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 13,
+			"parent": 9,
+			"text": "and compare that with the results of the cascade models . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 14,
+			"parent": 6,
+			"text": "For the joint model approach , we compare mixed-label Linear-chain Conditional Random Field ( LCRF ) , cross-product LCRF and 2-layer Factorial Conditional Random Field ( FCRF ) with soft-cascade LCRF . <S>",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 15,
+			"parent": 16,
+			"text": "Our results show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 16,
+			"parent": 4,
+			"text": "that the various methods ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 17,
+			"parent": 16,
+			"text": "linking the two tasks ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 18,
+			"parent": 16,
+			"text": "are not significantly different from one another , ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 19,
+			"parent": 16,
+			"text": "although they perform better than the isolated prediction method by 0.5-1.5 % in the F1 score . <S>",
+			"relation": "contrast"
+		},
+		{
+			"id": 20,
+			"parent": 16,
+			"text": "Moreover , the clique order of features also shows a marked difference . <S>",
+			"relation": "progression"
+		}
+	]
+}

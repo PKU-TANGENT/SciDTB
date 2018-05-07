@@ -1,0 +1,100 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 6,
+			"text": "Abstractive text summarization of news requires a way of representing events , such as a collection of pattern clusters \r",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "in which every cluster represents an event \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "( e.g. , marriage ) \r",
+			"relation": "elab-example"
+		},
+		{
+			"id": 4,
+			"parent": 2,
+			"text": "and every pattern in the cluster is a way of expressing the event \r",
+			"relation": "joint"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "( e.g. , X married Y , X and Y tied the knot ) . <S>\r",
+			"relation": "elab-example"
+		},
+		{
+			"id": 6,
+			"parent": 0,
+			"text": "We compare three ways of extracting event patterns : \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "heuristics-based , compression-based and memory-based . <S>\r",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 8,
+			"parent": 9,
+			"text": "While the former has been used previously in multi-document abstraction , \r",
+			"relation": "contrast"
+		},
+		{
+			"id": 9,
+			"parent": 7,
+			"text": "the latter two have never been used for this task . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 11,
+			"text": "Compared with the first two techniques , \r",
+			"relation": "comparison"
+		},
+		{
+			"id": 11,
+			"parent": 6,
+			"text": "the memory-based method allows for generating significantly more grammatical and informa-tive sentences , \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "at the cost of searching a vast space of hundreds of millions of parse trees of known grammatical utterances . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 11,
+			"text": "To this end , we introduce a data structure and a search method \r",
+			"relation": "cause"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "that make it possible to efficiently extrapolate from every sentence the parse sub-trees \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "that match against any of the stored utterances . <S>\r",
+			"relation": "elab-addition"
+		}
+	]
+}

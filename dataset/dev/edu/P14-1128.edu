@@ -1,0 +1,12 @@
+This study investigates on building a better Chinese word segmentation model for statistical machine translation . <S>
+It aims at leveraging word boundary information , 
+automatically learned by bilingual character-based alignments , 
+to induce a preferable segmentation model . <S>
+We propose dealing with the induced word boundaries as soft constraints 
+to bias the continuous learning of a supervised CRFs model , 
+trained by the treebank data ( labeled ) ,  on the bilingual data  ( unlabeled ) . <S>
+The induced word boundary information is encoded as a graph propagation constraint . <S>
+The constrained model induction is accomplished 
+by using posterior regularization algorithm . <S>
+The experiments on a Chinese-to-English machine translation task reveal 
+that the proposed model can bring positive segmentation effects to translation quality . <S>

@@ -1,0 +1,13 @@
+State-of-the-art Chinese zero pronoun resolution systems are supervised , 
+thus relying on training data 
+containing manually resolved zero pronouns . <S>
+To eliminate the reliance on annotated data , 
+we present a generative model for unsupervised Chinese zero pronoun resolution . <S>
+At the core of our model is a novel hypothesis : 
+a probabilistic pronoun resolver 
+trained on overt pronouns in an unsupervised manner 
+can be used 
+to resolve zero pronouns . <S>
+Experiments demonstrate 
+that our unsupervised model rivals its state-of-the-art supervised counterparts in performance 
+when resolving the Chinese zero pronouns in the OntoNotes corpus . <S>

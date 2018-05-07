@@ -1,0 +1,18 @@
+The automatic detection of causal relationships in text is important for natural language understanding . <S>
+This task has proven to be difficult , 
+however , due to the need for world knowledge and inference . <S>
+We focus on a sub-task of this problem 
+where an open class set of linguistic markers can provide clues towards understanding causality . <S>
+Unlike the explicit markers , a closed class , 
+these markers vary significantly in their linguistic forms . <S>
+We leverage parallel Wikipedia corpora 
+to identify new markers 
+that are variations on known causal phrases , 
+creating a training set 
+via distant supervision . <S>
+We also train a causal classifier 
+using features from the open class markers and semantic features 
+providing contextual information . <S>
+The results show 
+that our features provide an 11.05 point absolute increase over the baseline on the task 
+of identifying causality in text . <S>

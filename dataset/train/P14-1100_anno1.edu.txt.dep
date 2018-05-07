@@ -1,0 +1,94 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We propose a spectral approach for unsupervised constituent parsing \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "that comes with theoretical guarantees on latent structure recovery . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "Our approach is grammar-less -\r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "we directly learn the bracketing structure of a given sentence \r",
+			"relation": "exp-reason"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "without using a grammar model . <S>\r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "The main algorithm is based on lifting the concept of additive tree metrics for structure learning of latent trees in the phylogenetic and machine learning communities to the case\r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "where the tree structure varies across examples . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 10,
+			"text": "Although finding the \"minimal\" latent tree is NP-hard in general , \r",
+			"relation": "contrast"
+		},
+		{
+			"id": 9,
+			"parent": 10,
+			"text": "for the case of projective trees we find \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 10,
+			"parent": 1,
+			"text": "that it can be found \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "using bilexical parsing algorithms . <S>\r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 12,
+			"parent": 1,
+			"text": "Empirically , our algorithm performs favorably \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "compared to the constituent context model of Klein and Manning ( 2002 ) \r",
+			"relation": "comparison"
+		},
+		{
+			"id": 14,
+			"parent": 12,
+			"text": "without the need for careful initialization . <S>\r",
+			"relation": "elab-addition"
+		}
+	]
+}

@@ -1,0 +1,58 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We present a novel PCFG-based architecture for robust probabilistic generation ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "based on wide-coverage LFG approximations ( Cahill et al. , 2004 ) ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "automatically extracted from treebanks , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "maximising the probability of a tree ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "given an f-structure . <S>",
+			"relation": "condition"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "We evaluate our approach ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "using stringbased evaluation . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 6,
+			"text": "We currently achieve coverage of 95.26 % , a BLEU score of 0.7227 and string accuracy of 0.7476 on the Penn-II WSJ Section 23 sentences of length ≤20 . <S>",
+			"relation": "result"
+		}
+	]
+}

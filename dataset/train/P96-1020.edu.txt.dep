@@ -1,0 +1,52 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This paper proposes the use of \" patternbased \" context-free grammars as a basis ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "for building machine translation ( MT ) systems , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "which are now being adopted as personal tools by a broad range of users in the cyberspace society . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "We discuss major requirements for such tools , ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "including easy customization for diverse domains , the efficiency of the translation algorithm , and scalability ( incremental improvement in translation quality through user interaction ) , ",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 6,
+			"parent": 7,
+			"text": "and describe ",
+			"relation": "attribution"
+		},
+		{
+			"id": 7,
+			"parent": 4,
+			"text": "how our approach meets these requirements . <S> ",
+			"relation": "joint"
+		}
+	]
+}

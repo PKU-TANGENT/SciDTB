@@ -1,0 +1,124 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "A poll consists of a question and a set of predefined answers ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "from which voters can select . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 0,
+			"text": "We present the new problem of vote prediction on comments , ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "which involves determining which of these answers a voter selected ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "given a comment ",
+			"relation": "condition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "she wrote ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "after voting . <S>",
+			"relation": "temporal"
+		},
+		{
+			"id": 8,
+			"parent": 9,
+			"text": "To address this task , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 9,
+			"parent": 3,
+			"text": "we exploit not only the information ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "extracted from the comments ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 9,
+			"text": "but also extra-textual information such as user demographic information and inter-comment constraints . <S>",
+			"relation": "progression"
+		},
+		{
+			"id": 12,
+			"parent": 15,
+			"text": "In an evaluation ",
+			"relation": "condition"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "involving nearly one million comments ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "collected from the popular SodaHead social polling website , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 3,
+			"text": "we show ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "that a vote prediction system ",
+			"relation": "attribution"
+		},
+		{
+			"id": 17,
+			"parent": 16,
+			"text": "that exploits only textual information ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 18,
+			"parent": 16,
+			"text": "can be improved significantly ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 19,
+			"parent": 18,
+			"text": "when extended with extra-textual information . <S>",
+			"relation": "temporal"
+		}
+	]
+}

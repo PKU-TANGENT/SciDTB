@@ -1,0 +1,130 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This paper presents techniques ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "to apply semi-CRFs to Named Entity Recognition tasks with a tractable computational cost . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "Our framework can handle an NER task ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "that has long named entities and many labels ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "which increase the computational cost . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 7,
+			"text": "To reduce the computational cost , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 7,
+			"parent": 1,
+			"text": "we propose two techniques : ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "the first is the use of feature forests , ",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "which enables us to pack feature-equivalent states , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 7,
+			"text": "and the second is the introduction of a filtering process ",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "which significantly reduces the number of candidate states . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 1,
+			"text": "This framework allows us to use a rich set of features ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "extracted from the chunk-based representation ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "that can capture informative characteristics of entities . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 1,
+			"text": "We also introduce a simple trick ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "to transfer information about distant entities ",
+			"relation": "enablement"
+		},
+		{
+			"id": 17,
+			"parent": 16,
+			"text": "by embedding label information into non-entity labels . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 18,
+			"parent": 19,
+			"text": "Experimental results show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 19,
+			"parent": 1,
+			"text": "that our model achieves an F-score of 71.48 % on the JNLPBA 2004 shared task ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 20,
+			"parent": 19,
+			"text": "without using any external resources or post-processing techniques . <S>",
+			"relation": "condition"
+		}
+	]
+}

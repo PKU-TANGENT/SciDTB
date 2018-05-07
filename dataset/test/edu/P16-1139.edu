@@ -1,0 +1,15 @@
+Tree-structured neural networks exploit valuable syntactic parse information 
+as they interpret the meanings of sentences . <S>
+However , they suffer from two key technical problems 
+that make them slow and unwieldy for large-scale NLP tasks : 
+they usually operate on parsed sentences 
+and they do not directly support batched computation . <S>
+We address these issues 
+by introducing the Stack-augmented Parser-Interpreter Neural Network ( SPINN ) , 
+which combines parsing and interpretation within a single tree-sequence hybrid model 
+by integrating tree-structured sentence interpretation into the linear sequential structure of a shift reduce parser . <S>
+Our model supports batched computation for a speedup of up to 25 * over other tree-structured models , 
+and its integrated parser can operate on unparsed data with little loss in accuracy . <S>
+We evaluate it on the Stanford NLI entailment task 
+and show 
+that it significantly outperforms other sentence-encoding models . <S>

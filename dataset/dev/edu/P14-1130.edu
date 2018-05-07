@@ -1,0 +1,12 @@
+Accurate scoring of syntactic structures such as head-modifier arcs in dependency parsing typically requires rich , high-dimensional feature representations . <S>
+A small subset of such features is often selected manually . <S>
+This is problematic 
+when features lack clear linguistic meaning as in embeddings 
+or when the information is blended across features . <S>
+In this paper , we use tensors 
+to map high-dimensional feature vectors into low dimensional representations . <S>
+We explicitly maintain the parameters as a low-rank tensor 
+to obtain low dimensional representations of words in their syntactic roles , 
+and to leverage modularity in the tensor for easy training with online algorithms . <S>
+Our parser consistently outperforms the Turbo and MST parsers across 14 different languages . <S>
+We also obtain the best published UAS results on 5 languages . <S>

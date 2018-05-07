@@ -1,0 +1,106 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 6,
+			"text": "Spoken monologues feature greater sentence length and structural complexity ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "than do spoken dialogues . <S>",
+			"relation": "comparison"
+		},
+		{
+			"id": 3,
+			"parent": 4,
+			"text": "To achieve high parsing performance for spoken monologues , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "it could prove effective to simplify the structure ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "by dividing a sentence into suitable language units . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 6,
+			"parent": 0,
+			"text": "This paper proposes a method for dependency parsing of Japanese monologues ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "based on sentence segmentation . <S>",
+			"relation": "bg-general"
+		},
+		{
+			"id": 8,
+			"parent": 6,
+			"text": "In this method , the dependency parsing is executed in two stages : at the clause level and the sentence level . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "First , the dependencies within a clause are identified ",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "by dividing a sentence into clauses ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "and executing stochastic dependency parsing for each clause . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 12,
+			"parent": 8,
+			"text": "Next , the dependencies over clause boundaries are identified stochastically , ",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "and the dependency structure of the entire sentence is thus completed . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 14,
+			"parent": 16,
+			"text": "An experiment ",
+			"relation": "attribution"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "using a spoken monologue corpus ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 16,
+			"parent": 6,
+			"text": "shows this method to be effective for efficient dependency parsing of Japanese monologue sentences . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

@@ -1,0 +1,70 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We introduce an agreement-based approach ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "to learning parallel lexicons and phrases from non-parallel corpora . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "The basic idea is to encourage two asymmetric latent-variable translation models ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "( i.e. , source-to-target and target-to-source ) ",
+			"relation": "elab-example"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "to agree on identifying latent phrase and word alignments . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 6,
+			"parent": 3,
+			"text": "The agreement is defined at both word and phrase levels . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 3,
+			"text": "We develop a Viterbi EM algorithm ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "for jointly training the two unidirectional models efficiently . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 9,
+			"parent": 10,
+			"text": "Experiments on the ChineseEnglish dataset show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 10,
+			"parent": 1,
+			"text": "that agreementbased learning significantly improves both alignment and translation performance . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

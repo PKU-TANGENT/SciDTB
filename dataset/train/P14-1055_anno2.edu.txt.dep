@@ -1,0 +1,76 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 4,
+			"text": "Active learning ( AL ) has been proven effective \r",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "to reduce human annotation efforts in NLP . <S>\r",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "However , previous studies on AL are limited to applications in a single language . <S>\r",
+			"relation": "contrast"
+		},
+		{
+			"id": 4,
+			"parent": 0,
+			"text": "This paper proposes a bilingual active learning paradigm for relation classification , \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "where the unlabeled instances are first jointly chosen in terms of their prediction uncertainty scores in two languages \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "and then manually labeled by an oracle . <S>\r",
+			"relation": "joint"
+		},
+		{
+			"id": 7,
+			"parent": 8,
+			"text": "Instead of using a parallel corpus , \r",
+			"relation": "contrast"
+		},
+		{
+			"id": 8,
+			"parent": 4,
+			"text": "labeled and unlabeled instances in one language are translated into ones in the other language \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "and all instances in both languages are then fed into a bilingual active learning engine as pseudo parallel corpora . <S>\r",
+			"relation": "joint"
+		},
+		{
+			"id": 10,
+			"parent": 4,
+			"text": "Experimental results on the ACE RDC 2005 Chinese and English corpora show \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "that bilingual active learning for relation classification significantly outperforms monolingual active learning . <S>\r",
+			"relation": "attribution"
+		}
+	]
+}

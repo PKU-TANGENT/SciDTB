@@ -1,0 +1,76 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This paper presents an adaptive learning framework for Phonetic Similarity Modeling ( PSM ) ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "that supports the automatic construction of transliteration lexicons . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "The learning algorithm starts with minimum prior knowledge about machine transliteration , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "and acquires knowledge iteratively from the Web . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 5,
+			"parent": 1,
+			"text": "We study the active learning and the unsupervised learning strategies ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "that minimize human supervision in terms of data labeling . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 5,
+			"text": "The learning process refines the PSM ",
+			"relation": "result"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "and constructs a transliteration lexicon at the same time . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 9,
+			"parent": 1,
+			"text": "We evaluate the proposed PSM and its learning algorithm through a series of systematic experiments , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 10,
+			"parent": 11,
+			"text": "which show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 11,
+			"parent": 9,
+			"text": "that the proposed framework is reliably effective on two independent databases . <S>                 ",
+			"relation": "elab-addition"
+		}
+	]
+}

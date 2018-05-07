@@ -1,0 +1,82 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We describe a convolutional neural network ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "that learns feature representations for short textual posts ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "using hashtags as a supervised signal. <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "The proposed approach is trained on up to 5.5 billion words ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "predicting 100,000 possible hashtags . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 8,
+			"text": "As well as strong performance on the hashtag prediction task itself , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 8,
+			"text": "we show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 8,
+			"parent": 10,
+			"text": "that its learned representation of text ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "( ignoring the hashtag labels ) ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 1,
+			"text": "is useful for other tasks as well . <S>",
+			"relation": "evaluation"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "To that end , we present results on a document recommendation task , ",
+			"relation": "exp-evidence"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "where it also outperforms a number of baselines . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

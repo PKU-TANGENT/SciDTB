@@ -1,0 +1,106 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 6,
+			"text": "Recurrent neural networks ( RNNs ) are connectionist models of sequential data ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "that are naturally applicable to the analysis of natural language . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 6,
+			"text": "Recently , \"depth in space\" — as an orthogonal notion to \"depth in time\" — in RNNs has been investigated ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "by stacking multiple layers of RNNs ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "and shown empirically to bring a temporal hierarchy to the architecture . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 6,
+			"parent": 0,
+			"text": "In this work we apply these deep RNNs to the task of opinion expression extraction ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "formulated as a token-level sequence-labeling task . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 9,
+			"text": "Experimental results show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 9,
+			"parent": 6,
+			"text": "that deep , narrow RNNs outperform traditional shallow , wide RNNs with the same number of parameters . <S>",
+			"relation": "evaluation"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "Furthermore , our approach outperforms previous CRF-based baselines , ",
+			"relation": "joint"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "including the state-of-the-art semi-Markov CRF model , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 13,
+			"text": "and does so ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 13,
+			"parent": 10,
+			"text": "without access to the powerful opinion lexicons and syntactic features ",
+			"relation": "joint"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "relied upon by the semi-CRF , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 13,
+			"text": "as well as without the standard layer-by-layer pre-training ",
+			"relation": "joint"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "typically required of RNN architectures . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

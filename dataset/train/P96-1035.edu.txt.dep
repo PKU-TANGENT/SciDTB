@@ -1,0 +1,58 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We propose an Mgorithm to resolve anaphors , ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "tackling mainly the problem of intrasentential antecedents . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "We base our methodology on the fact ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "that such antecedents are likely to occur in embedded sentences . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 1,
+			"text": "Sidner 's focusing mechanism is used as the basic algorithm in a more complete approach . <S>",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "The proposed algorithm has been tested and implemented as a part of a conceptual analyser , mainly ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "to process pronouns . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 1,
+			"text": "Details of an evaluation are given . <S>  ",
+			"relation": "elab-aspect"
+		}
+	]
+}

@@ -1,0 +1,82 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We present an overview of recent work ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "in which eye movements are monitored ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "as people follow spoken instructions ",
+			"relation": "temporal"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "to move objects or pictures in a visual workspace . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 5,
+			"parent": 1,
+			"text": "Subjects naturally make saccadic eye-movements to objects ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "that are closely time-locked to relevant information in the instruction . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 5,
+			"text": "Thus the eye-movements provide a window into the rapid mental processes ",
+			"relation": "cause"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "that underlie spoken language comprehension . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 1,
+			"text": "We review studies of reference resolution , word recognition , and pragmatic effects on syntactic ambiguity resolution . <S>",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 10,
+			"parent": 11,
+			"text": "Our studies show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 11,
+			"parent": 1,
+			"text": "that people seek to establish reference with respect to their behavioral goals during the earliest moments of linguistic processing . <S>",
+			"relation": "evaluation"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "Moreover , referentially relevant non-linguistic information immediately affects how the linguistic input is initially structured . <S>   ",
+			"relation": "elab-addition"
+		}
+	]
+}

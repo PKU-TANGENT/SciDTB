@@ -1,0 +1,112 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This paper introduces to the finite-state calculus a family of directed replace operators . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 4,
+			"text": "In contrast to the simple replace expression , UPPER -> LOWER , ",
+			"relation": "contrast"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "defined in Karttunen ( 1995 ) , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "the new directed version , UPPER ©-> LOWER , yields an unambiguous transducer ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "if the lower language consists of a single string . <S>",
+			"relation": "condition"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "It transduces the input string from left to right , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "making only the longest possible replacement at each point . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 1,
+			"text": "A new type of replacement expression , UPPER @ -> PREFIX ... SUFFIX , yields a transducer ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "that inserts text around strings ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "that are instances of UPPER . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 8,
+			"text": "The symbol ... denotes the matching part of the input ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "which itself remains unchanged . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 8,
+			"text": "PREFIX and SUFFIX are regular expressions ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "describing the insertions . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 8,
+			"text": "Expressions of the type UPPER @ -> PREFIX ... SUFFIX may be used ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "to compose a deterministic parser for a `` local grammar '' in the sense of Gross ( 1989 ) . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 17,
+			"parent": 1,
+			"text": "Other useful applications of directed replacement include tokenization and filtering of text streams . <S> ",
+			"relation": "elab-aspect"
+		}
+	]
+}

@@ -1,0 +1,82 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "Previous researches on Text-level discourse parsing mainly made use of constituency structure \r",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "to parse the whole document into one discourse tree . <S>\r",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 0,
+			"text": "In this paper , we present the limitations of constituency based discourse parsing \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "and first propose to use dependency structure \r",
+			"relation": "progression"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "to directly represent the relations between elementary discourse units ( EDUs ) . <S>\r",
+			"relation": "enablement"
+		},
+		{
+			"id": 6,
+			"parent": 3,
+			"text": "The state-of-the-art dependency parsing techniques , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "the Eisner algorithm and maximum spanning tree ( MST ) algorithm , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 6,
+			"text": "are adopted \r",
+			"relation": "same-unit"
+		},
+		{
+			"id": 9,
+			"parent": 6,
+			"text": "to parse an optimal discourse dependency tree \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "based on the arc-factored model and the large-margin learning techniques . <S>\r",
+			"relation": "bg-general"
+		},
+		{
+			"id": 11,
+			"parent": 12,
+			"text": "Experiments show \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 12,
+			"parent": 3,
+			"text": "that our discourse dependency parsers achieve a competitive performance on text-level discourse parsing . <S>\r",
+			"relation": "evaluation"
+		}
+	]
+}

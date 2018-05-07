@@ -1,0 +1,88 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "In this paper , we present a manifold model for medical relation extraction . <S>\r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "Our model is built upon a medical corpus \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "containing 80M sentences \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "( 11 gigabyte text ) \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 2,
+			"text": "and designed to accurately and efciently detect the key medical relations \r",
+			"relation": "joint"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "that can facilitate clinical decision making . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 1,
+			"text": "Our approach integrates domain specic parsing and typing systems , \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "and can utilize labeled as well as unlabeled examples . <S>\r",
+			"relation": "joint"
+		},
+		{
+			"id": 9,
+			"parent": 10,
+			"text": "To provide users with more exibility , \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 10,
+			"parent": 1,
+			"text": "we also take label weight into consideration . <S>\r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 11,
+			"parent": 1,
+			"text": "Effectiveness of our model is demonstrated both theoretically with a proof \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "to show \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "that the solution is a closed-form solution and experimentally with positive results in experiments . <S>\r",
+			"relation": "attribution"
+		}
+	]
+}

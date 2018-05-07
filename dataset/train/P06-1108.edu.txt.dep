@@ -1,0 +1,94 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 2,
+			"text": "In this paper we present ",
+			"relation": "attribution"
+		},
+		{
+			"id": 2,
+			"parent": 0,
+			"text": "how the automatic extraction of events from text can be used ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "to both classify narrative texts according to plot quality ",
+			"relation": "enablement"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "and produce advice in an interactive learning environment ",
+			"relation": "joint"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "intended to help students with story writing . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 2,
+			"text": "We focus on the story rewriting task , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "in which an exemplar story is read to the students ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "and the students rewrite the story in their own words . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 9,
+			"parent": 6,
+			"text": "The system automatically extracts events from the raw text , ",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "formalized as a sequence of temporally ordered predicate-arguments . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 6,
+			"text": "These events are given to a machine-learner ",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "that produces a coarse-grained rating of the story . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 6,
+			"text": "The results of the machine-learner and the extracted events are then used ",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "to generate fine-grained advice for the students . <S>                    ",
+			"relation": "enablement"
+		}
+	]
+}

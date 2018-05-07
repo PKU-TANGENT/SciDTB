@@ -1,0 +1,94 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 6,
+			"text": "Character-based and word-based methods are two main types of statistical models for Chinese word segmentation , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "the former exploiting sequence labeling models over characters ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "and the latter typically exploiting a transition-based model , ",
+			"relation": "joint"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "with the advantages ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "that word-level features can be easily utilized . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 10,
+			"text": "Neural models have been exploited for character-based Chinese word segmentation , ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "giving high accuracies ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "by making use of external character embeddings , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 9,
+			"parent": 7,
+			"text": "yet requiring less feature engineering . <S>",
+			"relation": "contrast"
+		},
+		{
+			"id": 10,
+			"parent": 0,
+			"text": "In this paper , we study a neural model for word-based Chinese word segmentation , ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "by replacing the manuallydesigned discrete features with neural features in a word-based segmentation framework . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 12,
+			"parent": 13,
+			"text": "Experimental results demonstrate ",
+			"relation": "attribution"
+		},
+		{
+			"id": 13,
+			"parent": 10,
+			"text": "that word features lead to comparable performances to the best systems in the literature , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "and a further combination of discrete and neural features gives top accuracies . <S>       ",
+			"relation": "progression"
+		}
+	]
+}

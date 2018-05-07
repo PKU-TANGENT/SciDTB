@@ -1,0 +1,118 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 5,
+			"text": "Event-based summarization attempts to select and organize the sentences in a summary with respect to the events or the sub-events ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "that the sentences describe . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "Each event has its own internal structure , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "and meanwhile often relates to other events semantically , temporally , spatially , causally or conditionally . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 5,
+			"parent": 0,
+			"text": "In this paper , we define an event as one or more event terms along with the named entities associated , ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "and present a novel approach ",
+			"relation": "joint"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "to derive intra- and inter- event relevance ",
+			"relation": "enablement"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "using the information of internal association , semantic relatedness , distributional similarity and named entity clustering . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 9,
+			"parent": 5,
+			"text": "We then apply PageRank ranking algorithm ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "to estimate the significance of an event for inclusion in a summary from the event relevance derived . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 11,
+			"parent": 12,
+			"text": "Experiments on the DUC 2001 test data shows ",
+			"relation": "attribution"
+		},
+		{
+			"id": 12,
+			"parent": 5,
+			"text": "that the relevance of the named entities ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "involved in events ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 12,
+			"text": "achieves better result ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 15,
+			"parent": 12,
+			"text": "when their relevance is derived from the event terms ",
+			"relation": "condition"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "they associate . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 17,
+			"parent": 18,
+			"text": "It also reveals ",
+			"relation": "attribution"
+		},
+		{
+			"id": 18,
+			"parent": 12,
+			"text": "that the topic-specific relevance from documents themselves outperforms the semantic relevance from a general purpose knowledge base like Word-Net . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

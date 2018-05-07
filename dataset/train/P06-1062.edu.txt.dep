@@ -1,0 +1,82 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This paper presents a new web mining scheme for parallel data acquisition . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 3,
+			"text": "Based on the Document Object Model ( DOM ) , ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "a web page is represented as a DOM tree . <S>",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "Then a DOM tree alignment model is proposed ",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "to identify the translationally equivalent texts and hyperlinks between two parallel DOM trees . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 6,
+			"parent": 7,
+			"text": "By tracing the identified parallel hyperlinks , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 7,
+			"parent": 1,
+			"text": "parallel web documents are recursively mined . <S>",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 8,
+			"parent": 10,
+			"text": "Compared with previous mining schemes , ",
+			"relation": "comparison"
+		},
+		{
+			"id": 9,
+			"parent": 10,
+			"text": "the benchmarks show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 10,
+			"parent": 1,
+			"text": "that this new mining scheme improves the mining coverage , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "reduces mining bandwidth , ",
+			"relation": "joint"
+		},
+		{
+			"id": 12,
+			"parent": 10,
+			"text": "and enhances the quality of mined parallel sentences . <S>",
+			"relation": "joint"
+		}
+	]
+}

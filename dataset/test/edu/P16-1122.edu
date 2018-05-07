@@ -1,0 +1,12 @@
+Attention based recurrent neural networks have shown advantages 
+in representing natural language sentences ( Hermann et al. , 2015 ; Rocktaschel et al. , 2015 ; Tan et al. , 2015 ) . <S>
+Based on recurrent neural networks ( RNN ) , 
+external attention information was added to hidden representations 
+to get an attentive sentence representation . <S>
+Despite the improvement over nonattentive models , 
+the attention mechanism under RNN is not well studied . <S>
+In this work , we analyze the deficiency of traditional attention based RNN models quantitatively and qualitatively . <S>
+Then we present three new RNN models 
+that add attention information before RNN hidden representation , 
+which shows advantage in representing sentence 
+and achieves new state-of-art results in answer selection task . <S>

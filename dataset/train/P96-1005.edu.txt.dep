@@ -1,0 +1,82 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This paper deals with the discovery , representation , and use of lexical rules ( LRs ) during large-scale semi-automatic computational lexicon acquisition . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "The analysis is based on a set of LRs ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "implemented and tested on the basis of Spanish and English business- and finance-related corpora . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 6,
+			"text": "We show that , ",
+			"relation": "attribution"
+		},
+		{
+			"id": 5,
+			"parent": 6,
+			"text": "though the use of LRs is justified , ",
+			"relation": "contrast"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "they do not come costfree . <S>",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 7,
+			"parent": 9,
+			"text": "Semi-automatic output checking is required , even with blocking and preemtion procedures ",
+			"relation": "contrast"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "built in . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 1,
+			"text": "Nevertheless , largescope LRs are justified ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "because they facilitate the unavoidable process of large-scale semi-automatic lexical acquisition . <S>",
+			"relation": "exp-reason"
+		},
+		{
+			"id": 11,
+			"parent": 12,
+			"text": "We also argue ",
+			"relation": "attribution"
+		},
+		{
+			"id": 12,
+			"parent": 1,
+			"text": "that the place of LRs in the computational process is a complex issue . <S>   ",
+			"relation": "elab-aspect"
+		}
+	]
+}

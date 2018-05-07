@@ -1,0 +1,118 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This paper presents a pilot study of the use of phrasal Statistical Machine Translation ( SMT ) techniques ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "to identify and correct writing errors ",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "made by learners of English as a Second Language ( ESL ) . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 8,
+			"text": "Using examples of mass noun errors ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "found in the Chinese Learner Error Corpus ( CLEC ) ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "to guide creation of an engineered training set , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 7,
+			"parent": 8,
+			"text": "we show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 8,
+			"parent": 1,
+			"text": "that application of the SMT paradigm can capture errors ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "not well addressed by widely-used proofing tools ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "designed for native speakers . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 1,
+			"text": "Our system was able to correct 61.81 % of mistakes in a set of naturally occurring examples of mass noun errors ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "found on the World Wide Web , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 14,
+			"text": "suggesting ",
+			"relation": "attribution"
+		},
+		{
+			"id": 14,
+			"parent": 11,
+			"text": "that efforts ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "to collect alignable corpora of pre- and post-editing ESL writing samples offer ",
+			"relation": "enablement"
+		},
+		{
+			"id": 16,
+			"parent": 14,
+			"text": "can enable the development of SMT-based writing assistance tools ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 17,
+			"parent": 16,
+			"text": "capable of repairing many of the complex syntactic and lexical problems ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 18,
+			"parent": 17,
+			"text": "found in the writing of ESL learners . <S>   ",
+			"relation": "elab-addition"
+		}
+	]
+}

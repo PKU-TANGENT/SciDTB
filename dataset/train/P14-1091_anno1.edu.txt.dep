@@ -1,0 +1,148 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 7,
+			"text": "A typical knowledge-based question answering ( KB-QA ) system faces two challenges : \r",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "one is to transform natural language questions into their meaning representations ( MRs ) ; \r",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "the other is to retrieve answers from knowledge bases ( KBs ) \r",
+			"relation": "joint"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "using generated MRs . <S>\r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 5,
+			"parent": 7,
+			"text": "Unlike previous methods \r",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "which treat them in a cascaded manner , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 0,
+			"text": "we present a translation-based approach \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "to solve these two tasks in one unified framework . <S>\r",
+			"relation": "enablement"
+		},
+		{
+			"id": 9,
+			"parent": 7,
+			"text": "We translate questions to answers based on CYK parsing . <S>\r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "Answers as translations of the span \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "covered by each CYK cell \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 10,
+			"text": "are obtained by a question translation method , \r",
+			"relation": "same-unit"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "which first generates formal triple queries as MRs for the span \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "based on question patterns and relation expressions , \r",
+			"relation": "bg-general"
+		},
+		{
+			"id": 15,
+			"parent": 13,
+			"text": "and then retrieves answers from a given KB \r",
+			"relation": "joint"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "based on triple queries generated . <S>\r",
+			"relation": "bg-general"
+		},
+		{
+			"id": 17,
+			"parent": 7,
+			"text": "A linear model is defined over derivations , \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 18,
+			"parent": 17,
+			"text": "and minimum error rate training is used \r",
+			"relation": "joint"
+		},
+		{
+			"id": 19,
+			"parent": 18,
+			"text": "to tune feature weights \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 20,
+			"parent": 19,
+			"text": "based on a set of question-answer pairs . <S>\r",
+			"relation": "bg-general"
+		},
+		{
+			"id": 21,
+			"parent": 23,
+			"text": "Compared to a KB-QA system \r",
+			"relation": "comparison"
+		},
+		{
+			"id": 22,
+			"parent": 21,
+			"text": "using a state-of-the-art semantic parser , \r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 23,
+			"parent": 7,
+			"text": "our method achieves better results . <S>\r",
+			"relation": "evaluation"
+		}
+	]
+}

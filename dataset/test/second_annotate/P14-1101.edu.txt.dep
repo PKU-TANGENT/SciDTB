@@ -1,0 +1,76 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 10,
+			"text": "Learning phonetic categories is one of the first steps to learning a language , \r",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "yet is hard to do \r",
+			"relation": "contrast"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "using only distributional phonetic information . <S>\r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 4,
+			"parent": 6,
+			"text": "Semantics could potentially be useful , \r",
+			"relation": "contrast"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "since words with different meanings have distinct phonetics , \r",
+			"relation": "exp-reason"
+		},
+		{
+			"id": 6,
+			"parent": 9,
+			"text": "but it is unclear how many word meanings are known to infants \r",
+			"relation": "bg-general"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "learning phonetic categories . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 9,
+			"text": "We show \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 9,
+			"parent": 10,
+			"text": "that attending to a weaker source of semantics , in the form of a distribution over topics in the current context , can lead to improvements in phonetic category learning . <S>\r",
+			"relation": "bg-general"
+		},
+		{
+			"id": 10,
+			"parent": 0,
+			"text": "In our model , an extension of a previous model of joint word-form and phonetic category inference , the probability of word-forms is topic-dependent , \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "enabling the model to find significantly better phonetic vowel categories and word-forms than a model with no semantic knowledge . <S>\r",
+			"relation": "enablement"
+		}
+	]
+}

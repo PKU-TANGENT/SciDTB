@@ -1,0 +1,7 @@
+We propose a model 
+for jointly predicting multiple emotions in natural language sentences . <S>
+Our model is based on a low-rank coregionalisation approach , 
+which combines a vector-valued Gaussian Process with a rich parameterisation scheme . <S>
+We show 
+that our approach is able to learn correlations and anti-correlations between emotions on a news headlines dataset . <S>
+The proposed model outperforms both single-task baselines and other multi-task approaches . <S>

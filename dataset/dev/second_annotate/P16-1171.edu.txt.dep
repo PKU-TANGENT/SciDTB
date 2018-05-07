@@ -1,0 +1,76 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 2,
+			"text": "Linguistics studies have shown ",
+			"relation": "attribution"
+		},
+		{
+			"id": 2,
+			"parent": 3,
+			"text": "that action verbs often denote some Change of State ( CoS ) as the result of an action . <S>",
+			"relation": "contrast"
+		},
+		{
+			"id": 3,
+			"parent": 5,
+			"text": "However , the causality of action verbs and its potential connection with the physical world has not been systematically explored . <S>",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 4,
+			"parent": 5,
+			"text": "To address this limitation , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 5,
+			"parent": 0,
+			"text": "this paper presents a study on physical causality of action verbs and their implied changes in the physical world . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "We first conducted a crowdsourcing experiment ",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "and identified eighteen categories of physical causality for action verbs . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 8,
+			"parent": 5,
+			"text": "For a subset of these categories , we then defined a set of detectors ",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "that detect the corresponding change from visual perception of the physical environment . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 5,
+			"text": "We further incorporated physical causality modeling and state detection in grounded language understanding . <S>",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 11,
+			"parent": 5,
+			"text": "Our empirical studies have demonstrated the effectiveness of causality modeling in grounding language to perception . <S> ",
+			"relation": "evaluation"
+		}
+	]
+}

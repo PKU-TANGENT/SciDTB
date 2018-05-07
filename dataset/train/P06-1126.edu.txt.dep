@@ -1,0 +1,94 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This paper presents a discriminative pruning method of n-gram language model for Chinese word segmentation . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 4,
+			"text": "To reduce the size of the language model ",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "that is used in a Chinese word segmentation system , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "importance of each bigram is computed in terms of discriminative pruning criterion ",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "that is related to the performance loss ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "caused by pruning the bigram . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 1,
+			"text": "Then we propose a step-by-step growing algorithm ",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "to build the language model of desired size . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 9,
+			"parent": 10,
+			"text": "Experimental results show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 10,
+			"parent": 1,
+			"text": "that the discriminative pruning method leads to a much smaller model ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "compared with the model ",
+			"relation": "comparison"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "pruned using the state-of-the-art method . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 10,
+			"text": "At the same Chinese word segmentation F-measure , the number of bigrams in the model can be reduced by up to 90 % . <S>",
+			"relation": "exp-evidence"
+		},
+		{
+			"id": 14,
+			"parent": 10,
+			"text": "Correlation between language model perplexity and word segmentation performance is also discussed . <S>",
+			"relation": "joint"
+		}
+	]
+}

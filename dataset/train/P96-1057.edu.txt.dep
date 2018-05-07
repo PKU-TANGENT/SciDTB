@@ -1,0 +1,46 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We extend the centering model for the resolution of intia-sentential anaphora ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 3,
+			"text": "and specify ",
+			"relation": "attribution"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "how to handle complex sentences . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 4,
+			"parent": 6,
+			"text": "An empirical evaluation ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 5,
+			"parent": 6,
+			"text": "indicates ",
+			"relation": "attribution"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "that the functional information structure guides the search for an antecedent within the sentence . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

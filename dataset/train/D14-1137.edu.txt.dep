@@ -1,0 +1,106 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We propose a novel model ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "for parsing natural language sentences into their formal semantic representations . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "The model is able to perform integrated lexicon acquisition and semantic parsing , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "mapping each atomic element in a complete semantic representation to a contiguous word sequence in the input sentence in a recursive manner , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "where certain overlappings amongst such word sequences are allowed . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "It defines distributions over the novel relaxed hybrid tree structures ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "which jointly represent both sentences and semantics . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 6,
+			"text": "Such structures allow tractable dynamic programming algorithms to be developed for efficient learning and decoding . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 10,
+			"text": "Trained under a discriminative setting , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 1,
+			"text": "our model is able to incorporate a rich set of features ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "where certain unbounded long-distance dependencies can be captured in a principled manner . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 10,
+			"text": "We demonstrate through experiments ",
+			"relation": "exp-evidence"
+		},
+		{
+			"id": 13,
+			"parent": 14,
+			"text": "that by exploiting a large collection of simple features , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 14,
+			"parent": 12,
+			"text": "our model is shown to be competitive to previous works ",
+			"relation": "attribution"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "and achieves state-of-the-art performance on standard benchmark data across four different languages . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 16,
+			"parent": 12,
+			"text": "The system and code can be downloaded from http ://statnlp.org/research/sp/ . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

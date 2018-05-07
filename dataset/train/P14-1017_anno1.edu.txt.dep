@@ -1,0 +1,160 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "Consider a person \r",
+			"relation": "bg-general"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "trying to spread an important message on a social network . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 4,
+			"text": "He/she can spend hours trying to craft the message . <S>\r",
+			"relation": "result"
+		},
+		{
+			"id": 4,
+			"parent": 7,
+			"text": "Does it actually matter ? <S>\r",
+			"relation": "bg-general"
+		},
+		{
+			"id": 5,
+			"parent": 7,
+			"text": "While there has been extensive prior work \r",
+			"relation": "contrast"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "looking into predicting popularity of social-media content , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 17,
+			"text": "the effect of wording per se has rarely been studied \r",
+			"relation": "bg-general"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "since it is often confounded with the popularity of the author and the topic . <S>\r",
+			"relation": "exp-reason"
+		},
+		{
+			"id": 9,
+			"parent": 10,
+			"text": "To control for these confounding factors , \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 10,
+			"parent": 17,
+			"text": "we take advantage of the surprising fact \r",
+			"relation": "bg-general"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "that there are many pairs of tweets \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "containing the same url \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "and written by the same user \r",
+			"relation": "joint"
+		},
+		{
+			"id": 14,
+			"parent": 12,
+			"text": "but employing different wording . <S>\r",
+			"relation": "contrast"
+		},
+		{
+			"id": 15,
+			"parent": 16,
+			"text": "Given such pairs , \r",
+			"relation": "condition"
+		},
+		{
+			"id": 16,
+			"parent": 17,
+			"text": "we ask : \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 17,
+			"parent": 22,
+			"text": "which version attracts more retweets ? <S>\r",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 18,
+			"parent": 17,
+			"text": "This turns out to be a more difficult task \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 19,
+			"parent": 18,
+			"text": "than predicting popular topics . <S>\r",
+			"relation": "comparison"
+		},
+		{
+			"id": 20,
+			"parent": 22,
+			"text": "Still , humans can answer this question better than chance \r",
+			"relation": "comparison"
+		},
+		{
+			"id": 21,
+			"parent": 20,
+			"text": "( but far from perfectly ) , \r",
+			"relation": "contrast"
+		},
+		{
+			"id": 22,
+			"parent": 0,
+			"text": "and the computational methods \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 23,
+			"parent": 22,
+			"text": "we develop \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 24,
+			"parent": 22,
+			"text": "can do better than both an average human and a strong competing method \r",
+			"relation": "same-unit"
+		},
+		{
+			"id": 25,
+			"parent": 24,
+			"text": "trained on non-controlled data . <S>\r",
+			"relation": "elab-addition"
+		}
+	]
+}

@@ -1,0 +1,106 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We propose three improvements \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "to address the drawbacks of state-of-the-art transition-based constituent parsers . <S>\r",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 4,
+			"text": "First , to resolve the error propagation problem of the traditional pipeline approach , \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "we incorporate POS tagging into the syntactic parsing process . <S>\r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 5,
+			"parent": 6,
+			"text": "Second , to alleviate the negative influence of size differences among competing action sequences , \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "we align parser states during beam-search decoding . <S>\r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 7,
+			"parent": 8,
+			"text": "Third , to enhance the power of parsing models , \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 8,
+			"parent": 1,
+			"text": "we enlarge the feature set with non-local features and semi-supervised word cluster features . <S>\r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 9,
+			"parent": 10,
+			"text": "Experimental results show \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 10,
+			"parent": 1,
+			"text": "that these modifications improve parsing performance significantly . <S>\r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 11,
+			"parent": 12,
+			"text": "Evaluated on the Chinese TreeBank ( CTB ) , \r",
+			"relation": "bg-general"
+		},
+		{
+			"id": 12,
+			"parent": 10,
+			"text": "our final performance reaches 86.3 % ( F1 ) \r",
+			"relation": "exp-evidence"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "when trained on CTB 5.1 , \r",
+			"relation": "temporal"
+		},
+		{
+			"id": 14,
+			"parent": 12,
+			"text": "and 87.1 % \r",
+			"relation": "joint"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "when trained on CTB 6.0 , \r",
+			"relation": "temporal"
+		},
+		{
+			"id": 16,
+			"parent": 12,
+			"text": "and these results outperform all state-of-the-art parsers . <S>\r",
+			"relation": "summary"
+		}
+	]
+}

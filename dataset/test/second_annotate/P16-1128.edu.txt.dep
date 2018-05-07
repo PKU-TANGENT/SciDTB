@@ -1,0 +1,64 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 4,
+			"text": "Word embeddings - distributed representations of words - in deep learning are beneficial for many tasks in NLP . <S>",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "However , different embedding sets vary greatly in quality and characteristics of the captured information . <S>",
+			"relation": "contrast"
+		},
+		{
+			"id": 3,
+			"parent": 4,
+			"text": "Instead of relying on a more advanced algorithm for embedding learning , ",
+			"relation": "contrast"
+		},
+		{
+			"id": 4,
+			"parent": 0,
+			"text": "this paper proposes an ensemble approach ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "of combining different public embedding sets with the aim of learning metaembeddings . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "Experiments on word similarity and analogy tasks and on part-of-speech tagging show better performance of metaembeddings ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "compared to individual embedding sets . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 6,
+			"text": "One advantage of metaembeddings is the increased vocabulary coverage . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "We release our metaembeddings publicly at http ://cistern.cis.lmu.de/meta-emb . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

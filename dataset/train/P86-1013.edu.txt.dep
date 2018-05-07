@@ -1,0 +1,76 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "Conjunctions have always been a source of problems for natural language parsers . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 3,
+			"text": "This paper shows ",
+			"relation": "attribution"
+		},
+		{
+			"id": 3,
+			"parent": 0,
+			"text": "how these problems may be circumvented ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "using a rule based , walt-and-see parsing strategy . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "A parser is presented ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "which analyzes conjunction structures deterministically , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 5,
+			"text": "and the specific rules ",
+			"relation": "joint"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "it uses ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 7,
+			"text": "are described and illustrated . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 10,
+			"parent": 3,
+			"text": "This parser appears to be faster for conjunctions than other parsers in the literature ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "and some comparative timings are given . <S>",
+			"relation": "joint"
+		}
+	]
+}

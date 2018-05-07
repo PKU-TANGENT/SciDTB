@@ -1,0 +1,76 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We present several methods for stemming and lemmatization ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "based on discriminative string transduction . <S>",
+			"relation": "bg-general"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "We exploit the paradigmatic regularity of semi-structured inflection tables ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "to identify stems in an unsupervised manner with over 85 % accuracy . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 5,
+			"parent": 6,
+			"text": "Experiments on English , Dutch and German show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "that our stemmers substantially outperform Snowball and Morfessor , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "and approach the accuracy of a supervised model . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 8,
+			"parent": 1,
+			"text": "Furthermore , the generated stems are more consistent than those ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "annotated by experts . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 1,
+			"text": "Our direct lemmatization model is more accurate than Morfette and Lemming on most datasets . <S>",
+			"relation": "evaluation"
+		},
+		{
+			"id": 11,
+			"parent": 1,
+			"text": "Finally , we test our methods on the data from the shared task on morphological reinflection . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

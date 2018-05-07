@@ -1,0 +1,14 @@
+Activities and events in our lives are structural , 
+be it a vacation , a camping trip , or a wedding . <S>
+While individual details vary , 
+there are characteristic patterns 
+that are specific to each of these scenarios . <S>
+For example , a wedding typically consists of a sequence of events 
+such as walking down the aisle , exchanging vows , and dancing . <S>
+In this paper , we present a data-driven approach 
+to learning event knowledge from a large collection of photo albums . <S>
+We formulate the task as constrained optimization 
+to induce the prototypical temporal structure of an event , 
+integrating both visual and textual cues . <S>
+Comprehensive evaluation demonstrates 
+that it is possible to learn multimodal knowledge of event structure from noisy web content . <S>

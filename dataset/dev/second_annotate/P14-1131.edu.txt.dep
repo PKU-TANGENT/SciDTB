@@ -1,0 +1,76 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We present CoSimRank , a graph-theoretic similarity measure \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "that is efficient \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "because it can compute a single node similarity \r",
+			"relation": "exp-reason"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "without having to compute the similarities of the entire graph . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 1,
+			"text": "We present equivalent formalizations \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "that show CoSimRank's close relationship to Personalized PageRank and SimRank \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 8,
+			"text": "and also show \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 8,
+			"parent": 1,
+			"text": "how we can take advantage of fast matrix multiplication algorithms \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "to compute CoSimRank . <S>\r",
+			"relation": "enablement"
+		},
+		{
+			"id": 10,
+			"parent": 1,
+			"text": "Another advantage of CoSimRank is that it can be flexibly extended from basic node-node similarity to several other graph-theoretic similarity measures . <S>\r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 11,
+			"parent": 1,
+			"text": "In an experimental evaluation on the tasks of synonym extraction and bilingual lexicon extraction , CoSimRank is faster or more accurate than previous approaches . <S>\r",
+			"relation": "evaluation"
+		}
+	]
+}

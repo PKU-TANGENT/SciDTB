@@ -1,0 +1,148 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "Corpus-based methods for natural language processing often use supervised training , ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "requiring expensive manual annotation of training corpora . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 0,
+			"text": "This paper investigates methods ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "for reducing annotation cost ",
+			"relation": "enablement"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "by sample selection . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 6,
+			"parent": 7,
+			"text": "In this approach , during training ",
+			"relation": "temporal"
+		},
+		{
+			"id": 7,
+			"parent": 3,
+			"text": "the learning program examines many unlabeled examples ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "and selects for labeling ( annotation ) only those ",
+			"relation": "joint"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "that are most informative at each stage . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 7,
+			"text": "This avoids redundantly annotating examples ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "that contribute little new information . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 3,
+			"text": "This paper extends our previous work on committee-based sample selection for probabilistic classifiers . <S>",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 13,
+			"parent": 3,
+			"text": "We describe a family of methods for committee-based sample selection , ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "and report experimental results for the task of stochastic part-of speech tagging . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 15,
+			"parent": 16,
+			"text": "We find ",
+			"relation": "attribution"
+		},
+		{
+			"id": 16,
+			"parent": 3,
+			"text": "that all variants achieve a significant reduction in annotation cost , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 17,
+			"parent": 16,
+			"text": "though their computational efficiency differs . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 18,
+			"parent": 16,
+			"text": "In particular , the simplest method , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 19,
+			"parent": 18,
+			"text": "which has no parameters to tune , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 20,
+			"parent": 18,
+			"text": "gives excellent results . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 21,
+			"parent": 22,
+			"text": "We also show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 22,
+			"parent": 16,
+			"text": "that sample selection yields a significant reduction in the size of the model ",
+			"relation": "joint"
+		},
+		{
+			"id": 23,
+			"parent": 22,
+			"text": "used by the tagger . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

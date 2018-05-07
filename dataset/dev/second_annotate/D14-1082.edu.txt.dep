@@ -1,0 +1,70 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "Almost all current dependency parsers classify ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "based on millions of sparse indicator features . <S>",
+			"relation": "bg-general"
+		},
+		{
+			"id": 3,
+			"parent": 5,
+			"text": "Not only do these features generalize poorly , ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "but the cost of feature computation restricts parsing speed significantly . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 5,
+			"parent": 0,
+			"text": "In this work , we propose a novel way ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "of learning a neural network classifier for use in a greedy , transition-based dependency parser . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 8,
+			"text": "Because this classifier learns and uses just a small number of dense features , ",
+			"relation": "exp-reason"
+		},
+		{
+			"id": 8,
+			"parent": 5,
+			"text": "it can work very fast , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "while achiev-ing an about 2 % improvement in unlabeled and labeled attachment scores on both English and Chinese datasets . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 8,
+			"text": "Concretely , our parser is able to parse more than 1000 sentences per second at 92.2 % unlabeled attachment score on the English Penn Treebank . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

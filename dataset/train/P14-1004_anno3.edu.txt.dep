@@ -1,0 +1,100 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 4,
+			"text": "A key challenge for computational conversation models is to discover latent structure in task-oriented dialogue , \r",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "since it provides a basis \r",
+			"relation": "exp-reason"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "for analysing , evaluating , and building conversational systems . <S>\r",
+			"relation": "enablement"
+		},
+		{
+			"id": 4,
+			"parent": 0,
+			"text": "We propose three new unsupervised models \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "to discover latent structures in task-oriented dialogues . <S>\r",
+			"relation": "enablement"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "Our methods synthesize hidden Markov models ( for underlying state ) \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "and topic models \r",
+			"relation": "joint"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "( to connect words to states ) . <S>\r",
+			"relation": "enablement"
+		},
+		{
+			"id": 9,
+			"parent": 6,
+			"text": "We apply them to two real , non-trivial datasets : \r",
+			"relation": "progression"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "human-computer spoken dialogues in bus query service , and human-human text-based chats from a live technical support service . <S>\r",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 11,
+			"parent": 12,
+			"text": "We show \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 12,
+			"parent": 4,
+			"text": "that our models extract meaningful state representations and dialogue structures \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "consistent with human annotations . <S>\r",
+			"relation": "comparison"
+		},
+		{
+			"id": 14,
+			"parent": 15,
+			"text": "Quantitatively , we show \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 15,
+			"parent": 4,
+			"text": "our models achieve superior performance on held-out log likelihood evaluation and an ordering task . <S>\r",
+			"relation": "evaluation"
+		}
+	]
+}

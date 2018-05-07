@@ -1,0 +1,94 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We introduce a new CCG parsing model ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "which is factored on lexical category assignments . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "Parsing is then simply a deterministic search for the most probable category sequence ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "that supports a CCG derivation . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 1,
+			"text": "The parser is extremely simple , with a tiny feature set , no POS tagger , and no statistical model of the derivation or dependencies . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "Formulating the model in this way allows a highly effective heuristic for A∗parsing , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "which makes parsing extremely fast . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 9,
+			"text": "Compared to the standard C&C CCG parser , ",
+			"relation": "comparison"
+		},
+		{
+			"id": 9,
+			"parent": 1,
+			"text": "our model is more accurate out-of-domain , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "is four times faster , ",
+			"relation": "joint"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "has higher coverage , ",
+			"relation": "joint"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "and is greatly simplified . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 13,
+			"parent": 1,
+			"text": "We also show ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "that using our parser improves the performance of a state-of-the-art question answering system . <S>",
+			"relation": "attribution"
+		}
+	]
+}

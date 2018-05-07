@@ -1,0 +1,64 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 4,
+			"text": "Shell nouns , such as fact and problem , occur frequently in all kinds of texts . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "These nouns themselves are unspecific , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "and can only be interpreted together with the shell content . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 4,
+			"parent": 0,
+			"text": "We propose a general approach ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "to automatically identify shell content of shell nouns . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "Our approach exploits lexico-syntactic knowledge ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "derived from the linguistics literature . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 4,
+			"text": "We evaluate the approach on a variety of shell nouns with a variety of syntactic expectations , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "achieving accuracies in the range of 62 % ( baseline = 33 % ) to 83 % ( baseline = 74 % ) on crowd-annotated data . <S>",
+			"relation": "result"
+		}
+	]
+}

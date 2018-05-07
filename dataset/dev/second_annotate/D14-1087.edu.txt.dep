@@ -1,0 +1,82 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We propose an unsupervised approach to constructing templates from a large collection of semantic category names , ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "and use the templates as the semantic representation of categories . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "The main challenge is that many terms have multiple meanings , ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "resulting in a lot of wrong templates . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 1,
+			"text": "Statistical data and semantic knowledge are extracted from a web corpus ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "to improve template generation . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 7,
+			"parent": 1,
+			"text": "A nonlinear scoring function is proposed and demonstrated to be effective . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 9,
+			"text": "Experiments show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 9,
+			"parent": 1,
+			"text": "that our approach achieves significantly better results than baseline methods . <S>",
+			"relation": "evaluation"
+		},
+		{
+			"id": 10,
+			"parent": 1,
+			"text": "As an immediate application , we apply the extracted templates to the cleaning of a category collection ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "and see promising results ",
+			"relation": "joint"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "( precision improved from 81 % to 89 % ) . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

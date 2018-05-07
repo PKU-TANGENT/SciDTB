@@ -1,0 +1,34 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "In this paper , we examine mechanisms for automatic dialogue initiative setting . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 3,
+			"text": "We show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "how to incorporate initiative changing in a task-oriented human-computer dialogue system , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "and we evaluate the effects of initiative both analytically and via computer-computer dialogue simulation . <S>",
+			"relation": "joint"
+		}
+	]
+}

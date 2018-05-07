@@ -1,0 +1,100 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 2,
+			"text": "A key goal in natural language generation ( NLG ) is to enable fast generation even with large vocabularies , grammars and worlds . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 0,
+			"text": "In this work , we build upon a recently proposed NLG system , Sentence Tree Realization with UCT ( STRUCT ) . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "We describe four enhancements to this system ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": ": ( i ) pruning the grammar ",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "based on the world and the communicative goal , ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "( ii ) intelligently caching and pruning the combinatorial space of semantic bindings , ",
+			"relation": "joint"
+		},
+		{
+			"id": 7,
+			"parent": 4,
+			"text": "( iii ) reusing the lookahead search tree at different search depths , ",
+			"relation": "joint"
+		},
+		{
+			"id": 8,
+			"parent": 4,
+			"text": "and ( iv ) learning and using a search control heuristic . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 9,
+			"parent": 2,
+			"text": "We evaluate the resulting system on three datasets of increasing size and complexity , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "the largest of which has a vocabulary of about 10K words , a grammar of about 32K lexicalized trees and a world with about 11K entities and 23K relations between them . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 12,
+			"text": "Our results show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 12,
+			"parent": 2,
+			"text": "that the system has a median generation time of 8.5s ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "and finds the best sentence on average within 25s . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 14,
+			"parent": 12,
+			"text": "These results are based on a sequential , interpreted implementation ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "and are significantly better than the state of the art for planning based NLG systems . <S>",
+			"relation": "joint"
+		}
+	]
+}

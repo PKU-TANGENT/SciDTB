@@ -1,0 +1,76 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We present an approach \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "for automatically learning to solve algebra word problems . <S>\r",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "Our algorithm reasons across sentence boundaries \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "to construct and solve a system of linear equations , \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "while simultaneously recovering an alignment of the variables and numbers in these equations to the problem text . <S>\r",
+			"relation": "temporal"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "The learning algorithm uses varied supervision , \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "including either full equations or just the final answers . <S>\r",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 8,
+			"parent": 1,
+			"text": "We evaluate performance on a newly gathered corpus of algebra word problems , \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 9,
+			"parent": 10,
+			"text": "demonstrating \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 10,
+			"parent": 8,
+			"text": "that the system can correctly answer almost 70 % of the questions in the dataset . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 8,
+			"text": "This is , to our knowledge , the first learning result for this task . <S>\r",
+			"relation": "elab-aspect"
+		}
+	]
+}

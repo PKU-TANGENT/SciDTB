@@ -1,0 +1,94 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We present a novel end-to-end neural model ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "to extract entities and relations between them . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "Our recurrent neural network based model captures both word sequence and dependency tree substructure information ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "by stacking bidirectional treestructured LSTM-RNNs on bidirectional sequential LSTM-RNNs . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "This allows our model to jointly represent both entities and relations with shared parameters in a single model . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "We further encourage detection of entities ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "during training ",
+			"relation": "temporal"
+		},
+		{
+			"id": 8,
+			"parent": 6,
+			"text": "and use of entity information in relation extraction ",
+			"relation": "joint"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "via entity pretraining and scheduled sampling . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 10,
+			"parent": 1,
+			"text": "Our model improves over the stateof-the-art feature-based model on end-toend relation extraction , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "achieving 12.1 % and 5.7 % relative error reductions in F1-score on ACE2005 and ACE2004 , respectively . <S>",
+			"relation": "exp-evidence"
+		},
+		{
+			"id": 12,
+			"parent": 13,
+			"text": "We also show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 13,
+			"parent": 1,
+			"text": "that our LSTMRNN based model compares favorably to the state-of-the-art CNN based model ( in F1-score ) on nominal relation classification ( SemEval-2010 Task 8 ) . <S>",
+			"relation": "evaluation"
+		},
+		{
+			"id": 14,
+			"parent": 1,
+			"text": "Finally , we present an extensive ablation analysis of several model components . <S>  ",
+			"relation": "evaluation"
+		}
+	]
+}

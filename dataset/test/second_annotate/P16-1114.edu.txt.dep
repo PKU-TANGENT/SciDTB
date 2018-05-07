@@ -1,0 +1,88 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 4,
+			"text": "Intelligent assistants on mobile devices , ",
+			"relation": "elab-example"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "such as Siri , ",
+			"relation": "elab-example"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "have recently gained considerable attention as novel applications of dialogue technologies . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 4,
+			"parent": 7,
+			"text": "A tremendous amount of real users of intelligent assistants provide us with an opportunity ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "to explore a novel task ",
+			"relation": "enablement"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "of predicting whether users will continually use their intelligent assistants in the future . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 0,
+			"text": "We developed prediction models of prospective user engagement ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "by using large-scale user logs ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "obtained from a commercial intelligent assistant . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 11,
+			"text": "Experiments demonstrated ",
+			"relation": "attribution"
+		},
+		{
+			"id": 11,
+			"parent": 7,
+			"text": "that our models can predict prospective user engagement reasonably well , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "and outperforms a strong baseline ",
+			"relation": "progression"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "that makes prediction based past utterance frequency <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

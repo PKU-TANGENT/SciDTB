@@ -1,0 +1,58 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 2,
+			"text": "Fine-grained sense distinctions are one of the major obstacles to successful Word Sense Disambiguation . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 0,
+			"text": "In this paper , we present a method ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "for reducing the granularity of the WordNet sense inventory ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 2,
+			"text": "based on the mapping to a manually crafted dictionary ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "encoding sense hierarchies , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "namely the Oxford Dictionary of English . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 2,
+			"text": "We assess the quality of the mapping and the induced clustering , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "and evaluate the performance of coarse WSD systems in the Senseval-3 English all-words task . <S>",
+			"relation": "joint"
+		}
+	]
+}

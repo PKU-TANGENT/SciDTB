@@ -1,0 +1,58 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "In this paper we investigate the benefit of stochastic predictor components for the parsing quality ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "which can be obtained with a rule-based dependency grammar . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 4,
+			"text": "By including a chunker , a supertagger , a PP attacher , and a fast probabilistic parser ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "we were able to improve upon the baseline by 3.2 % , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "bringing the overall labelled accuracy to 91.1 % on the German NEGRA corpus . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "We attribute the successful integration to the ability of the underlying grammar model ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "to combine uncertain evidence in a soft manner , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "thus avoiding the problem of error propagation . <S>",
+			"relation": "cause"
+		}
+	]
+}

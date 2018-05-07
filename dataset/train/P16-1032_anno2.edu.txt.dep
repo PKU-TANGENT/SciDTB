@@ -1,0 +1,160 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 7,
+			"text": "We present a new approach for documentlevel sentiment inference , ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "where the goal is to predict directed opinions ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "( who feels positively or negatively towards whom ) ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 2,
+			"text": "for all entities ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "mentioned in a text . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 7,
+			"text": "To encourage more complete and consistent predictions , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 7,
+			"parent": 0,
+			"text": "we introduce an ILP ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "that jointly models ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "( 1 ) sentence- and discourse-level sentiment cues , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "( 2 ) factual evidence about entity factions , and ",
+			"relation": "joint"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "( 3 ) global constraints ",
+			"relation": "joint"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "based on social science theories ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "such as homophily , social balance , and reciprocity . <S>",
+			"relation": "elab-example"
+		},
+		{
+			"id": 14,
+			"parent": 7,
+			"text": "Together , these cues allow for rich inference across groups of entities , ",
+			"relation": "result"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "including for example that CEOs and the companies ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "they lead ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 17,
+			"parent": 15,
+			"text": "are likely to have similar sentiment towards others . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 18,
+			"parent": 24,
+			"text": "We evaluate performance on new , densely labeled data ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 19,
+			"parent": 18,
+			"text": "that provides supervision for all pairs , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 20,
+			"parent": 19,
+			"text": "complementing previous work ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 21,
+			"parent": 20,
+			"text": "that only labeled pairs ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 22,
+			"parent": 21,
+			"text": "mentioned in the same sentence . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 23,
+			"parent": 24,
+			"text": "Experiments demonstrate ",
+			"relation": "attribution"
+		},
+		{
+			"id": 24,
+			"parent": 7,
+			"text": "that the global model outperforms sentence-level baselines , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 25,
+			"parent": 24,
+			"text": "by providing more coherent predictions across sets of related entities . <S>",
+			"relation": "manner-means"
+		}
+	]
+}

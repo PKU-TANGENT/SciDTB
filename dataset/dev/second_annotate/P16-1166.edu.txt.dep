@@ -1,0 +1,100 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This paper describes the first robust approach ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "to automatically labeling clauses with their situation entity type ( Smith , 2003 ) , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "capturing aspectual phenomena at the clause level ",
+			"relation": "result"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "which are relevant for interpreting both semantics at the clause level and discourse structure . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 1,
+			"text": "Previous work on this task used a small data set from a limited domain , ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "and relied mainly on words as features , an approach ",
+			"relation": "joint"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "which is impractical in larger settings . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 1,
+			"text": "We provide a new corpus of texts from 13 genres ( 40,000 clauses ) ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "annotated with situation entity types . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 11,
+			"text": "We show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 11,
+			"parent": 1,
+			"text": "that our sequence labeling approach ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "using distributional information in the form of Brown clusters , as well as syntactic-semantic features ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "targeted to the task , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 11,
+			"text": "is robust across genres , ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "reaching accuracies of up to 76 % . <S>",
+			"relation": "result"
+		}
+	]
+}

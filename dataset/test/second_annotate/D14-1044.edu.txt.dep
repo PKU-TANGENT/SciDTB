@@ -1,0 +1,118 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 7,
+			"text": "Much work in recent years has gone into the construction of large knowledge bases ( KBs ) , such as Freebase , DBPedia , NELL , and YAGO . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 3,
+			"text": "While these KBs are very large , ",
+			"relation": "contrast"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "they are still very incomplete , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "necessitating the use of inference ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "to fill in gaps . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 6,
+			"parent": 7,
+			"text": "Prior work has shown how to make use of a large text corpus to augment random walk inference over KBs . <S>",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 7,
+			"parent": 0,
+			"text": "We present two improvements to the use of such large corpora to augment KB inference . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "First , we present a new technique ",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "for combining KB relations and surface text into a single graph representation ",
+			"relation": "enablement"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "that is much more compact than graphs ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "used in prior work . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 13,
+			"text": "Second , we describe ",
+			"relation": "attribution"
+		},
+		{
+			"id": 13,
+			"parent": 7,
+			"text": "how to incorporate vector space similarity into random walk inference over KBs , ",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "reducing the feature sparsity inherent in using surface text . <S>",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 15,
+			"parent": 13,
+			"text": "This allows us to combine distributional similarity with symbolic logical inference in novel and effective ways . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 16,
+			"parent": 17,
+			"text": "With experiments on many relations from two separate KBs , we show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 17,
+			"parent": 7,
+			"text": "that our methods significantly outperform prior work on KB inference , both in the size of problem ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 18,
+			"parent": 17,
+			"text": "our methods can handle and in the quality of predictions made . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

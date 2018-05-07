@@ -1,0 +1,70 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We study the computational complexity of the parsing problem of a variant of Lambek Categorial Grammar ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "that we call semidirectional. <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "In semidirectional Lambek calculus SD-LSB- there is an additional nondirectional abstraction rule ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "allowing the formula ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "abstracted over ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "to appear anywhere in the premise sequent 's left-hand side , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "thus permitting non-peripheral extraction . <S>",
+			"relation": "cause"
+		},
+		{
+			"id": 8,
+			"parent": 1,
+			"text": "SD-LSB- grammars are able to generate each context-free language and more than that . <S>",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 9,
+			"parent": 10,
+			"text": "We show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 10,
+			"parent": 1,
+			"text": "that the parsing problem for semidireetional Lambek Grammar is NP-complete by a reduction of the 3-Partition problem . <S> ",
+			"relation": "evaluation"
+		}
+	]
+}

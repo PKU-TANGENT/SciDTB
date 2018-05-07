@@ -1,0 +1,58 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We present an extensive empirical comparison of several smoothing techniques in the domain of language modeling , ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "including those ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "described by Jelinek and Mercer ( 1980 ) , Katz ( 1987 ) , and Church and Gale ( 1991 ) . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 5,
+			"text": "We investigate for the first time ",
+			"relation": "attribution"
+		},
+		{
+			"id": 5,
+			"parent": 1,
+			"text": "how factors such as training data size , corpus ( e.g. , Brown versus Wall Street Journal ) , and n-gram order ( bigram versus trigram ) affect the relative performance of these methods , ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "which we measure through the cross-entropy of test data . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 1,
+			"text": "In addition , we introduce two novel smoothing techniques , one a variation of Jelinek-Mercer smoothing and one a very simple linear interpolation technique , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "both of which outperform existing methods . <S> ",
+			"relation": "elab-addition"
+		}
+	]
+}

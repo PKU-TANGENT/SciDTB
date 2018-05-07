@@ -1,0 +1,106 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We present a novel approach ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "for discovering word categories , sets of words ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "sharing a significant aspect of their meaning . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "We utilize meta-patterns of high frequency words and content words ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "in order to discover pattern candidates . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "Symmetric patterns are then identified ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "using graph-based measures , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 8,
+			"parent": 6,
+			"text": "and word categories are created ",
+			"relation": "joint"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "based on graph clique sets . <S>",
+			"relation": "bg-general"
+		},
+		{
+			"id": 10,
+			"parent": 1,
+			"text": "Our method is the first pattern-based method ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "that requires no corpus annotation or manually provided seed patterns or words . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 14,
+			"text": "We evaluate our algorithm on very large corpora in two languages , ",
+			"relation": "result"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "using both human judgments and WordNet based evaluation . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 14,
+			"parent": 1,
+			"text": "Our fully unsupervised results are superior to previous work ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "that used a POS tagged corpus , and computation time for huge corpora are orders of magnitude faster ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "than previously reported . <S>                                                                       ",
+			"relation": "comparison"
+		}
+	]
+}

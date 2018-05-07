@@ -1,0 +1,118 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 7,
+			"text": "Most word representation methods assume ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "that each word owns a single semantic vector . <S>",
+			"relation": "attribution"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "This is usually problematic ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "because lexical ambiguity is ubiquitous , ",
+			"relation": "cause"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "which is also the problem ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "to be resolved by word sense disambiguation . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 0,
+			"text": "In this paper , we present a unified model for joint word sense representation and disambiguation , ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "which will assign distinct representations for each word sense . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 7,
+			"text": "The basic idea is that both word sense representation ( WSR ) and word sense disambiguation ( WSD ) will benefit from each other : ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "( 1 ) high-quality WSR will capture rich information about words and senses , ",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "which should be helpful for WSD , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 10,
+			"text": "and ( 2 ) high-quality WSD will provide reliable disambiguated corpora ",
+			"relation": "joint"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "for learning better sense representations . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 7,
+			"text": "Experimental results show ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "that , our model improves the performance of contextual word similarity ",
+			"relation": "attribution"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "compared to existing WSR methods , ",
+			"relation": "comparison"
+		},
+		{
+			"id": 17,
+			"parent": 15,
+			"text": "outperforms state-of-the-art supervised methods on domain-specific WSD , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 18,
+			"parent": 17,
+			"text": "and achieves competitive performance on coarse-grained all-words WSD . <S>",
+			"relation": "joint"
+		}
+	]
+}

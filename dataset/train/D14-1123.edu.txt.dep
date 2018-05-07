@@ -1,0 +1,88 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 7,
+			"text": "Microblog has become a major platform for information about real-world events . <S>",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "Automatically discovering real-world events from microblog has attracted the attention of many researchers . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "However , most of existing work ignore the importance of emotion information for event detection . <S>",
+			"relation": "contrast"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "We argue ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "that people's emotional reactions immediately reflect the occurring of real-world events ",
+			"relation": "attribution"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "and should be important for event detection . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 7,
+			"parent": 0,
+			"text": "In this study , we focus on the problem of community-related event detection by community emotions . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 8,
+			"parent": 9,
+			"text": "To address the problem , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 9,
+			"parent": 7,
+			"text": "we propose a novel framework ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "which include the following three key components : ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "microblog emotion classification , community emotion aggregation and community emotion burst detection . <S>",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 12,
+			"parent": 7,
+			"text": "We evaluate our approach on real microblog data sets . <S>",
+			"relation": "evaluation"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "Experimental results demonstrate the effectiveness of the proposed framework . <S>",
+			"relation": "exp-evidence"
+		}
+	]
+}

@@ -1,0 +1,94 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 4,
+			"text": "Digital personal assistants are becoming both more common and more useful . <S>",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "The major NLP challenge for personal assistants is machine understanding : ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "translating natural language user commands into an executable representation . <S>",
+			"relation": "elab-definition"
+		},
+		{
+			"id": 4,
+			"parent": 0,
+			"text": "This paper focuses on understanding rules ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "written as If-Then statements , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "though the techniques should be portable to other semantic parsing tasks . <S>",
+			"relation": "contrast"
+		},
+		{
+			"id": 7,
+			"parent": 4,
+			"text": "We view understanding as structure prediction ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "and show improved models ",
+			"relation": "joint"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "using both conventional techniques and neural network models . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 10,
+			"parent": 4,
+			"text": "We also discuss various ways ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "to improve generalization ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "and reduce overfitting : ",
+			"relation": "joint"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "synthetic training data from paraphrase , grammar combinations , feature selection and ensembles of multiple systems . <S>",
+			"relation": "elab-example"
+		},
+		{
+			"id": 14,
+			"parent": 4,
+			"text": "An ensemble of these techniques achieves a new state of the art result with 8 % accuracy improvement . <S> ",
+			"relation": "evaluation"
+		}
+	]
+}

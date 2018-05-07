@@ -1,0 +1,76 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 4,
+			"text": "Training neural network language models over large vocabularies is computationally costly ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "compared to count-based models ",
+			"relation": "comparison"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "such as Kneser-Ney . <S>",
+			"relation": "elab-example"
+		},
+		{
+			"id": 4,
+			"parent": 0,
+			"text": "We present a systematic comparison of neural strategies ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "to represent and train large vocabularies , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "including softmax , hierarchical softmax , target sampling , noise contrastive estimation and self normalization . <S>",
+			"relation": "elab-example"
+		},
+		{
+			"id": 7,
+			"parent": 4,
+			"text": "We extend self normalization ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "to be a proper estimator of likelihood ",
+			"relation": "enablement"
+		},
+		{
+			"id": 9,
+			"parent": 7,
+			"text": "and introduce an efficient variant of softmax . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 10,
+			"parent": 4,
+			"text": "We evaluate each method on three popular benchmarks , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "examining performance on rare words , the speed/accuracy trade-off and complementarity to Kneser-Ney . <S>",
+			"relation": "elab-enum_member"
+		}
+	]
+}

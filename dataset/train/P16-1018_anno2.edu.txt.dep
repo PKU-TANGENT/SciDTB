@@ -1,0 +1,82 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 7,
+			"text": "Metaphorical expressions are pervasive in natural language ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "and pose a substantial challenge for computational semantics . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "The inherent compositionality of metaphor makes it an important test case for compositional distributional semantic models ( CDSMs ) . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 7,
+			"text": "This paper is the first ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "to investigate ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "whether metaphorical composition warrants a distinct treatment in the CDSM framework . <S>",
+			"relation": "attribution"
+		},
+		{
+			"id": 7,
+			"parent": 0,
+			"text": "We propose a method ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "to learn metaphors as linear transformations in a vector space ",
+			"relation": "enablement"
+		},
+		{
+			"id": 9,
+			"parent": 10,
+			"text": "and find ",
+			"relation": "attribution"
+		},
+		{
+			"id": 10,
+			"parent": 8,
+			"text": "that , across a variety of semantic domains , explicitly modeling metaphor improves the resulting semantic representations . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 11,
+			"parent": 12,
+			"text": "We then use these representations in a metaphor identification task , ",
+			"relation": "result"
+		},
+		{
+			"id": 12,
+			"parent": 7,
+			"text": "achieving a high performance of 0.82 in terms of F-score . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

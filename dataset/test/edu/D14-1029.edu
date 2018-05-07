@@ -1,0 +1,9 @@
+In this paper , we present a novel extension of a forest-to-string machine translation system with a reordering model . <S>
+We predict reordering probabilities for every pair of source words with a model 
+using features 
+observed from the input parse forest . <S>
+Our approach naturally deals with the ambiguity present in the input parse forest , 
+but , at the same time , takes into account only the parts of the input forest 
+used by the current translation hypothesis . <S>
+The method provides improvement from 0.6 up to 1.0 point 
+measured by ( Ter − Bleu ) /2 metric . <S>

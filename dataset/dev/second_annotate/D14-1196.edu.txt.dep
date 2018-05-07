@@ -1,0 +1,88 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 6,
+			"text": "The current state-of-the-art single-document summarization method generates a summary ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "by solving a Tree Knapsack Problem ( TKP ) , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "which is the problem of finding the optimal rooted subtree of the dependency-based discourse tree ( DEP-DT ) of a document . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 6,
+			"text": "We can obtain a gold DEP-DT ",
+			"relation": "contrast"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "by transforming a gold Rhetorical Structure Theory-based discourse tree ( RST-DT ) . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 6,
+			"parent": 9,
+			"text": "However , there is still a large difference between the ROUGE scores of a system with a gold DEP-DT and a system with a DEP-DT ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "obtained from an automatically parsed RST-DT . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 9,
+			"text": "To improve the ROUGE score , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 9,
+			"parent": 0,
+			"text": "we propose a novel discourse parser ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "that directly generates the DEP-DT . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 12,
+			"text": "The evaluation results showed ",
+			"relation": "attribution"
+		},
+		{
+			"id": 12,
+			"parent": 9,
+			"text": "that the TKP with our parser outperformed that with the state-of-the-art RST-DT parser , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "and achieved almost equivalent ROUGE scores to the TKP with the gold DEP-DT . <S>",
+			"relation": "joint"
+		}
+	]
+}

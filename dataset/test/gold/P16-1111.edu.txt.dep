@@ -1,0 +1,124 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 4,
+			"text": "Computationally modeling the evolution of science ",
+			"relation": "contrast"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "by tracking how scientific topics rise and fall over time ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "has important implications for research funding and public policy . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 4,
+			"parent": 6,
+			"text": "However , little is known about the mechanisms ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "underlying topic growth and decline . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 0,
+			"text": "We investigate the role of rhetorical framing : ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "whether the rhetorical role or function ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "that authors ascribe to topics ( as methods , as goals , as results , etc. ) ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 7,
+			"text": "relates to the historical trajectory of the topics . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 10,
+			"parent": 6,
+			"text": "We train topic models and a rhetorical function classifier ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "to map topic models onto their rhetorical roles in 2.4 million abstracts from the Web of Science from 1991-2010 . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 12,
+			"parent": 13,
+			"text": "We find ",
+			"relation": "attribution"
+		},
+		{
+			"id": 13,
+			"parent": 6,
+			"text": "that a topic 's rhetorical function is highly predictive of its eventual growth or decline . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "For example , topics ",
+			"relation": "elab-example"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "that are rhetorically described as results ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 16,
+			"parent": 14,
+			"text": "tend to be in decline , ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 17,
+			"parent": 14,
+			"text": "while topics ",
+			"relation": "joint"
+		},
+		{
+			"id": 18,
+			"parent": 17,
+			"text": "that function as methods ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 19,
+			"parent": 17,
+			"text": "tend to be in early phases of growth . <S>",
+			"relation": "same-unit"
+		}
+	]
+}

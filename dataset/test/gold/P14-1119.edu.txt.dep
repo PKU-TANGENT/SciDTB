@@ -1,0 +1,46 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 2,
+			"text": "While automatic keyphrase extraction has been examined extensively , \r",
+			"relation": "contrast"
+		},
+		{
+			"id": 2,
+			"parent": 3,
+			"text": "state-of-the-art performance on this task is still much lower than that on many core natural language processing tasks . <S>\r",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 3,
+			"parent": 0,
+			"text": "We present a survey of the state of the art in automatic keyphrase extraction , \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "examining the major sources of errors \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "made by existing systems \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "and discussing the challenges ahead . <S>\r",
+			"relation": "joint"
+		}
+	]
+}

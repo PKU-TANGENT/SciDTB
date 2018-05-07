@@ -1,0 +1,106 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 7,
+			"text": "A natural next step in the evolution of constraint-based grammar formalisms from rewriting formalisms is to abstract fully away from the details of the grammar mechanism",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "--to express syntactic theories purely in terms of the properties of the class of structures ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "they license . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 7,
+			"text": "By focusing on the structural properties of languages rather than on mechanisms ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "for generating or checking structures ",
+			"relation": "enablement"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "that exhibit those properties , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 10,
+			"text": "this model-theoretic approach can offer simpler and significantly clearer expression of theories ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "and can potentially provide a uniform formalization , ",
+			"relation": "joint"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "allowing disparate theories to be compared on the basis of those properties . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 0,
+			"text": "We discuss L2 , p , a monadic second-order logical framework for such an approach to syntax ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "that has the distinctive virtue of being superficially expressive -",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "supporting direct statement of most linguistically significant syntactic properties -",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "but having well-defined strong generative capacity -",
+			"relation": "contrast"
+		},
+		{
+			"id": 14,
+			"parent": 11,
+			"text": "languages are definable in L2K , p iff ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 15,
+			"parent": 10,
+			"text": "they are strongly context-free . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 16,
+			"parent": 10,
+			"text": "We draw examples from the realms of GPSG and GB . <S>    ",
+			"relation": "elab-aspect"
+		}
+	]
+}

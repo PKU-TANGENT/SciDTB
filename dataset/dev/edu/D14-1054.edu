@@ -1,0 +1,18 @@
+In this paper , we propose a joint segmentation and classification framework for sentiment analysis . <S>
+Existing sentiment classification algorithms typically split a sentence as a word sequence , 
+which does not effectively handle the inconsistent sentiment polarity between a phrase and the words 
+it contains , such as " not bad"  and " a great deal of " . <S>
+We address this issue 
+by developing a joint segmentation and classification framework ( JSC ) , 
+which simultaneously conducts sentence segmentation and sentence-level sentiment classification . <S>
+Specifically , we use a log-linear model 
+to score each segmentation candidate , 
+and exploit the phrasal information of top-ranked segmentations as features 
+to build the sentiment classifier . <S>
+A marginal log-likelihood objective function is devised for the segmentation model , 
+which is optimized for enhancing the sentiment classification performance . <S>
+The joint model is trained 
+only based on the annotated sentiment polarity of sentences , 
+without any segmentation annotations . <S>
+Experiments on a benchmark Twitter sentiment classification dataset in SemEval 2013 show 
+that , our joint model performs comparably with the state-of-the-art methods . <S>

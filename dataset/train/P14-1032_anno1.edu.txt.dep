@@ -1,0 +1,130 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 5,
+			"text": "Product feature mining is a key subtask in fine-grained opinion mining . <S>\r",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 5,
+			"text": "Previous works often use syntax constituents in this task . <S>\r",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "However , syntax-based methods can only use discrete contextual information , \r",
+			"relation": "contrast"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "which may suffer from data sparsity . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 0,
+			"text": "This paper proposes a novel product feature mining method \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "which leverages lexical and contextual semantic clues . <S>\r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "Lexical semantic clue verifies whether a candidate term is related to the target product , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "and contextual semantic clue serves as a soft pattern miner \r",
+			"relation": "joint"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "to find candidates , \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 10,
+			"parent": 8,
+			"text": "which exploits semantics of each word in context \r",
+			"relation": "elab-definition"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "so as to alleviate the data sparsity problem . <S>\r",
+			"relation": "enablement"
+		},
+		{
+			"id": 12,
+			"parent": 5,
+			"text": "We build a semantic similarity graph \r",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "to encode lexical semantic clue , \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 14,
+			"parent": 5,
+			"text": "and employ a convolutional neural model \r",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "to capture contextual semantic clue . <S>\r",
+			"relation": "enablement"
+		},
+		{
+			"id": 16,
+			"parent": 5,
+			"text": "Then Label Propagation is applied to combine both semantic clues . <S>\r",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 17,
+			"parent": 18,
+			"text": "Experimental results show \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 18,
+			"parent": 5,
+			"text": "that our semantics-based method significantly outperforms conventional syntax-based approaches , \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 19,
+			"parent": 18,
+			"text": "which not only mines product features more accurately , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 20,
+			"parent": 19,
+			"text": "but also extracts more infrequent product features . <S>\r",
+			"relation": "joint"
+		}
+	]
+}

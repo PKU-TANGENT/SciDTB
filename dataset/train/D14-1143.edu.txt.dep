@@ -1,0 +1,118 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 6,
+			"text": "Predicting vocabulary of second language learners is essential to support their language learning ; ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "however , because of the large size of language vocabularies , ",
+			"relation": "contrast"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "we cannot collect information on the entire vocabulary . <S>",
+			"relation": "result"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "For practical measurements , we need to sample a small portion of words from the entire vocabulary ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "and predict the rest of the words . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 6,
+			"parent": 0,
+			"text": "In this study , we propose a novel framework for this sampling method . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "Current methods rely on simple heuristic techniques ",
+			"relation": "contrast"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "involving inflexible manual tuning by educational experts . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 7,
+			"text": "We formalize these heuristic techniques as a graph-based non-interactive active learning method ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "as applied to a special graph . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 6,
+			"text": "We show ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 12,
+			"parent": 13,
+			"text": "that by extending the graph , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 13,
+			"parent": 11,
+			"text": "we can support additional functionality ",
+			"relation": "attribution"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "such as incorporating domain specificity ",
+			"relation": "elab-example"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "and sampling from multiple corpora . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 16,
+			"parent": 6,
+			"text": "In our experiments , we show ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 17,
+			"parent": 16,
+			"text": "that our extended methods outperform other methods in terms of vocabulary prediction accuracy ",
+			"relation": "attribution"
+		},
+		{
+			"id": 18,
+			"parent": 17,
+			"text": "when the number of samples is small . <S>",
+			"relation": "temporal"
+		}
+	]
+}

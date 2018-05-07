@@ -1,0 +1,82 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 5,
+			"text": "There is rising interest in vector-space word embeddings and their use in NLP , ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "especially given recent methods for their fast estimation at very large scale . <S>",
+			"relation": "condition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "Nearly all this work , however , assumes a single vector per word type—ignoring polysemy ",
+			"relation": "contrast"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "and thus jeopardizing their useful-ness for downstream tasks . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 5,
+			"parent": 0,
+			"text": "We present an extension to the Skip-gram model ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "that efficiently learns multiple embeddings per word type . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 5,
+			"text": "It differs from recent related work ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "by jointly performing word sense discrimination and embedding learning , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "by non-parametrically estimating the number of senses per word type , and by its efficiency and scalability . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 10,
+			"parent": 5,
+			"text": "We present new state-of-the-art results in the word similarity in context task ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "and demonstrate its scalability ",
+			"relation": "joint"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "by training with one machine on a corpus of nearly 1 billion tokens in less than 6 hours . <S>",
+			"relation": "manner-means"
+		}
+	]
+}

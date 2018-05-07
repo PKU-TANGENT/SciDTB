@@ -1,0 +1,4 @@
+We align pairs of English sentences and corresponding Abstract Meaning Representations ( AMR ) , at the token level . <S>
+Such alignments will be useful for downstream extraction of semantic interpretation and generation rules . <S>
+Our method involves linearizing AMR structures and performing symmetrized EM training . <S>
+We obtain 86.5 % and 83.1 % alignment F score on development and test sets . <S>

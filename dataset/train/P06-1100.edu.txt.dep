@@ -1,0 +1,58 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 4,
+			"text": "Many algorithms have been developed ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "to harvest lexical semantic resources , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "however few have linked the mined knowledge into formal knowledge repositories . <S>",
+			"relation": "contrast"
+		},
+		{
+			"id": 4,
+			"parent": 0,
+			"text": "In this paper , we propose two algorithms ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "for automatically ontologizing ( attaching ) semantic relations into WordNet . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 6,
+			"parent": 8,
+			"text": "We present an empirical evaluation on the task ",
+			"relation": "result"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "of attaching partof and causation relations , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 4,
+			"text": "showing an improvement on F-score over a baseline model . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

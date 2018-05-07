@@ -1,0 +1,70 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 7,
+			"text": "Active learning ( AL ) consists of asking human annotators ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "to annotate automatically selected data ",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "that are assumed to bring the most benefit in the creation of a classifier . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "AL allows to learn accurate systems with much less annotated data ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "than what is required by pure supervised learning algorithms , ",
+			"relation": "comparison"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "hence limiting the tedious effort of annotating a large collection of data . <S>",
+			"relation": "result"
+		},
+		{
+			"id": 7,
+			"parent": 0,
+			"text": "We experimentally investigate the behavior of several AL strategies for sequence labeling tasks ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "( in a partially-labeled scenario ) ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 7,
+			"text": "tailored on Partially-Labeled Conditional Random Fields , on four sequence labeling tasks : ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "phrase chunking , part-of-speech tagging , named-entity recognition , and bio-entity recognition . <S>",
+			"relation": "elab-enum_member"
+		}
+	]
+}

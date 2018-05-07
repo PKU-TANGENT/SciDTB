@@ -1,0 +1,88 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 4,
+			"text": "Distributional semantics creates vectorspace representations ",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "that capture many forms of semantic similarity , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "but their relation to semantic entailment has been less clear . <S>",
+			"relation": "contrast"
+		},
+		{
+			"id": 4,
+			"parent": 0,
+			"text": "We propose a vector-space model ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "which provides a formal foundation for a distributional semantics of entailment . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 7,
+			"text": "Using a mean-field approximation , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 7,
+			"parent": 4,
+			"text": "we develop approximate inference procedures and entailment operators over vectors of probabilities of features ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "being known ( versus unknown ) . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 7,
+			"text": "We use this framework ",
+			"relation": "progression"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "to reinterpret an existing distributionalsemantic model ( Word2Vec ) ",
+			"relation": "enablement"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "as approximating an entailment-based model of the distributions of words in contexts , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "thereby predicting lexical entailment relations . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 13,
+			"parent": 4,
+			"text": "In both unsupervised and semi-supervised experiments on hyponymy detection , we get substantial improvements over previous results . <S> ",
+			"relation": "evaluation"
+		}
+	]
+}

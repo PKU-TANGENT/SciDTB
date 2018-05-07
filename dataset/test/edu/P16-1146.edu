@@ -1,0 +1,13 @@
+We describe a search algorithm 
+for optimizing the number of latent states 
+when estimating latent-variable PCFGs with spectral methods . <S>
+Our results show 
+that contrary to the common belief 
+that the number of latent states for each nonterminal in an L-PCFG can be decided in isolation with spectral methods , 
+parsing results significantly improve 
+if the number of latent states for each nonterminal is globally optimized , 
+while taking into account interactions between the different nonterminals . <S>
+In addition , we contribute an empirical analysis of spectral algorithms on eight morphologically rich languages : 
+Basque , French , German , Hebrew , Hungarian , Korean , Polish and Swedish . <S>
+Our results show 
+that our estimation consistently performs better or close to coarse-to-fine expectation-maximization techniques for these languages . <S>

@@ -1,0 +1,100 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 2,
+			"text": "Populating Knowledge Base ( KB ) with new knowledge facts from reliable text re-sources usually consists of linking name mentions to KB entities and identifying relationship between entity pairs . <S>",
+			"relation": "contrast"
+		},
+		{
+			"id": 2,
+			"parent": 4,
+			"text": "However , the task often suffers from errors ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "propagating from upstream entity linkers to downstream relation extractors . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 0,
+			"text": "In this paper , we propose a novel joint inference framework ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "to allow interactions between the two subtasks ",
+			"relation": "enablement"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "and find an optimal assignment ",
+			"relation": "joint"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "by addressing the coherence among preliminary local predictions : ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "whether the types of entities meet the expectations of relations explicitly or implicitly , ",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 9,
+			"parent": 7,
+			"text": "and whether the local predictions are globally compatible . <S>",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 10,
+			"parent": 4,
+			"text": "We further measure the confidence of the extracted triples ",
+			"relation": "progression"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "by looking at the details of the complete extraction process . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 12,
+			"parent": 13,
+			"text": "Experiments show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 13,
+			"parent": 4,
+			"text": "that the proposed framework can significantly reduce the error propagations ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "thus obtain more reliable facts , ",
+			"relation": "cause"
+		},
+		{
+			"id": 15,
+			"parent": 13,
+			"text": "and outperforms competitive baselines with state-of-the-art relation extraction models . <S>  ",
+			"relation": "joint"
+		}
+	]
+}

@@ -1,0 +1,118 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This paper proposes a novel hierarchical learning strategy ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "to deal with the data sparseness problem in relation extraction ",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "by modeling the commonality among related classes . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 4,
+			"parent": 7,
+			"text": "For each class in the hierarchy ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "either manually predefined ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "or automatically clustered , ",
+			"relation": "joint"
+		},
+		{
+			"id": 7,
+			"parent": 1,
+			"text": "a linear discriminative function is determined in a topdown way ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "using a perceptron algorithm with the lower-level weight vector ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "derived from the upper-level weight vector . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 11,
+			"text": "As the upper-level class normally has much more positive training examples than the lower-level class , ",
+			"relation": "exp-reason"
+		},
+		{
+			"id": 11,
+			"parent": 7,
+			"text": "the corresponding linear discriminative function can be determined more reliably . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 7,
+			"text": "The upperlevel discriminative function then can effectively guide the discriminative function learning in the lower-level , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "which otherwise might suffer from limited training data . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 15,
+			"text": "Evaluation on the ACE RDC 2003 corpus shows ",
+			"relation": "attribution"
+		},
+		{
+			"id": 15,
+			"parent": 1,
+			"text": "that the hierarchical strategy much improves the performance by 5.6 and 5.1 in F-measure on least- and medium- frequent relations respectively . <S>",
+			"relation": "evaluation"
+		},
+		{
+			"id": 16,
+			"parent": 17,
+			"text": "It also shows ",
+			"relation": "attribution"
+		},
+		{
+			"id": 17,
+			"parent": 1,
+			"text": "that our system outperforms the previous best-reported system by 2.7 in F-measure on the 24 subtypes ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 18,
+			"parent": 17,
+			"text": "using the same feature set . <S>",
+			"relation": "manner-means"
+		}
+	]
+}

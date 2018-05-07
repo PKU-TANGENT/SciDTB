@@ -1,0 +1,21 @@
+We present a new lexical resource for the study of preposition behavior , the Pattern Dictionary of English Prepositions ( PDEP ) . <S>
+This dictionary , 
+which follows principles 
+laid out in Hanks' theory of norms and exploitations , 
+is linked to 81,509 sentences for 304 prepositions , 
+which have been made available under The Preposition Project ( TPP ) . <S>
+Notably , 47,285 sentences , 
+initially untagged , 
+provide a representative sample of preposition use , 
+unlike the tagged sentences 
+used in previous studies . <S>
+Each sentence has been parsed with a dependency parser 
+and our system has near-instantaneous access to features 
+developed with this parser 
+to explore and annotate properties of individual senses . <S>
+The features make extensive use of WordNet . <S>
+We have extended feature exploration 
+to include lookup of FrameNet lexical units and VerbNet classes for use 
+in characterizing preposition behavior . <S>
+We have designed our system 
+to allow public access to any of the data available in the system . <S>

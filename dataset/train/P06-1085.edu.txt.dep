@@ -1,0 +1,64 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 4,
+			"text": "Developing better methods for segmenting continuous text into words is important ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "for improving the processing of Asian languages , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "and may shed light on how humans learn to segment speech . <S>",
+			"relation": "progression"
+		},
+		{
+			"id": 4,
+			"parent": 0,
+			"text": "We propose two new Bayesian word segmentation methods ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "that assume unigram and bigram models of word dependencies respectively . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "The bigram model greatly outperforms the unigram model ( and previous probabilistic models ) , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "demonstrating the importance of such dependencies for word segmentation . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 9,
+			"text": "We also show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 9,
+			"parent": 4,
+			"text": "that previous probabilistic models rely crucially on suboptimal search procedures . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

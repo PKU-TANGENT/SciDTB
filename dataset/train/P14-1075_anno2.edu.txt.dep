@@ -1,0 +1,64 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This paper studies the idea of removing low-frequency words from a corpus , \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "which is a common practice \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "to reduce computational costs , from a theoretical standpoint . <S>\r",
+			"relation": "enablement"
+		},
+		{
+			"id": 4,
+			"parent": 6,
+			"text": "Based on the assumption \r",
+			"relation": "bg-general"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "that a corpus follows Zipf's law , \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "we derive trade-off formulae of the perplexity of k-gram models and topic models with respect to the size of the reduced vocabulary . <S>\r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "In addition , we show an approximate behavior of each formula under certain conditions . <S>\r",
+			"relation": "progression"
+		},
+		{
+			"id": 8,
+			"parent": 1,
+			"text": "We verify the correctness of our theory on synthetic corpora \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "and examine the gap between theory and practice on real corpora . <S>\r",
+			"relation": "joint"
+		}
+	]
+}

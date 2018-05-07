@@ -1,0 +1,100 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "State-of-the-art semantic role labelling systems require large annotated corpora ",
+			"relation": "contrast"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "to achieve full performance . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 7,
+			"text": "Unfortunately , such corpora are expensive to produce ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "and often do not generalize well across do-mains . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "Even in domain , errors are often made ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "where syntactic information does not provide sufficient cues . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 0,
+			"text": "In this paper , we mitigate both of these problems ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "by employing distributional word representations ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "gathered from unlabelled data . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 12,
+			"text": "While straight-forward word representations of predicates and arguments improve performance , ",
+			"relation": "temporal"
+		},
+		{
+			"id": 11,
+			"parent": 12,
+			"text": "we show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 12,
+			"parent": 7,
+			"text": "that further gains are achieved ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "by composing representations ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "that model the interaction between predicate and argument , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "and capture full argument spans . <S>",
+			"relation": "joint"
+		}
+	]
+}

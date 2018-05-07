@@ -1,0 +1,82 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "This paper describes a parser ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "which generates parse trees with empty elements ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "in which traces and fillers are co-indexed . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "The parser is an unlexicalized PCFG parser ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "which is guaranteed to return the most probable parse . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 1,
+			"text": "The grammar is extracted from a version of the PENN treebank ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "which was automatically annotated with features in the style of Klein and Manning ( 2003 ) . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 1,
+			"text": "The annotation includes GPSG-style slash features ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "which link traces and fillers , and other features ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "which improve the general parsing accuracy . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 12,
+			"text": "In an evaluation on the PENN treebank ( Marcus et al. , 1993 ) , the parser outperformed other unlexicalized PCFG parsers in terms of labeled bracketing fscore . <S>",
+			"relation": "result"
+		},
+		{
+			"id": 12,
+			"parent": 1,
+			"text": "Its results for the empty category prediction task and the trace-filler coindexation task exceed all previously reported results with 84.1 % and 77.4 % fscore , respectively <S>",
+			"relation": "evaluation"
+		}
+	]
+}

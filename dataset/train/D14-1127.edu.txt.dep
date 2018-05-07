@@ -1,0 +1,100 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We present a weakly supervised approach ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "for learning hashtags , hashtag patterns , and phrases ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "associated with five emotions : ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "AFFECTION , ANGER/RAGE , FEAR/ANXIETY , JOY , and SADNESS/DISAPPOINTMENT . <S>",
+			"relation": "elab-enum_member"
+		},
+		{
+			"id": 5,
+			"parent": 7,
+			"text": "Starting with seed hashtags ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "to label an initial set of tweets , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 7,
+			"parent": 1,
+			"text": "we train emotion classifiers ",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "and use them ",
+			"relation": "joint"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "to learn new emotion hashtags and hashtag patterns . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 10,
+			"parent": 1,
+			"text": "This process then repeats in a bootstrapping framework . <S>",
+			"relation": "elab-process_step"
+		},
+		{
+			"id": 11,
+			"parent": 7,
+			"text": "Emotion phrases are also extracted from the learned hashtags ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "and used to create phrase-based emotion classifiers . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 13,
+			"parent": 1,
+			"text": "We show ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 14,
+			"parent": 13,
+			"text": "that the learned set of emotion indicators yields a substantial improve-ment in F-scores , ",
+			"relation": "attribution"
+		},
+		{
+			"id": 15,
+			"parent": 14,
+			"text": "ranging from + % 5 to + % 18 over baseline classifiers . <S> ",
+			"relation": "elab-example"
+		}
+	]
+}

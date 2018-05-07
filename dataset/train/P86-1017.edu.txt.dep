@@ -1,0 +1,76 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 10,
+			"text": "Here we address the problem ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "of mapping phrase meanings into their conceptual representations . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "Figurative phrases are pervasive in human communication , ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "yet they are difficult to explain theoretically . <S>",
+			"relation": "contrast"
+		},
+		{
+			"id": 5,
+			"parent": 7,
+			"text": "In fact , the ability ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "to handle idiosyncratic behavior of phrases ",
+			"relation": "enablement"
+		},
+		{
+			"id": 7,
+			"parent": 1,
+			"text": "should be a criterion for any theory of lexical representation . <S>",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 8,
+			"parent": 9,
+			"text": "Due to the huge number of such phrases in the English language , ",
+			"relation": "exp-reason"
+		},
+		{
+			"id": 9,
+			"parent": 1,
+			"text": "phrase representation must be amenable to parsing , generation , and also to learning . <S>",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 10,
+			"parent": 0,
+			"text": "In this paper we demonstrate a semantic representation ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "which facilitates , for a wide variety of phrases , both learning and parsing . <S>",
+			"relation": "elab-addition"
+		}
+	]
+}

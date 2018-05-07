@@ -1,0 +1,154 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 9,
+			"text": "Automatically generating a natural language description of an image is a fundamental problem in artificial intelligence . <S>",
+			"relation": "bg-compare"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "This task involves both computer vision and natural language processing ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "and is called `` image caption generation . '' <S> ",
+			"relation": "joint"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "Research on image caption generation has typically focused on taking in an image ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "and generating a caption in English ",
+			"relation": "joint"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "as existing image caption corpora are mostly in English . <S>",
+			"relation": "exp-evidence"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "The lack of corpora in languages other than English is an issue , especially for morphologically rich languages such as Japanese . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "There is thus a need for corpora sufficiently large for image captioning in other languages . <S>",
+			"relation": "cause"
+		},
+		{
+			"id": 9,
+			"parent": 0,
+			"text": "We have developed a Japanese version of the MS COCO caption dataset and a generative model ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "based on a deep recurrent architecture ",
+			"relation": "bg-general"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "that takes in an image ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "and uses this Japanese version of the dataset ",
+			"relation": "joint"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "to generate a caption in Japanese . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 14,
+			"parent": 15,
+			"text": "As the Japanese portion of the corpus is small , ",
+			"relation": "exp-reason"
+		},
+		{
+			"id": 15,
+			"parent": 9,
+			"text": "our model was designed ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "to transfer the knowledge representation ",
+			"relation": "enablement"
+		},
+		{
+			"id": 17,
+			"parent": 16,
+			"text": "obtained from the English portion ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 18,
+			"parent": 16,
+			"text": "into the Japanese portion . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 19,
+			"parent": 20,
+			"text": "Experiments showed ",
+			"relation": "attribution"
+		},
+		{
+			"id": 20,
+			"parent": 9,
+			"text": "that the resulting bilingual comparable corpus has better performance than a monolingual corpus , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 21,
+			"parent": 22,
+			"text": "indicating ",
+			"relation": "attribution"
+		},
+		{
+			"id": 22,
+			"parent": 20,
+			"text": "that image understanding ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 23,
+			"parent": 22,
+			"text": "using a resource-rich language ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 24,
+			"parent": 22,
+			"text": "benefits a resource-poor language . <S>",
+			"relation": "same-unit"
+		}
+	]
+}

@@ -1,0 +1,82 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 2,
+			"text": "Wikipedia's link structure is a valuable resource for natural language processing tasks , ",
+			"relation": "contrast"
+		},
+		{
+			"id": 2,
+			"parent": 5,
+			"text": "but only a fraction of the concepts ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "mentioned in each article ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 2,
+			"text": "are annotated with hyperlinks . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 5,
+			"parent": 0,
+			"text": "In this paper , we study how to augment Wikipedia with additional high-precision links . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "We present 3W , a system ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "that identifies concept mentions in Wikipedia text , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "and links each mention to its referent page . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 9,
+			"parent": 6,
+			"text": "3W leverages rich semantic information present in Wikipedia ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "to achieve high precision . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 11,
+			"parent": 12,
+			"text": "Our experiments demonstrate ",
+			"relation": "attribution"
+		},
+		{
+			"id": 12,
+			"parent": 5,
+			"text": "that 3W can add an average of seven new links to each Wikipedia article , at a precision of 0.98 . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

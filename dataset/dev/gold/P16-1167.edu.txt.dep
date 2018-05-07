@@ -1,0 +1,94 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 8,
+			"text": "Activities and events in our lives are structural , ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "be it a vacation , a camping trip , or a wedding . <S>",
+			"relation": "elab-example"
+		},
+		{
+			"id": 3,
+			"parent": 4,
+			"text": "While individual details vary , ",
+			"relation": "contrast"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "there are characteristic patterns ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "that are specific to each of these scenarios . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "For example , a wedding typically consists of a sequence of events ",
+			"relation": "elab-example"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "such as walking down the aisle , exchanging vows , and dancing . <S>",
+			"relation": "elab-example"
+		},
+		{
+			"id": 8,
+			"parent": 0,
+			"text": "In this paper , we present a data-driven approach ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "to learning event knowledge from a large collection of photo albums . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 8,
+			"text": "We formulate the task as constrained optimization ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "to induce the prototypical temporal structure of an event , ",
+			"relation": "enablement"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "integrating both visual and textual cues . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 14,
+			"text": "Comprehensive evaluation demonstrates ",
+			"relation": "attribution"
+		},
+		{
+			"id": 14,
+			"parent": 8,
+			"text": "that it is possible to learn multimodal knowledge of event structure from noisy web content . <S>",
+			"relation": "evaluation"
+		}
+	]
+}

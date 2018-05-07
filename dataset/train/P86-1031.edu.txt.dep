@@ -1,0 +1,148 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "A constraint is proposed in the Centering approach to pronoun resolution in discourse . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "This \" property-sharing \" constraint requires that two pronominal expressions ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "that retain the same Cb across adjacent utterances ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 4,
+			"parent": 2,
+			"text": "share a certain common grammatical property . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 5,
+			"parent": 2,
+			"text": "This property is expressed along the dimension of the grammatical function SUBJECT for both Japanese and English discourses , ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 6,
+			"parent": 5,
+			"text": "where different pronominal forms are primarily used ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 7,
+			"parent": 6,
+			"text": "to realize the Cb . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 8,
+			"parent": 5,
+			"text": "It is the zero pronominal in Japanese , and the ( unstressed ) overt pronoun in English . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 9,
+			"parent": 1,
+			"text": "The resulting constraint complements the original Centering , ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "accounting for its apparent violations ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "and providing a solution to the interpretation of multi-pronominal utterances . <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 12,
+			"parent": 9,
+			"text": "It also provides an alternative account of anaphora interpretation ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "that appears to be due to structural parallelism . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 14,
+			"parent": 9,
+			"text": "This reconciliation of centering/focusing and parallelism is a major advantage . <S>",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 15,
+			"parent": 1,
+			"text": "I will then add another dimension ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 16,
+			"parent": 15,
+			"text": "called the \" speaker identification \" ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 17,
+			"parent": 15,
+			"text": "to the constraint ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 18,
+			"parent": 15,
+			"text": "to handle a group of special eases in Japanese discourse . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 19,
+			"parent": 15,
+			"text": "It indicates a close association between centering and the speaker 's viewpoint , ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 20,
+			"parent": 19,
+			"text": "and sheds light on what underlies the effect of perception reports on pronoun resolution in general. <S>",
+			"relation": "joint"
+		},
+		{
+			"id": 21,
+			"parent": 23,
+			"text": "These results , ",
+			"relation": "same-unit"
+		},
+		{
+			"id": 22,
+			"parent": 23,
+			"text": "by drawing on facts in two very different languages , ",
+			"relation": "manner-means"
+		},
+		{
+			"id": 23,
+			"parent": 1,
+			"text": "demonstrate the cross-linguistic applicability of the centering framework . <S>   ",
+			"relation": "evaluation"
+		}
+	]
+}

@@ -1,0 +1,94 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 3,
+			"text": "We examine the embedding approach ",
+			"relation": "bg-goal"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "to reason new relational facts from a large-scale knowledge graph and a text corpus . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 0,
+			"text": "We propose a novel method of jointly embedding entities and words into the same continuous vector space . <S>",
+			"relation": "ROOT"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"text": "The embedding process attempts to preserve the relations between entities in the knowledge graph and the concurrences of words in the text corpus . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"text": "Entity names and Wikipedia anchors are utilized to align the embeddings of entities and words in the same space . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 7,
+			"text": "Large scale experiments on Freebase and a Wikipedia/NY Times corpus show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 7,
+			"parent": 3,
+			"text": "that jointly embedding brings promising improvement in the accuracy of predicting facts , ",
+			"relation": "evaluation"
+		},
+		{
+			"id": 8,
+			"parent": 7,
+			"text": "compared to separately embedding knowledge graphs and text . <S>",
+			"relation": "comparison"
+		},
+		{
+			"id": 9,
+			"parent": 7,
+			"text": "Particularly , jointly embedding enables the prediction of facts ",
+			"relation": "elab-example"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "containing entities out of the knowledge graph , ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 10,
+			"text": "which cannot be handled by previous embedding methods . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 14,
+			"text": "At the same time , concerning the quality of the word embeddings , ",
+			"relation": "condition"
+		},
+		{
+			"id": 13,
+			"parent": 14,
+			"text": "experiments on the analogical reasoning task show ",
+			"relation": "attribution"
+		},
+		{
+			"id": 14,
+			"parent": 7,
+			"text": "that jointly embedding is comparable to or slightly better than word2vec ( Skip-Gram ) . <S>  ",
+			"relation": "elab-example"
+		}
+	]
+}

@@ -1,0 +1,88 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "We present an incremental joint framework \r",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "to simultaneously extract entity mentions and relations \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 3,
+			"parent": 2,
+			"text": "using structured perceptron with efficient beam-search . <S>\r",
+			"relation": "manner-means"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "A segment-based decoder \r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "based on the idea of semi-Markov chain \r",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 4,
+			"text": "is adopted to the new framework \r",
+			"relation": "same-unit"
+		},
+		{
+			"id": 7,
+			"parent": 4,
+			"text": "as opposed to traditional token-based tagging . <S>\r",
+			"relation": "contrast"
+		},
+		{
+			"id": 8,
+			"parent": 9,
+			"text": "In addition , by virtue of the inexact search , \r",
+			"relation": "enablement"
+		},
+		{
+			"id": 9,
+			"parent": 1,
+			"text": "we developed a number of new and effective global features as soft constraints\r",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "to capture the inter-dependency among entity mentions and relations . <S>\r",
+			"relation": "enablement"
+		},
+		{
+			"id": 11,
+			"parent": 1,
+			"text": "Experiments on Automatic Content Extraction  ( ACE ) corpora demonstrate \r",
+			"relation": "evaluation"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "that our joint model significantly outperforms a strong pipelined baseline , \r",
+			"relation": "attribution"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "which attains better performance than the best-reported end-to-end system . <S>\r",
+			"relation": "elab-addition"
+		}
+	]
+}

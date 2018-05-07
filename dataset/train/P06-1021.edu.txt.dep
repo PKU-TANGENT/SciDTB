@@ -1,0 +1,100 @@
+﻿{
+	"root": [
+		{
+			"id": 0,
+			"parent": -1,
+			"text": "ROOT",
+			"relation": "null"
+		},
+		{
+			"id": 1,
+			"parent": 0,
+			"text": "A grammatical method ",
+			"relation": "ROOT"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"text": "of combining two kinds of speech repair cues ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 3,
+			"parent": 1,
+			"text": "is presented . <S>",
+			"relation": "same-unit"
+		},
+		{
+			"id": 4,
+			"parent": 1,
+			"text": "One cue , prosodic disjuncture , is detected by a decision tree-based ensemble classifier ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 5,
+			"parent": 4,
+			"text": "that uses acoustic cues ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 6,
+			"parent": 7,
+			"text": "to identify ",
+			"relation": "attribution"
+		},
+		{
+			"id": 7,
+			"parent": 5,
+			"text": "where normal prosody seems to be interrupted ( Lickley , 1996 ) . <S>",
+			"relation": "enablement"
+		},
+		{
+			"id": 8,
+			"parent": 1,
+			"text": "The other cue , syntactic parallelism , codifies the expectation ",
+			"relation": "elab-aspect"
+		},
+		{
+			"id": 9,
+			"parent": 8,
+			"text": "that repairs continue a syntactic category ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 10,
+			"parent": 9,
+			"text": "that was left unfinished in the reparandum ( Levelt , 1983 ) . <S>",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 11,
+			"parent": 1,
+			"text": "The two cues are combined in a Treebank PCFG ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 12,
+			"parent": 11,
+			"text": "whose states are split ",
+			"relation": "elab-addition"
+		},
+		{
+			"id": 13,
+			"parent": 12,
+			"text": "using a few simple tree transformations . <S>",
+			"relation": "manner-means"
+		},
+		{
+			"id": 14,
+			"parent": 15,
+			"text": "Parsing performance on the Switchboard and Fisher corpora suggests ",
+			"relation": "attribution"
+		},
+		{
+			"id": 15,
+			"parent": 1,
+			"text": "that these two cues help to locate speech repairs in a synergistic way . <S>",
+			"relation": "evaluation"
+		}
+	]
+}
